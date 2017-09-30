@@ -1,0 +1,247 @@
+1.
+Classifier=KNN  K=1 Threshold=28.500000  region=6x6 
+correct=920   incorrecrt=80
+correct=942   incorrecrt=58
+correct=954   incorrecrt=46
+correct=942   incorrecrt=58
+correct=941   incorrecrt=59
+correct=926   incorrecrt=74
+Accuracy = 93.75 %
+
+2.
+Classifier=KNN  K=2 Threshold=28.500000  region=6x6 
+correct=915   incorrecrt=85
+correct=913   incorrecrt=87
+correct=935   incorrecrt=65
+correct=934   incorrecrt=66
+correct=926   incorrecrt=74
+correct=910   incorrecrt=90
+Accuracy = 92.22 %
+
+3.
+Classifier=KNN  K=3 Threshold=28.500000  region=6x6 
+correct=931   incorrecrt=69
+correct=940   incorrecrt=60
+correct=960   incorrecrt=40
+correct=944   incorrecrt=56
+correct=939   incorrecrt=61
+correct=929   incorrecrt=71
+Accuracy = 94.05 %
+
+4.
+Classifier=KNN  K=4 Threshold=28.500000  region=6x6 
+correct=921   incorrecrt=79
+correct=931   incorrecrt=69
+correct=949   incorrecrt=51
+correct=941   incorrecrt=59
+correct=939   incorrecrt=61
+correct=918   incorrecrt=82
+Accuracy = 93.32 %
+
+5.
+Classifier=KNN  K=5 Threshold=28.500000  region=6x6 
+correct=923   incorrecrt=77
+correct=942   incorrecrt=58
+correct=951   incorrecrt=49
+correct=947   incorrecrt=53
+correct=943   incorrecrt=57
+correct=928   incorrecrt=72
+Accuracy = 93.90 %
+
+6.
+Classifier=KNN  K=1 Threshold=22.500000  region=6x6 
+correct=909   incorrecrt=91
+correct=925   incorrecrt=75
+correct=948   incorrecrt=52
+correct=934   incorrecrt=66
+correct=934   incorrecrt=66
+correct=915   incorrecrt=85
+Accuracy = 92.75 %
+
+7.
+Classifier=KNN  K=2 Threshold=22.500000  region=6x6 
+correct=896   incorrecrt=104
+correct=908   incorrecrt=92
+correct=930   incorrecrt=70
+correct=917   incorrecrt=83
+correct=925   incorrecrt=75
+correct=891   incorrecrt=109
+Accuracy = 91.12 %
+
+8.
+Classifier=KNN  K=3 Threshold=22.500000  region=6x6 
+correct=918   incorrecrt=82
+correct=931   incorrecrt=69
+correct=943   incorrecrt=57
+correct=932   incorrecrt=68
+correct=940   incorrecrt=60
+correct=921   incorrecrt=79
+Accuracy = 93.08 %
+
+9.Classifier=KNN  K=3 Threshold=30.500000  region=6x6 
+correct=931   incorrecrt=69
+correct=940   incorrecrt=60
+correct=960   incorrecrt=40
+correct=944   incorrecrt=56
+correct=939   incorrecrt=61
+correct=929   incorrecrt=71
+Accuracy = 94.05 %
+
+10.
+Classifier=KNN  K=3 Threshold=26.500000  region=6x6 
+correct=918   incorrecrt=82
+correct=931   incorrecrt=69
+correct=943   incorrecrt=57
+correct=932   incorrecrt=68
+correct=940   incorrecrt=60
+correct=921   incorrecrt=79
+Accuracy = 93.08 %
+
+11.
+Classifier=KNN  K=3 Threshold=27.500000  region=6x6 
+correct=931   incorrecrt=69
+correct=940   incorrecrt=60
+correct=960   incorrecrt=40
+correct=944   incorrecrt=56
+correct=939   incorrecrt=61
+correct=929   incorrecrt=71
+Accuracy = 94.05 %
+
+12.
+Classifier=KNN  K=3 Threshold=29.500000  region=6x6 
+correct=931   incorrecrt=69
+correct=940   incorrecrt=60
+correct=960   incorrecrt=40
+correct=944   incorrecrt=56
+correct=939   incorrecrt=61
+correct=929   incorrecrt=71
+Accuracy = 94.05 %
+
+13.
+Classifier=KNN  K=3 Threshold=32.500000  region=6x6 
+correct=931   incorrecrt=69
+correct=940   incorrecrt=60
+correct=960   incorrecrt=40
+correct=944   incorrecrt=56
+correct=939   incorrecrt=61
+correct=929   incorrecrt=71
+Accuracy = 94.05 %
+
+14.
+Classifier=KNN  K=3 Threshold=36.500000  region=6x6 
+correct=931   incorrecrt=69
+correct=940   incorrecrt=60
+correct=960   incorrecrt=40
+correct=944   incorrecrt=56
+correct=939   incorrecrt=61
+correct=929   incorrecrt=71
+Accuracy = 94.05 %
+
+15.
+Classifier=KNN  K=3 Threshold=46.500000  region=6x6 
+correct=924   incorrecrt=76
+correct=936   incorrecrt=64
+correct=939   incorrecrt=61
+correct=943   incorrecrt=57
+correct=949   incorrecrt=51
+correct=923   incorrecrt=77
+Accuracy = 93.57 %
+
+16.
+Classifier=KNN  K=3 Threshold=41.500000  region=6x6 
+correct=929   incorrecrt=71
+correct=941   incorrecrt=59
+correct=958   incorrecrt=42
+correct=945   incorrecrt=55
+correct=938   incorrecrt=62
+correct=930   incorrecrt=70
+Accuracy = 94.02 %
+
+17.
+Classifier=KNN  K=3 Threshold=39.500000  region=6x6 
+correct=929   incorrecrt=71
+correct=941   incorrecrt=59
+correct=958   incorrecrt=42
+correct=945   incorrecrt=55
+correct=938   incorrecrt=62
+correct=930   incorrecrt=70
+Accuracy = 94.02 %
+
+18.
+Classifier=KNN  K=3 Threshold=27.500000  region=10x10 
+correct=928   incorrecrt=72
+correct=931   incorrecrt=69
+correct=957   incorrecrt=43
+correct=947   incorrecrt=53
+correct=941   incorrecrt=59
+correct=929   incorrecrt=71
+Accuracy = 93.88 %
+
+19.
+Classifier=KNN  K=3 Threshold=27.500000  region=5x5 
+correct=916   incorrecrt=84
+correct=934   incorrecrt=66
+correct=957   incorrecrt=43
+correct=942   incorrecrt=58
+correct=935   incorrecrt=65
+correct=922   incorrecrt=78
+Accuracy = 93.43 %
+
+20.
+Classifier=KNN  K=3 Threshold=27.500000  region=3x3 
+correct=892   incorrecrt=108
+correct=906   incorrecrt=94
+correct=910   incorrecrt=90
+correct=918   incorrecrt=82
+correct=915   incorrecrt=85
+correct=908   incorrecrt=92
+Accuracy = 90.82 %
+
+21.
+Classifier=KNN  K=3 Threshold=27.500000  region=2x2 
+correct=829   incorrecrt=171
+correct=841   incorrecrt=159
+correct=861   incorrecrt=139
+correct=854   incorrecrt=146
+correct=841   incorrecrt=159
+correct=839   incorrecrt=161
+Accuracy = 84.42 %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
