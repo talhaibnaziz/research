@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage{array,multirow,graphicx}
+
+\begin{document}
+	\begin{center}
+		\begin{tabular}{cccc}
+			\hline
+			Classifier & LDP(2) & LDP(4) & LDP(8) \\
+			\hline
+			KNN (k=5) & 88.3333 & 93.2167 & 92.9833\\
+			KNN (k=4) & 87.55 & 92.7333 & 92.7333\\
+			KNN (k=3) & 88.75 & 93.4167 & 93.2833\\
+			KNN (k=2) & 85.2167 & 91.25 & 91.6667\\
+			KNN (k=1) & 88.3333 & 93.2167 & 92.9833\\
+			SVM & & 92.85 & 92.4333\\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\begin{center}
+		\begin{tabular}{cccccc}
+			\hline
+			Classifier & GDP(2) & GDP(3) & GDP(5) & GDP(6) & GDP(10) \\
+			\hline
+			KNN (k=5, t=28.5) & & & & 93.90 &\\
+			KNN (k=4, t=28.5) & & & & 93.32 &\\
+			KNN (k=3, t=22.5) & & & & 93.08 &\\
+			KNN (k=3, t=26.5) & & & & 93.08 &\\
+			KNN (k=3, t=27.5) & 84.42 & 90.82 & 93.43 & 94.05 & 93.88\\
+			KNN (k=3, t=28.5) & & & & 94.05 &\\
+			KNN (k=3, t=29.5) & & & & 94.05 &\\
+			KNN (k=3, t=30.5) & & & & 94.05 &\\
+			KNN (k=3, t=32.5) & & & & 94.05 &\\
+			KNN (k=3, t=36.5) & & & & 94.05 &\\
+			KNN (k=3, t=39.5) & & & & 94.05 &\\
+			KNN (k=3, t=41.5) & & & & 94.02 &\\
+			KNN (k=3, t=46.5) & & & & 93.57 &\\
+			KNN (k=2, t=22.5) & & & & 91.12 &\\
+			KNN (k=2, t=28.5) & & & & 92.22 &\\
+			KNN (k=1, t=22.5) & & & & 92.75 &\\
+			KNN (k=1, t=28.5) & & & & 93.75 &\\
+			SVM & & & & 90.47\\
+			\hline
+		\end{tabular}
+	\end{center}
+
+	\begin{center}
+		\begin{tabular}{cc}
+			\hline
+			Classifier+Method & Accuracy \\
+			\hline
+			KNN(GDP+LDP) + SVM(LDP) & 95.5\\
+			KNN(GDP+LDP) & 94.4333\\
+			\hline
+		\end{tabular}
+	\end{center}
+
+	\begin{center}
+		\begin{tabular}{ccc}
+			\hline
+			Classifier & LDP(percent) & GDP(percent) \\
+			\hline
+			KNN & 93.42 & 94.05\\
+			SVM \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			\multicolumn{2}{|c|}{} & \multicolumn{10}{c|}{Predicted Class}\\
+			\cline{3-12}
+			\multicolumn{2}{|c|}{} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 0\\
+			\hline
+			\parbox[t]{2mm}{\multirow{10}{*}{\rotatebox[origin=c]{90}{Actual Class}}}
+			& 1 & & & & & & & & & &\\
+			\cline{2-12}
+			& 2 & & & & & & & & & &\\
+			\cline{2-12}
+			& 3 & & & & & & & & & &\\
+			\cline{2-12}
+			& 4 & & & & & & & & & &\\
+			\cline{2-12}
+			& 5 & & & & & & & & & &\\
+			\cline{2-12}
+			& 6 & & & & & & & & & &\\
+			\cline{2-12}
+			& 7 & & & & & & & & & &\\
+			\cline{2-12}
+			& 8 & & & & & & & & & &\\
+			\cline{2-12}
+			& 9 & & & & & & & & & &\\
+			\cline{2-12}
+			& 0 & & & & & & & & & &\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{center}
+		\begin{tabular}{cccc}
+			\hline
+			Digit & LDP & GDP & LDP+GDP \\
+			\hline
+			1 \\
+			2 \\
+			3 \\
+			4 \\
+			5 \\
+			6 \\
+			7 \\
+			8 \\
+			9 \\
+			0 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+\end{document}
