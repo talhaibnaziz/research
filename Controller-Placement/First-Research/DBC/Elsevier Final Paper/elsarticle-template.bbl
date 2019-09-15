@@ -1,0 +1,160 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{hu2014survey}
+F.~Hu, Q.~Hao, K.~Bao, A survey on software-defined network and openflow: From
+  concept to implementation, IEEE Communications Surveys \& Tutorials 16~(4)
+  (2014) 2181--2206.
+
+\bibitem{dbcp2017}
+J.~Liao, H.~Sun, J.~Wang, Q.~Qi, K.~Li, T.~Li, Density cluster based approach
+  for controller placement problem in large-scale software defined networkings,
+  Computer Networks 112 (2017) 24--35.
+\newblock \href {http://dx.doi.org/10.1016/j.comnet.2016.10.014}
+  {\path{doi:10.1016/j.comnet.2016.10.014}}.
+
+\bibitem{spici2010}
+P.~Jiang, M.~Singh,
+  \href{http://dx.doi.org/10.1093/bioinformatics/btq078}{Spici: a fast
+  clustering algorithm for large biological networks}, Bioinformatics 26~(8)
+  (2010) 1105--1111.
+\newblock \href {http://dx.doi.org/10.1093/bioinformatics/btq078}
+  {\path{doi:10.1093/bioinformatics/btq078}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1093/bioinformatics/btq078}
+
+\bibitem{sdnrao2014}
+S.~K. Rao, Sdn and its use-cases-nv and nfv, Network 2 (2014) H6.
+
+\bibitem{sdnsurvey2015}
+D.~Kreutz, F.~M. Ramos, P.~E. Verissimo, C.~E. Rothenberg, S.~Azodolmolky,
+  S.~Uhlig, Software-defined networking: A comprehensive survey, Proceedings of
+  the IEEE 103~(1) (2015) 14--76.
+
+\bibitem{sdnsurvey2017}
+J.~H. Cox, J.~Chung, S.~Donovan, J.~Ivey, R.~J. Clark, G.~Riley, H.~L. Owen,
+  Advancing software-defined networks: A survey, IEEE Access 5 (2017)
+  25487--25526.
+
+\bibitem{goransson2014software1}
+P.~Goransson, C.~Black, "1.2 Historical Background" in Software Defined
+  Networks: A Comprehensive Approach, Elsevier, 2014.
+
+\bibitem{goransson2014software2}
+P.~Goransson, C.~Black, "1.6 Can We Increase the Packet-Forwarding IQ?" in
+  Software Defined Networks: A Comprehensive Approach, Elsevier, 2014.
+
+\bibitem{forouzan2006data}
+A.~B. Forouzan, Data communications \& networking (sie), Tata McGraw-Hill
+  Education, 2006.
+
+\bibitem{forouzan2002tcp}
+B.~A. Forouzan, S.~C. Fegan, TCP/IP protocol suite, McGraw-Hill Higher
+  Education, 2002.
+
+\bibitem{sdniotsurvey2016}
+K.~Sood, S.~Yu, Y.~Xiang, Software-defined wireless networking opportunities
+  and challenges for internet-of-things: A review, IEEE Internet of Things
+  Journal 3~(4) (2016) 453--463.
+
+\bibitem{odl}
+https://www.opendaylight.org/, OpenDayLight [Available: Online].
+
+\bibitem{scalability2013dixit}
+A.~Dixit, F.~Hao, S.~Mukherjee, T.~Lakshman, R.~Kompella, Towards an elastic
+  distributed sdn controller, in: ACM SIGCOMM Computer Communication Review,
+  Vol.~43, ACM, 2013, pp. 7--12.
+
+\bibitem{scalability2013yeganeh}
+S.~H. Yeganeh, A.~Tootoonchian, Y.~Ganjali, On scalability of software-defined
+  networking, IEEE Communications Magazine 51~(2) (2013) 136--141.
+
+\bibitem{flowvisor2009}
+R.~Sherwood, G.~Gibb, K.-K. Yap, G.~Appenzeller, M.~Casado, N.~McKeown,
+  G.~Parulkar, Flowvisor: A network virtualization layer, OpenFlow Switch
+  Consortium, Tech. Rep 1 (2009) 132.
+
+\bibitem{whycpp2010}
+M.~Al-Fares, S.~Radhakrishnan, B.~Raghavan, N.~Huang, A.~Vahdat, Hedera:
+  Dynamic flow scheduling for data center networks., in: Nsdi, Vol.~10, 2010,
+  pp. 19--19.
+
+\bibitem{whycpp2013}
+S.~Jain, A.~Kumar, S.~Mandal, J.~Ong, L.~Poutievski, A.~Singh, S.~Venkata,
+  J.~Wanderer, J.~Zhou, M.~Zhu, et~al., B4: Experience with a globally-deployed
+  software defined wan, in: ACM SIGCOMM Computer Communication Review, Vol.~43,
+  ACM, 2013, pp. 3--14.
+
+\bibitem{whycpp2014}
+M.~Berman, J.~S. Chase, L.~Landweber, A.~Nakao, M.~Ott, D.~Raychaudhuri,
+  R.~Ricci, I.~Seskar, Geni: A federated testbed for innovative network
+  experiments, Computer Networks 61 (2014) 5--23.
+
+\bibitem{cppsurvey2017}
+Y.~Zhang, L.~Cui, W.~Wang, Y.~Zhang, A survey on software defined networking
+  with multiple controllers, Journal of Network and Computer Applications.
+
+\bibitem{cppsurvey2018}
+A.~K. Singh, S.~Srivastava, A survey and classification of controller placement
+  problem in sdn, International Journal of Network Management (2018) e2018.
+
+\bibitem{sdnwan2014}
+R.~Ahmed, R.~Boutaba, Design considerations for managing wide area software
+  defined networks, IEEE Communications Magazine 52~(7) (2014) 116--123.
+
+\bibitem{sdnlarge2015}
+S.~Lange, S.~Gebert, J.~Spoerhase, P.~Rygielski, T.~Zinner, S.~Kounev,
+  P.~Tran-Gia, Specialized heuristics for the controller placement problem in
+  large scale sdn networks, in: Teletraffic Congress (ITC 27), 2015 27th
+  International, IEEE, 2015, pp. 210--218.
+
+\bibitem{cpp2012heller}
+B.~Heller, R.~Sherwood, N.~McKeown, The controller placement problem, in:
+  Proceedings of the first workshop on Hot topics in software defined networks,
+  ACM, 2012, pp. 7--12.
+
+\bibitem{sallahi2015optimal}
+A.~Sallahi, M.~St-Hilaire, Optimal model for the controller placement problem
+  in software defined networks, IEEE communications letters 19~(1) (2015)
+  30--33.
+
+\bibitem{yao2014capacitated}
+G.~Yao, J.~Bi, Y.~Li, L.~Guo, On the capacitated controller placement problem
+  in software defined networks, IEEE Communications Letters 18~(8) (2014)
+  1339--1342.
+
+\bibitem{ozsoy2006exact}
+F.~A. {\"O}zsoy, M.~{\c{C}}. P{\i}nar, An exact algorithm for the capacitated
+  vertex p-center problem, Computers \& Operations Research 33~(5) (2006)
+  1420--1436.
+
+\bibitem{yao2015controller}
+L.~Yao, P.~Hong, W.~Zhang, J.~Li, D.~Ni, Controller placement and flow based
+  dynamic management problem towards sdn, in: Communication Workshop (ICCW),
+  2015 IEEE International Conference on, IEEE, 2015, pp. 363--368.
+
+\bibitem{zhang2011resilience}
+Y.~Zhang, N.~Beheshti, M.~Tatipamula, On resilience of split-architecture
+  networks, in: Global Telecommunications Conference (GLOBECOM 2011), 2011
+  IEEE, IEEE, 2011, pp. 1--6.
+
+\bibitem{erlebach2006robustness}
+T.~Erlebach, A.~Hall, L.~Moonen, A.~Panconesi, F.~Spieksma, D.~Vukadinovi{\'c},
+  Robustness of the internet at the topology and routing level, in: Dependable
+  Systems: Software, Computing, Networks, Springer, 2006, pp. 260--274.
+
+\bibitem{lange2015heuristic}
+S.~Lange, S.~Gebert, T.~Zinner, P.~Tran-Gia, D.~Hock, M.~Jarschel, M.~Hoffmann,
+  Heuristic approaches to the controller placement problem in large scale sdn
+  networks, IEEE Transactions on Network and Service Management 12~(1) (2015)
+  4--17.
+
+\bibitem{protein2005palla}
+G.~Palla, I.~Der{\'e}nyi, I.~Farkas, T.~Vicsek, Uncovering the overlapping
+  community structure of complex networks in nature and society, nature
+  435~(7043) (2005) 814.
+
+\end{thebibliography}

@@ -1,0 +1,49 @@
+This is the "Read Me!" guide for the implementation of the research algorithm of the paper
+"Degree-based Balanced Clustering for Large-Scale Software Defined Networks". The authors
+of the paper are Talha Ibn Aziz, Shadman Protik, Md Sakhawat Hossen, Salimur Choudhury, and
+Muhammad Mahbub Alam.
+
+All the codes are implemented in C++ using the IDE Codeblocks and the graphs are generated
+using OriginPro.
+
+The folder "Codes" contains the source code files of our proposed algorithm Degree-based
+Balanced Clustering (DBC). The contents of the folder (The important files are explained
+below the file names) is as follows:
+
+Codes->Input
+	=>Contains text files containing the input network.
+	=>First line of input is the number of switches and links
+	=>The next lines of input are the connection details of each link
+	=>First two numbers indicate switches, third number indicates link weight
+	=>Files 11.txt to 18.txt each contain one random network
+	=>Files 1.txt to 7.txt each contain 10 random networks
+	=>The rest are for testing purposes
+     ->Output (folder)
+	=>Contains various results accumulated during the text phase of the algorithms.
+	=>Most results are of a previous version of the algorithm.
+     ->Results (folder)
+	=>Contains the final result of the experiments, most following a fixed format
+	=>The first number in the format is the number of switches, the second number is
+		the number of controllers, and the third number is the result value
+	=>The result value can be different depending on the type of experiment, which
+		can be understood from the text file name.
+     ->alpha_check.cpp
+	=>This code is for finding the latency values for different alpha values.
+     ->data_generate.cpp
+     ->dbcp.cpp
+	=>This code is the implementation of the algorithm Density Based Controller
+		Placement (DBCP)
+     ->format.cpp
+     ->improvement_vs_k_u70.cpp
+     ->Input_metadata.cpp
+     ->isbc.cpp
+     ->k_vs_omega.cpp
+     ->mbpc_test.cpp
+     ->new_cpp.cpp
+     ->new_dbc.cpp
+	=>This code is the final version of DBC
+     ->new_idbc.cpp
+     ->pgca.cpp
+     ->test.cpp
+     ->DBC.opj
+	=>This is the origin pro file for plotting the graphs of DBC.

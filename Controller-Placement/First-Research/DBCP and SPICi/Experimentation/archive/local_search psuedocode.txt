@@ -1,0 +1,17 @@
+Procedure Local_Search(latency)
+loop for 1 to 100:
+	loop n*k:
+	a= randomly choosen node from the garph.
+	b= randomly chosen cluster from the cluster set.
+	if already checked for pair(a,b) continue.
+	swap the cluster of a to b.
+	set the controller head
+	if the new m_latency < latency:
+		set latency= new m_latency.
+		break from the loop
+	else 
+		set the cluster of a to it's previous cluster
+
+return;
+
+	

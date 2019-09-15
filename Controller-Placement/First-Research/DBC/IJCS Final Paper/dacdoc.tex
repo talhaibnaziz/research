@@ -1,0 +1,603 @@
+% dacdoc.tex V2.0, 13 May 2010
+
+\documentclass[times]{dacauth}
+
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{makecell}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{array}
+
+\usepackage{moreverb}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{graphicx}
+\makeatletter
+\algrenewcommand\ALG@beginalgorithmic{\footnotesize}
+\makeatother
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\algnewcommand\algorithmicswitch{\textbf{switch}}
+\algnewcommand\algorithmiccase{\textbf{case}}
+
+\usepackage[font=footnotesize]{caption}
+\usepackage[font=footnotesize]{subcaption}
+
+
+\usepackage[]{hyperref}
+
+\newcommand\BibTeX{{\rmfamily B\kern-.05em \textsc{i\kern-.025em b}\kern-.08em
+T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\def\volumeyear{2010}
+
+\begin{document}
+
+%\runningheads{M.~Hossen.~Other}{Relax Online Resource Allocation Algorithms}
+
+\title{Controller Placement in large-scale Software Defined Networks}
+
+\author{Talha Ibn Aziz, Shadman Protik, Md Sakhawat Hossen, Salimur Choudhury and Muhammad Mahbub Alam}
+
+\address{Department of Computer Science and Engineering, IUT, Dhaka, Bangladesh and Department of Computer Science, Lakehead University, Thunder Bay, Ontario, Canada}
+
+\corraddr{Salimur Choudhury, salimur.choudhury@lakeheadu.ca}
+
+\vspace {-0.5cm}
+\begin{abstract}
+
+\noindent 
+Controller Placement Problem (CPP) is a promising research interest in the field of Software Defined Networking (SDN). SDN decouples the network layer of the traditional network model into a control plane and a data plane. The control plane consists of controllers that provide the routing decisions for the switches. CPP places an optimal number of controllers in the network so that the data transfer throughput of the network is maximum, which is NP-Hard. For years, several impressive solutions have been proposed with a goal to create an optimal network for SDN, one of such solutions is Density Based Controller Placement (DBCP). DBCP clusters the network based on the local density of the switches. DBCP uses hop count to calculate the latencies between switches and minimizes the overall latency, so it works with unweighted graphs. However, an unweighted graph is not a good representation of a real network. In this paper, we propose four algorithms, where three are inspired by SPICi, a protein-clustering algorithm of Bioinformatics and they work on weighted graphs. Our algorithms cluster a network based on the maximum connectivity of the nodes and then uses the local search technique to improve the clustering in terms of latency in polynomial time complexity, and our simulation results show that our proposed algorithms outperform the existing algorithms in terms of latency.
+
+\end{abstract}
+
+\keywords{CPP, SDN, network layer, control plane, data plane, NP-Hard, hop count}
+
+\maketitle
+
+
+
+\vspace{-6pt}
+
+\section{Introduction}
+
+Software Defined Network (SDN) is the network of the new era which separates the network layer into two planes, namely control plane and data plane. Control plane takes the routing decisions while the data plane forwards the data. For a small network, the control plane can consist of only one controller as is done in the well known standard OpenFlow \cite{hu2014survey}. The problem arises when the network is too large for one controller to handle and thus the solution of multiple controllers is required. Dividing a large network into several partitions and assigning controllers to each partition is called the \emph{Controller Placement Problem (CPP)} in SDN. Multiple controllers make the network scalable and as a result, it is easy to control a larger number of switches. Moreover, it decreases the load o each controller and the controller-to-switch latency. Controller placement is done in two steps: Clustering: Dividing the network into multiple sub-networks and
+Controller Selection: Selecting a controller for each sub-network.
+CPP is a recent field of research where many state-of-the-art algorithms have been proposed in the last 5 years to solve this NP-Hard problem. One of these algorithms is Density Based Controller Placement (DBCP)\cite{dbcp2017}. DBCP is a recently proposed algorithm which clusters the network by selecting an optimum value of $k$ (number of clusters) i.e. divides the network into $k$ disjoint sets of switches and then selects one controller for each set. DBCP calculates the latencies between two switches using hop count. However, hop count is not a good measure of latency, because hop count does not reflect other contributing elements like processing delay, queuing delay, bandwidth, transmission rate etc. when representing total latency. Hence a composite metric that reflects the above observations is necessary for the CPP problem of SDN. To the best of our knowledge, there is no clustering algorithm which takes into consideration all of these parameters. In this paper, we consider weighted links between two switches which can be set to any of the parameters like bandwidth, queuing latency, transmission speed etc. 
+Jiang et. al.\cite{spici2010} proposed SPICi as a very fast algorithm for clustering large biological networks. Therefore it is ideal for handling larger networks. We use this property of SPICi and modify it to meet our requirements. We propose four algorithms - Random Clustering with Local Search (RCLS), Greedy-SPICi (G-SPICi), Inverse-SPICi (I-SPICi) and Modified-SPICi (M-SPICi). RCLS works with hop count while the other three which are variations of the algorithm SPICi represent the network as weighted graphs. We explain in detail our algorithms in section \ref{proposedalgo}. The contribution of our work can be summarized as follows:
+\begin{itemize}
+	\item We give several algorithms which work with weighted links between switches, thus allowing us to create clusters based on network traffic, bandwidth, transmission rate, etc., which are essential in determining the condition of a network.
+	\item Our proposed algorithms cluster SDN networks in polynomial time complexity.
+	\item Our algorithms are both static and dynamic traffic-aware. They consider traffic before (Static) and after (Dynamic) placing controllers while clustering. 
+\end{itemize}
+
+The rest of the paper is organized as follows: We represent the background and related works along with some other notable works of SDN and CPP in section \ref{relatedworks}. Section \ref{problemformulation} represents CPP as a graph theory problem. Section \ref{existingalgo} explains the existing SDN clustering algorithm DBCP and the protein-clustering algorithm SPICi. We explain our proposed algorithms in section \ref{proposedalgo}. Simulation results and Performance Evaluation are presented in section \ref{performance}.
+
+\section{Background and Related Works} \label{relatedworks}
+SDN has been a sector of intensive research for a long period of time. In recent years SDN has received a lot of attention from researchers, academicians, businessmen and also from the governments. The concept of a programmable network is slowly being shaped into reality. This can be evident from the thorough history which can be found in \cite{sdnrao2014,sdnsurvey2015,sdnsurvey2017}.
+
+In the 1960s, Paul Baran, a researcher of Rand Corporation, US, proposed to transmit autonomous data packets \cite{goransson2014software1} through the network. Later an attempt was made to make the packet forwarding even more intelligent by introducing policy-based routing (PBR) \cite{goransson2014software2}. This was the starting of the revolution that had one goal - how to make routing intelligent? By "intelligent" it is meant that routing would not only be based on shortest distance, but also the condition of the network at a given time.
+To make such a decision table that takes into account the condition of the network like bandwidth, traffic, link failures etc., there needed to be a brain that takes the decisions. In the traditional network model \cite{forouzan2006data}, the routing decisions are taken by the network layer which uses various protocols to populate the routing table. Some of these well-known protocols that are used for Unicast routing are RIP (Routing Information Protocol), OSPF (Open Shortest Path First) and BGP (Border Gateway Protocol) \cite{forouzan2002tcp}. These protocols use hop count as metric and use the path with no failures and the lowest number of hops as the path for data flow. The routing decisions are taken by the routers themselves.
+
+In SDN, the decisions are taken by a central entity. This entity keeps track of the changing traffic of the network and uses this knowledge to intelligently route traffic. This entity is called "controller". The controller tells the switches where to send a new packet. The controller is the control plane and the switches are the data plane of the network layer (e.g., OpenFlow \cite{hu2014survey, sdniotsurvey2016}). In this architecture, all the switches ask a single controller for routing decisions. This is manageable for small size and medium-size networks, however, for large-scale networks, a bottle-neck is formed. The network becomes more congested in the course of time and eventually collapses. Thus multiple controllers become a necessity.
+
+Initially, the control plane of SDN consisted of only one controller. This architecture has already been implemented extensively: the controller OpenDayLight (ODL) \cite{odl} has been deployed several times in various companies like Orange, China Mobile, AT\&T, TeliaSonera, T-Mobile, Comcast, KT Corporation, Telefonica, China Telecom, Globe Telecom, Deutsche Telekom \cite{sdnsurvey2017}.However, the concept of only one controller is feasible for a small or even medium-sized networks, but when the network becomes larger it becomes very difficult for one controller to handle the routing. The problems that are faced in the case of single controllers are scalability \cite{scalability2013dixit, scalability2013yeganeh} and reliability when the networks are large. Consequently, multiple controllers were proposed, and the foundation was laid by R. Sherwood et. al.\cite{flowvisor2009} in 2009.  Thereafter multiple controllers have been used in several applications \cite{whycpp2010, whycpp2013, whycpp2014} and a lot of research have been directed towards it \cite{cppsurvey2017, cppsurvey2018}.
+The questions that arise due to multiple controllers are: \emph{How many controllers?}, \emph{Where to place them?} and \emph{Which switch is assigned to which controller?} \cite{sdnwan2014, sdnlarge2015}. Answering all of these questions together is called the Controller Placement Problem or CPP in short. This is an emerging paradigm and a field of vibrant research in the domain of SDN.
+
+CPP is primarily of two types\cite{cppsurvey2018}: \emph{(1) Capacitated Controller Placement Problem (CCPP)} and \emph{(2) Un-capacitated Controller Placement Problem (UCPP)} (refer to figure \ref{fig:cppclass}). \emph{CCPP} considers the capacity of the controllers and load of the switches when assigning switches to each controller. It may consider the load of the switches to be fixed or variable. CCPP is of four types: \emph{Static Traffic-aware CCPP:} Considers the network traffic and capacity when placing controllers. \emph{Dynamic Traffic-aware CCPP:} Changes clustering even after placing controllers, based on changing traffic. \emph{Fault-aware CCPP:} Places controllers based on reliability and resilience. \emph{Network Partitioning Based CCPP:} Partitions the network based on capacity and may include parameters like scalability, manageability, privacy, and deployment. \emph{UCPP} considers that the controllers have infinite capacity and only strives to improve an evaluation function value of the network with the minimum number of controllers. The evaluation function may take into consideration the latency, reliability, etc. of the network separately or collectively. UCPP is of three types: \emph{Static Traffic-aware UCPP:} Considers only network traffic while placing controllers. \emph{Fault-aware UCPP:} Considers the possibility of link failures when placing controllers. \emph{Network Partitioning-based UCPP} Considers parameters like scalability, manageability, privacy, and deployment.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{Figures/cppclassification.jpg}
+	\caption{Classification of Controller Placement Problem (CPP)}
+	\label{fig:cppclass}
+\end{figure}
+
+In the current decade, many solutions have been proposed to solve this NP-Hard problem of controller placement \cite{cpp2012heller, cppsurvey2017, cppsurvey2018}. Heller et. al. \cite{cpp2012heller} propose a solution of CPP by selecting $k$ controllers to minimize the average and maximum latency of the network. Sallahi et. al. \cite{sallahi2015optimal} provide a mathematical model which simultaneously determines the controller numbers, locations and included switches while meeting some constraints. An example of this constraint could be the cost of installing a controller. Yao et. al. \cite{yao2014capacitated} introduce capacitated controller placement. They consider the load or capacity of a controller and the load of the switches, thus the capacity of a controller cannot be exceeded. Ozsoy et. al.\cite{ozsoy2006exact} propose an advanced version of the k-center algorithm using links between switches which is also a work on capacitated controller placement. In \cite{yao2015controller}, Yao et. al. uses flow algorithm to implement a dynamic solution which can work comfortably with changing data flows due to traffic or other reasons.
+There are also notable research works on other parameters like reliability. Zhang et. al. \cite{zhang2011resilience} propose a solution which improves the resilience of a split architecture network. They improve the reliability of the network using the Min-cut algorithm \cite{erlebach2006robustness} to find the fault tolerant and vulnerable parts of the network. There are also heuristic-based approaches to solve the CPP problem. Lange et. al\cite{lange2015heuristic} propose a well-known algorithm named Pareto-based Optimal COntroller placement (POCO). POCO provides operators with Pareto optimal placements with respect to different performance metrics. POCO performs an exhaustive evaluation of all possible placements by default, which is feasible for small networks. For large networks POCO uses heuristics which makes it faster but less accurate.
+Liao et. al.\cite{dbcp2017} propose a faster algorithm named Density Based Controller Placement (DBCP). DBCP uses a threshold hop count to calculate the density of each switch in the network and then defines a distance for each switch which is the minimum distance to a higher density node and takes an average of these distances. If for some node or switch the minimum distance to higher density node is greater than the average distance then another controller is needed. In this way, DBCP increments the value of $k$ from zero, which is the number of controllers, to a suitable value. Then keeping the switches which have a higher than average value of their minimum distance to higher density node as cluster heads, DBCP assigns the other switches to the clusters of their nearest higher density switch.
+DBCP is a state-of-art-algorithm which outperforms the above-mentioned algorithms that work on UCPP, but the distance metric used is hop count. If the goal is to create a programmable network that changes the flow path of data depending on network conditions (traffic, bandwidth etc.), then these parameters need to be considered and handled by the algorithm.
+Our proposed algorithms are based on the well-known algorithm SPICi (‘spicy’, Speed and Performance In Clustering) \cite{spici2010}, a fast clustering algorithm for biological networks, which divides a collection of proteins based on how closely they are related in terms of similarities\cite{protein2005palla}. The clusters that are formed contain closely connected proteins. SPICi clusters the network based on confidence values between two proteins and creates clusters that have maximum confidence values between them.
+
+\section{Problem Formulation} \label{problemformulation}
+
+Networks are distributed throughout the whole world. Each of them is of different types and topologies depending on the requirement. In SDN only the controllers take the routing decisions. Therefore, to demonstrate clustering, all the nodes are considered as switches (routers are replaced by switches). We consider the network as a bi-directional graph $G=(S,L)$ consisting of nodes and edges. Here the set of nodes $S$ represent the switches and the set of edges $L$ represent the links between the switches. The edges can be either weighted or unweighted based on the requirements. Our objective is to cluster the graph $G$ into multiple sub-networks $S_{i:i=1,2,3...}$ such that each sub-network contains a set of switches $S_i=\{s_1,s_2,...\}$, where $s_1$, $s_2$ etc. are switches. There cannot be any common switch between two sub-networks and all of the switches of the network must fall into a sub-network, where each sub-network will have one and only one controller.
+
+Let us assume that the network will be clustered into $k$ partitions. The sub-networks can be presented as,
+
+\begin{equation} \label {eqn:clustering}
+S_{net} \gets \{S_1=\{s_{1,1},s_{1,2},....s_{1,i}\},S_2,....,S_k\}
+\end{equation}
+
+where, $S_{net}$ is the total network and $S_1,S_2,...,S_k$ are $k$ disjoint sets of switches (sub-networks).
+
+\section{Existing Algorithms} \label{existingalgo}
+In this paper, we focus on two existing clustering algorithms. One of them is Density Based Controller Placement (DBCP) and the other is SPICi. DBCP \cite{dbcp2017} is a recently proposed algorithm for clustering Software Defined Networks (SDN). SPICi\cite{spici2010} is a well known protein-clustering algorithm for biological networks. These algorithms are described in the following sections. 
+\subsection{Density Based Controller Placement (DBCP)\cite{dbcp2017}} \label{dbcp}
+This algorithm is named Density Based Controller Placement (DBCP) because it uses local density to calculate all other parameters of the algorithm and then clusters the algorithm using those parameters. The pseudo-code for clustering using DBCP is given in algorithm \ref{algo:dbcp}.
+
+\smallskip
+DBCP uses the following equation to calculate the local density of each of the nodes in the network,
+\begin{equation} \label{dbcp:density}
+\rho_i=\sum_j\chi(d_{ij}-d_c)
+\end{equation}
+where local density $\rho_i$ of a node $i$ is the count of all the nodes which are at most $d_c$ distance away from $i$. The threshold $d_c$ is a distance used to set a limit to the cluster diameter and consequently to find an approximate to the optimal value of $k$ where $k$ is the number of controllers.
+Here $d_{ij}$ gives the minimum distance between nodes $i$ and $j$. The value of $\chi(x)$ is 1 only for $d_{ij}<d_c$ that is when $x<0$ and is 0 otherwise. Thus $\rho_i$ is the number of nodes that can be reached from node $i$ by traversing at most distance $d_c$.
+The minimum distance of a node $i$ to a higher density node is represented by,
+\begin{equation} \label{dbcp:mindistohi}
+\delta_i=\begin{cases}
+\max_{j:j\in S}(d_{ji}), & \text{if switch i has the highest $\rho_i$}\\
+\min_{j:j\in S,\rho_j>\rho_i}(d_{ji}), & \text{otherwise}
+\end{cases}
+\end{equation}
+where, $\delta_i$ is the minimum distance to a higher density node and $S$ is the set of all switches in the network. If $i$ is the node with highest density, $\delta_i$ holds the distance of the farthest node from $i$. Then an average of the minimum distance to higher density node $\delta_i$ is calculated for all nodes $i$ and denoted as $\delta$. The value of $k$, the number of controllers is initialized as $0$. If the value of $\delta_i$ of a node $i$ is greater than $\delta_i$, then $k$ is incremented. The switches with higher values of $\delta_i$ are selected as cluster heads of new clusters and the other switches are assigned to the nearest node with higher local density.
+
+
+\begin{algorithm}
+	\caption{Density Based Controller Placement (DBCP)}\label{algo:dbcp}
+	\begin{algorithmic}[1]
+		\Procedure{DBCP}{S,L} \\
+		$k \gets 0$ \\
+		\textbf{for $s$ in S:}
+		\State $\rho_s=\sum_{j\in S}\chi(d_{sj}-d_c)$ \\
+		\textbf{end for} \\
+		\textbf{for $s$ in S:}
+		\State $\delta_s=\min_{i:i\in S,p_i>p_s}(d_{is})$ \\
+		\textbf{end for} \\
+		$\delta \gets \frac{1}{|S|}\sum_{s\in S}\delta_s$ \\
+		\textbf{for s in S:}
+		\If {$\delta_s>\delta$}	
+		\State $k = k + 1$
+		\State $s \gets new~cluster$
+		\Else
+		\State $s \gets cluster~of~nearest~higher~density$
+		\EndIf \\
+		\textbf{end for}
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+
+\smallskip
+DBCP uses the summation of three metrics to determine the controller for a cluster. The cluster head of a network is a node from where the cluster formation starts. A controller is a node which acts as the control plane. Each sub-network has its own controller. These controllers send routing information to their respective data planes. The data plane of every sub-network consists of its switches. These three metrics are $\pi^{avglatency}$, $\pi^{maxlatency}$, and $\pi^{inter\_controller}$. For a sub-network $S_i$, the average latency for a switch $v$ is calculated as follows:
+\begin{equation}	\label{eqn:avglat}
+\pi^{avglatency}(v)_{v:v\in S_i} = \frac{1}{|S_i|} \sum_{s\in S_i}d(v,s)
+\end{equation}
+
+This is the average of the distances of the node $v$ from all other nodes. It is the sum of all distances between $s$ and $v$ of cluster $S_i$ divided by the total number of switches in the cluster $|S_i|$.
+For the worst case scenario, the second metric is defined. This metric is denoted by $\pi^{maxlatency}$.
+\begin{equation}	\label{eqn:maxlat}
+\pi^{maxlatency}(v)_{v:v\in S_i} = \max_{s\in S_i}d(v,s)
+\end{equation}
+
+Here, $\pi^{maxlatency}(v)$ is the maximum of the distances of the node $v$ from all other nodes $s$ in the cluster $S_i$.
+The inter-controller latency must be reduced as much as possible when selecting controllers. However, the controller to controller distance cannot be determined when the controllers are yet to be selected. Thus the third metric is used which calculates the distances from all other nodes that are not in the same cluster. It is an approximate calculation of the inter-controller distances and is denoted by $\pi^{inter\_controller}$.
+\begin{equation}	\label{eqn:iclat}
+\pi^{inter\_controller}(v)_{v:v\in S_i} = \frac{1}{|S-S_i|} \sum_{s\in (S-S_i)}d(v,s)
+\end{equation}
+$\pi^{inter\_controller}$ for a node $v$ is the sum of the distances between $v$ and all the nodes of other clusters. This sum is then divided by the total number of switches in the network that are in other clusters.
+The final metric $\pi^{latency}(v)$ can be presented using three metrics in equations \ref{eqn:avglat}, \ref{eqn:maxlat} and \ref{eqn:iclat} by,
+\begin{equation}	\label{eqn:totlat}
+\begin{split}
+\pi^{latency}(v) & = \pi^{avglatency}(v) + \pi^{maxlatency}(v) + \pi^{inter\_controller}(v)\\
+& =\frac{1}{|S_i|} \sum_{s\in S_i}d(v,s) + \max_{s\in S_i}d(v,s) + \frac{1}{|S-S_i|} \sum_{s\in \{S-S_i\}}d(v,s)
+\end{split}
+\end{equation}
+Here $\pi^{latency(v)}$ is the sum of all the three values of $\pi^{avglatency}(v)$, $\pi^{maxlatency}(v)$ and $\pi^{inter\_controller}(v)$ for a switch $v$. Then in each cluster, the switch with the minimum value of $\pi^{latency}$ is taken as the controller of that cluster.
+
+\smallskip
+There are two steps of DBCP. The first step, which is, finding the value of $k$, requires calculating the distances between all possible pair of nodes. Although in \cite{dbcp2017} this has not been mentioned, to the best of our knowledge this can be done with complexity $O(V(V+E))$ using Dijkstra's algorithm to calculate all possible pair distances between nodes, where $V$ is the number of nodes and $E$ is the number of edges. As this distance is only calculated once so it can be considered as pre-calculated and does not need to be included in complexity analysis.
+Then calculating the value of $\rho_i$ or local density for all nodes $i$ has complexity $O(V^2)$ in the worst case when all other nodes are reachable by $d_c$ number of hops. Calculating the value of $\delta_i$ for all nodes has the same complexity. Increasing and assigning controllers has a complexity of $O(V)$. If complexity is denoted by $\eta$ then the complexities can be written as follows:
+\begin{equation}
+\begin{split}
+\eta_{dbcp} 
+& = \eta_{\rho} + \eta_{\delta} + \eta_{k}\\
+& =O(V^2) + O(V^2) + O(V)\\
+& =O(V^2) \\
+\end{split}
+\end{equation}
+
+
+\subsection{Speed and Performance In Clustering (SPICi)\cite{spici2010}}
+SPICi ('spicy', Speed and Performance In Clustering) clusters a connected undirected network $G=(V,E)$ with edges that have values of the continuous range $(0,1)$. It is named so because it is an extremely fast algorithm for clustering biological networks. The values of the edges are called confidence values, denoted by $w_{u,v}$ for adjacent nodes $u$ and $v$, and they represent similarities between two proteins \cite{protein2005palla}. The proteins are represented as nodes of the graph.
+
+\smallskip
+SPICi clusters a network using three variables. They are the weighted degree of a node, the density for a set of nodes and the support for a node with respect to a set of nodes. The weighted degree of a node $u$ denoted by $d_w(u)_{u\in V}$ can be presented as:
+\begin{equation} \label{eqn:spicidegree}
+d_w(u)_{u\in V} = \sum_{v:v\in V,(u,v) \in E}w_{u,v}
+\end{equation}
+Here $d_w(u)_{u\in V}$ is the sum of all the confidence values of the edges that connect $u$ with any other adjacent node $v$ of the graph $G=(V,E)$. It is to be noted that only those nodes are considered which are still unclustered. The density of a set of nodes denoted by density(S), can be presented as:
+\begin{equation} \label{eqn:spicidensity}
+density(S) = \frac{\sum_{(u,v)\in E}w_{u,v}}{|S|*(|S|-1)/2} 
+\end{equation}
+In other words, $density(S)$ is the sum of the confidence values of the edges that connect every node $u$ with every other node $v$ of the set of nodes $S$, divided by the number of total possible nodes that is $|S|*(|S|-1)/2$ where $|S|$ is the number of nodes present in the set of nodes $S$. The support of a node $u$ with respect to a set of nodes $S$ can be presented as:
+\begin{equation} \label{support}
+support(u,S) = \sum_{v\in S} w_{u,v}
+\end{equation}
+For a network, $support(u,S)$ is the sum of the confidence values of the edges that connect a node $u$ with the nodes that are adjacent to it and are present in the set of nodes $S$.
+\begin{algorithm}
+	\caption{: Speed and Performance In Clustering (SPICi)}\label{spicicode}
+	\begin{algorithmic}[1]
+		\Procedure{Search}{} \\
+		Initialize \textbf{DegreeQ} to be $V$ \\
+		While \textbf{DegreeQ} is not empty
+		\State Extract $u$ from \textbf{DegreeQ} with the largest weighted degree
+		\If {$u$ has adjacent vertices in \textbf{DegreeQ}}
+		\State 1. Find from $u$’s adjacent vertices the second seed protein v (see text)
+		\State 2. $S=Expand(u,v)$
+		\Else 
+		\State $S=\{u\}$
+		\EndIf
+		\State $V=V-S$
+		\State Delete all vertices in S from \textbf{DegreeQ}
+		\State For each vertex t in \textbf{DegreeQ} that is adjacent to a vertex in $S$, decrement its weighted degree by $support(t,S)$
+		\EndProcedure
+		\Procedure{Expand}{u,v}\\
+		Initialize the cluster $S=\{u,v\}$
+		Initialize \textbf{CandidateQ} to contain vertices neighboring $u$ or $v$
+		While \textbf{CandidateQ} is not empty
+		\State Extract from \textbf{CandidateQ} with the highest $support(t,S)$
+		\If {$support(t,S)\geq T_s*|S|*density(S)$ and $density(S+{t})>T_d$}
+		\State $S=S+{t}$
+		\State Increase the support for vertices connected to t in
+		\textbf{CandidateQ}
+		\State For all unclustered vertices adjacent to t, insert them
+		into \textbf{CandidateQ} if not already present
+		\Else
+		\State break from loop
+		\EndIf \\
+		\textbf{return} S
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+Using these parameters, SPICi clusters a network as given in the algorithm \ref{spicicode}.
+The first seed is the node with the maximum weighted degree. 
+After the selection of the first seed, the adjacent nodes are divided into five bins depending on the confidence value of the connecting edge. The bins are of ranges $(0:0.2:0.4:0.6:0.8:1)$, that is, they are at regular intervals of $0.2$ in the already given range $(0,1)$. Then starting from the maximum bin $(0.8:1)$, the node with the maximum weighted degree, $d_w$ is taken as the second seed.
+SPICi uses two thresholds. These thresholds are: $T_s$ which determines whether a node is to be included in the cluster based on the cluster size and the connectivity of the node to the cluster and: $T_d$ which includes a node to the cluster, based on the density increased when the node is added. The algorithm gives better results when these thresholds have a value of 0.5\cite{spici2010}.
+As SPICi is a clustering algorithm that works on biological networks it does not select any controller for any cluster. It only selects first seed and second seed and includes the nodes in each cluster. Therefore there is no Controller Selection step for SPICi.
+
+\smallskip
+SPICi can be divided into three phases or functions. The first function selects the first seed from a sorted queue which has a time complexity of $O(Vlog_2(V+E))$ in the worst case when all nodes are connected to all other nodes. The second function or second seed selection process requires $O(V)$ time complexity as all the weighted degrees are calculated in the first seed selection phase. The expand function calculates the support value for each node in the CandidateQ which is a sorted queue or priority queue. Therefore this phase requires a complexity of $O(Vlog_2(V+E))$.
+Let the complexity of the algorithm be denoted by $\eta^{SPICi}$. Then the complexities can be calculated in the following manner.
+\begin{equation}
+\begin{split}
+\eta^{SPICi} &= \eta^{f\_seed} + \eta^{s\_seed} + \eta^{expand}\\
+&= Vlog_2(V+E) + O(V) + Vlog_2(V+E)\\
+&=Vlog_2(V+E)
+\end{split}
+\end{equation}
+
+\section{Proposed Algorithms} \label {proposedalgo}
+We propose four algorithms to address CPP for both unweighted and weighted network. One of our proposed algorithms work on unweighted graphs and we name it Random Clustering with Local Search (RCLS). The remaining three are for weighted graphs and we name them Greedy-SPICi (G-SPICi), Inverse SPICi (I-SPICi) and Modified-SPICi (M-SPICi). We describe our proposed algorithm in the following subsections.
+
+\subsection{Random Clustering with Local Search (RCLS)}
+This algorithm is only for networks that have hop count as the distance metric, where all the edge weights of the graph are set to one. Therefore it has the same working conditions as DBCP.
+We chose $k$ random cluster heads where the value of $k$ is fixed. We assign every other node to the cluster whose cluster head has the shortest distance from that node. Then we optimize the network using local search. We perform the local search technique by including one randomly selected node in a randomly selected cluster in each iteration until the latency of the network cannot be decreased anymore (algorithm \ref{rcls}). The latency of the network $m_{latency}$, in this case, is calculated using the metric defined for evaluating DBCP (equation \ref{eqn:metric}).
+
+\begin{algorithm}
+	\caption{: Random Clustering with Local Search (RCLS)}\label{rcls}
+	\begin{algorithmic}[1]
+		\Procedure{RCLS}{k, iteration} \\
+		Randomly select $k$ cluster heads from the graph \\
+		Include all switches to nearest cluster heads \\
+		latency $\gets$ calculate latency of the current network \\
+		\textbf{for i = 1 to iteration}
+		\State Local\_Search(latency) \\
+		\EndProcedure
+		
+		\Procedure {Local\_Search}{latency} \\
+		\textbf{for i = 1 to n*k}
+		\State $a$ = randomly chosen node from the graph.
+		\State $b$ = randomly chosen cluster from the cluster set.
+		\If {already checked for the pair($a$,$b$)}
+		\State continue.
+		\EndIf
+		\State Swap the cluster of $a$ to $b$.
+		\State set new controller heads
+		\If {$new~m_{latency} < latency$}
+		\State $latency \gets new~m_{latency}$
+		\State \textbf{break}
+		\Else 
+		\State set the cluster of $a$ to it previous cluster
+		\EndIf
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+
+\smallskip
+In the first iteration, RCLS selects $k$ controllers randomly and evaluates the current selection. In the next iteration, a randomly selected node $a$ is inserted into a randomly selected cluster $b$. After insertion, the controllers are selected using the controller selection method of DBCP. The network thus formed is the again evaluated similarly using $m_{latency}$. If the value is lower than the previous configuration then the change is made permanent. On the other hand, if the value is higher, the new configurations is rolled back to its previous configuration. Then a new $a$ and $b$ are chosen and this process carries on until the maximum number of iteration is reached or until the value of $m_{latency}$ does not decrease anymore.
+All the distances used in this algorithm are hop counts, which is the same as that of DBCP.
+However, this algorithm can also be applied to un-weighted graphs. In that case, the hop counts will be replaced by integer values which can represent network parameters like bandwidth, traffic, delay etc. and the value of $m_{latency}$ can be updated accordingly.
+
+
+\smallskip
+RCLS randomly selects $k$ nodes as cluster heads, provided that $k$ is given. This step has a complexity of $k$. Each node needs to be included in a cluster which requires a complexity of $k\times n$ if $n$ is the total number of nodes. For the local search process, the algorithm randomly selects a cluster and randomly selects a node and puts the node in the cluster to check $m_{latency}$. The calculation of $m_{latency}$ has the complexity of $n^3$. In the worst case when a better solution does not exist, the algorithm calculates $m_{latency}$ for all possible pairs. This has a complexity of $k\times n$.
+\begin{equation}
+\begin{split}
+\eta^{RCLS} &= \eta^{cluster} + \eta^{local\_search} \\
+&= O(k\times n) + O(k\times n \times n^3) \\
+&= O(k\times n^4) \\
+\end{split}
+\end{equation}
+
+\subsection{Greedy-SPICi}
+Greedy-SPICi (G-SPICi) is a variation of SPICi. G-SPICi does not divide the nodes connected to the first seed into bins as done in SPICi. Instead, after selecting the first seed, G-SPICi starts clustering the network indifferently, starting with the nodes adjacent to the first seed. The nodes are sorted based on their support value (equation \ref{support}) with respect to the whole network. Then the nodes are inserted into the cluster greedily based on the insertion condition (line 17 of algorithm \ref{gspicicode}). Therefore, we name the algorithm Greedy-SPICi (Algorithm \ref{gspicicode}).
+
+\smallskip
+G-SPICi starts with a node having the maximum weighted degree and then forms a cluster including it's neighboring nodes using an \emph{EXPAND} function (line 12 of algorithm \ref{gspicicode}).
+In the \emph{EXPAND} function, the nodes adjacent to the first seed are sorted based on a support value with respect to the present cluster being formed. For example, when the \emph{EXPAND} function is called, the present cluster consists of only first seed $u$ (line 8 of algorithm \ref{gspicicode}).
+\begin{algorithm}
+	\caption{: Greedy-SPICi}\label{gspicicode}
+	\begin{algorithmic}[1]
+		\Procedure{Search}{V,E} \\
+		\textbf{Initialize} $DegreeQ = V$ \\
+		\textbf{While} $DegreeQ \neq empty$
+		\State Extract u from DegreeQ with largest $d_w(u)$
+		\If {there is $v_{v:v,u\in E}\in DegreeQ$}
+		\State $S \gets Expand(v)$
+		\Else 
+		\State $S \gets \{u\}$
+		\EndIf
+		\State $V \gets V - S $
+		\State $Degree Q \gets Degree Q - S$
+		\State $d_w(t)_{t:t\in DegreeQ,(t,s)_{s\in S}\in E} = d_w(t) - support(t,S)$
+		\EndProcedure
+		\Procedure{Expand}{V,E,u}\\
+		\textbf{Initialize} the cluster $S \gets \{u\}$ \\
+		\textbf{Initialize} $CandidateQ = S_{S:s\in S,(s,u)\in E}$\\
+		\textbf{While} $CandidateQ \neq empty$
+		\State Extract $t$ from Candidate with the highest $support(t,S)$
+		\If {$support(t,S)\geq T_s*|S|*density(S)$ and
+			$density(S + t)> T_d$}
+		\State $S\gets S+\{t\}$
+		\State $CanditateQ \gets CandidateQ + \{s_{s:(s,t)\in E}\}$
+		\State $CandidateQ \gets CandidateQ - \{s_{s:s\not\in CandidateQ}\}$
+		\Else
+		\State break from loop
+		\EndIf \\
+		\Return S
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+G-SPICi initializes a priority queue called $DegreeQ$ that holds the degree of each node using equation \ref{eqn:spicidegree}. From $DegreeQ$ the node with the highest weighted degree is extracted and the cluster is expanded using expand function. The nodes present in the formed cluster is then removed from $DegreeQ$ and the support values of the rest of the nodes are updated accordingly. This process continues until there are no more nodes left in $DegreeQ$.
+The \emph{EXPAND} function starts with forming the cluster $S$ from first seed $u$. The nodes adjacent to the present cluster are the candidates of being included in the cluster they form the candidate list. A priority queue $CandidateQ$ is formed from the support values of the members of the candidate list. Each member of the candidate list is then included in the cluster based on a conditional statement (line 17 of algorithm \ref{gspicicode}). If the node is included in the cluster then the node is removed from $CandidateQ$ and its adjacent nodes are inserted into $CandidateQ$ except the ones that are already there, and the support values of the nodes in $CandidateQ$ are updated accordingly.
+
+\smallskip
+The controller selection process of G-SPICi is same as that of DBCP except that it uses edge weights (positive integers) to calculate the three metrics $\pi^{avglatency}$, $\pi^{maxlatency}$ and $\pi^{inter\_controller}$, mentioned in section \ref{dbcp}, instead of hop counts. As a result, the controllers are selected such that the controller-to-switch and controller-to-controller latencies are minimized where the latencies are integer values.
+
+
+\smallskip
+G-SPICi has the same complexities as SPICi, only the second seed selection is omitted and local search is added. If $n$ is the total number of nodes and $m$ is the total number of edges. Then the complexity of G-SPICi can be denoted by $\eta^{G-SPICi}$ where,
+\begin{equation}
+\begin{split}
+\eta^{G-SPICi} &= \eta^{f\_seed} + \eta^{expand} + \eta^{local\_search}\\
+&= 2nlog_2(n+m)+O(k\times n^4)\\
+&= O(k\times n^4)\\
+\end{split}
+\end{equation}
+
+\subsection{Inverse-SPICi}
+
+Inverse-SPICi (I-SPICi) is a variation of G-SPICi. I-SPICi converts the edge weights of the network such that the highest edge weight becomes the lowest edge weight and vice versa. SPICi forms clusters such that the connection among the nodes of the clusters are maximized where the edge weights are the similarity values. However, our goal is to minimize latency where the edge weights represent the latencies. This is why we invert the edge weights and name this algorithm Inverse-SPICi. However, the controller selection process is unchanged.
+
+\smallskip
+I-SPICi inverts the edge weights. If the weight of an edge is $w$ and the maximum edge weight of the whole network is $w_{max}$, then the weight is inverted as follows:
+\[
+w_{inverted} = w_{max} - w + 1
+\]
+
+Here $w_{inverted}$ is the final edge weight. We subtract edge weight $w$ from maximum edge weight $w_{max}$, and add $1$ so that the maximum edge weight is not inverted to $0$.
+
+\smallskip
+I-SPICi has the same complexities as G-SPICi, only the costs are inverted which requires a complexity of $m$. The total number of nodes is $n$ and $m$ is the total number of edges. The complexity of I-SPICi is denoted by $\eta^{I-SPICi}$ where,
+\begin{equation}
+\begin{split}
+\eta^{I-SPICi} &= \eta^{invert} + \eta^{G-SPICi}\\
+&= O(m)+O(k\times n^4)\\
+&= O(k\times n^4 + m)\\
+\end{split}
+\end{equation}
+\subsection{Modified-SPICi}
+Modified-SPICi or M-SPICi is similar to the original SPICi. It includes some more steps, like pre-processing and post-processing and thus is named Modified-SPICi. Pre-processing of M-SPICi is calculating the degree of incidence of the nodes. The degree of incidence of a node is the number of edges adjacent to the node. In case of directed graphs, the number of outgoing edges is called out-degree and ingoing edges is called in-degree. The post-processing step of M-SPICi assigns the isolated nodes to nearest clusters.
+
+
+\smallskip
+Initially, the degree of incidence (both outgoing and ingoing) of all the nodes are calculated. Then all of the nodes are divided into five partitions based on their degree of incidence from highest to lowest. Thus the nodes in the first partition have the highest degree of incidence and have the highest probability of becoming first seeds. We name this partition as seed partition.
+All of the edge costs $w$ are changed to $1/w$. This causes the edge values which are positive integers, to be inverted and mapped to the continuous range of SPICi $(0,1)$.
+
+\begin{algorithm}
+	\caption{: Modified-SPICi}\label{mspicicode}
+	\begin{algorithmic}[1]
+		\Procedure{Search}{V,E} \\
+		\textbf{Initialize} $DegreeQ = V$ \\
+		\textbf{While} $DegreeQ \neq empty$
+		\State Extract u from DegreeQ with largest $d_w(u)$
+		\If {there is $v_{v:v,u\in E}\in DegreeQ$}
+		\State $v \gets secondseed(DegreeQ,E,u)$
+		\If {$v\neq null$} $S \gets Expand(u,v)$
+		\EndIf
+		\Else 
+		\State $S \gets \{u\}$
+		\EndIf
+		\State $V \gets V - S $
+		\State $Degree Q \gets Degree Q - S$
+		\State $d_w(t)_{t:t\in DegreeQ,(t,s)_{s\in S}\in E} = d_w(t) - support(t,S)$
+		\EndProcedure
+		\Procedure{SecondSeed}{V,E,u} \\
+		$bin[i]_{i:i=(1,5)} \gets s_{s:s\in V,(s,u)\in E}$ \\
+		\textbf{for i = 1 to 5}
+		\If {$bin[i] \neq empty$}
+		\State \Return $v$ \textbf{if} $d_w(v)=\max_{s:s\in bin[i]}{d_w(s)}$
+		\EndIf\\
+		\Return $null$
+		\EndProcedure
+		\Procedure{Expand}{V,E,u,v}\\
+		\textbf{Initialize} the cluster $S \gets \{u,v\}$ \\
+		\textbf{Initialize} $CandidateQ = S_{S:s\in S,(s,u),(s,v)\in E}$\\
+		\textbf{While} $CandidateQ \neq empty$
+		\State Extract $t$ from $CandidateQ$ with the highest $support(t,S)$
+		\If {$support(t,S)\geq T_s*|S|*density(S)$ and
+			$density(S + t)> T_d$}
+		\State $S\gets S+\{t\}$
+		\State $CanditateQ \gets CandidateQ + \{s_{s:(s,t)\in E}\}$
+		\State $CandidateQ \gets CandidateQ - \{s_{s:s\not\in CandidateQ}\}$
+		\Else
+		\State break from loop
+		\EndIf \\
+		\Return S
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+After selecting the first ($u$) and second seed ($v$), M-SPICi starts expanding the current cluster which is the set of nodes $S\gets{u,v}$. The rest of the unclustered nodes are kept in a priority queue $CandidateQ$ based on their support values with respect to $S$. If a node does not meet the condition (line 24 of algorithm \ref{mspicicode}) for including in the cluster it is clear that the rest of the nodes in $CandidateQ$ will follow. However, these nodes are not yet discarded as in SPICi. For each node remaining in the $CandidateQ$ another check is performed. If the degree of a node is in the first seed partition then this node is discarded as it has the ability to form a new cluster. Otherwise, the node is included in the cluster.
+When all the nodes are clustered in this way, some isolated nodes remain. These are included in the adjacent clusters of the nearest first seeds or cluster heads. Then the controllers are selected as done in G-SPICi.
+
+\smallskip
+The number of clusters is $k$, and the number of nodes and edges are $n$ and $m$ respectively. M-SPICi has an edge weight inversion step of complexity $O(m)$. Another pre-processing which calculates the degree of all nodes and sorts them, has a complexity of $O(m+nlog_2(n))$. The post-processing step for assigning isolated nodes is $O(n\times k)$ and the local search has a complexity of $O(k\times n^4)$. Therefore the total complexity is:
+\begin{equation}
+\begin{split}
+\eta^{M-SPICi} &= \eta^{SPICi} + \eta^{processings} + \eta^{local\_search}\\
+&= nlog_2(n+m)+O(m)+O(n\times k) + O(m+nlog_2(n))+O(k\times n^4)\\
+&= O(m+nlog_2(n+m)+k\times n^4)
+\end{split}
+\end{equation}
+
+\subsection{Scenario Specific Explanation}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{Figures/example.jpg}
+		\caption{The Internet2 OS3E Network with 34 nodes and 42 edges expanding over Canada and USA used mainly for research purposes \cite{dbcp2017}}
+		\label{fig:example}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.8\linewidth]{Figures/mspici.jpg}
+		\caption{The result of clustering by M-SPICi}
+		\label{fig:mspici}
+	\end{subfigure}
+\end{figure}
+
+In figure \ref{fig:example} we present one of the graphical representations of a network that we considered for our experimentation. It is an actual network that expands throughout different states of USA as well as Canada, and are used for research purposes. We assign random weights to the links between the switches and then apply our proposed algorithms. For example, M-SPICi clusters the network into 9 sub-networks. The clusters are marked in figure \ref{fig:mspici} in nine different colors, each representing a different cluster. The controllers of the sub-networks are the nodes marked as 2,28,21,6,27,8,12,16 and 24. Therefore, each cluster has a single controller and no two clusters can have any common node.
+
+\section{Performance Evaluation} \label {performance}
+\subsection{Simulation Environment}
+We perform all our experiments using C++ (High-level language). We use seven randomly generated networks with different numbers of switches starting from 40 to 100, at regular intervals of 10. The edge to node ratio is kept from 1.1 to 1.4 to keep the networks considerably sparse (similar to current worldwide networks). The seven scenarios are shown in the table \ref{table:networks}. The graphs do not contain any self-loops or multi-edges but may have cycles.
+\begin{table}
+	\begin{center}
+		\textbf{\caption{Randomized Networks used as Input} \label{table:networks}}
+		\begin{tabular}{|l|c|c|l|}
+			\hline
+			Scenario & Nodes & Edges & Edge/Node \\
+			\hline
+			1 & 40 & 52 & 1.3\\
+			2 & 50 & 68 & 1.36\\
+			3 & 60 & 77 & 1.2833\\
+			4 & 70 & 87 & 1.2429\\
+			5 & 80 & 108 & 1.35\\
+			6 & 90 & 120 & 1.3333\\
+			7 & 100 & 131 & 1.31\\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+We have simulated a number of scenarios but for convenience, we present seven scenarios in table \ref{table:networks}.
+\subsection{Performance Metric}
+In Software Defined Network, each time a new packet arrives, the switch asks the controller for routing decisions. The controller decides the path of the packet and sends the routing information to all the switches in the path. If the switches are of different clusters then the information is sent to all of the controllers of those clusters. In \cite{dbcp2017}, J. Liao et. al. use this process to define a latency for a network denoted by $m_{latency}$.
+
+\begin{equation} \label{eqn:metric}
+\begin{split}
+m_{latency} =& \frac{1}{|S|(|S|-1)}\sum_{s_i,s_j\in S, i\neq j}\{d(s_i,v_i)+\max_{s_m \in Path_{i,j}}(d(v_i,v_m)+d(v_m,s_m))\}
+\end{split}
+\end{equation}
+
+Here, $|S|$ is the number of switches in the network, $s_i$ and $s_j$ are any two switches in that network and $v_i$ is the controllers of the switch $s_i$. The term $Path_{i,j}$ means the series of connected nodes that are in between nodes $s_i$ and $s_j$. $s_m$ is any node in the $Path_{i,j}$ and $v_m$ is the controller of node $s_m$.
+Thus the latency for a pair of switches is the sum of the distances between $s_i$ and the corresponding controller $v_i$, $d(v_i,v_m)$, and the maximum of the sum of the distances between $v_i$ and $v_m$ and between $v_m$ and $s_m$, $max(d(v_i,v_m)+d(v_m,s_m))$. In theory, this is the maximum distance that a packet needs to traverse to set up a new route from node $s_i$ to $s_j$. There are a total of $|S|(|S|-1)$ possible pairs of nodes possible. Therefore the average of the previously defined latency for all possible pairs is the latency of the network.
+\subsection{Result Comparison}
+
+We propose algorithms for both weighted and un-weighted networks. We compare our first proposed algorithm RCLS with DBCP as both work with unweighted graphs. We also compare DBCP with a local search version of DBCP to verify that there is further room for improvement. For weighted networks where the edge values are randomly assigned, we evaluate and compare the algorithms G-SPICi, I-SPICi, and M-SPICi with the well-known algorithm DBCP. As DBCP is designed for unweighted graphs, we implement a weighted version of DBCP and compare our proposed algorithm with that. In the simulation graphs, weighted implementation of DBCP is presented as W-DBCP. Therefore result comparisons are divided into un-weighted and weighted comparison. The networks are the same for both cases except for un-weighted graphs, the edge weights are set to one. The networks used for experimenting are given in Table \ref{table:networks}.
+
+
+\subsubsection{Result Comparison for Un-weighted Graph}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{Figures/ugraph.jpg}
+	\caption{Comparison of DBCP, DBCP with local search and RCLS on un-weighted networks using $m^{latency}$ as the performance metric.}
+	\label{fig:ugraph}
+\end{figure}
+We propose RCLS for un-weighted graphs. In figure \ref{fig:ugraph} we compare our proposed algorithm RCLS with existing algorithm DBCP. Simulation results suggest that RCLS outperforms DBCP in terms of $m_{latency}$ for the same value of $k$. Furthermore, we applied the local search technique on DBCP. In figure \ref{fig:ugraph} we represented it as DBCP+LOCAL. RCLS also outperforms DBCP+LOCAL in terms of $m_{latency}$.
+
+We observe from figure \ref{fig:ugraph} that only for the first scenario (Table \ref{table:networks}) where the number of nodes is 40, RCLS gives greater latency than DBCP and DBCP+LOCAL. This is because RCLS performs better for large-scale networks and for the first scenario the number of nodes is only 40. RCLS, DBCP, and DBCP+LOCAL give almost equal latencies for scenario 2 and 6 where the network is denser (they have a higher edge/node ratio). In all other scenarios, RCLS outperforms both DBCP and DBCP+LOCAL as RCLS works better for sparser networks.
+
+
+\subsubsection{Result Comparison for Weighted Graph}
+\begin{figure}
+	\centering 
+	\includegraphics[width=0.75\textwidth]{Figures/wgraph.jpg}
+	\caption{ Comparison of WDBCP, G-SPICi, I-SPICi, and M-SPICi on weighted graphs using $m^{latency}$ as performance metric, where WDBCP is the implementation of DBCP using edge weights.}
+	\label{fig:wgraph}
+	\centering 
+	\includegraphics[width=0.75\textwidth]{Figures/wbar.jpg}
+	\caption{ Comparison of the number of controllers $k$, for algorithms WDBCP, G-SPICi, I-SPICi, and M-SPICi.}
+	\label{fig:wbar}
+\end{figure}
+We propose three algorithms for weighted graphs which are G-SPICi, I-SPICi, and M-SPICi. RCLS can also be implemented on weighted graph. We compare our proposed algorithms with weighted-DBCP. In figure \ref{fig:wgraph} we represent weighted-DBCP as WDBCP, which considers edge weights instead of hop count.
+
+In figure \ref{fig:wgraph} we can see that WDBCP gives better results than our proposed algorithms in terms of $m_{latency}$, but from the figure \ref{fig:wbar}, we can see that WDBCP gives a very high number of clusters than that of our proposed algorithms. This is acceptable when the cost of installing a controller is trivial, but in reality, it is not feasible to accommodate the installment cost of so many controllers. Therefore, we compare our proposed algorithms with WDBCP in terms of $k*m_{latency}$ in figure \ref{fig:wgraphmul} for different scenarios, to take into consideration $k$, the number of controllers. If we consider the cost of each controller as constant $c$, then the cost of controller installment for a network is $k*c$. So the cost-latency product of a network is $c*k*m_{latency}$. The variables $k$ and $m_{latency}$ vary from scenario to scenario. However, we assume the cost of installing a controller to be constant. There the cost-latency product can be simplified and represented as $k*m_{latency}$.
+From figure \ref{fig:wgraphmul} we can see that, I-SPICi and G-SPICi give better results for all of the scenarios of table \ref{table:networks}, and our proposed algorithms outperform DBCP in terms of cost-latency product. For scenario 3 when the number of nodes is 60, I-SPICi and G-SPICi give the same result. For scenarios 1 and 4, where nodes are 40 and 70 respectively, G-SPICi outperforms other algorithms. For other scenarios, I-SPICi outperforms all other algorithms.
+
+\subsection{Analysis on the number of controllers $k$}
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{Figures/kanalysis.jpg}
+	\caption{Comparison of network latency $m_{latency}$ for different numbers of clusters ($k$) for RCLS on weighted graphs of each scenario.}
+	\label{fig:kanalysis}
+	
+	\centering 
+	\includegraphics[width=0.75\textwidth]{Figures/wgraphmul.jpg}
+	\caption{Comparison of DBCP, G-SPICi, M-SPICi, I-SPICi, and RCLS on weighted networks using cost-latency product ($k\times m^{latency}$) as the performance metric.}
+	\label{fig:wgraphmul}
+\end{figure}
+The number of clusters or the value of $k$ is different for each algorithm. One of the three problems of CPP is - \emph{How many controllers?}. The value of $m_{latency}$ decreases with the increment of $k$. Therefore the best simulation result is obtained when $k=|S|$, where $|S|$ is the number of switches in the network. When all the switches are controllers, the latency of the network is minimum. However, this is not feasible as the cost of installing so many controllers is much more than required.
+
+In figure \ref{fig:kanalysis} we have presented the results of RCLS on weighted graphs of different number of switches. For each network graph, the value of $k$ is increased from $1$ to $|S|$, where $S$ is the total numbers of switches in the network. As discussed, the value of $m_{latency}$ decreases with increasing $k$. We have to select a $k$ so that the latency of the network and the cost of installing the controllers is minimized. We have to select $k$ such that increasing the value of $k$ does negligible improvement compared to previous increments of $k$. We need to determine a threshold of improvement, although this might be different in different scenarios and depends on the need of the network operator. Therefore our proposed algorithm RCLS will cluster the network optimally based on the value of $k$ given by the network operator.
+
+\subsection{Complexity Comparison}
+We calculated the complexities of all the existing algorithms and proposed algorithms for clustering Software Defined Networks (SDN) in their respective sections (section \ref{existingalgo} and \ref{proposedalgo}). We compare these algorithms in terms of complexity. The existing algorithm is DBCP and the proposed algorithms are RCLS, G-SPICi, I-SPICi and M-SPICi.
+
+\begin{table}
+	\begin{center}
+		\textbf{\caption{The complexity of different algorithms} \label{table:compl}}
+		\begin{tabular}{|l|l|}
+			\hline
+			Algorithm & Complexity \\
+			\hline
+			DBCP & $O(V^2)$ \\
+			DBCP + LOCAL & $O(k\times n^4)$ \\
+			RCLS & $O(k\times n^4)$ \\
+			G-SPICi & $O(k\times n^4)$ \\
+			I-SPICi & $O(k\times n^4 + m)$ \\
+			M-SPICi & $O(m + nlog_2(n+m)\times n^4)$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+We can observe from table \ref{table:compl} that DBCP is faster than our proposed algorithms. However, this slight increase in complexity is negligible compared to the improvement of clustering in terms of latency ($m_{latency}$) and cost-latency product ($k\times m_{latency}$) and the advantages that it can offer.
+
+\subsection{Traffic-Awareness}
+
+Traffic awareness is of two types. Static traffic awareness and Dynamic traffic awareness. Static traffic awareness is attained when a network considers traffic while clustering a network before placing controllers. However, dynamic traffic awareness can cluster a network even after placing controllers based on the changing traffic. Our algorithms perform a controller selection process to minimize the distance (or latency) of the overall network (using equation \ref{eqn:totlat}). More importantly at every step of the local search, the total latency of the network, $m_{latency}$ is improved by changing the controller placement and assigning the switches depending on the edge-weights which represent traffic. Thus, our algorithms are static traffic aware. After placing the controllers, the switches can be reassigned using the local search technique we used. The controller selection steps only need to be omitted from local search techniques of our proposed algorithms (line 15 of algorithm \ref{rcls}). In this case, controller selection is not done in each step of the local search technique, and only the switches are reassigned. Therefore, our algorithms are also Dynamic traffic-aware.
+
+\section{Conclusion} \label {conclusion}
+In this paper, we address the Controller Placement Problem (CPP) of SDN. We have investigated one renowned algorithm DBCP \cite{dbcp2017} that addresses the same research problem. However, DBCP is for unweighted graphs where it uses hop count as the distance metric. Our proposed algorithm RCLS outperforms DBCP in terms of latency for unweighted graphs. However, an unweighted graph is not a good representation of a real network. Being inspired by another famous protein clustering algorithm SPICi \cite{spici2010} we propose 3 algorithms for weighted graphs. We validate our proposed algorithms through extensive simulations. The simulation results suggest that our proposed algorithms outperform the weighted variant of the existing DBCP algorithm in terms of cost and latency. One major contribution of our proposed algorithms is traffic awareness and also they have polynomial time complexity.
+\section*{References}
+
+\bibliographystyle{plain}
+\bibliography{mybibfile}
+
+\end{document}

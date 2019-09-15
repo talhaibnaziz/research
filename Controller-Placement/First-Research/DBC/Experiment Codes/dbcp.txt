@@ -1,0 +1,199 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int n, m, k;
+vector <pair<double, int> > graph[1000];
+double dis[1000][1000];
+double density[1000];
+double mindistohi[1000];
+int nearhidennode[1000];
+double avglat[1000];
+double maxlat[1000];
+double interlat[1000];
+double latency[1000];
+vector <int> cluster_heads;
+vector <pair<int, double> > controllers;
+int clusters[1000];
+map <int, int> cluster_id;
+
+void take_input();
+
+void take_input()
+{
+    freopen("Input/test_1.1.txt", "r", stdin);
+    cin>>n>>m;
+    for(int i=0; i<m; i++)
+    {
+        int u, v, w;
+        cin>>u>>v>>w;
+        pair <int, double> p;
+        p.first = w; p.second = v;
+        graph[u].push_back(p);
+        p.second = u;
+        graph[v].push_back(p);
+    }
+    for(int i=1; i<=n; i++)
+    {
+        for(int j=1; j<=n; j++)
+        {
+            dis[i][j] = -1;
+        }
+    }
+}
+
+void dijkstra(int src)
+{
+    dis[src][src] = 0.0;
+    priority_queue <pair<double, int> > q;
+    q.push(make_pair(0.0, src));
+    while(!q.empty())
+    {
+        int u = q.top().second;
+        q.pop();
+        for(int i=0; i<graph[u].size(); i++)
+        {
+            int v = graph[u][i].second;
+            double w = graph[u][i].first;
+            if(dis[src][v]==-1 || (dis[src][v]>dis[src][u]+w))
+            {
+                dis[src][v] = dis[src][u]+w;
+                q.push(make_pair(-dis[src][v], v));
+            }
+        }
+    }
+}
+
+double finddiameter()
+{
+    int end1 = 1, end2;
+    double diameter = 0;
+    for(int i=1; i<=n; i++)
+    {
+        if(diameter<dis[end1][i])
+        {
+            diameter = dis[end1][i];
+            end2 = i;
+        }
+    }
+    for(int i=1; i<=n; i++)
+    {
+        if(diameter<dis[end2][i])
+        {
+            diameter = dis[end2][i];
+            end1 = i;
+        }
+    }
+    return diameter;
+}
+
+int backtrack(int src)
+{
+    int nearsrc = nearhidennode[src];
+    if(nearsrc == src)  return src;
+    nearhidennode[src] = backtrack(nearhidennode[src]);
+}
+
+void dbcp(double dc)
+{
+    //FIND THE VALUE OF K
+    k = 0; double avgmindistohi = 0;
+    for(int i=1; i<=n; i++)
+    {
+        density[i] = 0;
+        for(int j=1; j<=n; j++) if(dis[i][j]<=dc && i!=j)   density[i]++;
+    }
+    for(int i=1; i<=n; i++)
+    {
+        mindistohi[i] = 999999.00;
+        double maxdis = 0;
+        int maxnode;
+        for(int j=1; j<=n; j++)
+        {
+            if(density[i]<density[j] && dis[i][j]<mindistohi[i])
+            {
+                mindistohi[i] = dis[i][j];
+                cout<<"DIS: "<<dis[i][j]<<endl;
+                nearhidennode[i] = j;
+            }
+            if(maxdis<dis[i][j])
+            {
+                maxdis = dis[i][j];
+                maxnode = j;
+            }
+        }
+        if(mindistohi[i] == 999999.00)
+        {
+            mindistohi[i] = maxdis;
+            nearhidennode[i] = maxnode;
+        }
+        avgmindistohi += mindistohi[i];
+    }
+    avgmindistohi /= (double)n;
+    for(int i=1; i<=n; i++)
+    {
+        if(mindistohi[i]>avgmindistohi)
+        {
+            k++;
+            cluster_heads.push_back(i);
+            cluster_id[i] = k;
+            cout<<"AVG: "<<avgmindistohi<<"  MINDISTOHI: "<<mindistohi[i]<<endl;
+            cout<<"CLUSTER HEAD: "<<i<<endl;
+        }
+    }
+
+    //CLUSTERING
+    memset(clusters, -1, sizeof clusters);
+    for(int i=1; i<=n; i++)
+    {
+        if(mindistohi[i]>avgmindistohi)
+            clusters[i] = i;
+        else    clusters[i] = nearhidennode[i];
+    }
+    for(int i=1; i<=n; i++) nearhidennode[i] = backtrack(i);
+}
+
+void controller_selection()
+{
+    for(int i=0; i<k; i++)  controllers.push_back(make_pair(0, 999999.0));
+    for(int i=1; i<=n; i++)
+    {
+        avglat[i] = 0;
+        maxlat[i] = 999999.0;
+        interlat[i] = 0;
+        double cluster_size = 0;
+        for(int j=1; j<=n; j++)
+        {
+            if(clusters[i]==clusters[j])
+            {
+                cluster_size++;
+                avglat[i] += dis[i][j];
+                maxlat[i] = max(maxlat[i], dis[i][j]);
+            }
+            else    interlat[i] += dis[i][j];
+        }
+        avglat[i] /= cluster_size;
+        interlat[i] /= (double)n-cluster_size;
+        latency[i] = avglat[i] + maxlat[i] + interlat[i];
+        int idx = cluster_id[clusters[i]]-1;
+        if(latency[i]<controllers[idx].second)
+        {
+            controllers[idx].first = i;
+            controllers[idx].second = latency[i];
+        }
+    }
+}
+
+int main()
+{
+    take_input();
+    for(int i=1; i<=n; i++)
+        dijkstra(i);
+    double diameter = finddiameter();
+    for(double dc=3; dc<=3; dc+=0.5)
+    {
+        dbcp(dc);
+        controller_selection();
+    }
+
+    return 0;
+}

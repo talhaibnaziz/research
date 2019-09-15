@@ -1,0 +1,499 @@
+/**
+ * eot_metricsrule.js
+ * $Revision: 1.0 $
+ */
+
+
+// bread crumb
+cdc.util.addMetricsRule('#fw-breadcrumb li a[href]',{
+    "lpos":"dest_pg_breadcrumb", 
+    "lid" :"dest_pg_breadcrumb"
+});
+
+
+//Back to all docs
+cdc.util.addMetricsRule('#fw-backtolink a[href]',{
+    "lpos":"dest_pg_backtoalldocs", 
+    "lid" :"dest_pg_backtoalldocs"
+});
+
+// download document
+cdc.util.addMetricsRule('.downloadDocument .anchor',{
+    "lpos":"dest_pg_expand", 
+    "lid" :"dest_pg_expand_dldoc"
+});
+
+//Download pdf (after expanding)
+cdc.util.addMetricsRule('.docHeaderComponent .download-pdf',{
+    "lpos":"dest_pg_dl", 
+    "lid" :"dest_pg_dl_pdf"
+});
+
+//Download epub (after expanding)
+cdc.util.addMetricsRule('.docHeaderComponent .download-epub',{
+    "lpos":"dest_pg_dl", 
+    "lid" :"dest_pg_dl_epub"
+});
+
+//Download mobi (after expanding)
+cdc.util.addMetricsRule('.docHeaderComponent .download-mobi',{
+    "lpos":"dest_pg_dl", 
+    "lid" :"dest_pg_dl_mobi"
+});
+
+// print
+cdc.util.addMetricsRule('.docHeaderComponent .printPage',{
+    "lpos":"dest_pg_print", 
+    "lid" :"dest_pg_print"
+});
+
+// table of contents
+cdc.util.addMetricsRule('#support-toc a[href]',{
+    "lpos":"dest_pg_body", 
+    "lid" :"dest_pg_table"
+});
+
+// Body links
+cdc.util.addMetricsRule('#eot-doc-wrapper a[href]',{
+    "lpos":"dest_pg_body", 
+    "lid" :"dest_pg_body_links"
+});
+// Opening image in a new page
+cdc.util.addMetricsRule('#eot-doc-wrapper .show-image-alone',{
+    "lpos":"dest_pg_body", 
+    "lid" :"dest_page_open_body_image"
+});
+
+/*
+//Video - View Watch
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_video", 
+    "lid" :"dest_pg_video_watch"
+});
+
+
+//Video - download
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_video", 
+    "lid" :"dest_pg_video_dl"
+});
+
+
+//Video - View Transcriptanna
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_video", 
+    "lid" :"dest_pg_video_tran"
+});
+*/
+
+//rating
+cdc.util.addMetricsRule('.eot-feedback button.eot-feedback-btn',{
+    "lpos":"dest_pg_rating", 
+    "lid" :"dest_pg_rating"
+});
+
+
+//feedback
+cdc.util.addMetricsRule('.eot-feedback a.eot-feedback-ol[href]',{
+    "lpos":"dest_pg_feedback", 
+    "lid" :"dest_pg_feedback"
+});
+
+
+//recommendation
+cdc.util.addMetricsRule('.eot-vav li a[href]',function(a){
+	var index=jQuery(a).parent().index()+1;
+	var currentPage=location.href.split("?")[0];
+		return{
+			ntpagetag: {
+			    "lpos":"dest_pg_reco", 
+			    "lid" :"dest_pg_reco",
+				"referring_site":"RE",
+				"pos":index,
+				"page":currentPage
+			} 
+		}
+});
+
+//Lets help - Case
+cdc.util.addMetricsRule('.eotLetUsHelp li:first-child a[href]',{
+    "lpos":"dest_pg_help", 
+    "lid" :"dest_pg_help_case"
+});
+
+
+//Lets help - Contract
+cdc.util.addMetricsRule('.eotLetUsHelp li:last-child a[href]',{
+    "lpos":"dest_pg_help", 
+    "lid" :"dest_pg_help_contract"
+});
+
+/*
+//More support
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_more_sup", 
+    "lid" :"dest_pg_more_sup"
+});
+*/
+
+//Community Discussions
+cdc.util.addMetricsRule('#eotCommunityDisc li a[href]',{
+    "lpos":"dest_pg_community", 
+    "lid" :"dest_pg_community"
+});
+
+cdc.util.addMetricsRule('#eotCommunityDisc .supportCommunityLink a[href]',{
+    "lpos":"dest_pg_community", 
+    "lid" :"dest_pg_community"
+});
+
+//Doc applies to these products
+cdc.util.addMetricsRule('.eot-tdatp li a[href]',{
+    "lpos":"dest_pg_applies_to_prod", 
+    "lid" :"dest_pg_applies_to_prod"
+});
+
+/*
+//share
+cdc.util.addMetricsRule('#s10v1 ul.share li a[href]',{
+    "lpos":"dest_pg_share", 
+    "lid" :"dest_pg_share"
+});
+
+*/
+
+// google
+cdc.util.addMetricsRule('#sbt-googleplus a[href]',{
+    "lpos":"dest_pg_share", 
+    "lid" :"dest_pg_share",
+    "linktext":"google plus"
+});
+
+// twitter
+cdc.util.addMetricsRule('#sbt-twitter a[href]',{
+    "lpos":"dest_pg_share", 
+    "lid" :"dest_pg_share",
+    "linktext":"twitter"
+   
+});
+
+// facebook
+cdc.util.addMetricsRule('#sbt-facebook a[href]',{
+    "lpos":"dest_pg_share", 
+    "lid" :"dest_pg_share",
+    "linktext":"facebook"
+});
+
+// linkedin
+cdc.util.addMetricsRule('#sbt-linkedin a[href]',{
+    "lpos":"dest_pg_share", 
+    "lid" :"dest_pg_share",
+    "linktext":"linkedin"
+});
+
+//yahoo
+cdc.util.addMetricsRule('#sbt-myyahoo a[href]',{
+    "lpos":"dest_pg_share", 
+    "lid" :"dest_pg_share",
+    "linktext":"myyahoo"
+});
+
+//mail
+cdc.util.addMetricsRule('#sbt-email a[href]',{
+    "lpos":"dest_pg_share", 
+    "lid" :"dest_pg_share",
+    "linktext":"email"
+});
+//Short URL
+cdc.util.addMetricsRule('#shortUrlComponent a[href]',{
+    "lpos":"dest_pg_shorturl", 
+    "lid" :"dest_pg_shorturl"
+});
+
+/*following are for teaser pages. keeping them commented now in case they are needed later
+//Login
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_te_login", 
+    "lid" :"dest_pg_te_login_top or dest_pg_te_login_bottom"
+});
+
+
+//Why
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_te_why", 
+    "lid" :"dest_pg_te_why_top or dest_pg_te_why_bottom"
+});
+
+
+//Learn More About Cisco Service Contracts
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_te_learn", 
+    "lid" :"dest_pg_te_learn_top or dest_pg_te_learn_bottom or dest_pg_te_learn_why"
+});
+
+
+//Create a Cisco Account
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_te_create", 
+    "lid" :"dest_pg_te_create"
+});
+
+
+//Forgot Password?
+cdc.util.addMetricsRule('',{
+    "lpos":"dest_pg_te_pwd", 
+    "lid" :"dest_pg_te_pwd"
+});
+*/
+
+// Related information
+
+cdc.util.addMetricsRule('#eot-doc-wrapper ul li a',{
+
+    "lpos":"dest_pg_body", 
+
+    "lid" :"dest_pg_rel_info"
+
+});
+//table of contents anchors for EOT Xmart
+cdc.util.addMetricsRule('#eot-doc-wrapper ul.simple li a',{
+
+    "lpos":"dest_pg_body", 
+    "lid" :"dest_pg_table"
+
+});
+
+// table of contents anchors for EOT
+cdc.util.addMetricsRule('#eot-doc-wrapper #support-toc a',{
+
+    "lpos":"dest_pg_body", 
+    "lid" :"dest_pg_table"
+
+});
+/**************************************************************************
+ Preview page metrics : added as part of BR_APEX_1 December Release
+ **************************************************************************/
+
+// bread crumb
+cdc.util.addMetricsRule('.cdc-eot-prev #fw-breadcrumb li a[href]',{
+    "lpos":"prev_pg_breadcrumb", 
+    "lid" :"prev_pg_breadcrumb"
+});
+
+
+//Back to all docs
+cdc.util.addMetricsRule('.cdc-eot-prev #fw-backtolink a[href]',{
+    "lpos":"prev_pg_backtoalldocs", 
+    "lid" :"prev_pg_backtoalldocs"
+});
+
+// download document
+cdc.util.addMetricsRule('.cdc-eot-prev .downloadDocument .anchor',{
+    "lpos":"prev_pg_expand", 
+    "lid" :"prev_pg_expand_dldoc"
+});
+
+//Download pdf (after expanding)
+cdc.util.addMetricsRule('.cdc-eot-prev .docHeaderComponent .download-pdf',{
+    "lpos":"prev_pg_dl", 
+    "lid" :"prev_pg_dl_pdf"
+});
+
+//Download epub (after expanding)
+cdc.util.addMetricsRule('.cdc-eot-prev .docHeaderComponent .download-epub',{
+    "lpos":"prev_pg_dl", 
+    "lid" :"prev_pg_dl_epub"
+});
+
+//Download mobi (after expanding)
+cdc.util.addMetricsRule('.cdc-eot-prev .docHeaderComponent .download-mobi',{
+    "lpos":"prev_pg_dl", 
+    "lid" :"prev_pg_dl_mobi"
+});
+
+// print
+cdc.util.addMetricsRule('.cdc-eot-prev .docHeaderComponent .printPage',{
+    "lpos":"prev_pg_print", 
+    "lid" :"prev_pg_print"
+});
+
+// table of contents
+cdc.util.addMetricsRule('.cdc-eot-prev #support-toc a[href]',{
+    "lpos":"prev_pg_body", 
+    "lid" :"prev_pg_table"
+});
+
+// Body links
+cdc.util.addMetricsRule('.cdc-eot-prev #eot-doc-wrapper a[href]',{
+    "lpos":"prev_pg_body", 
+    "lid" :"prev_pg_body_links"
+});
+
+//rating
+cdc.util.addMetricsRule('.cdc-eot-prev .eot-feedback button.eot-feedback-btn',{
+    "lpos":"prev_pg_rating", 
+    "lid" :"prev_pg_rating"
+});
+
+
+//feedback
+cdc.util.addMetricsRule('.cdc-eot-prev .eot-feedback a.eot-feedback-ol[href]',{
+    "lpos":"prev_pg_feedback", 
+    "lid" :"prev_pg_feedback"
+});
+
+
+//recommendation
+cdc.util.addMetricsRule('.cdc-eot-prev .eot-vav li a[href]',{
+    "lpos":"prev_pg_reco", 
+    "lid" :"prev_pg_reco"
+});
+
+
+//Lets help - Case
+cdc.util.addMetricsRule('.cdc-eot-prev .eotLetUsHelp li:first-child a[href]',{
+    "lpos":"prev_pg_help", 
+    "lid" :"prev_pg_help_case"
+});
+
+
+//Lets help - Contract
+cdc.util.addMetricsRule('.cdc-eot-prev .eotLetUsHelp li:last-child a[href]',{
+    "lpos":"prev_pg_help", 
+    "lid" :"prev_pg_help_contract"
+});
+
+/*
+//More support
+cdc.util.addMetricsRule('.cdc-eot-prev ',{
+    "lpos":"prev_pg_more_sup", 
+    "lid" :"prev_pg_more_sup"
+});
+*/
+
+//Community Discussions
+cdc.util.addMetricsRule('.cdc-eot-prev #eotCommunityDisc li a[href]',{
+    "lpos":"prev_pg_community", 
+    "lid" :"prev_pg_community"
+});
+
+cdc.util.addMetricsRule('.cdc-eot-prev #eotCommunityDisc .supportCommunityLink a[href]',{
+    "lpos":"prev_pg_community", 
+    "lid" :"prev_pg_community"
+});
+
+//Doc applies to these products
+cdc.util.addMetricsRule('.cdc-eot-prev .eot-tdatp li a[href]',{
+    "lpos":"prev_pg_applies_to_prod", 
+    "lid" :"prev_pg_applies_to_prod"
+});
+
+/*
+//share
+cdc.util.addMetricsRule('.cdc-eot-prev #s10v1 ul.share li a[href]',{
+    "lpos":"prev_pg_share", 
+    "lid" :"prev_pg_share"
+});
+
+*/
+
+// google
+cdc.util.addMetricsRule('.cdc-eot-prev #sbt-googleplus a[href]',{
+    "lpos":"prev_pg_share", 
+    "lid" :"prev_pg_share",
+    "linktext":"google plus"
+});
+
+// twitter
+cdc.util.addMetricsRule('.cdc-eot-prev #sbt-twitter a[href]',{
+    "lpos":"prev_pg_share", 
+    "lid" :"prev_pg_share",
+    "linktext":"twitter"
+   
+});
+
+// facebook
+cdc.util.addMetricsRule('.cdc-eot-prev #sbt-facebook a[href]',{
+    "lpos":"prev_pg_share", 
+    "lid" :"prev_pg_share",
+    "linktext":"facebook"
+});
+
+// linkedin
+cdc.util.addMetricsRule('.cdc-eot-prev #sbt-linkedin a[href]',{
+    "lpos":"prev_pg_share", 
+    "lid" :"prev_pg_share",
+    "linktext":"linkedin"
+});
+
+//yahoo
+cdc.util.addMetricsRule('.cdc-eot-prev #sbt-myyahoo a[href]',{
+    "lpos":"prev_pg_share", 
+    "lid" :"prev_pg_share",
+    "linktext":"myyahoo"
+});
+
+//Short URL
+cdc.util.addMetricsRule('.cdc-eot-prev #shortUrlComponent a[href]',{
+    "lpos":"prev_pg_shorturl", 
+    "lid" :"prev_pg_shorturl"
+});
+
+//view full document
+cdc.util.addMetricsRule('#eot-preview-messaging p.viewfull a[href]',{
+	"lpos":"prev_pg_login",
+	"lid" :"prev_pg_login"
+});
+
+//Learn More About Cisco Service Contracts
+cdc.util.addMetricsRule('#eot-preview-messaging a.learn-service-contract[href]',{
+	"lpos":"prev_pg_learn",
+	"lid" :"prev_pg_learn"
+});
+
+//Link your service contract
+cdc.util.addMetricsRule('#eot-preview-messaging a.link-service-contract[href]',{
+	"lpos":"prev_pg_linktocont",
+	"lid" :"prev_pg_linktocont"
+});
+
+//metrics tracking for EOT glob icon
+cdc.util.addMetricsRule('.language-link.anchor',{
+	"lpos":"dest_pg_english",
+	"lid" :"dest_pg_english"
+});
+
+//metrics tracking for EOT about translation link
+cdc.util.addMetricsRule('.aboutTranslation a',{
+	"lpos":"dest_pg_abt_translation",
+	"lid" :"dest_pg_abt_translation"
+});
+
+// card - 13000 additions
+
+cdc.util.addMetricsRule('.availableLanguagesList ul li a[href]',{
+        "lpos":"dest_pg_other_lang",
+        "lid" :"dest_pg_other_lang"
+}); 
+cdc.util.addMetricsRule('body:not(.nonEnglishLocale) .language:not(.active) a',{
+        "lpos":"dest_pg_expand",
+        "lid" :"dest_pg_other_lang_open"
+});
+
+cdc.util.addMetricsRule('.language.active a',{
+        "lpos":"dest_pg_expand",
+        "lid" :"dest_pg_other_lang_close"
+});
+cdc.util.addMetricsRule('body:not(.nonEnglishLocale) .language:not(.active) a .anchor',{
+        "lpos":"dest_pg_expand",
+        "lid" :"dest_pg_other_lang_open"
+});
+cdc.util.addMetricsRule('.language.active a .anchor',{
+        "lpos":"dest_pg_expand",
+        "lid" :"dest_pg_other_lang_close"
+});
+cdc.util.addMetricsRule('.availableLanguagesList  button.close-button',{
+        "lpos":"dest_pg_expand",
+        "lid" :"dest_pg_other_lang_close",
+        "linktext":"close"
+});

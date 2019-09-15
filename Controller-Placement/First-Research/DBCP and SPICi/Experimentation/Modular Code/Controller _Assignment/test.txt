@@ -1,0 +1,145 @@
+DEBUG:
+1.txt
+Enter number of nodes and edges:
+Enter edges (u v cost)
+DIAMETER: 9
+2.7
+K:   3
+Controllers:
+6(6.34314)  35(10.2083)  8(7.56667)
+3.2
+K:   2
+Controllers:
+35(10.1667)  8(8.02083)
+3.7
+K:   2
+Controllers:
+35(10.1667)  8(8.02083)
+4.2
+K:   2
+Controllers:
+8(6.375)  35(10.6875)
+2.txt
+Enter number of nodes and edges:
+Enter edges (u v cost)
+DIAMETER: 8
+2.4
+K:   2
+Controllers:
+37(7.73333)  39(8.91667)
+2.9
+K:   2
+Controllers:
+37(7.73333)  39(8.91667)
+3.4
+K:   2
+Controllers:
+4(7.5754)  39(9.12302)
+3.9
+K:   2
+Controllers:
+4(7.5754)  39(9.12302)
+3.txt
+Enter number of nodes and edges:
+Enter edges (u v cost)
+DIAMETER: 13
+3.9
+K:   1
+Controllers:
+0(999999)
+4.4
+K:   3
+Controllers:
+23(13.9091)  48(9.75325)  36(5.98182)
+4.9
+K:   3
+Controllers:
+23(13.9091)  48(9.75325)  36(5.98182)
+5.4
+K:   4
+Controllers:
+24(6.61818)  44(3.94915)  47(5.19298)  16(13.3007)
+5.9
+K:   4
+Controllers:
+24(6.61818)  44(3.94915)  47(5.19298)  16(13.3007)
+6.4
+K:   4
+Controllers:
+47(6.78571)  5(7.21024)  20(8.46533)  54(14.4072)
+4.txt
+Enter number of nodes and edges:
+Enter edges (u v cost)
+DIAMETER: 9
+2.7
+K:   6
+Controllers:
+32(7.18462)  12(6.91075)  21(8.51926)  16(6.55385)  61(6.26154)  65(9.51429)
+3.2
+K:   4
+Controllers:
+3(5.29545)  12(6.55385)  15(6.95)  65(10.7657)
+3.7
+K:   4
+Controllers:
+3(5.29545)  12(6.55385)  15(6.95)  65(10.7657)
+4.2
+K:   2
+Controllers:
+61(7.78333)  1(10.35)
+5.txt
+Enter number of nodes and edges:
+Enter edges (u v cost)
+DIAMETER: 8
+2.4
+K:   4
+Controllers:
+17(9.78545)  41(6.27778)  43(7.57143)  16(6.4364)
+2.9
+K:   4
+Controllers:
+17(9.78545)  41(6.27778)  43(7.57143)  16(6.4364)
+3.4
+K:   2
+Controllers:
+17(9.67117)  41(6.21622)
+3.9
+K:   2
+Controllers:
+17(9.67117)  41(6.21622)
+6.txt
+Enter number of nodes and edges:
+Enter edges (u v cost)
+DIAMETER: 8
+2.4
+K:   6
+Controllers:
+35(7.48077)  38(7.84815)  78(9.32106)  75(7.6168)  79(6.17284)  85(6.40698)
+2.9
+K:   6
+Controllers:
+35(7.48077)  38(7.84815)  78(9.32106)  75(7.6168)  79(6.17284)  85(6.40698)
+3.4
+K:   2
+Controllers:
+78(9.66667)  62(6.20238)
+3.9
+K:   2
+Controllers:
+78(9.66667)  62(6.20238)
+7.txt
+Enter number of nodes and edges:
+Enter edges (u v cost)
+DIAMETER: 7
+2.1
+K:   3
+Controllers:
+6(6.10753)  47(6.41848)  62(9.74118)
+2.6
+K:   3
+Controllers:
+6(6.10753)  47(6.41848)  62(9.74118)
+3.1
+K:   3
+Controllers:
+83(8.15946)  6(6.23963)  62(9.64035)

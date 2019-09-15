@@ -1,0 +1,1389 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.6)  23 AUG 2017 02:39
+entering extended mode
+**dacdoc_6.8.17.tex
+
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\dacdoc_6.8.17.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\dacauth.cls"
+Document Class: dacauth 2010/03/27 v2.00\ dacauth.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count88
+\rotFPtop=\skip43
+\rotFPbot=\skip44
+\rot@float@box=\box26
+\rot@mess@toks=\toks15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count89
+\calc@Bcount=\count90
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count91
+\calc@Cskip=\skip47
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen107
+\lightrulewidth=\dimen108
+\cmidrulewidth=\dimen109
+\belowrulesep=\dimen110
+\belowbottomsep=\dimen111
+\aboverulesep=\dimen112
+\abovetopsep=\dimen113
+\cmidrulesep=\dimen114
+\cmidrulekern=\dimen115
+\defaultaddspace=\dimen116
+\@cmidla=\count92
+\@cmidlb=\count93
+\@aboverulesep=\dimen117
+\@belowrulesep=\dimen118
+\@thisruleclass=\count94
+\@lastruleclass=\count95
+\@thisrulewidth=\dimen119
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen120
+)
+\pmbraise@=\dimen121
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen122
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks18
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks19
+\eqnshift@=\dimen123
+\alignsep@=\dimen124
+\tagshift@=\dimen125
+\tagwidth@=\dimen126
+\totwidth@=\dimen127
+\lineht@=\dimen128
+\@envbody=\toks20
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip51
+\thm@postskip=\skip52
+\thm@headsep=\skip53
+\dth@everypar=\toks27
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\tracefnt.sty"
+Package: tracefnt 1997/05/29 v3.0j Standard LaTeX package (font tracing)
+\tracingfonts=\count108
+LaTeX Info: Redefining \selectfont on input line 101.
+)
+\absbox=\box29
+\@bls=\dimen129
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen130
+\captionmargin@=\dimen131
+\captionwidth=\dimen132
+\caption@tempdima=\dimen133
+\caption@indent=\dimen134
+\caption@parindent=\dimen135
+\caption@hangindent=\dimen136
+)
+\c@ContinuedFloat=\count109
+Package caption Info: rotating package is loaded.
+)
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.3> not available
+(Font)              size <10> substituted on input line 380.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen137
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen138
+\extrarowheight=\dimen139
+\NC@list=\toks30
+\extratabsurround=\skip54
+\backup@length=\skip55
+)
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen140
+\enit@toks=\toks31
+\enit@inbox=\box30
+\enitdp@description=\count110
+)
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\makecell.sty"
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen141
+\c@nlinenum=\count111
+\TeXr@lab=\toks32
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\moreverb\moreverb.sty"
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks33
+\verbatim@line=\toks34
+\verbatim@in@stream=\read1
+)
+\tab@position=\count112
+\tab@size=\count113
+\listing@line=\count114
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks35
+\float@box=\box31
+\@float@everytoks=\toks36
+\@floatcapt=\box32
+)
+\@float@every@algorithm=\toks37
+\c@algorithm=\count116
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count117
+\c@ALG@rem=\count118
+\c@ALG@nested=\count119
+\ALG@tlm=\skip57
+\ALG@thistlm=\skip58
+\c@ALG@Lnr=\count120
+\c@ALG@blocknr=\count121
+\c@ALG@storecount=\count122
+\c@ALG@tmpcounter=\count123
+\ALG@tmplength=\skip59
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count124
+\c@subtable=\count125
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count126
+\Hy@pagecounter=\count127
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count128
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count129
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count130
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count131
+\c@Item=\count132
+\c@Hfootnote=\count133
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count134
+\c@bookmark@seq@number=\count135
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip60
+)
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\dacdoc_6.8.17.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 38.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count136
+\scratchdimen=\dimen145
+\scratchbox=\box33
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen146
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks39
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 38.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count142
+)
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
+
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\dacdoc_6.8.17.out")
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\dacdoc_6.8.17.out")
+\@outlinefile=\write3
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9.5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 55.
+LaTeX Font Info:    Calculating math sizes for size <10.3> on input line 55.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.20996> not available
+(Font)              size <7> substituted on input line 55.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.15> not available
+(Font)              size <5> substituted on input line 55.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.3> not available
+(Font)              size <10> substituted on input line 55.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.20996> not available
+(Font)              size <7> substituted on input line 55.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.15> not available
+(Font)              size <5> substituted on input line 55.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.3> not available
+(Font)              size <10> substituted on input line 55.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.20996> not available
+(Font)              size <7> substituted on input line 55.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.15> not available
+(Font)              size <5> substituted on input line 55.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <10.3> not available
+(Font)              size <10> substituted on input line 55.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <7.20996> not available
+(Font)              size <7> substituted on input line 55.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.15> not available
+(Font)              size <5> substituted on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 60.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 60.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.94997> not available
+(Font)              size <6> substituted on input line 60.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.25> not available
+(Font)              size <5> substituted on input line 60.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
+(Font)              size <8> substituted on input line 60.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.94997> not available
+(Font)              size <6> substituted on input line 60.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.25> not available
+(Font)              size <5> substituted on input line 60.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 60.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.94997> not available
+(Font)              size <6> substituted on input line 60.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.25> not available
+(Font)              size <5> substituted on input line 60.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 60.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.94997> not available
+(Font)              size <6> substituted on input line 60.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <4.25> not available
+(Font)              size <5> substituted on input line 60.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.3> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+
+
+LaTeX Warning: Citation `doppler2009device' on page 1 undefined on input line 6
+8.
+
+
+LaTeX Warning: Citation `fodor' on page 1 undefined on input line 68.
+
+
+LaTeX Warning: Citation `stefania' on page 1 undefined on input line 68.
+
+
+LaTeX Warning: Citation `asadi2014survey' on page 1 undefined on input line 72.
+
+
+
+LaTeX Warning: Citation `min' on page 1 undefined on input line 72.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8.5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 73.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 73.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `zulhasnine' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `lora' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `kleinberg2011algorithm' on page 2 undefined on input l
+ine 77.
+
+
+LaTeX Warning: Citation `dara' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `zhang' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `ccnc' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `relax' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `asadi2014survey' on page 2 undefined on input line 77.
+
+
+
+LaTeX Warning: Citation `seidel20133gpp' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `onlined2d' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `xu2014dynamic' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `knuth1976mariages' on page 2 undefined on input line 8
+1.
+
+
+LaTeX Warning: Citation `hungarian' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Citation `karp1990optimal' on page 2 undefined on input line 81.
+
+
+
+LaTeX Warning: Citation `hungarian' on page 2 undefined on input line 81.
+
+[2]
+
+LaTeX Warning: Citation `ali2016' on page 3 undefined on input line 95.
+
+
+LaTeX Warning: Citation `alkurd2014survey' on page 3 undefined on input line 95
+.
+
+
+LaTeX Warning: Citation `asadi2014survey' on page 3 undefined on input line 95.
+
+
+
+LaTeX Warning: Citation `zulhasnine' on page 3 undefined on input line 102.
+
+[3]
+
+LaTeX Warning: Citation `lora' on page 4 undefined on input line 106.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 4 undefined on input line 106.
+
+
+LaTeX Warning: Citation `dara' on page 4 undefined on input line 110.
+
+
+LaTeX Warning: Citation `stable' on page 4 undefined on input line 110.
+
+
+LaTeX Warning: Citation `zhang' on page 4 undefined on input line 114.
+
+
+LaTeX Warning: Citation `ccnc' on page 4 undefined on input line 118.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 4 undefined on input line 129.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]|\OT1/ptm/m/n/10.3 Greedy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\OT1/ptm/m/n/10.3 Heuris-tic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[]|\OT1/ptm/m/n/10.3 Uplink /
+ []
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.3> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.3> not available
+(Font)              size <10> substituted on input line 131.
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+\OT1/ptm/m/n/10.3 Qual-ity Iden-ti-fier)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+\OT1/ptm/m/n/10.3 as eval-u-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[]|$\OML/cmm/m/it/10 O\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 )$ \
+OT1/ptm/m/n/10.3 for
+ []
+
+
+LaTeX Warning: Citation `lora' on page 4 undefined on input line 143.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 4 undefined on input line 147.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]\OT1/ptm/m/n/10.3 Performance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+\OT1/ptm/m/n/10.3 depends on then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+\OT1/ptm/m/n/10.3 ini-tial fea-si-ble
+ []
+
+
+LaTeX Warning: Citation `dara' on page 4 undefined on input line 157.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+[]\OT1/ptm/m/n/10.3 Stable match-ing
+ []
+
+
+LaTeX Warning: Citation `zhang' on page 4 undefined on input line 172.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]|\OT1/ptm/m/n/10.3 Graph-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+[]\OT1/ptm/m/n/10.3 Maximum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+\OT1/ptm/m/n/10.3 weight match-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+[]\OT1/ptm/m/n/10.3 Use sum-rate as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/ptm/m/n/10.3 is num-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/ptm/m/n/10.3 of D2D
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/ptm/m/n/10.3 is num-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/ptm/m/n/10.3 of cel-lu-lar
+ []
+
+
+LaTeX Warning: Citation `ccnc' on page 4 undefined on input line 182.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+[]\OT1/ptm/m/n/10.3 Weighted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+\OT1/ptm/m/n/10.3 bipar-tite match-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+[]|\OT1/ptm/m/n/10.3 Computationally
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `cai' on page 4 undefined on input line 200.
+
+
+LaTeX Warning: Citation `icc' on page 4 undefined on input line 200.
+
+
+LaTeX Warning: Citation `islam2016radio' on page 4 undefined on input line 200.
+
+
+
+LaTeX Warning: Citation `islam2015reducing' on page 4 undefined on input line 2
+00.
+
+
+LaTeX Warning: Citation `islam2015reducing' on page 4 undefined on input line 2
+00.
+
+
+LaTeX Warning: Citation `islam2016radio' on page 4 undefined on input line 200.
+
+
+
+LaTeX Warning: Citation `icc' on page 4 undefined on input line 200.
+
+
+LaTeX Warning: Citation `janis' on page 4 undefined on input line 200.
+
+
+LaTeX Warning: Citation `min2011capacity' on page 4 undefined on input line 200
+.
+
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+
+LaTeX Warning: Citation `feng' on page 6 undefined on input line 203.
+
+
+LaTeX Warning: Citation `huang_game' on page 6 undefined on input line 203.
+
+
+LaTeX Warning: Citation `huang' on page 6 undefined on input line 207.
+
+
+LaTeX Warning: Citation `overlaid' on page 6 undefined on input line 207.
+
+
+LaTeX Warning: Citation `yu' on page 6 undefined on input line 207.
+
+
+LaTeX Warning: Citation `asadi2014survey' on page 6 undefined on input line 207
+.
+
+
+LaTeX Warning: Citation `liu2015device' on page 6 undefined on input line 207.
+
+
+LaTeX Warning: Citation `alkurd2014survey' on page 6 undefined on input line 20
+7.
+
+
+LaTeX Warning: Citation `ali2016' on page 6 undefined on input line 207.
+
+<Graph/System_Model_Downlink.jpg, id=130, 467.8278pt x 410.9754pt>
+File: Graph/System_Model_Downlink.jpg Graphic file (type jpg)
+
+<use Graph/System_Model_Downlink.jpg>
+Package pdftex.def Info: Graph/System_Model_Downlink.jpg used on input line 219
+.
+(pdftex.def)             Requested size: 199.16928pt x 174.96637pt.
+
+
+LaTeX Warning: Citation `lora' on page 6 undefined on input line 269.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 6 undefined on input line 269.
+
+
+LaTeX Warning: Citation `dara' on page 6 undefined on input line 269.
+
+[6]
+
+LaTeX Warning: Citation `lora' on page 7 undefined on input line 281.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 7 undefined on input line 281.
+
+
+LaTeX Warning: Citation `dara' on page 7 undefined on input line 281.
+
+<Graph/s1.png, id=139, 709.2096pt x 543.9522pt>
+File: Graph/s1.png Graphic file (type png)
+ <use Graph/s1.png>
+Package pdftex.def Info: Graph/s1.png used on input line 336.
+(pdftex.def)             Requested size: 134.64075pt x 103.26068pt.
+
+<Graph/s2.png, id=141, 708.7278pt x 543.4704pt>
+File: Graph/s2.png Graphic file (type png)
+ <use Graph/s2.png>
+Package pdftex.def Info: Graph/s2.png used on input line 336.
+(pdftex.def)             Requested size: 134.64075pt x 103.24385pt.
+
+<Graph/s5.png, id=142, 708.7278pt x 543.4704pt>
+File: Graph/s5.png Graphic file (type png)
+ <use Graph/s5.png>
+Package pdftex.def Info: Graph/s5.png used on input line 336.
+(pdftex.def)             Requested size: 134.64075pt x 103.24385pt.
+
+Overfull \hbox (12.22223pt too wide) in paragraph at lines 336--338
+[][] 
+ []
+
+
+LaTeX Warning: Citation `zulhasnine' on page 7 undefined on input line 365.
+
+[7 <E:/Saki Research/sakiNewJournal/Journal_Writing/First_submission(LCN)/sakiN
+ewJournalv1/Graph/System_Model_Downlink.jpg>]
+
+LaTeX Warning: Citation `zulhasnine' on page 8 undefined on input line 376.
+
+[8 <E:/Saki Research/sakiNewJournal/Journal_Writing/First_submission(LCN)/sakiN
+ewJournalv1/Graph/s1.png> <E:/Saki Research/sakiNewJournal/Journal_Writing/Firs
+t_submission(LCN)/sakiNewJournalv1/Graph/s2.png> <E:/Saki Research/sakiNewJourn
+al/Journal_Writing/First_submission(LCN)/sakiNewJournalv1/Graph/s5.png>]
+
+LaTeX Warning: Citation `knuth1976mariages' on page 9 undefined on input line 4
+23.
+
+[9]
+
+LaTeX Warning: Citation `dara' on page 10 undefined on input line 455.
+
+
+LaTeX Warning: Citation `knuth1976mariages' on page 10 undefined on input line 
+485.
+
+[10] [11]
+
+LaTeX Warning: Citation `kleinberg2011algorithm' on page 12 undefined on input 
+line 513.
+
+
+LaTeX Warning: Citation `dara' on page 12 undefined on input line 513.
+
+
+LaTeX Warning: Citation `lora' on page 12 undefined on input line 513.
+
+
+LaTeX Warning: Citation `hungarian' on page 12 undefined on input line 513.
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 575.
+<Graph/P1.jpg, id=247, 425.4294pt x 253.9086pt>
+File: Graph/P1.jpg Graphic file (type jpg)
+ <use Graph/P1.jpg>
+Package pdftex.def Info: Graph/P1.jpg used on input line 698.
+(pdftex.def)             Requested size: 130.56299pt x 77.92436pt.
+
+<Graph/P3.jpg, id=248, 425.4294pt x 253.9086pt>
+File: Graph/P3.jpg Graphic file (type jpg)
+ <use Graph/P3.jpg>
+Package pdftex.def Info: Graph/P3.jpg used on input line 698.
+(pdftex.def)             Requested size: 130.56299pt x 77.92436pt.
+
+<Graph/P2.jpg, id=249, 425.4294pt x 253.9086pt>
+File: Graph/P2.jpg Graphic file (type jpg)
+ <use Graph/P2.jpg>
+Package pdftex.def Info: Graph/P2.jpg used on input line 698.
+(pdftex.def)             Requested size: 130.56299pt x 77.92436pt.
+
+<Graph/Hungarian.JPG, id=250, 642.90187pt x 335.75438pt>
+File: Graph/Hungarian.JPG Graphic file (type jpg)
+
+<use Graph/Hungarian.JPG>
+Package pdftex.def Info: Graph/Hungarian.JPG used on input line 731.
+(pdftex.def)             Requested size: 130.5597pt x 99.58461pt.
+
+<Graph/proposed1.JPG, id=251, 642.90187pt x 336.50719pt>
+File: Graph/proposed1.JPG Graphic file (type jpg)
+
+<use Graph/proposed1.JPG>
+Package pdftex.def Info: Graph/proposed1.JPG used on input line 731.
+(pdftex.def)             Requested size: 130.5597pt x 99.58197pt.
+
+<Graph/proposed2.JPG, id=252, 643.6547pt x 335.00156pt>
+File: Graph/proposed2.JPG Graphic file (type jpg)
+
+<use Graph/proposed2.JPG>
+Package pdftex.def Info: Graph/proposed2.JPG used on input line 731.
+(pdftex.def)             Requested size: 130.56525pt x 99.58113pt.
+ [12]
+
+LaTeX Warning: Citation `dara' on page 13 undefined on input line 745.
+
+
+LaTeX Warning: Citation `stable' on page 13 undefined on input line 745.
+
+[13 <E:/Saki Research/sakiNewJournal/Journal_Writing/First_submission(LCN)/saki
+NewJournalv1/Graph/P1.jpg> <E:/Saki Research/sakiNewJournal/Journal_Writing/Fir
+st_submission(LCN)/sakiNewJournalv1/Graph/P3.jpg> <E:/Saki Research/sakiNewJour
+nal/Journal_Writing/First_submission(LCN)/sakiNewJournalv1/Graph/P2.jpg> <E:/Sa
+ki Research/sakiNewJournal/Journal_Writing/First_submission(LCN)/sakiNewJournal
+v1/Graph/Hungarian.JPG> <E:/Saki Research/sakiNewJournal/Journal_Writing/First_
+submission(LCN)/sakiNewJournalv1/Graph/proposed1.JPG> <E:/Saki Research/sakiNew
+Journal/Journal_Writing/First_submission(LCN)/sakiNewJournalv1/Graph/proposed2.
+JPG>]
+
+LaTeX Warning: Citation `lora' on page 14 undefined on input line 752.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 14 undefined on input line 752.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 14 undefined on input line 752.
+
+
+LaTeX Warning: Citation `hungarian' on page 14 undefined on input line 760.
+
+
+LaTeX Warning: Citation `zhang' on page 14 undefined on input line 760.
+
+
+LaTeX Warning: Citation `feng' on page 14 undefined on input line 760.
+
+
+LaTeX Warning: Citation `ccnc' on page 14 undefined on input line 760.
+
+
+LaTeX Warning: Citation `hungarian' on page 14 undefined on input line 760.
+
+
+LaTeX Warning: Citation `lora' on page 14 undefined on input line 771.
+
+
+LaTeX Warning: Citation `zulhasnine' on page 14 undefined on input line 771.
+
+
+LaTeX Warning: Citation `dara' on page 14 undefined on input line 771.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 775.
+
+
+LaTeX Warning: Citation `salvador2003multiscale' on page 14 undefined on input 
+line 874.
+
+
+LaTeX Warning: Citation `stewart1994introduction' on page 14 undefined on input
+ line 874.
+
+[14] <Graph/sumRateFair.jpg, id=273, 669.2202pt x 511.1898pt>
+File: Graph/sumRateFair.jpg Graphic file (type jpg)
+
+<use Graph/sumRateFair.jpg>
+Package pdftex.def Info: Graph/sumRateFair.jpg used on input line 893.
+(pdftex.def)             Requested size: 256.08311pt x 184.9408pt.
+
+<Graph/changesFair.jpg, id=274, 680.7834pt x 511.1898pt>
+File: Graph/changesFair.jpg Graphic file (type jpg)
+
+<use Graph/changesFair.jpg>
+Package pdftex.def Info: Graph/changesFair.jpg used on input line 905.
+(pdftex.def)             Requested size: 256.07224pt x 184.9408pt.
+
+<Graph/sumRateRestricted.jpg, id=275, 673.0746pt x 505.4082pt>
+File: Graph/sumRateRestricted.jpg Graphic file (type jpg)
+
+<use Graph/sumRateRestricted.jpg>
+Package pdftex.def Info: Graph/sumRateRestricted.jpg used on input line 919.
+(pdftex.def)             Requested size: 256.06883pt x 184.93903pt.
+
+<Graph/ChangesRestricted.jpg, id=276, 675.0018pt x 499.6266pt>
+File: Graph/ChangesRestricted.jpg Graphic file (type jpg)
+
+<use Graph/ChangesRestricted.jpg>
+Package pdftex.def Info: Graph/ChangesRestricted.jpg used on input line 932.
+(pdftex.def)             Requested size: 256.07076pt x 184.94281pt.
+ [15 <E:/Saki Research/sakiNewJournal/Journal_Writing/First_submission(LCN)/sak
+iNewJournalv1/Graph/sumRateFair.jpg>] [16 <E:/Saki Research/sakiNewJournal/Jour
+nal_Writing/First_submission(LCN)/sakiNewJournalv1/Graph/changesFair.jpg> <E:/S
+aki Research/sakiNewJournal/Journal_Writing/First_submission(LCN)/sakiNewJourna
+lv1/Graph/sumRateRestricted.jpg> <E:/Saki Research/sakiNewJournal/Journal_Writi
+ng/First_submission(LCN)/sakiNewJournalv1/Graph/ChangesRestricted.jpg>]
+No file dacdoc_6.8.17.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 965.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 965.
+
+("E:\Saki Research\sakiNewJournal\Journal_Writing\First_submission(LCN)\sakiNew
+Journalv1\dacdoc_6.8.17.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 965.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 965.
+Package rerunfilecheck Info: File `dacdoc_6.8.17.out' has not changed.
+(rerunfilecheck)             Checksum: 8D378E70DE34BBD848D6435A7BFA785D;1604.
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.75pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 965.
+ ) 
+Here is how much of TeX's memory you used:
+ 9023 strings out of 494045
+ 134508 string characters out of 3145961
+ 237685 words of memory out of 3000000
+ 12055 multiletter control sequences out of 15000+200000
+ 29953 words of font info for 70 fonts, out of 3000000 for 9000
+ 719 hyphenation exceptions out of 8191
+ 43i,19n,40p,3503b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic
+/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dacdoc_6.8.17.pdf (17 pages, 1912169 bytes).
+PDF statistics:
+ 382 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+

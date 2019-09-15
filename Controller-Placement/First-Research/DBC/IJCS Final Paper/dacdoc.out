@@ -1,0 +1,22 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background and Related Works}{}% 2
+\BOOKMARK [1][-]{section.3}{Problem Formulation}{}% 3
+\BOOKMARK [1][-]{section.4}{Existing Algorithms}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Density Based Controller Placement \(DBCP\)dbcp2017}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Speed and Performance In Clustering \(SPICi\)spici2010}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Proposed Algorithms}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Random Clustering with Local Search \(RCLS\)}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Greedy-SPICi}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.3}{Inverse-SPICi}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.4}{Modified-SPICi}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.5}{Scenario Specific Explanation}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Performance Evaluation}{}% 13
+\BOOKMARK [2][-]{subsection.6.1}{Simulation Environment}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.2}{Performance Metric}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.3}{Result Comparison}{section.6}% 16
+\BOOKMARK [3][-]{figure.caption.4}{Result Comparison for Un-weighted Graph}{subsection.6.3}% 17
+\BOOKMARK [3][-]{figure.caption.5}{Result Comparison for Weighted Graph}{subsection.6.3}% 18
+\BOOKMARK [2][-]{subsection.6.4}{Analysis on the number of controllers k}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.5}{Complexity Comparison}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.6}{Traffic-Awareness}{section.6}% 21
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 22

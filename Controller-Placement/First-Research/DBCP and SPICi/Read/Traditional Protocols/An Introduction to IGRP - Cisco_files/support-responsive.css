@@ -1,0 +1,283 @@
+
+/* PREVIEW PAGES */
+#eot-preview-content h2 {
+  margin-bottom: 10px;
+}
+
+/* GENERAL eot-doc-wrapper STYLES: LISTS, TABLES, IMAGES, ETC. */
+/* TOC Styles */
+#support-toc h2 {
+	border-bottom:4px solid #ccc;
+	width:450px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+#support-toc {
+	border-bottom:2px solid #ccc;
+	width:450px;
+	align:left;
+	valign:top;
+	margin-top:-10px;
+	padding-bottom:10px;
+	line-height:13px;
+}
+#support-toc .toc-h2 {
+	font-weight:bold;
+	margin-left: 2px;
+	margin-bottom:14px;
+}
+#support-toc .toc-h3 {
+	margin-left:20px;
+	margin-bottom:16px;
+}
+#support-toc .toc-h4 {
+	margin-left:35px;
+	margin-bottom:4px;
+}
+#eot-doc-wrapper a:hover {
+	text-decoration:underline;
+}
+#eot-doc-wrapper ol, #eot-doc-wrapper ul {  
+  margin:10px 0 10px 15px;
+}
+#eot-doc-wrapper ul {
+  list-style-type: disc;
+}
+#eot-doc-wrapper ol {
+  list-style-type: decimal;
+  list-style-position: inside; /*DE131621 and US103828 */
+}
+#eot-doc-wrapper li > ol {
+  list-style-type: lower-alpha;
+}
+#eot-doc-wrapper li { 
+    font-size: 14px; /* DE124186  */
+}
+#eot-doc-wrapper div{
+	font-size: 14px; /*DE124186*/
+}
+#eot-doc-wrapper *{
+    -webkit-overflow-scrolling: touch;  
+}
+@media (max-width: 1023px) {
+   /* #eot-doc-wrapper *, US93013*/#eot-doc-wrapper table,#eot-doc-wrapper table pre {
+        overflow-x:auto;
+        overflow-y:hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+    #eot-doc-wrapper table pre {
+      overflow:auto;
+      display:block;
+      word-wrap: break-word;
+      word-break:break-word;
+    }
+}
+#eot-doc-wrapper table {
+  width: 97% !important;
+  table-layout: fixed;
+  overflow: auto;
+  border:none; 
+  height: auto !important;
+  -webkit-overflow-scrolling: touch;
+  word-wrap: break-word;
+  word-break:break-word;
+ }
+#eot-doc-wrapper th, #eot-doc-wrapper td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-radius: 2px;
+  padding:5px 5px 5px 7px;
+  word-wrap: break-word;
+  word-break:break-word;
+}
+#eot-doc-wrapper th {
+  border-bottom: 2px solid #ccc;
+  border-collapse: collapse;
+  background-color: #E6E6E6;
+  font-weight: bold;
+}
+#eot-doc-wrapper blockquote {
+  padding-left: 10px;
+}
+#eot-doc-wrapper p.video {
+  max-width:97%;
+  overflow:auto;
+}
+#eot-doc-wrapper img {
+  width: auto !important;
+  height: auto !important;
+  max-width:97%;
+  position: relative;
+}
+#eot-doc-wrapper img[onclick] {
+  cursor: pointer;
+}
+#eot-doc-wrapper sup {
+  vertical-align: super;
+  font-size: 10px;
+  font-weight: bold;
+}
+#eot-doc-wrapper a[name] {
+    text-decoration:none;
+    color:inherit;
+}
+/* wrap long urls*/
+#eot-doc-wrapper a[href]
+{
+/*
+white-space: pre;
+white-space: pre-wrap;
+white-space: pre-line;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: -moz-pre-wrap; */
+font-size:14px;/*DE124186*/
+word-wrap: break-word;
+} 
+#eot-doc-wrapper pre, #eot-doc-wrapper code{
+  font-family: courier;
+  font-size:11px;
+  max-width:97%;
+  margin-top:10px;
+  padding-bottom:5px;
+  margin-bottom: 10px;
+}
+#eot-doc-wrapper pre {
+  overflow:auto;
+  display:block;
+  font-size:14px;
+  
+}
+#eot-doc-wrapper pre.wrap {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	white-space: normal;
+}
+#eot-doc-wrapper code {
+  word-wrap:break-word;
+}
+/* NOTES, TIPS, WARNINGS, CAUTION, EXIT */
+#eot-doc-wrapper p.note, #eot-doc-wrapper p.tip, #eot-doc-wrapper p.warning, #eot-doc-wrapper p.caution, 
+#eot-doc-wrapper div.note, #eot-doc-wrapper div.tip, #eot-doc-wrapper div.warning, #eot-doc-wrapper div.caution
+{
+    background-repeat:no-repeat;
+    background-position:2px 4px;
+    height:auto;
+    width:auto;
+    padding:10px 5px 10px 35px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    overflow-x:hidden;
+}
+
+#eot-doc-wrapper p.note, #eot-doc-wrapper div.note {
+    background-image:url('http://www.cisco.com/en/US/i/templates/note.gif');
+}
+#eot-doc-wrapper p.tip, #eot-doc-wrapper div.tip {
+    background-image:url('http://www.cisco.com/en/US/i/templates/tip.gif');
+}
+#eot-doc-wrapper p.warning, #eot-doc-wrapper div.warning {
+    background-image:url('http://www.cisco.com/en/US/i/templates/warn.gif');
+}
+#eot-doc-wrapper p.caution, #eot-doc-wrapper div.caution {
+    background-image:url('http://www.cisco.com/en/US/i/templates/caut.gif');
+}
+#eot-doc-wrapper a.exit {
+  background-image:url('/c/dam/en/us/support/web/images/exit.png');
+  background-position:100% 0;
+  background-repeat:no-repeat;
+  padding-right:15px;
+  target: _blank;
+  margin-right: 2px;
+}
+
+/*override style of support-docs.css*/ 
+#eot-doc-wrapper #support-toc{
+    width:100%;
+    word-wrap: break-word;
+    word-break:break-word; 
+}
+#eot-doc-wrapper #support-toc h2{
+    width:100%;
+    margin-top: 5px;
+}
+
+/* SUPPORT DOCS ONLY STYLES */
+@media (max-width: 650px) {
+  #eot-doc-wrapper table {
+    overflow:auto;
+    display:block;
+    border:none;
+    margin-bottom:5px;
+  }
+}
+.rightRailComponent a:link{
+	color:#0E748E;  /* value from $framework-link-color-normal */
+}
+
+/* FIELD NOTICE ONLY STYLES */
+/* Non-responsive FNs */
+#umpire-form-nonresponsive table, #umpire-form-nonresponsive tr, #umpire-form-nonresponsive td {
+  border:none;
+}
+#umpire-form-nonresponsive {
+  font-size: 12px;
+}
+
+/* Responsive FNs - currently not used */
+#umpireform textarea {
+  border: 1px solid #A4A4A4;
+  width: 250px;
+}
+#umpireform input[name="B1"], #umpireform input[name="B2"] {
+  padding: 2px 5px 2px 5px;
+}
+#umpireform input {
+  padding-left: 2px;
+  max-width: 100%;
+}
+#umpireform table {
+  width:100%;
+}
+.umpire-form-select {
+  width:175px;
+}
+@media (max-width: 650px) {
+  #umpireform td, #umpireform tr {
+    display:block;
+    border:none;
+    font-weight: bold;
+  }
+  #umpireform th {
+    display:block;
+  }
+  #umpireform td[data-title]:before {
+        /*content: attr(title) ":\00A0";*/
+        content: attr(data-title) ":\00A0 ";
+        font-style: italic;
+  }
+  #umpireform input {
+    padding-left: 2px;
+    max-width: 100%;
+  } 
+  #umpireform .umpire-form-productinfo {
+    display:none;
+  } 
+}
+
+html[lang="ja"] #eot-doc-wrapper p{font-size:14px;line-height:1.4em}
+
+html[lang="ja"] #eot-doc-wrapper #support-toc h2{
+                margin-top: 7px ; 
+  }
+  
+  /*DE124186*/
+#eot-doc-wrapper a[href] font 
+{
+font-size:14px;
+}

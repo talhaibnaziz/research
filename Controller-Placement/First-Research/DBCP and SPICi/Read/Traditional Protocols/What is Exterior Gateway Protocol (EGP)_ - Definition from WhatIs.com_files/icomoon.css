@@ -1,0 +1,247 @@
+@font-face {
+	font-family: 'TechTarget-Icon';
+	src:url('../../fonts/TechTarget-Icon.eot');
+	src:url('../../fonts/TechTarget-Icon.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/TechTarget-Icon.woff') format('woff'),
+		url('../../fonts/TechTarget-Icon.ttf') format('truetype'),
+		url('../../fonts/TechTarget-Icon.svg#TechTarget-Icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'TechTarget-Icon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+
+.playlist, .playincircle, .overflow, .alert,
+.white_pages, .video, .webcast, .twitter, .tech_target_eye, .tag, .share, .search, .reply, 
+.print, .podcast, .pictures, .partners, .next_steps, .menu, .mail, .arrow_forward, .arrow_up, 
+.article, .linkedin, .book, .chapter, .comments, .discussion1, .ebook, .enlarge, .external_link, 
+.facebook, .flag, .google_plus, .guide, .like, .info_definition, .arrow_down, .arrow_backward, 
+.double_arrow, .navigation_detail, .navigation_arrow, .download, .collapse, .expand, .close,
+.beyondthepage, .biexpertpanel, .bookshelf, .changeagent, .cioinnovators, .cissp, .datamill, 
+.garymcgraw, .hit, .intelligencefile, .letsgetthisstraight, .meaningfuluse, .networkingclassroom, 
+.networkinnovations, .oraclerevelations, .productofthemonth, .qualitytime, .rsaconference, .searchlight, 
+.securityscreencast, .svgs, .talkingdata, .techcomparisons, .techwatch, .teleconnections, .ciovoices,
+.futurestate, .thehitsquad, .awards, .essential_guide, .security_school, .conference_coverage, 
+.conferencenotebook, .securityconferenceguides, .accountability, .buyers_guide, .techbuyerssnapshot,
+.learnit, .ecinnovation, .ciocareers, .convergeditinsider, .marketshare, .whatsonyourwrist, .itjobspotlight,
+.digitalinsights, .compliancewatch, .itplanningresources, .startupspotlight, .whatis_buzzword, .whatis_trending,
+.whatis_header_question, .header_logged_in_icon, .payoffsalesforce, .onnetworking, .pipeline, .ciomatters,
+.training_center {
+	font-family: 'TechTarget-Icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.white_pages:before {
+	content: "\38";
+}
+.video:before {
+	content: "\62";
+}
+.webcast:before {
+	content: "\61";
+}
+.twitter:before {
+	content: "\63";
+}
+.tech_target_eye:before {
+	content: "\64";
+}
+.tag:before {
+	content: "\65";
+}
+.share:before {
+	content: "\66";
+}
+.search:before {
+	content: "\67";
+}
+.reply:before {
+	content: "\68";
+}
+.print:before {
+	content: "\69";
+}
+.podcast:before {
+	content: "\6a";
+}
+.pictures:before {
+	content: "\6b";
+}
+.partners:before {
+	content: "\6c";
+}
+.next_steps:before {
+	content: "\6d";
+}
+.menu:before {
+	content: "\39";
+}
+.mail:before {
+	content: "\6e";
+}
+.arrow_forward:before {
+	content: "\34";
+}
+.arrow_up:before {
+	content: "\33";
+}
+.article:before {
+	content: "\32";
+}
+.linkedin:before {
+	content: "\6f";
+}
+.book:before {
+	content: "\37";
+}
+.chapter:before {
+	content: "\31";
+}
+.comments:before {
+	content: "\7a";
+}
+.discussion1:before {
+	content: "\79";
+}
+.ebook:before {
+	content: "\78";
+}
+.enlarge:before {
+	content: "\77";
+}
+.external_link:before {
+	content: "\76";
+}
+.facebook:before {
+	content: "\75";
+}
+.flag:before {
+	content: "\74";
+}
+.google_plus:before {
+	content: "\73";
+}
+.like:before {
+	content: "\70";
+}
+.info_definition:before {
+	content: "\71";
+}
+.arrow_down:before {
+	content: "\35";
+}
+.arrow_backward:before {
+	content: "\36";
+}
+.double_arrow:before {
+	content: "\30";
+}
+.navigation_detail:before {
+	content: "\41";
+}
+.navigation_arrow:before {
+	content: "\42";
+}
+.download:before {
+	content: "\43";
+}
+.collapse:before {
+	content: "\44";
+}
+.expand:before {
+	content: "\45";
+}
+.close:before {
+	content: "\46";
+}
+
+/* classes for guide types and series */
+.guide:before, .essential_guide:before {content: "\72";}
+.beyondthepage:before {content:"\e600";}
+.biexpertpanel:before {content:"\e601";}
+.bookshelf:before {content:"\e602";}
+.changeagent:before {content:"\e603";}
+.cioinnovators:before {content:"\e604";}
+.cissp:before {content:"\e605";}
+.datamill:before {content:"\e606";}
+.garymcgraw:before {content:"\e607";}
+.hit:before {content:"\e608";}
+.intelligencefile:before {content:"\e609";}
+.letsgetthisstraight:before {content:"\e60a";}
+.meaningfuluse:before {content:"\e60b";}
+.networkingclassroom:before {content:"\e60c";}
+.networkinnovations:before {content:"\e60d";}
+.oraclerevelations:before {content:"\e60e";}
+.productofthemonth:before {content:"\e60f";}
+.qualitytime:before {content:"\e610";}
+.rsaconference:before {content:"\e611";}
+.searchlight:before {content:"\e612";}
+.securityscreencast:before {content:"\e613";}
+.svgs:before {content:"\e614";}
+.talkingdata:before {content:"\e615";}
+.techcomparisons:before {content:"\e616";}
+.techwatch:before {content:"\e617";}
+.teleconnections:before {content:"\e618";}
+.ciovoices:before {content:"\e619";}
+.futurestate:before {content:"\e61a";}
+.thehitsquad:before {content:"\e61b";}
+.awards:before {content:"\e61c";}
+.conference_coverage:before {content:"\e61d";}
+.security_school:before {content:"\49";}
+.conferencenotebook:before {content:"\e61e";}
+.securityconferenceguides:before {content:"\e61f";}
+.accountability:before {content:"\e620";}
+.buyers_guide:before {content:"\4d";}
+.techbuyerssnapshot:before {content:"\e621";}
+.learnit:before {content:"\e622";}
+.ecinnovation:before {content:"\e623";}
+.ciocareers:before {content:"\e624";}
+.convergeditinsider:before {content:"\e625";}
+.marketshare:before {content:"\e626";}
+.whatsonyourwrist:before {content:"\e627";}
+.itjobspotlight:before {content:"\e628";}
+.digitalinsights:before {content:"\e629";}
+.compliancewatch:before {content:"\e630";}
+.itplanningresources:before {content:"\e631";}
+.startupspotlight:before {content:"\e632";}
+.payoffsalesforce:before {content:"\e633";}
+.onnetworking:before {content:"\e634";}
+.pipeline:before {content:"\e635";}
+.ciomatters:before {content:"\e636";}
+.training_center:before {content:"\58";}
+
+/* geekout-specific */
+.alert:before {content:"\e900";}
+.overflow:before {content:"\e901";}
+.playincircle:before {content:"\e902";}
+.playlist:before {content:"\e903";}
+
+/* whatis-specific */
+.whatis_buzzword:before {content:"\e700";}
+.whatis_trending:before {content:"\e701";}
+.whatis_header_question:before {content:"\e702";}
+
+/* header */
+.header_logged_in_icon:before {content:"\e703";}

@@ -1,0 +1,15 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: dacdoc.aux
+The style file: plain.bst
+Database file #1: bibfile.bib
+Repeated entry---line 531 of file bibfile.bib
+ : @inproceedings{islam2015reducing
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 541 of file bibfile.bib
+ : @inproceedings{islam2016radio
+ :                              ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "ali2016"
+refers to entry "https://doi.org/10.1002/ett.3148", which doesn't exist
+Warning--I didn't find a database entry for "https://doi.org/10.1002/ett.3148"
+(There were 3 error messages)

@@ -1,0 +1,21 @@
+fileID = fopen('dbcp_pi_1.txt','r');
+x1 = fscanf(fileID,'%f');
+fileID = fopen('wdbcp_pi_1.txt','r');
+x2 = fscanf(fileID,'%f');
+y = 2:size(x1);
+fileID = fopen('ispici_pi_1.txt','r');
+x3 = fscanf(fileID, '%f');
+fileID = fopen('ispici_k_1.txt','r');
+y3 = fscanf(fileID, '%f');
+fileID = fopen('gspici_pi_1.txt','r');
+x4 = fscanf(fileID, '%f');
+fileID = fopen('gspici_k_1.txt','r');
+y4 = fscanf(fileID, '%f');
+
+plot(y,x1(2:size(x1)),y,x2(2:size(x1)),y3,x3,y4,x4);
+%plot(y,x2(2:size(x1)),y3,x3,y4,x4);
+xlabel('Number of Controllers(k)');
+ylabel('\pi_{average} Value');
+legend('DBCP','WDBCP','I-SPICi','G-SPICi');
+%legend('WDBCP','I-SPICi','G-SPICi');
+print('comparison_pia_1','-dpng');

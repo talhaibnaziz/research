@@ -1,0 +1,234 @@
+\begin{thebibliography}{10}
+
+\bibitem{ali2016}
+Ahmad~A. Ali~S.
+\newblock Resource allocation, interference management, and mode selection in
+  device-to-device communication: A survey.
+\newblock {\em Trans Emerging Tel Tech. 2017;e3148.}, 2016.
+
+\bibitem{alkurd2014survey}
+Rawan Alkurd, Raed~M Shubair, and Ibrahim Abualhaol.
+\newblock Survey on device-to-device communications: Challenges and design
+  issues.
+\newblock In {\em New Circuits and Systems Conference (NEWCAS), 2014 IEEE 12th
+  International}, pages 361--364. IEEE, 2014.
+
+\bibitem{asadi2014survey}
+Arash Asadi, Qing Wang, and Vincenzo Mancuso.
+\newblock A survey on device-to-device communication in cellular networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 16(4):1801--1819,
+  2014.
+
+\bibitem{cai}
+X.~Cai, J.~Zheng, and Y.~Zhang.
+\newblock A graph-coloring based resource allocation algorithm for d2d
+  communication in cellular networks.
+\newblock In {\em Communications (ICC), 2015 IEEE International Conference on},
+  pages 5429--5434, June 2015.
+
+\bibitem{stable}
+L.~S.~Shapley D.~Gale.
+\newblock College admissions and the stability of marriage.
+\newblock {\em The American Mathematical Monthly}, 69(1):9--15, 1962.
+
+\bibitem{doppler2009device}
+Klaus Doppler, Mika Rinne, Carl Wijting, C{\'a}ssio~B Ribeiro, and Klaus Hugl.
+\newblock Device-to-device communication as an underlay to lte-advanced
+  networks.
+\newblock {\em IEEE Communications Magazine}, 47(12):42--49, 2009.
+
+\bibitem{feng}
+D.~Feng, L.~Lu, Y.~Yuan-Wu, G.~Y. Li, G.~Feng, and S.~Li.
+\newblock Device-to-device communications underlaying cellular networks.
+\newblock {\em IEEE Transactions on Communications}, 61(8):3541--3551, August
+  2013.
+
+\bibitem{fodor}
+G.~Fodor, E.~Dahlman, G.~Mildh, S.~Parkvall, N.~Reider, G.~Miklós, and
+  Z.~Turányi.
+\newblock Design aspects of network assisted device-to-device communications.
+\newblock {\em IEEE Communications Magazine}, 50(3):170--177, March 2012.
+
+\bibitem{relax}
+Giorgio Gambosi, Alberto Postiglione, and Maurizio Talamo.
+\newblock Algorithms for the relaxed online bin-packing model.
+\newblock {\em SIAM journal on computing}, 30(5):1532--1551, 2000.
+
+\bibitem{icc}
+Md~Yeakub Hassan, Faisal Hussain, Md~Sakhawat Hossen, Salimur Choudhury, and
+  Muhammad~Mahbub Alam.
+\newblock A near optimal interference minimization resource allocation
+  algorithm for {D2D} communication.
+\newblock In {\em IEEE ICC 2017 Communications QoS, Reliability, and Modeling
+  Symposium (ICC'17 CQRM)}, Paris, France, May 2017.
+
+\bibitem{huang_game}
+J.~Huang, Y.~Yin, Y.~Sun, Y.~Zhao, C.~c.~Xing, and Q.~Duan.
+\newblock Game theoretic resource allocation for multicell d2d communications
+  with incomplete information.
+\newblock In {\em Communications (ICC), 2015 IEEE International Conference on},
+  pages 3039--3044, June 2015.
+
+\bibitem{overlaid}
+K.~Huang, Yan Chen, Bin Chen, X.~Yang, and V.~K.~N. Lau.
+\newblock Overlaid cellular and mobile ad hoc networks.
+\newblock In {\em Communication Systems, 2008. ICCS 2008. 11th IEEE Singapore
+  International Conference on}, pages 1560--1564, Nov 2008.
+
+\bibitem{huang}
+K.~Huang, V.~K.~N. Lau, and Y.~Chen.
+\newblock Spectrum sharing between cellular and mobile ad hoc networks:
+  Transmission-capacity tradeoff.
+\newblock In {\em Modeling and Optimization in Mobile, Ad Hoc, and Wireless
+  Networks, 2009. WiOPT 2009. 7th International Symposium on}, pages 1--10,
+  June 2009.
+
+\bibitem{ccnc}
+Faisal Hussain, Md~Yeakub Hassan, Md~Sakhawat Hossen, and Salimur Choudhury.
+\newblock An optimal resource allocation algorithm for {D2D} communication
+  underlaying cellular networks.
+\newblock In {\em 14th Annual IEEE Consumer Communications \& Networking
+  Conference (CCNC 2017)}, Las Vegas, USA, January 2017.
+
+\bibitem{islam2016radio}
+M.~T. Islam, A.~E.~M. Taha, S.~Akl, and S.~Choudhury.
+\newblock A two-phase auction-based fair resource allocation for underlaying
+  d2d communications.
+\newblock In {\em 2016 IEEE International Conference on Communications (ICC)},
+  pages 1--6, May 2016.
+
+\bibitem{lora}
+M.~T. Islam, A.~M. Taha, S.~G. Akl, and S.~Choudhury.
+\newblock A local search algorithm for resource allocation for underlaying
+  device-to-device communications.
+\newblock In {\em 2015 {IEEE} Global Communications Conference, {GLOBECOM}
+  2015, San Diego, CA, USA, December 6-10, 2015}, pages 1--6, 2015.
+
+\bibitem{islam2015reducing}
+Mohammad~Tauhidul Islam, Abd-Elhamid~M Taha, and Selim Akl.
+\newblock Reducing the complexity of resource allocation for underlaying
+  device-to-device communications.
+\newblock In {\em 2015 International Wireless Communications and Mobile
+  Computing Conference (IWCMC)}, pages 61--66. IEEE, 2015.
+
+\bibitem{dara}
+Mohammad~Tauhidul Islam, Abd-Elhamid~M Taha, Selim Akl, and Mervat Abu-Elkheir.
+\newblock A stable matching algorithm for resource allocation for underlaying
+  device-to-device communications.
+\newblock In {\em Communications (ICC), 2016 IEEE International Conference on},
+  pages 1--6. IEEE, 2016.
+
+\bibitem{janis}
+P.~Janis, V.~Koivunen, C.~Ribeiro, J.~Korhonen, K.~Doppler, and K.~Hugl.
+\newblock Interference-aware resource allocation for device-to-device radio
+  underlaying cellular networks.
+\newblock In {\em Vehicular Technology Conference, 2009. VTC Spring 2009. IEEE
+  69th}, pages 1--5, April 2009.
+
+\bibitem{karp1990optimal}
+Richard~M Karp, Umesh~V Vazirani, and Vijay~V Vazirani.
+\newblock An optimal algorithm for on-line bipartite matching.
+\newblock In {\em Proceedings of the twenty-second annual ACM symposium on
+  Theory of computing}, pages 352--358. ACM, 1990.
+
+\bibitem{khuller1994line}
+Samir Khuller, Stephen~G Mitchell, and Vijay~V Vazirani.
+\newblock On-line algorithms for weighted bipartite matching and stable
+  marriages.
+\newblock {\em Theoretical Computer Science}, 127(2):255--267, 1994.
+
+\bibitem{kleinberg2011algorithm}
+J.~Kleinberg and E.~Tardos.
+\newblock {\em Algorithm Design}.
+\newblock Pearson Education, 2011.
+
+\bibitem{knuth1976mariages}
+Donald~Ervin Knuth.
+\newblock {\em Mariages stables et leurs relations avec d'autres probl{\`e}mes
+  combinatoires: introduction {\`a} l'analyse math{\'e}matique des
+  algorithmes}.
+\newblock Montr{\'e}al: Presses de l'Universit{\'e} de Montr{\'e}al, 1976.
+
+\bibitem{hungarian}
+H.~W. Kuhn.
+\newblock The hungarian method for the assignment problem.
+\newblock {\em Naval Research Logistics Quarterly}, 2(1-2):83--97, 1955.
+
+\bibitem{onlined2d}
+A.~Kuhnle, X.~Li, and M.~T. Thai.
+\newblock Online algorithms for optimal resource management in dynamic d2d
+  communications.
+\newblock In {\em 2014 10th International Conference on Mobile Ad-hoc and
+  Sensor Networks}, pages 130--137, Dec 2014.
+
+\bibitem{liu2015device}
+Jiajia Liu, Nei Kato, Jianfeng Ma, and Naoto Kadowaki.
+\newblock Device-to-device communication in lte-advanced networks: A survey.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 17(4):1923--1940,
+  2015.
+
+\bibitem{min}
+H.~Min, W.~Seo, J.~Lee, S.~Park, and D.~Hong.
+\newblock Reliability improvement using receive mode selection in the
+  device-to-device uplink period underlaying cellular networks.
+\newblock {\em IEEE Transactions on Wireless Communications}, 10(2):413--418,
+  February 2011.
+
+\bibitem{min2011capacity}
+Hyunkee Min, Jemin Lee, Sungsoo Park, and Daesik Hong.
+\newblock Capacity enhancement using an interference limited area for
+  device-to-device uplink underlaying cellular networks.
+\newblock {\em Wireless Communications, IEEE Transactions on},
+  10(12):3995--4000, 2011.
+
+\bibitem{salvador2003multiscale}
+Paulo Salvador, Rui Valadas, and Ant{\'o}nio Pacheco.
+\newblock Multiscale fitting procedure using markov modulated poisson
+  processes.
+\newblock {\em Telecommunication systems}, 23(1):123--148, 2003.
+
+\bibitem{seidel20133gpp}
+Eiko Seidel.
+\newblock 3gpp lte-a standardization in release 12 and beyond.
+\newblock {\em Munich: Nomor Research GmbH}, 2013.
+
+\bibitem{stefania}
+S.~Stefania, T.~Issam, and B.~Matthew.
+\newblock Lte-the umts long term evolution: From theory to practice.
+\newblock {\em A John Wiley and Sons, Ltd}, 6:136--144, 2009.
+
+\bibitem{stewart1994introduction}
+Williams~J Stewart.
+\newblock {\em Introduction to the numerical solutions of Markov chains}.
+\newblock Princeton Univ. Press, 1994.
+
+\bibitem{xu2014dynamic}
+Yanfang Xu, Rui Yin, Tao Han, and Guanding Yu.
+\newblock Dynamic resource allocation for device-to-device communication
+  underlaying cellular networks.
+\newblock {\em International Journal of Communication Systems},
+  27(10):2408--2425, 2014.
+
+\bibitem{yu}
+C.~H. Yu, O.~Tirkkonen, K.~Doppler, and C.~Ribeiro.
+\newblock On the performance of device-to-device underlay communication with
+  simple power control.
+\newblock In {\em Vehicular Technology Conference, 2009. VTC Spring 2009. IEEE
+  69th}, pages 1--5, April 2009.
+
+\bibitem{zhang}
+H.~Zhang, T.~Wang, L.~Song, and Z.~Han.
+\newblock Graph-based resource allocation for d2d communications underlaying
+  cellular networks.
+\newblock In {\em Communications in China - Workshops (CIC/ICCC), 2013 IEEE/CIC
+  International Conference on}, pages 187--192, Aug 2013.
+
+\bibitem{zulhasnine}
+M.~Zulhasnine, C.~Huang, and A.~Srinivasan.
+\newblock Efficient resource allocation for device-to-device communication
+  underlaying lte network.
+\newblock In {\em Wireless and Mobile Computing, Networking and Communications
+  (WiMob), 2010 IEEE 6th International Conference on}, pages 368--375, Oct
+  2010.
+
+\end{thebibliography}

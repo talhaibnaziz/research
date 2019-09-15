@@ -1,0 +1,418 @@
+var http_request = false; 
+var attContTitle="";
+var documentUrl ="" ;
+var remainingLinks = "" ;
+var RECO_LABEL = "Viewers of this Document also viewed these Support Documents" ;
+   
+   
+   
+   function makeRequest(url,docUrl) {
+       http_request = false;
+      if (window.XMLHttpRequest) { // Mozilla, Safari,...
+	  	 //alert("in Mozilla");
+         http_request = new XMLHttpRequest();
+         if (http_request.overrideMimeType) {
+            http_request.overrideMimeType('text/xml');
+         }
+      } else if (window.ActiveXObject) { // IE
+	  //alert("in IE");
+         try {
+            http_request = new ActiveXObject("Msxml2.XMLHTTP");
+         } catch (e) {
+            try {
+               http_request = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch (e) {}
+         }
+      }
+      if (!http_request) {
+         //alert('Cannot create XMLHTTP instance');
+         return false;
+      }
+	  //alert("Final url is "+url);
+      http_request.onreadystatechange = parseXmlRead;
+      http_request.open('GET', url , true);
+      http_request.send(null);
+   }
+
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script');
+  fileref.setAttribute("type","text/javascript");
+  fileref.setAttribute("src", filename);
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link");
+  fileref.setAttribute("rel", "stylesheet");
+  fileref.setAttribute("type", "text/css");
+  fileref.setAttribute("href", filename);
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref);
+}
+
+
+function doSearch(roadMapID,attDocType,docUrl) {
+
+	$( document ).ready(function() {
+	
+	loadjscssfile("/c/dam/en/us/support/docs/common/cdcPreview.css","css");
+	//attContTitle = docTitle;
+	
+	//docUrl=location.href ;
+	
+	documentUrl=docUrl ;
+	 var url = findUrl(attDocType, roadMapID);	
+	 if (url != "")
+	 {
+	// makeRequest(url,docUrl);
+		readJsonData(url) ;
+	 }
+	 else
+	 {
+		//displayOldDocList();
+		console.log(" could not find infotype json file for document "+documentUrl) ;
+	 }
+	 }) ;
+}
+function addrow(tablename, arr) {
+
+	if(arr != null && arr.length > 6)
+	{
+		document.getElementById("tg-related-docs-more-link").innerHTML="<a id=\"tg-related-docs-more-id\" href=\"javascript:showMoreLinks()\"> + Show All Documents</a>" ;
+		
+	}
+
+	var unOrderdList = document.getElementById(tablename);
+	var count=0;
+	
+	var position = 1 ;
+	
+	for (r = 0; r < arr.length; r = r + 2) {
+		
+		//alert("currnet Title:"+arr[r + 1]+"\t"+"document Title:"+attContTitle);
+		if ((arr[r + 1]).toUpperCase()  == attContTitle.toUpperCase()){
+		
+		//alert("Ignore matched title :"+attContTitle);
+			continue;
+		}
+
+		if(count < 3)
+		{
+			var li = document.createElement("li");
+			var anchorTag = document.createElement('a');
+			anchorTag.setAttribute('target', "_blank");
+			anchorTag.setAttribute('href', arr[r]+"?referring_site=RE&pos="+position+"&page="+documentUrl);
+			
+			anchorTag.appendChild(document.createTextNode(arr[r + 1]));
+			li.appendChild(anchorTag);
+			unOrderdList.appendChild(li);
+		}
+		if(count > 2)
+		{
+			remainingLinks += "<li> <a target=\"_blank\" href="+arr[r]+"?referring_site=RE&pos="+position+"&page="+documentUrl+">"+arr[r+1]+"</a></li>" ;
+		
+		}
+		
+		
+		count++;	
+		position++ ;
+		
+		//alert("Rows added :"+count);
+	}	
+}
+
+/*
+window.onload=function() {
+var moreLink=document.getElementById("#tg-related-docs-more-id") ;
+moreLink.onclick = function()
+{
+	console.log("remainingLinks "+this.remainingLinks) ;
+	document.getElementById("tg-related-docs").innerHTML = document.getElementById("tg-related-docs").innerHTML + remainingLinks ;
+	return false ;
+} 
+}
+*/
+
+function showMoreLinks() {
+console.log("URL "+documentUrl) ;
+	document.getElementById("relatedDocumentsUL").innerHTML = document.getElementById("relatedDocumentsUL").innerHTML + remainingLinks ;
+	document.getElementById("tg-related-docs-more-link").innerHTML= "<a id=\"tg-related-docs-more-id\" href=\"javascript:showLessLinks(this)\"> - Show Only 3 Documents</a>" ;
+
+	
+	
+//return false ;
+
+}
+
+
+function showLessLinks(element)
+{
+	$('ul#relatedDocumentsUL li:gt(2)').hide();
+	
+	document.getElementById("tg-related-docs-more-link").innerHTML= "<a id=\"tg-related-docs-more-id\" href=\"javascript:showMoreLinks(this)\"> + Show All Documents</a>" ;
+}
+
+
+function parseJson()
+{
+	
+
+
+}
+
+function readJsonData(jsonUrl)
+{
+		var foundHIT = false;
+		var arr = new Array();
+		var jsonObject="" ;
+		
+		$.ajax({url:jsonUrl,type:'GET',async:false,success:function(data){
+		
+		console.log(" data is "+data) ;
+		
+		if(typeof data != 'object')
+			jsonObject= $.parseJSON(data) ;
+		else
+			jsonObject = data ;
+		
+		var hitField = jsonObject.RESULTSET.HIT;
+		
+		for (var h in hitField) {
+		
+			var p =hitField[h].FIELD;
+
+			if(documentUrl==hitField[h]['@url']){
+	
+			var countkey =1;
+			var countkeyCount =12;
+
+			for (var key in p) { 
+
+			foundHIT=true; 
+			if(documentUrl == p[key]['#']){		
+				countkeyCount = 12;
+				arr.splice(arr.length-1,1);		
+				countkey = countkey +1;		
+				continue;
+			}
+  
+			if (p.hasOwnProperty(key)) {
+				arr[arr.length] = p[key]['#'];
+			}
+				if(countkey==countkeyCount) break;
+			
+				countkey = countkey +1;
+			}
+				break; // the HIT loop
+			}
+
+		}
+	
+		},error:function(err){console.log("error is "+err.responseText) ; }}) ;
+	
+		if (!foundHIT) {
+			document.getElementById("tg-related-docs").style.display="none" ;
+		}
+		else{
+			$("div#tg-related-docs h3").html(RECO_LABEL) ;
+			addrow("relatedDocumentsUL", arr);
+		}
+		
+}
+
+function parseXmlRead() {
+
+	      if (http_request.readyState == 4) {
+         if (http_request.status == 200) {
+		var xml = http_request.responseText;
+
+var foundHIT = false;
+var arr = new Array();
+
+var jsonObject = eval("("+ xml + ")");
+
+var hitField = jsonObject.RESULTSET.HIT;
+
+
+for (var h in hitField) {
+var p =jsonObject.RESULTSET.HIT[h].FIELD;
+
+if(documentUrl==hitField[h]['@url']){
+	
+	var countkey =1;
+	var countkeyCount =12;
+
+for (var key in p) { 
+
+	foundHIT=true; 
+	if(documentUrl == p[key]['#']){		
+		countkeyCount = 12;
+		arr.splice(arr.length-1,1);		
+		countkey = countkey +1;		
+		continue;
+	}
+  
+  if (p.hasOwnProperty(key)) {
+	   arr[arr.length] = p[key]['#'];
+	}
+	   if(countkey==countkeyCount) break;
+	   countkey = countkey +1;
+  }
+  break; // the HIT loop
+}
+
+  }
+ 
+}
+
+	if (!foundHIT) {
+		//displayOldDocList();
+		document.getElementById("tg-related-docs").style.display="none" ;
+	}else{
+		//toggle('firstFiveDcosRelDocs');
+		addrow("relatedDocumentsUL", arr);
+	}
+
+}
+}
+
+
+
+
+
+function displayOldDocList() {
+	var firstFiveDcosRelDocs = document.getElementById("firstFiveDcosRelDocs");
+	firstFiveDcosRelDocs.style.display = '';
+}
+
+function addDiscutionURLs(ciscoReadWrite){if(typeof(ciscoReadWrite)=='undefined' || ciscoReadWrite == null){  toggle('discussionMainHead'); return;}var threadFlag='false'; var ciscoThreads=ciscoReadWrite.threads; var out=""; var discURLs = new String();discURLs = discURLs+'<ul>';var disCount=0; for (var wordss in ciscoThreads){ if(disCount>=5){break;}disCount=disCount+1; out=ciscoThreads[wordss]; var name = out['name']; var url = out['url']; threadFlag = 'true';  discURLs = discURLs +'<li>&#8226; <a href="'+url+'?referring_site=smartnav">'+name+'</a></li>'; } discURLs = discURLs+'</ul>';document.getElementById('discussionURLS').innerHTML = discURLs;if(threadFlag=='true'){ toggle('discussionMainHead'); } }
+
+
+
+function toggle(obj) {  var el = document.getElementById(obj); el.style.display = (el.style.display != 'none' ? 'none' : '' ); }
+
+function removejscssfile(filename, filetype){
+ var targetelement=(filetype=="js")? "script" : (filetype=="css")? "link" : "none"; //determine element type to create nodelist from
+ var targetattr=(filetype=="js")? "src" : (filetype=="css")? "href" : "none"; //determine corresponding attribute to test for
+ var allsuspects=document.getElementsByTagName(targetelement);
+ for (var i=allsuspects.length; i>=0; i--){ //search backwards within nodelist for matching elements to remove
+ 
+  if (allsuspects[i] && allsuspects[i].getAttribute(targetattr)!=null && allsuspects[i].getAttribute(targetattr).indexOf(filename)!=-1){
+   allsuspects[i].parentNode.removeChild(allsuspects[i]); //remove element by calling parentNode.removeChild()
+   } 
+ }
+}
+
+removejscssfile("painted_libra.css", "css"); //remove all occurences "somestyle.css" on page
+
+function addorModifyReadWrite(ciscoReadWrite){
+	var ciscoThreads=ciscoReadWrite.threads; 		
+	for (var wordss in ciscoThreads){ 
+		if(ciscoThreads[wordss]['url'].indexOf("?")>-1){
+			ciscoThreads[wordss]['url'] = ciscoThreads[wordss]['url'] + "&referring_site=smartnav";
+		}else{
+			ciscoThreads[wordss]['url'] = ciscoThreads[wordss]['url'] + "?referring_site=smartnav";
+		}
+		ciscoReadWrite.threads[wordss]['url'] = ciscoThreads[wordss]['url'];
+	}
+	addDiscutionURLs(ciscoReadWrite);
+}
+
+/*************************For divided Json starts here*******************************/
+function findUrl(attDocType, roadMapID) {
+	var url  = "";
+	var infotypeNames = new Array(19, 15, 21, 8, 23, 12, 11, 6,9,208);
+	var infotypeFileNames = new Array("TechnologyQandAs_reco.json",
+			"TechnologyConfigurationExample_reco.json", "TechnologyTechNote_reco.json",
+			 "ProductPasswordRecovery_reco.json","TechnologyWhitePaper_reco.json",
+			"ProductWhitePaper_reco.json", "ProductsTechNote_reco.json",
+			"ProductConfigurationExample_reco.json","ProductQandAs_reco.json","ProductExampleModule_reco.json");
+
+
+	if (document.getElementsByTagName) {
+		if (attDocType == 11) {
+			if (roadMapID == 1 || roadMapID == 2 || roadMapID == 3 || roadMapID == 5) { 
+				xmlFleName =  "ProductTechNoteGroup1_reco.json";
+			} else if (roadMapID == 6 || roadMapID == 14 || roadMapID == 15 ){ 
+				xmlFleName =  "ProductTechNoteGroup6_reco.json";
+			} else if (roadMapID == 7 || roadMapID == 8 || roadMapID == 13 ) { 		    		   
+				xmlFleName = "ProductTechNoteGroup2_reco.json";
+			} else if(roadMapID == 19 ) {		
+				xmlFleName = "ProductTechNoteGroup3_reco.json";		    	   
+			} else if (roadMapID == 17 || roadMapID == 18 || roadMapID == 23 || roadMapID == 25
+		    	     || roadMapID == 26 || roadMapID == 27) {
+				xmlFleName = "ProductTechNoteGroup4_reco.json";
+		    } else if (roadMapID > 27 || roadMapID == 20 || roadMapID == 21 || roadMapID == 22) {
+    	    	xmlFleName = "ProductTechNoteGroup5_reco.json";	    		   
+			} else if (roadMapID == 16 || roadMapID == 14 || roadMapID == 15 ){ 
+				xmlFleName= "ProductTechNoteGroup7_reco.json";
+			}
+		} else if (attDocType == 15) { //to separate the TechnologyConfigurationExample infotype i.e. 15.
+			if (roadMapID <= 14) {
+				xmlFleName =  "TechnologyConfigurationExampleGroup1_reco.json";
+			} else if (roadMapID >= 15) {
+				xmlFleName =  "TechnologyConfigurationExampleGroup2_reco.json";
+			}
+		} else if (attDocType == 21) { 
+			if (roadMapID <= 14) {
+				xmlFleName = "TechnologyTechNoteGroup1_reco.json";
+			} else if (roadMapID >= 15) {
+				xmlFleName = "TechnologyTechNoteGroup2_reco.json";
+			}
+		} else if (attDocType == 9) { 			
+			if (roadMapID <= 28 || roadMapID == 205) {
+				xmlFleName = "ProductQAndAsGroup1_reco.json";
+			} else if (roadMapID ==128) {			
+				xmlFleName = "ProductQAndAsGroup2_reco.json";
+			}  else if (roadMapID == 208) {
+				xmlFleName = "ProductQAndAsGroup3_reco.json";
+			}
+		} else if (attDocType == 6) { 			
+			if (roadMapID == 6 || roadMapID == 19 || roadMapID == 2|| roadMapID == 25|| roadMapID == 5|| roadMapID == 7|| roadMapID == 13||roadMapID == 21|| roadMapID == 23|| roadMapID == 26|| roadMapID == 17) {
+				xmlFleName = "ProductConfigurationExampleGroup1_reco.json";
+			} else if (roadMapID == 18 || roadMapID == 16 || roadMapID == 1 || roadMapID == 8 || roadMapID == 3 || roadMapID == 14 || roadMapID == 15 ||roadMapID == 20 || roadMapID == 22 || roadMapID == 28 || roadMapID == 153 || roadMapID == 207 || roadMapID == 27) {
+				xmlFleName = "ProductConfigurationExampleGroup2_reco.json";		    	    
+			} else if ((roadMapID == 128|| roadMapID == 205)) {
+				xmlFleName = "ProductConfigurationExampleGroup3_reco.json";
+			}			
+		} else {
+			var xmlFleName = "";
+			for ( var iNode = 0; iNode < infotypeNames.length; iNode++) {
+				if (attDocType == infotypeNames[iNode]) {
+					xmlFleName = infotypeFileNames[iNode];
+					break;
+				}
+			}
+		}
+
+		if (xmlFleName != "") {
+			url = "/content/dam/en/us/support/docs/common/"+xmlFleName;		
+		} 
+
+	}	
+	
+	return url;
+	
+} // findUrl method
+
+/*************************For divided Json ends here*******************************/
+
+/*************** For More links displaying properly starts here********************/
+window.onload = function() {
+		
+		var divHtmlExists = document.getElementById('firstFiveDcos') ;
+		if(divHtmlExists == null)
+		return ;
+		
+		var divHtml = document.getElementById('firstFiveDcos').innerHTML;
+		if((divHtml == null) || (divHtml.toLowerCase().indexOf('</span>') < 0)) {
+			return;
+		}
+		divHtml = divHtml.replace('</SPAN>', ' ');
+		divHtml = divHtml.replace('</span>', ' ');
+		divHtml = divHtml.replace('</ul>', '</span></ul>');
+		divHtml = divHtml.replace('</UL>', '</SPAN></UL>');
+		document.getElementById('firstFiveDcos').innerHTML = divHtml;
+
+} //hideOrShowMore method
+/*************** For More links displaying properly ends here********************/

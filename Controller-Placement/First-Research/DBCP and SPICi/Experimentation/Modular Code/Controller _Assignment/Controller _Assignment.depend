@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1525179557 source:d:\research work\sdn\experimentation\modular code\controller _assignment\main.cpp
+	<iostream>
+	<fstream>
+	"input.h"
+	"dbcp.h"
+	"spici.h"
+	"idbc.h"
+	<map>
+	<algorithm>
+
+1523768123 d:\research work\sdn\experimentation\modular code\controller _assignment\include\input.h
+	<vector>
+	<iostream>
+	<fstream>
+	<queue>
+	<string>
+
+1523263526 source:d:\research work\sdn\experimentation\modular code\controller _assignment\src\input.cpp
+	"input.h"
+
+1525167482 d:\research work\sdn\experimentation\modular code\controller _assignment\include\dbcp.h
+	"input.h"
+	<queue>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1525179721 source:d:\research work\sdn\experimentation\modular code\controller _assignment\src\dbcp.cpp
+	"dbcp.h"
+
+1522051396 source:d:\research work\sdn\experimentation\modular code\controller _assignment\src\output.cpp
+	"output.h"
+
+1522051396 d:\research work\sdn\experimentation\modular code\controller _assignment\include\output.h
+
+1524552084 source:d:\research work\sdn\experimentation\modular code\controller _assignment\src\spici.cpp
+	"spici.h"
+
+1524216351 d:\research work\sdn\experimentation\modular code\controller _assignment\include\spici.h
+	"input.h"
+	<queue>
+	<string.h>
+	<math.h>
+	<set>
+	<iostream>
+	<algorithm>
+	<time.h>
+
+1523773303 d:\research work\sdn\experimentation\modular code\controller _assignment\include\idbc.h
+	"input.h"
+	<queue>
+	<string.h>
+
+1522295716 source:d:\research work\sdn\experimentation\modular code\controller _assignment\src\idbc.cpp
+	"idbc.h"
+
+1526237237 source:d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\main.cpp
+	<iostream>
+	<fstream>
+	"input.h"
+	"dbcp.h"
+	"spici.h"
+	"idbc.h"
+	<map>
+	<algorithm>
+
+1523768123 d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\include\input.h
+	<vector>
+	<iostream>
+	<fstream>
+	<queue>
+	<string>
+
+1525167482 d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\include\dbcp.h
+	"input.h"
+	<queue>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1524216351 d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\include\spici.h
+	"input.h"
+	<queue>
+	<string.h>
+	<math.h>
+	<set>
+	<iostream>
+	<algorithm>
+	<time.h>
+
+1523773303 d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\include\idbc.h
+	"input.h"
+	<queue>
+	<string.h>
+
+1525179721 source:d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\src\dbcp.cpp
+	"dbcp.h"
+
+1522295716 source:d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\src\idbc.cpp
+	"idbc.h"
+
+1523263526 source:d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\src\input.cpp
+	"input.h"
+
+1522051396 source:d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\src\output.cpp
+	"output.h"
+
+1522051396 d:\research work\controller placement\dbcp and spici 1\experimentation\modular code\controller _assignment\include\output.h
+
