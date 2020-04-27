@@ -1,19 +1,0 @@
-
-var ftGUID_2829167="3624950DD15E10";
-var ftConfID_2829167="0";
-var ftParams_2829167="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=whatis.techtarget.com&ft_agentEnv=0&ft_referrer=http%3A%2F%2Fwhatis.techtarget.com%2Fdefinition%2FExterior-Gateway-Protocol-EGP&cachebuster=836480.380360445";
-var ftKeyword_2829167="";
-var ftCustom_2829167="";
-var ftSection_2829167="";
-var ftSegment_2829167="";
-var ftSegmentList_2829167=[];
-var ftRuleMatch_2829167="0";
-var ftTimestamp_2829167="1512295011";
-var ftImp2829167 = {};
-ftImp2829167.privacy = "x";
-ftImp2829167.guidAge = "0";
-ftImp2829167.impID = "3624DFE5AB8F71";
-
-
-document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/282/2829167/2036360/js/j-2829167-2036360.js" id="ftscript_m2829167" name="ftscript_m2829167"></scr'+'ipt>');
-                    
