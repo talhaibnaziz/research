@@ -1,0 +1,116 @@
+0  "Rock Hill"
+1  "Charlotte"
+2  "Bethune"
+3  "Lancaster"
+4  "Courtney"
+5  "Lexington"
+6  "Concord"
+7  "Salisbury"
+8  "High Point"
+9  "Asheboro"
+10  "Orangeburg"
+11  "Aiken"
+12  "Chester"
+13  "Columbia"
+14  "Sumter"
+15  "Georgetown"
+16  "Moncks Corner"
+17  "Charleston"
+18  "St George"
+19  "Walterboro"
+20  "Yemassee"
+21  "Augusta"
+22  "Hilton Head"
+23  "Beaufort"
+24  "Savannah"
+25  "Greenwood"
+26  "Due West"
+27  "Spartanburg"
+28  "Asheville"
+29  "Boone"
+30  "Hickory"
+31  "Anderson"
+32  "Clemson"
+33  "Toccoa"
+34  "Greenville"
+35  "Myrtle Beach"
+36  "Florence"
+37  "Baldwin"
+38  "Sparta"
+39  "Level Cross"
+40  "Greensboro"
+41  "Raleigh"
+42  "Rocky Mount"
+43  "Fayetteville"
+44  "Wilmington"
+-1
+0 1 1
+0 1 1
+0 3 1
+0 12 1
+1 27 1
+1 6 1
+2 3 1
+2 36 1
+2 14 1
+4 5 1
+4 5 1
+4 37 1
+4 39 1
+5 8 1
+5 9 1
+5 6 1
+5 7 1
+6 7 1
+8 40 1
+8 9 1
+10 18 1
+10 13 1
+11 21 1
+11 13 1
+12 26 1
+12 13 1
+13 21 1
+13 14 1
+14 16 1
+14 36 1
+14 15 1
+15 35 1
+16 17 1
+17 24 1
+17 18 1
+17 35 1
+18 19 1
+19 20 1
+20 24 1
+20 22 1
+20 23 1
+20 23 1
+21 24 1
+21 31 1
+22 24 1
+25 26 1
+25 26 1
+26 31 1
+27 34 1
+27 30 1
+28 34 1
+28 30 1
+29 37 1
+29 37 1
+31 32 1
+31 33 1
+32 33 1
+32 34 1
+33 34 1
+35 36 1
+35 36 1
+35 44 1
+36 43 1
+37 38 1
+38 39 1
+40 41 1
+41 42 1
+41 43 1
+42 43 1
+43 44 1

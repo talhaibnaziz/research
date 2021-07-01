@@ -1,0 +1,62 @@
+0  "Budapest"
+1  "Munich"
+2  "Prague"
+3  "Vienna"
+4  "Dusseldorf"
+5  "Frankfurt"
+6  "Zurich"
+7  "Paris"
+8  "Milan"
+9  "Barcelona"
+10  "Goonhilly"
+11  "New York"
+12  "Washington"
+13  "Madrid"
+14  "Helsinki"
+15  "Copenhagen"
+16  "London"
+17  "London"
+18  "Madley"
+19  "Dublin"
+20  "Brussels"
+21  "Amsterdam"
+22  "Gothenburg"
+23  "Stockholm"
+-1
+0 17 1
+0 5 1
+1 4 1
+1 5 1
+2 16 1
+2 5 1
+3 5 1
+3 21 1
+4 5 1
+4 21 1
+5 6 1
+5 8 1
+5 17 1
+5 21 1
+6 17 1
+7 17 1
+7 21 1
+8 17 1
+9 13 1
+9 21 1
+10 17 1
+11 17 1
+12 16 1
+13 17 1
+14 23 1
+15 23 1
+16 17 1
+16 21 1
+16 23 1
+17 18 1
+17 19 1
+17 20 1
+17 21 1
+19 21 1
+21 22 1
+21 23 1
+22 23 1

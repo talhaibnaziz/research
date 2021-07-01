@@ -1,0 +1,52 @@
+0  "Navarra"
+1  "Rioja"
+2  "Cantabria"
+3  "Pais Vasco"
+4  "Baleares"
+5  "Valencia"
+6  "Aragon"
+7  "Cataluna"
+8  "Murcia"
+9  "Galacia"
+10  "Asturias"
+11  "Extremadura"
+12  "Andalucia"
+13  "Canarias (las palmas)"
+14  "Canarias (tenerife)"
+15  "Castilla La Mancha"
+16  "Nacional"
+17  "Madrid"
+18  "Castilla Y Leon"
+-1
+0 3 0.622
+0 6 0.622
+1 18 0.155
+1 6 0.155
+2 10 2.5
+2 3 2.5
+3 9 2.5
+3 16 2.5
+4 5 0.622
+4 7 0.622
+4 7 0.155
+5 8 0.622
+5 12 2.5
+5 16 10
+5 7 10
+6 16 0.622
+6 7 0.622
+7 16 10
+8 12 0.622
+9 16 2.5
+9 10 2.5
+9 18 2.5
+11 16 2.5
+11 12 2.5
+12 13 0.622
+12 15 0.622
+12 16 10
+13 14 0.1
+14 16 0.622
+15 16 0.622
+16 17 10
+16 18 2.5

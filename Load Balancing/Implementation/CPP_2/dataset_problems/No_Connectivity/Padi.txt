@@ -1,0 +1,22 @@
+0  "AQSA"
+1  "IUG"
+2  "HU"
+3  "PPU"
+4  "AZHR"
+5  "ARIJ"
+6  "ICB"
+7  "GEANT"
+8  "Annajah National Univeristy"
+9  "AAUJ"
+10  "BZU"
+11  "PADI2"
+12  "QOU"
+13  "AQU"
+14  "BU"
+-1
+3 11 0.002
+7 11 0.045
+10 11 0.1
+11 12 0.1
+11 13 0.002
+11 14 1

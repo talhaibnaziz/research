@@ -1,0 +1,44 @@
+0  "Hartford"
+1  "New York"
+2  "Chicago"
+3  "Cleveland"
+4  "Greensboro"
+5  "Atlanta"
+6  "Washington, DC"
+7  "Reston"
+8  "Dallas"
+9  "St Louis"
+10  "Seattle"
+11  "Denver"
+12  "San Francisco"
+13  "San Jose"
+14  "Los Angeles"
+15  "Albuquerque"
+16  "Hawaii"
+17  "Houston"
+-1
+0 1 0.045
+0 3 0.045
+1 3 0.045
+1 6 0.045
+1 7 0.045
+2 3 0.045
+2 9 0.045
+2 11 0.045
+4 5 0.045
+4 6 0.045
+5 17 0.045
+6 7 0.045
+7 8 0.045
+7 9 0.045
+8 9 0.045
+8 13 0.045
+8 17 0.045
+10 11 0.045
+10 12 0.045
+11 12 0.045
+12 13 0.045
+12 14 0.045
+14 15 0.045
+15 16 0.045
+15 17 0.045

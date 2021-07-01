@@ -1,0 +1,42 @@
+0  "Prague"
+1  "Frankfurt"
+2  "Hamburg"
+3  "Copenhagen"
+4  "Dubai"
+5  "Madrid"
+6  "Geneva"
+7  "Milan"
+8  "Brussels"
+9  "Amsterdam"
+10  "Helsinki"
+11  "Stockholm"
+12  "Hong Kong"
+13  "Oslo"
+14  "London"
+15  "New York"
+16  "New York"
+17  "Paris"
+0 1
+1 9
+1 6
+1 17
+2 9
+2 3
+3 11
+4 14
+5 17
+6 17
+6 7
+7 17
+8 9
+8 17
+9 11
+9 14
+10 11
+10 11
+10 12
+11 13
+13 14
+14 17
+14 15
+16 17

@@ -1,0 +1,31 @@
+0  "New York"
+1  "Montreal"
+2  "Halifax"
+3  "Los Angeles"
+4  "Toronto"
+5  "Vancouver"
+6  "Victoria"
+7  "Seattle"
+8  "Calgary"
+9  "Edmonton"
+10  "Saskatoon"
+11  "Regina"
+12  "Winnipeg"
+-1
+0 4 1
+1 4 1
+2 4 1
+3 5 1
+4 11 1
+4 10 1
+5 6 1
+5 7 1
+5 8 1
+5 9 1
+5 10 1
+5 11 1
+8 9 1
+8 10 1
+8 11 1
+10 12 1
+11 12 1

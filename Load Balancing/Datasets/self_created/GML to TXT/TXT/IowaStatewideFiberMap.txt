@@ -1,0 +1,75 @@
+0  "Bloomfield"
+1  "Omaha"
+2  "Oskaloosa"
+3  "Ottumwa"
+4  "Creston"
+5  "Osceola"
+6  "Stanton"
+7  "Harlan"
+8  "Clarinda"
+9  "Sioux City"
+10  "None"
+11  "None"
+12  "None"
+13  "Minneapolis"
+14  "Kansas City"
+15  "Dubuque"
+16  "Davenport"
+17  "Iowa City"
+18  "Cedar Rapids"
+19  "Chicago"
+20  "Mt. Pleasant"
+21  "Fairfield"
+22  "Muscatine"
+23  "Ames"
+24  "Marshalltown"
+25  "Spencer"
+26  "Sioux Falls"
+27  "Ft Dodge"
+28  "Mason City"
+29  "Waterloo"
+30  "Grinnell"
+31  "Newton"
+32  "Des Moines"
+-1
+0 3 1
+0 5 1
+0 21 1
+1 14 1
+1 6 1
+1 7 1
+2 3 1
+2 30 1
+4 5 1
+4 6 1
+5 32 1
+6 8 1
+6 7 1
+7 32 1
+7 9 1
+9 10 1
+9 11 1
+10 26 1
+10 25 1
+11 27 1
+11 25 1
+12 24 1
+12 27 1
+12 28 1
+12 23 1
+13 28 1
+15 16 1
+16 17 1
+16 18 1
+16 19 1
+16 22 1
+17 18 1
+18 29 1
+18 30 1
+20 21 1
+20 22 1
+23 32 1
+24 31 1
+28 29 1
+30 31 1
+31 32 

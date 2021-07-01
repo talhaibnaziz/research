@@ -1,0 +1,100 @@
+0  "Bordeaux"
+1  "Pau"
+2  "Orleans"
+3  "Limoges"
+4  "Clermont-Ferrand"
+5  "Dijon"
+6  "Toulouse"
+7  "Montpellier"
+8  "Besancon"
+9  "Grenoble"
+10  "Lannion"
+11  "Brest"
+12  "Le Mans"
+13  "Tours"
+14  "Vierzon"
+15  "Geneve"
+16  "Vannes"
+17  "Loreient"
+18  "Quimper"
+19  "Saint-Brieuc"
+20  "None"
+21  "Outre Mer: Nouvelle Caledonie, Polynesie Francaise, La Reunion"
+22  "Mayotte, Guadeloupe, Martinique, Guyane"
+23  "Angers"
+24  "Geant2"
+25  "Corte"
+26  "Cadarache"
+27  "Marseille"
+28  "Nice"
+29  "SFINX"
+30  "Internet mondial"
+31  "Lyon"
+32  "Paris"
+33  "Nantes"
+34  "Poiters"
+35  "Strasbourg"
+36  "Nancy"
+37  "Reims"
+38  "Compiegne"
+39  "Lille"
+40  "Rouen"
+41  "Caen"
+42  "Rennes"
+-1
+0 33 0.155
+0 34 0.155
+0 4 0.155
+0 6 0.155
+0 1 0.155
+1 6 0.155
+2 32 0.155
+2 34 0.155
+2 13 0.155
+2 14 0.155
+3 34 0.155
+3 4 0.155
+4 31 0.155
+5 8 0.155
+5 31 0.155
+6 7 0.155
+7 27 0.155
+8 35 0.155
+9 26 0.155
+9 15 0.155
+9 31 0.155
+10 11 0.155
+10 19 0.155
+11 18 0.155
+12 13 0.155
+12 23 0.155
+15 31 0.155
+16 33 0.155
+16 17 0.155
+17 18 0.155
+19 42 0.155
+20 32 0.155
+20 21 0.155
+20 22 0.155
+22 31 0.155
+23 33 0.155
+24 32 0.155
+25 27 0.155
+26 27 0.155
+26 28 0.155
+27 28 0.155
+27 31 0.155
+29 32 0.155
+30 32 0.155
+30 31 0.155
+31 32 0.155
+32 37 0.155
+32 38 0.155
+32 39 0.155
+32 40 0.155
+33 42 0.155
+35 36 0.155
+36 37 0.155
+38 39 0.155
+40 41 0.155
+41 42 0.155

@@ -1,0 +1,43 @@
+0  "Montreal"
+1  "White Plains"
+2  "Detroit"
+3  "Toronto"
+4  "Columbus"
+5  "Bethesda"
+6  "New York"
+7  "Philadelphia"
+8  "Schaumburg"
+9  "St Louis"
+10  "Vancouver"
+11  "San Francisco"
+12  "Los Angeles"
+13  "Phoenix"
+14  "Dallas"
+15  "Atlanta"
+16  "Tampa"
+17  "Chicago"
+-1
+0 3 1
+0 7 1
+1 17 1
+1 5 1
+1 6 1
+2 9 1
+2 3 1
+2 4 1
+4 8 1
+4 5 1
+4 6 1
+5 15 1
+6 16 1
+6 7 1
+8 12 1
+9 17 1
+10 11 1
+11 17 1
+11 12 1
+12 13 1
+13 14 1
+14 17 1
+14 15 1
+15 16 

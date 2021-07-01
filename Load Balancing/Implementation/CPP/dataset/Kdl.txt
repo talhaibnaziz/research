@@ -1,0 +1,1654 @@
+0  "Rolla"
+1  "Sedalia"
+2  "Rogers"
+3  "Boonville"
+4  "Bentonville"
+5  "Waukesha"
+6  "Milwaukee"
+7  "Gary?"
+8  "Wichita Falls"
+9  "Bowle"
+10  "Watersmeet"
+11  "Ironwood"
+12  "Flatonia"
+13  "Marquette"
+14  "Escanaba"
+15  "Iron Mountain"
+16  "Green Bay"
+17  "De Pere"
+18  "Jeffersonville"
+19  "Corydon"
+20  "Alton"
+21  "Nevada"
+22  "Byron Center"
+23  "Bryan"
+24  "Shepherdsville"
+25  "Toledo"
+26  "Macquoketa"
+27  "Clinton"
+28  "Mayfield"
+29  "Benton"
+30  "Cedar Rapids"
+31  "Marengo"
+32  "Davenport"
+33  "Iowa City"
+34  "Clarksville"
+35  "Dickson"
+36  "Hopkinsville"
+37  "Oak Grove"
+38  "Rochelle"
+39  "Dixon"
+40  "Huntingdon"
+41  "McKenzie"
+42  "Sellersburg"
+43  "New Albany"
+44  "Morgantown"
+45  "Beaver Dam"
+46  "Leitchfield"
+47  "Central City"
+48  "Evansville"
+49  "Owensboro"
+50  "Elizabeth Town"
+51  "Henderson"
+52  "Madisonville"
+53  "Providence"
+54  "Athens"
+55  "Houston"
+56  "Liberty"
+57  "Hancock"
+58  "Warsaw"
+59  "Heathsville"
+60  "None"
+61  "Richmond"
+62  "Petersburg"
+63  "South Hill"
+64  "None"
+65  "Chesapeake"
+66  "Elizabeth City"
+67  "Hertford"
+68  "Logan"
+69  "None"
+70  "Seguin"
+71  "Monroe"
+72  "Natchez"
+73  "Franklin"
+74  "Columbia"
+75  "Collinwood"
+76  "Loretto"
+77  "Lewisburg"
+78  "Pulaski"
+79  "Lawrenceburg"
+80  "Oneonta"
+81  "Cullman"
+82  "Arkdelphia"
+83  "None"
+84  "Ann Arbor"
+85  "Southfield/Detroit"
+86  "Florence"
+87  "Covington"
+88  "Saginaw"
+89  "Bay City"
+90  "Pontiac"
+91  "Flint"
+92  "Lebanon"
+93  "Hamilton"
+94  "Midland"
+95  "Oxford"
+96  "Batesville"
+97  "Greensburg"
+98  "Cincinnati"
+99  "Evendale"
+100  "Mason City"
+101  "Willmar"
+102  "New London"
+103  "Ames"
+104  "Worthington"
+105  "Fairmont"
+106  "Albert Lea"
+107  "Austin"
+108  "Des Moines"
+109  "Newton"
+110  "Paxton"
+111  "Cambridge"
+112  "Crossville"
+113  "Scotland Neck"
+114  "Windsor"
+115  "Ronoake Rapids"
+116  "Lees Summit"
+117  "Warrensburg"
+118  "Harrisonville"
+119  "Kansas City"
+120  "Columbia"
+121  "Jefferson City"
+122  "Jackson"
+123  "McIntosh"
+124  "Evergreen"
+125  "Thomasville"
+126  "Dothan"
+127  "Pine Apple"
+128  "Troy"
+129  "Enteprise"
+130  "Clanton"
+131  "Montgomery"
+132  "Lebanon"
+133  "Wilson"
+134  "Wilmington"
+135  "Rocky Mt"
+136  "Elktor"
+137  "None"
+138  "Line Lexington"
+139  "Philadelphia"
+140  "Beaumont"
+141  "Pascagoula"
+142  "Biloxi"
+143  "Childersburg"
+144  "Gadsden"
+145  "Aurora"
+146  "Mt Carmel"
+147  "Belleville"
+148  "Monticello"
+149  "Reedburg"
+150  "Red Wing"
+151  "Wytheville"
+152  "Christiansburg"
+153  "Roanoke"
+154  "Glen Lyn"
+155  "Clarksville"
+156  "South Boston"
+157  "Danville"
+158  "Martinsville"
+159  "Farmville"
+160  "Keysville"
+161  "Owensburg"
+162  "Bloomington"
+163  "Norris City"
+164  "Princeton"
+165  "Oakland City"
+166  "Petersburg"
+167  "Washington"
+168  "Vincennes"
+169  "Lawrenceville"
+170  "Crane"
+171  "Bowling Green"
+172  "Fayette"
+173  "Lima"
+174  "Findlay"
+175  "Auburn"
+176  "Decatur"
+177  "Niles"
+178  "Benton Harbor"
+179  "Williamson"
+180  "Logan"
+181  "Madison"
+182  "Charleston"
+183  "Huntington"
+184  "Ashland"
+185  "Maysville"
+186  "Morehead"
+187  "Fond Du Lac"
+188  "Oshkosh"
+189  "Harrisburg"
+190  "Newport"
+191  "Lewistown"
+192  "Mount Union"
+193  "Neenah"
+194  "Clymer"
+195  "South Bend"
+196  "Elkhart"
+197  "Pittsburgh"
+198  "Mishiwaka"
+199  "None"
+200  "Martinsville"
+201  "Shelbyville"
+202  "Greenwood"
+203  "Franklin"
+204  "Anderson"
+205  "Muncie"
+206  "Rushville"
+207  "New Castle"
+208  "Connersville"
+209  "Richmond"
+210  "None"
+211  "Sterling"
+212  "Georgetown"
+213  "Temple"
+214  "Dubuque"
+215  "Mineola"
+216  "Terrell"
+217  "Texarkana"
+218  "Atlanta"
+219  "Fort Worth"
+220  "Denton"
+221  "Waco"
+222  "Waxahachie"
+223  "Paris"
+224  "Murray"
+225  "Milan"
+226  "Martin"
+227  "Dyersburg"
+228  "Jackson"
+229  "Metropolis"
+230  "Paducah"
+231  "Union City"
+232  "Cairo"
+233  "Memphis"
+234  "Covington"
+235  "Kankakee"
+236  "La Salle"
+237  "Union"
+238  "St Louis"
+239  "Joliet"
+240  "Gary?"
+241  "De Kalb"
+242  "Oak Brook"
+243  "Gary?"
+244  "Valparaiso"
+245  "Joplin"
+246  "Michigan City"
+247  "Plainfield"
+248  "Canton"
+249  "Glasgow"
+250  "Bowling Green"
+251  "Harlan"
+252  "Pineville"
+253  "Franklin"
+254  "Middlesboro"
+255  "London"
+256  "Corbin"
+257  "Williamsburg"
+258  "Somerset"
+259  "Madison"
+260  "Baraboo"
+261  "Wisconsin Dells"
+262  "Bluefield"
+263  "Rich Square"
+264  "Durham"
+265  "Raleigh"
+266  "Murfreesboro"
+267  "Benton"
+268  "None"
+269  "None"
+270  "Greensboro"
+271  "Burlington"
+272  "Rhinelander"
+273  "Paris"
+274  "Florence"
+275  "Russellville"
+276  "Guntersville"
+277  "Albertville"
+278  "Cleveland"
+279  "Athens"
+280  "Rogersville"
+281  "Killen"
+282  "Huntsville"
+283  "Athens"
+284  "Burnsville"
+285  "Buchanan"
+286  "Jackson"
+287  "Paintsville"
+288  "Berea"
+289  "Stanton"
+290  "Danville"
+291  "Salvisa"
+292  "Mt Sterling"
+293  "Richmond"
+294  "Prestonburg"
+295  "Louisa"
+296  "None"
+297  "Piggott"
+298  "Paragould"
+299  "Folkston"
+300  "Mount Pleasant"
+301  "Newaygo"
+302  "Jonesboro"
+303  "Big Rapids"
+304  "Grayling"
+305  "Cadillac"
+306  "Ludington"
+307  "Manistee"
+308  "Sturtevant"
+309  "Beloit"
+310  "Stevens Point"
+311  "Wausau"
+312  "Sun Prarie"
+313  "Marshfield"
+314  "Afton"
+315  "Madison"
+316  "Janesville"
+317  "Jefferson"
+318  "Ravenswood"
+319  "Beckley"
+320  "Decatur"
+321  "Platteville"
+322  "Covington"
+323  "Slidell"
+324  "Lufkin"
+325  "Nacagdoches"
+326  "Jacksonville"
+327  "Tyler"
+328  "Longview"
+329  "Marshall"
+330  "Bay Minette"
+331  "Citronelle"
+332  "Crestview"
+333  "Mobile"
+334  "Panama City"
+335  "De Funiak Springs"
+336  "Gulfport"
+337  "Marianna"
+338  "None"
+339  "None"
+340  "Kilmarnock"
+341  "Hope"
+342  "Portage"
+343  "None"
+344  "Beaver Dam"
+345  "None"
+346  "Altoona"
+347  "None"
+348  "Appleton"
+349  "Philadelphia"
+350  "Emporia"
+351  "Lebanon"
+352  "Richlands"
+353  "Morganton"
+354  "Abingdon"
+355  "Boone"
+356  "Lenoir"
+357  "Kingsport"
+358  "Bristol"
+359  "Greenville"
+360  "Johnson City"
+361  "Eldorado"
+362  "Harrisburg"
+363  "Menomonee"
+364  "Chester"
+365  "Marissa"
+366  "Sparta"
+367  "Washington"
+368  "West Frankfort"
+369  "Marion"
+370  "Carbondale"
+371  "Murphysboro"
+372  "None"
+373  "Port Clinton"
+374  "Fremont"
+375  "Norwalk"
+376  "Sandusky"
+377  "Berea"
+378  "Vermilion"
+379  "Crestline"
+380  "New London"
+381  "Wooster"
+382  "Mansfield"
+383  "LaGrange"
+384  "Goshen"
+385  "Baltimore"
+386  "Hagerstown"
+387  "Reading"
+388  "Pottstown"
+389  "Chambersburg"
+390  "None"
+391  "None"
+392  "None"
+393  "Kendalville"
+394  "Angola"
+395  "Bainbride"
+396  "Tallahassee"
+397  "Bastrop"
+398  "Hamburg"
+399  "Tallulah"
+400  "Vicksburg"
+401  "Russellville"
+402  "Clarksville"
+403  "Cleveland"
+404  "Eastlake"
+405  "Warren"
+406  "Youngstown"
+407  "Massilon"
+408  "Indianapolis"
+409  "Akron"
+410  "Savannah"
+411  "Frankfort"
+412  "Lebanon"
+413  "Nobleville?"
+414  "Decatur"
+415  "New Castle"
+416  "Ashtabula"
+417  "Greencastle"
+418  "Brazil"
+419  "Spooner"
+420  "Rice Lake"
+421  "Superior"
+422  "Hayward"
+423  "Boyceville"
+424  "Hudson"
+425  "Chippenwa Falls"
+426  "Eau Claire"
+427  "St Paul"
+428  "Minneapolis"
+429  "Hammond"
+430  "New Orleans"
+431  "Kentwood"
+432  "McComb"
+433  "Brookhaven"
+434  "Jackson"
+435  "Crystal Springs"
+436  "Laurel"
+437  "Hattiesburg"
+438  "Forest"
+439  "River Falls"
+440  "Fort Smith"
+441  "Springdale"
+442  "Fayetteville"
+443  "Muskogee"
+444  "Tulsa"
+445  "Chandler"
+446  "Oklahoma City"
+447  "Norman"
+448  "Chickasha"
+449  "Lawton"
+450  "Vonore"
+451  "Oak Ridge"
+452  "Maryville"
+453  "Sweetwater"
+454  "Jefferson City"
+455  "Knoxville"
+456  "Bremen"
+457  "Newport"
+458  "La Crosee"
+459  "Morristown"
+460  "Anniston"
+461  "Alexander City"
+462  "La Fayette"
+463  "Talledega"
+464  "Eufaula"
+465  "Fort Valley"
+466  "Tuskagee"
+467  "Auburn"
+468  "Johnston"
+469  "Augusta"
+470  "Winnsboro"
+471  "Columbia"
+472  "Chattanooga"
+473  "Charlotte"
+474  "Winston-Salem"
+475  "Mooresville"
+476  "Barnesville"
+477  "Thomaston"
+478  "Griffin"
+479  "Smyrna"
+480  "Arlington"
+481  "Albany"
+482  "Americus"
+483  "Macon"
+484  "Marietta"
+485  "Alpharette"
+486  "Manchester"
+487  "Louisville"
+488  "Woodville"
+489  "Bardsdtown"
+490  "Fort Knox"
+491  "Frankfort"
+492  "Shelbyville"
+493  "Georgetown"
+494  "Lexington"
+495  "Winchester"
+496  "Paris"
+497  "Logansport"
+498  "Kokomo"
+499  "Bedford"
+500  "Mitchell"
+501  "Paoli"
+502  "French Lick"
+503  "Loogootee"
+504  "Jasper"
+505  "Remington"
+506  "Wolcott"
+507  "Naperville"
+508  "Elgin"
+509  "Schaumburg"
+510  "West Chicago"
+511  "Skokie"
+512  "Chicago"
+513  "Libertyville"
+514  "Northbrook"
+515  "Racine"
+516  "Kenosha"
+517  "Athens"
+518  "Dallas"
+519  "Jackson"
+520  "Minden"
+521  "Canton"
+522  "Quincy"
+523  "Litchfield"
+524  "Lansing"
+525  "Lafayette"
+526  "Crawfordsville"
+527  "Jacksonville"
+528  "Macomb"
+529  "Mattoon"
+530  "Effingham"
+531  "Leesville"
+532  "Natchitoches"
+533  "Shreveport"
+534  "Merrill"
+535  "Baton Rouge"
+536  "Lafayette"
+537  "Opelousas"
+538  "Alexandria"
+539  "Rochester"
+540  "Owatonna"
+541  "Lake Charles"
+542  "Jennings"
+543  "Tomah"
+544  "Middletown"
+545  "Winona"
+546  "Wabasha"
+547  "Traverse City"
+548  "Repton"
+549  "Morrilton"
+550  "Fontana Village"
+551  "Sevierville"
+552  "Alabaster"
+553  "Birmingham"
+554  "Tuscaloosa"
+555  "Jasper"
+556  "Pinson"
+557  "Selma"
+558  "Greensboro"
+559  "Linden"
+560  "Demopolis"
+561  "York"
+562  "Sealy"
+563  "Plymouth"
+564  "None"
+565  "Mount Vernon"
+566  "San Antonio"
+567  "Marietta"
+568  "Parkersburg"
+569  "Johnstown"
+570  "Manassas"
+571  "Washington DC"
+572  "Winchester"
+573  "Front Royal"
+574  "Frederick"
+575  "Martinsburg"
+576  "Ashburn"
+577  "Leesburg"
+578  "Dayton"
+579  "Fredericksburg"
+580  "Culpeper"
+581  "Newark"
+582  "Conway"
+583  "Searcy"
+584  "Biscoe"
+585  "Elaine"
+586  "Cookeville"
+587  "Hot Springs"
+588  "Little Rock"
+589  "Pine Bluff"
+590  "Tullahoma"
+591  "Manchester"
+592  "McMinnville"
+593  "Greensburg"
+594  "Nashville"
+595  "Lebanon"
+596  "Shelbyville"
+597  "Lynchburg"
+598  "Austin"
+599  "San Marcos"
+600  "None"
+601  "Grand Haven"
+602  "Muskegon"
+603  "Grand Rapids"
+604  "None"
+605  "Shippenville"
+606  "Franklin"
+607  "Meadville"
+608  "Erie"
+609  "Carrollton"
+610  "Benton"
+611  "North Vernon"
+612  "Seymour"
+613  "Franklin"
+614  "Scottsburg"
+615  "Battle Creek"
+616  "Holland"
+617  "Pipestone"
+618  "Marshall"
+619  "Granite Falls"
+620  "Montevideo"
+621  "Dodgeville"
+622  "Scales Mound"
+623  "Freeport"
+624  "Rockford"
+625  "Luverne"
+626  "Sioux Falls"
+627  "None"
+628  "None"
+629  "Malvern"
+630  "Smithville"
+631  "Allendale"
+632  "None"
+633  "Estill"
+634  "None"
+635  "None"
+636  "None"
+637  "Lincolton"
+638  "Dalton"
+639  "West Memphis"
+640  "Marks"
+641  "Greenwood"
+642  "Yazoo City"
+643  "Helena"
+644  "Marienna"
+645  "Forrest City"
+646  "Tunica"
+647  "Clarendon"
+648  "Marvell"
+649  "Neosho"
+650  "McLeansboro"
+651  "Mt Vernon"
+652  "Centralia"
+653  "Salem"
+654  "Edwardsville"
+655  "Collinsville"
+656  "Fairfield"
+657  "Carmi?"
+658  "Olney"
+659  "Flora"
+660  "Malden"
+661  "Dexter"
+662  "Sikeston"
+663  "Cape Girardeau"
+664  "Perry"
+665  "Ruston"
+666  "Kalamazoo"
+667  "Rome"
+668  "Cottondale"
+669  "Pensacola"
+670  "Meridian"
+671  "Lynchburg"
+672  "Charlottesville"
+673  "Whitesburg"
+674  "Pikeville"
+675  "Norton"
+676  "Pennington Gap"
+677  "Hazard"
+678  "Hyden"
+679  "Manchester"
+680  "Barbourville"
+681  "Baldwin"
+682  "Jesup"
+683  "Lake City"
+684  "Jacksonville"
+685  "Greenville"
+686  "Live Oak"
+687  "Oxford"
+688  "Columbus"
+689  "Starkville"
+690  "Springfield"
+691  "West Point"
+692  "La Grange"
+693  "Carrollton"
+694  "Louisville"
+695  "Cartersville"
+696  "Dunwoody"
+697  "Atlanta"
+698  "Norcross"
+699  "Collierville"
+700  "Columbus"
+701  "Holly Springs"
+702  "Corinth"
+703  "Tupolo"
+704  "Champaign"
+705  "Wickliffe"
+706  "Xenia"
+707  "Centerville"
+708  "Duluth"
+709  "Delaware"
+710  "Marysville"
+711  "Bellefontaine"
+712  "Springfield"
+713  "Portsmouth"
+714  "Chillicothe"
+715  "Columbus"
+716  "Worthington"
+717  "Sheboygan"
+718  "Manitowoc"
+719  "Brookfield"
+720  "West Bend"
+721  "Lancaster"
+722  "Wheeling"
+723  "North Manchester"
+724  "Wabash"
+725  "Marion"
+726  "Peru"
+727  "Warsaw"
+728  "Columbia City"
+729  "Fort Wayne"
+730  "Huntington"
+731  "Princeton"
+732  "Zanesville"
+733  "Westfield"
+734  "Danville"
+735  "Montrose"
+736  "Du Quoin"
+737  "St Cloud"
+738  "McGregor"
+739  "Terre Haute"
+740  "Bloomington"
+741  "Peoria"
+742  "Galesburg"
+743  "Moline"
+744  "Sheffield"
+745  "Springfield"
+746  "Fargo"
+747  "Moorhead"
+748  "Fergus Falls"
+749  "Alexandria"
+750  "Freeport"
+751  "Lebanon"
+752  "Little Falls"
+753  "Brainerd"
+-1
+0 237 1
+0 751 1
+1 3 1
+1 117 1
+2 441 1
+2 4 1
+3 120 1
+4 649 1
+5 317 1
+5 719 1
+6 308 1
+6 719 1
+7 512 1
+7 244 1
+8 9 1
+8 449 1
+9 220 1
+10 272 1
+10 11 1
+11 57 1
+12 562 1
+12 70 1
+13 57 1
+13 14 1
+14 15 1
+15 16 1
+15 16 1
+16 17 1
+16 718 1
+16 311 1
+17 348 1
+18 43 1
+18 42 1
+18 339 1
+18 487 1
+19 504 1
+19 43 1
+20 634 1
+20 654 1
+21 245 1
+21 118 1
+22 666 1
+22 603 1
+22 524 1
+23 393 1
+23 25 1
+24 490 1
+24 628 1
+24 487 1
+25 171 1
+25 172 1
+25 84 1
+25 373 1
+25 374 1
+26 27 1
+26 214 1
+27 32 1
+28 224 1
+28 230 1
+29 230 1
+30 33 1
+30 31 1
+31 109 1
+32 33 1
+32 743 1
+32 742 1
+32 211 1
+34 35 1
+34 37 1
+35 40 1
+35 594 1
+36 52 1
+36 37 1
+38 241 1
+38 39 1
+39 624 1
+39 211 1
+40 41 1
+40 228 1
+41 225 1
+41 226 1
+41 223 1
+42 614 1
+44 250 1
+44 47 1
+45 50 1
+45 46 1
+46 47 1
+47 52 1
+48 51 1
+48 164 1
+49 490 1
+49 51 1
+49 52 1
+50 296 1
+50 628 1
+51 52 1
+52 230 1
+52 53 1
+54 68 1
+54 318 1
+54 567 1
+55 56 1
+55 562 1
+56 140 1
+58 579 1
+58 59 1
+59 340 1
+60 347 1
+60 455 1
+60 359 1
+61 579 1
+61 62 1
+62 160 1
+62 65 1
+62 63 1
+63 155 1
+63 350 1
+64 112 1
+64 564 1
+64 279 1
+65 66 1
+66 67 1
+67 114 1
+68 721 1
+69 98 1
+69 339 1
+69 86 1
+70 566 1
+71 665 1
+71 398 1
+71 399 1
+72 400 1
+72 432 1
+73 594 1
+73 74 1
+74 75 1
+74 269 1
+74 79 1
+75 702 1
+76 281 1
+76 79 1
+77 269 1
+78 79 1
+80 81 1
+80 556 1
+81 414 1
+82 629 1
+82 341 1
+83 600 1
+83 137 1
+83 710 1
+84 85 1
+84 519 1
+85 90 1
+86 87 1
+87 98 1
+87 495 1
+88 91 1
+89 94 1
+90 91 1
+92 343 1
+92 343 1
+93 544 1
+93 98 1
+94 300 1
+95 544 1
+95 209 1
+95 98 1
+96 97 1
+96 98 1
+97 201 1
+98 99 1
+99 343 1
+100 106 1
+100 103 1
+101 620 1
+101 102 1
+102 750 1
+103 108 1
+104 105 1
+104 625 1
+105 106 1
+106 107 1
+106 540 1
+107 539 1
+108 109 1
+110 704 1
+110 235 1
+111 722 1
+111 732 1
+112 586 1
+112 451 1
+113 135 1
+113 263 1
+114 263 1
+115 350 1
+115 263 1
+116 117 1
+116 119 1
+118 119 1
+120 121 1
+121 237 1
+122 123 1
+122 125 1
+123 331 1
+124 548 1
+124 125 1
+125 559 1
+126 129 1
+126 668 1
+127 131 1
+127 548 1
+128 464 1
+128 129 1
+128 131 1
+130 552 1
+130 131 1
+131 466 1
+131 557 1
+132 387 1
+132 189 1
+133 265 1
+133 135 1
+134 136 1
+134 139 1
+136 385 1
+137 709 1
+137 715 1
+138 139 1
+139 388 1
+140 488 1
+140 541 1
+141 333 1
+141 142 1
+142 336 1
+143 553 1
+143 461 1
+143 463 1
+144 460 1
+144 277 1
+145 241 1
+145 507 1
+145 508 1
+146 632 1
+147 652 1
+147 365 1
+147 238 1
+147 655 1
+148 589 1
+148 398 1
+149 260 1
+149 261 1
+149 621 1
+150 546 1
+150 427 1
+151 152 1
+151 354 1
+151 158 1
+151 262 1
+152 153 1
+153 154 1
+153 671 1
+154 262 1
+154 319 1
+155 156 1
+156 157 1
+157 158 1
+159 160 1
+159 671 1
+161 162 1
+161 170 1
+161 503 1
+162 200 1
+162 499 1
+162 613 1
+163 361 1
+163 604 1
+164 168 1
+164 165 1
+165 504 1
+165 166 1
+166 167 1
+167 168 1
+167 503 1
+169 658 1
+171 174 1
+173 600 1
+173 729 1
+173 174 1
+175 176 1
+175 393 1
+176 338 1
+177 178 1
+177 285 1
+178 616 1
+179 674 1
+179 180 1
+180 181 1
+181 182 1
+182 319 1
+182 318 1
+182 183 1
+183 184 1
+184 713 1
+184 186 1
+185 496 1
+185 292 1
+186 292 1
+187 344 1
+187 363 1
+187 188 1
+188 193 1
+189 389 1
+189 190 1
+190 191 1
+191 192 1
+192 346 1
+193 348 1
+194 569 1
+194 605 1
+195 392 1
+195 246 1
+195 244 1
+195 285 1
+195 198 1
+196 384 1
+196 729 1
+196 666 1
+196 198 1
+196 383 1
+197 593 1
+197 367 1
+197 415 1
+199 513 1
+199 514 1
+199 511 1
+200 408 1
+200 203 1
+201 408 1
+201 613 1
+201 206 1
+202 408 1
+202 203 1
+204 408 1
+204 205 1
+204 207 1
+205 725 1
+206 208 1
+206 207 1
+207 208 1
+207 209 1
+210 249 1
+210 250 1
+210 372 1
+212 213 1
+212 598 1
+213 221 1
+214 622 1
+215 216 1
+215 218 1
+216 518 1
+217 218 1
+217 341 1
+219 220 1
+219 518 1
+221 222 1
+222 518 1
+223 224 1
+225 228 1
+226 231 1
+227 234 1
+227 231 1
+228 391 1
+229 230 1
+230 705 1
+231 705 1
+232 705 1
+232 636 1
+233 640 1
+233 390 1
+233 391 1
+233 234 1
+233 302 1
+233 639 1
+235 512 1
+236 744 1
+236 731 1
+236 239 1
+237 238 1
+237 238 1
+238 634 1
+239 512 1
+240 505 1
+240 242 1
+240 243 1
+241 624 1
+242 512 1
+243 246 1
+245 649 1
+245 565 1
+247 408 1
+247 417 1
+248 409 1
+248 407 1
+249 372 1
+250 253 1
+251 673 1
+251 252 1
+252 680 1
+252 257 1
+252 254 1
+253 594 1
+255 256 1
+255 258 1
+256 680 1
+258 288 1
+259 611 1
+259 614 1
+260 312 1
+261 342 1
+261 543 1
+262 352 1
+264 265 1
+264 271 1
+266 594 1
+266 268 1
+267 368 1
+267 650 1
+267 651 1
+268 596 1
+268 590 1
+269 596 1
+270 474 1
+270 271 1
+272 534 1
+273 529 1
+273 739 1
+274 281 1
+274 275 1
+275 414 1
+276 282 1
+276 277 1
+278 345 1
+278 638 1
+279 345 1
+280 281 1
+280 283 1
+282 283 1
+284 428 1
+284 427 1
+284 540 1
+286 289 1
+287 289 1
+287 294 1
+287 295 1
+288 293 1
+290 291 1
+290 293 1
+290 494 1
+292 495 1
+293 677 1
+293 495 1
+294 674 1
+296 372 1
+296 628 1
+297 298 1
+297 660 1
+298 302 1
+299 682 1
+299 684 1
+300 301 1
+300 303 1
+301 602 1
+303 305 1
+304 305 1
+304 547 1
+305 547 1
+306 602 1
+306 307 1
+307 547 1
+308 515 1
+309 624 1
+309 316 1
+310 313 1
+310 311 1
+311 534 1
+312 344 1
+312 315 1
+313 426 1
+314 321 1
+314 315 1
+314 316 1
+315 317 1
+315 342 1
+318 568 1
+320 704 1
+320 690 1
+321 458 1
+321 621 1
+322 323 1
+322 429 1
+323 336 1
+324 488 1
+324 325 1
+325 326 1
+326 327 1
+327 328 1
+327 517 1
+328 329 1
+329 533 1
+330 548 1
+330 333 1
+331 333 1
+332 669 1
+332 335 1
+333 669 1
+334 668 1
+335 668 1
+337 396 1
+337 668 1
+338 729 1
+338 725 1
+339 609 1
+343 707 1
+345 472 1
+346 569 1
+347 360 1
+347 359 1
+349 670 1
+349 694 1
+351 352 1
+351 354 1
+353 356 1
+353 637 1
+354 675 1
+354 358 1
+355 360 1
+355 356 1
+357 360 1
+357 358 1
+358 676 1
+361 362 1
+362 369 1
+363 719 1
+364 366 1
+365 736 1
+365 366 1
+367 722 1
+368 369 1
+369 370 1
+370 371 1
+370 627 1
+371 627 1
+373 376 1
+374 375 1
+375 378 1
+376 378 1
+377 403 1
+377 380 1
+378 403 1
+378 403 1
+379 380 1
+379 709 1
+381 382 1
+381 407 1
+383 394 1
+384 393 1
+385 571 1
+386 389 1
+386 574 1
+386 575 1
+387 388 1
+390 699 1
+390 701 1
+391 699 1
+392 563 1
+392 727 1
+393 728 1
+395 480 1
+395 396 1
+396 685 1
+397 398 1
+399 400 1
+400 434 1
+401 402 1
+401 549 1
+402 440 1
+403 404 1
+403 735 1
+404 416 1
+405 409 1
+405 406 1
+406 415 1
+408 411 1
+408 413 1
+409 735 1
+410 633 1
+410 682 1
+411 506 1
+412 733 1
+412 526 1
+416 608 1
+417 418 1
+418 739 1
+419 420 1
+419 422 1
+420 425 1
+421 708 1
+421 422 1
+423 426 1
+423 428 1
+424 426 1
+424 428 1
+424 439 1
+425 426 1
+427 428 1
+428 737 1
+429 430 1
+429 431 1
+430 535 1
+431 432 1
+432 433 1
+432 437 1
+433 435 1
+434 642 1
+434 435 1
+434 438 1
+436 670 1
+437 670 1
+438 670 1
+440 443 1
+440 442 1
+441 442 1
+443 444 1
+444 445 1
+445 446 1
+446 447 1
+447 448 1
+448 449 1
+450 452 1
+450 453 1
+451 564 1
+451 455 1
+452 455 1
+452 550 1
+452 551 1
+454 459 1
+454 551 1
+455 564 1
+456 697 1
+456 667 1
+456 693 1
+457 459 1
+458 545 1
+458 543 1
+460 463 1
+461 466 1
+462 472 1
+462 667 1
+462 638 1
+464 467 1
+465 482 1
+465 483 1
+466 467 1
+467 691 1
+468 469 1
+468 471 1
+469 631 1
+470 473 1
+470 471 1
+472 638 1
+472 590 1
+473 475 1
+473 637 1
+474 475 1
+476 483 1
+476 477 1
+476 478 1
+477 486 1
+478 697 1
+479 697 1
+479 484 1
+480 481 1
+481 482 1
+484 695 1
+485 698 1
+486 692 1
+486 700 1
+487 489 1
+487 492 1
+489 492 1
+491 492 1
+491 494 1
+493 494 1
+494 495 1
+497 506 1
+497 726 1
+498 725 1
+498 525 1
+499 500 1
+499 612 1
+500 501 1
+501 502 1
+502 503 1
+505 506 1
+505 525 1
+507 510 1
+508 624 1
+508 509 1
+509 512 1
+509 514 1
+509 510 1
+511 512 1
+513 516 1
+515 516 1
+517 518 1
+519 615 1
+520 665 1
+520 533 1
+521 528 1
+521 741 1
+522 664 1
+522 528 1
+523 690 1
+523 654 1
+525 734 1
+525 526 1
+527 664 1
+527 690 1
+529 704 1
+529 530 1
+530 653 1
+531 538 1
+531 541 1
+532 538 1
+532 533 1
+535 536 1
+536 537 1
+536 542 1
+537 538 1
+539 545 1
+541 542 1
+545 546 1
+549 587 1
+549 582 1
+552 553 1
+553 554 1
+553 555 1
+553 556 1
+554 555 1
+554 561 1
+557 558 1
+558 560 1
+559 560 1
+559 561 1
+561 670 1
+563 727 1
+565 745 1
+566 599 1
+567 568 1
+569 593 1
+570 571 1
+570 573 1
+571 576 1
+571 579 1
+572 573 1
+572 575 1
+574 577 1
+576 577 1
+576 580 1
+578 712 1
+578 706 1
+578 707 1
+580 672 1
+581 715 1
+581 732 1
+582 588 1
+582 583 1
+583 588 1
+584 635 1
+584 588 1
+585 643 1
+586 592 1
+586 595 1
+587 610 1
+587 629 1
+588 610 1
+588 589 1
+590 597 1
+590 591 1
+591 592 1
+592 630 1
+594 595 1
+595 630 1
+598 599 1
+600 711 1
+601 616 1
+601 602 1
+602 603 1
+604 657 1
+604 650 1
+605 606 1
+606 607 1
+607 608 1
+611 612 1
+613 614 1
+615 666 1
+617 618 1
+617 626 1
+618 619 1
+619 620 1
+622 623 1
+623 624 1
+625 626 1
+627 736 1
+631 633 1
+632 656 1
+632 657 1
+634 654 1
+634 655 1
+635 645 1
+635 647 1
+636 663 1
+638 695 1
+639 645 1
+640 641 1
+641 642 1
+643 648 1
+643 644 1
+646 701 1
+646 687 1
+647 648 1
+651 656 1
+651 652 1
+652 653 1
+653 659 1
+658 659 1
+660 661 1
+661 662 1
+662 663 1
+670 688 1
+671 672 1
+673 674 1
+674 677 1
+675 676 1
+676 680 1
+677 678 1
+678 679 1
+679 680 1
+681 683 1
+681 684 1
+683 686 1
+685 686 1
+687 703 1
+688 703 1
+689 694 1
+689 703 1
+690 741 1
+691 700 1
+691 692 1
+692 693 1
+696 697 1
+696 698 1
+701 702 1
+702 703 1
+704 740 1
+704 734 1
+706 715 1
+708 738 1
+709 716 1
+712 715 1
+713 714 1
+714 715 1
+715 716 1
+715 721 1
+717 720 1
+717 718 1
+719 720 1
+723 728 1
+723 730 1
+723 724 1
+723 727 1
+724 725 1
+724 726 1
+725 730 1
+731 744 1
+737 752 1
+737 750 1
+738 753 1
+740 741 1
+741 742 1
+743 744 1
+745 751 1
+746 747 1
+747 748 1
+748 749 1
+749 750 1
+752 753 1

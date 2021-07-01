@@ -1,0 +1,93 @@
+0  "Dolj"
+1  "Olt"
+2  "Gorj"
+3  "Valcea"
+4  "Bucaresti"
+5  "Ialomita"
+6  "Teleorman"
+7  "Giurgiu"
+8  "Calarasi"
+9  "Constanta"
+10  "Covasna"
+11  "Sibiu"
+12  "Alba"
+13  "Arges"
+14  "Dambovita"
+15  "Prahova"
+16  "Buzau"
+17  "Vrancea"
+18  "Bacau"
+19  "Harghita"
+20  "GEANT"
+21  "Chisinau RENAM"
+22  "Mures"
+23  "Bistrita-Nasaud"
+24  "Vaslui"
+25  "Galati"
+26  "Tulcea"
+27  "Braila"
+28  "Neamt"
+29  "Suceava"
+30  "Botosani"
+31  "Iasi"
+32  "Caras-Severin"
+33  "Mehedinti"
+34  "Satu Mare"
+35  "Maramures"
+36  "Cluj"
+37  "Salaj"
+38  "Bihor"
+39  "Arad"
+40  "Timis"
+41  "Hunedora"
+-1
+0 1 0.01
+0 2 0.01
+0 3 0.01
+0 4 0.034
+0 4 0.034
+0 33 0.01
+0 40 0.01
+4 36 0.155
+4 5 0.01
+4 6 0.01
+4 7 0.01
+4 8 0.01
+4 9 0.01
+4 13 0.01
+4 14 0.01
+4 15 0.01
+4 16 0.01
+4 40 0.155
+4 20 0.622
+4 20 0.622
+4 22 0.034
+4 22 0.034
+4 25 0.155
+4 31 0.155
+4 31 0.155
+10 22 0.01
+11 22 0.01
+12 36 0.01
+17 25 0.01
+18 31 0.01
+19 22 0.01
+21 31 0.034
+22 36 0.01
+22 31 0.01
+23 36 0.01
+24 31 0.01
+25 26 0.01
+25 27 0.01
+25 31 0.01
+28 31 0.01
+29 31 0.01
+30 31 0.01
+32 40 0.01
+34 36 0.01
+35 36 0.01
+36 37 0.01
+36 40 0.01
+38 40 0.01
+39 40 0.01
+40 41 0.01

@@ -1,0 +1,53 @@
+0  "Liege 1 "
+1  "Brussels Campus"
+2  "Arlon"
+3  "Liege 2"
+4  "Leuven1"
+5  "Leuven2"
+6  "Evere"
+7  "Vilvoorde"
+8  "Hasselt"
+9  "Geel"
+10  "Louvain-la-Neuve"
+11  "Namur"
+12  "Brussels Science"
+13  "Brugge"
+14  "Gent1"
+15  "Gent2"
+16  "Antwerpen1"
+17  "Antwerpen 2"
+18  "Korthijk"
+19  "Mons"
+20  "Charleroi"
+-1
+0 3 1
+0 3 1
+0 6 1
+1 12 1
+1 7 1
+2 3 1
+2 11 1
+4 5 1
+4 5 1
+4 6 1
+5 8 1
+6 17 1
+6 12 1
+6 7 1
+6 7 1
+6 7 1
+6 7 1
+7 18 1
+7 19 1
+7 9 1
+8 9 1
+10 11 1
+10 20 1
+13 18 1
+13 14 1
+14 15 1
+14 15 1
+15 16 1
+16 17 1
+16 17 1
+19 20 1

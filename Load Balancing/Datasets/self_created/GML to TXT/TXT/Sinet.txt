@@ -1,0 +1,151 @@
+0  "Fukuoka DC"
+1  "Oita U"
+2  "Kyushu U"
+3  "Kyushu IT"
+4  "Hiroshima U"
+5  "Hiroshima DC"
+6  "Ehime U"
+7  "Yamaguchi U"
+8  "IMS, U Tokyo"
+9  "ISSP, U Tokyo"
+10  "Matsuyama DC"
+11  "Kagawa U"
+12  "Kamioka Obs, ICRR, U Tokyo"
+13  "Chiba U"
+14  "Shinshu U"
+15  "NIFS"
+16  "Kanazawa U"
+17  "JAIST"
+18  "Doshisha U"
+19  "ICR, Kyoto U"
+20  "Nagoya DC"
+21  "NINS-Okazaki"
+22  "Shizuoka U"
+23  "Nagoya U"
+24  "Kanazawa DC"
+25  "Toyama U"
+26  "Yamanashi U"
+27  "U Tokushima"
+28  "Tokyo DC3"
+29  "NII"
+30  "NII-CHiba"
+31  "GSIST, U Tokyo"
+32  "U Electro-Communications"
+33  "RIKEN"
+34  "Tokyo DC1"
+35  "Tokyo DC2"
+36  "JAXA-ISAS"
+37  "Yokohama National U"
+38  "Keio U"
+39  "Tokyo IT"
+40  "Niigata U"
+41  "Fukui U"
+42  "KEK"
+43  "JAEA"
+44  "Tsukuba DC"
+45  "U Tsukuba"
+46  "Gunma U"
+47  "ISM"
+48  "U Tokyo"
+49  "Kyoto DC"
+50  "Kyoto U"
+51  "Waseda U"
+52  "Kansai U"
+53  "Osaka U"
+54  "Kobe U"
+55  "JAMSTEC"
+56  "JASRI"
+57  "Tottori U"
+58  "Okayama U"
+59  "Osaka DC"
+60  "NAOJ"
+61  "Saitama U"
+62  "JAXA-IAT"
+63  "Tokyo U Ag and Tech"
+64  "Nagasaki U"
+65  "Kurnamoto U"
+66  "Sapporo DC"
+67  "Hokkaido U"
+68  "Kitami IT"
+69  "Hirosaki U"
+70  "Sendai DC"
+71  "Tohoku U"
+72  "U of the Ryukyus"
+73  "Kagoshima U"
+-1
+0 64 1
+0 1 1
+0 2 1
+0 3 1
+0 5 1
+0 65 1
+0 72 1
+0 73 1
+0 10 1
+4 5 1
+5 7 1
+5 49 1
+5 57 1
+5 58 1
+6 10 1
+8 34 1
+9 34 1
+10 27 1
+10 11 1
+10 59 1
+12 20 1
+13 35 1
+14 35 1
+15 20 1
+16 24 1
+17 24 1
+18 49 1
+19 49 1
+20 34 40
+20 21 1
+20 22 1
+20 23 1
+20 59 40
+24 66 1
+24 35 1
+24 40 1
+24 41 1
+24 49 1
+24 25 1
+26 35 1
+28 35 1
+29 34 1
+30 34 1
+31 34 1
+32 35 1
+33 34 1
+34 35 1
+34 36 1
+34 37 1
+34 38 1
+34 39 1
+34 44 1
+34 48 1
+34 51 1
+34 60 1
+34 62 1
+35 46 1
+35 47 1
+35 55 1
+35 61 1
+35 63 1
+42 44 1
+43 44 1
+44 70 1
+44 45 1
+49 50 1
+49 59 1
+52 59 1
+53 59 1
+54 59 1
+56 59 1
+66 67 1
+66 70 1
+67 68 1
+69 70 1
+70 71 1

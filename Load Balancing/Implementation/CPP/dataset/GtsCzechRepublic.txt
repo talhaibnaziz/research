@@ -1,0 +1,66 @@
+0  "Klatovy"
+1  "Pisek"
+2  "Chomutov"
+3  "Plzen"
+4  "Jindrichuv Hradec"
+5  "Havlickuv Brod"
+6  "Ceske Budejovice"
+7  "Tabor"
+8  "Zmjno"
+9  "Brno"
+10  "None"
+11  "Hardec Kralove"
+12  "Usti nad Labem"
+13  "Kolin"
+14  "Ostrava"
+15  "Zlin"
+16  "Ostrokovice"
+17  "Hodonin"
+18  "Bratislava"
+19  "Frankfurt"
+20  "Warsaw"
+21  "Prostejov"
+22  "Beroun"
+23  "Karlovy vary"
+24  "Opava"
+25  "Olomouc"
+26  "Ceska Trebova"
+27  "Liberec"
+28  "Semily"
+29  "Kladno"
+30  "Prague"
+31  "Mlada Boleslay"
+-1
+0 3 1
+1 6 1
+2 12 1
+2 23 1
+3 22 1
+3 23 1
+4 5 1
+4 6 1
+5 9 1
+6 30 1
+6 7 1
+8 9 1
+9 17 1
+9 18 1
+10 11 1
+11 28 1
+11 26 1
+11 30 1
+12 27 1
+13 30 1
+14 24 1
+14 25 1
+14 20 1
+14 15 1
+15 16 1
+16 17 1
+19 30 1
+21 25 1
+22 30 1
+25 26 1
+27 28 1
+29 30 1
+30 31 1

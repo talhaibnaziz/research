@@ -1,0 +1,124 @@
+0  "Westerbork"
+1  "Dwingeloo"
+2  "Groningen"
+3  "Assen"
+4  "Alkmaar"
+5  "Lelystad"
+6  "Leeuwarden"
+7  "Den Helder"
+8  "Amsterdam"
+9  "Haarlem"
+10  "Oss"
+11  "Den Bosch"
+12  "Houten"
+13  "Wageningen"
+14  "Nijmegen"
+15  "Venlo"
+16  "Heerlen"
+17  "Maastricht"
+18  "Maasbracht"
+19  "Eindhoven"
+20  "Yerseke"
+21  "Vlissingen"
+22  "Gouda"
+23  "Nieuwegen"
+24  "Tilburg"
+25  "Dordrecht"
+26  "Bergen op Zoom"
+27  "Breda"
+28  "Middelburg"
+29  "Zierikzee"
+30  "Utrecht"
+31  "Breukelen"
+32  "Leiden"
+33  "Oegstgeest"
+34  "Lisse"
+35  "Schiphol-Rijk"
+36  "Hilversum"
+37  "Rotterdam"
+38  "Delft"
+39  "Den Haag"
+40  "Emmen"
+41  "Winschoten"
+42  "Arnhem"
+43  "Apeldoorn"
+44  "Zutphen"
+45  "Enschede"
+46  "Deventer"
+47  "Zwolle"
+48  "Meppel"
+49  "Hoogeveen"
+-1
+0 1 1
+1 8 1
+1 3 1
+2 41 1
+2 3 1
+2 3 1
+2 6 1
+3 49 1
+4 8 1
+4 9 1
+4 7 1
+5 8 1
+5 47 1
+6 7 1
+8 32 1
+8 35 1
+8 38 1
+8 47 1
+8 36 1
+8 30 1
+8 31 1
+9 32 1
+10 11 1
+11 19 1
+11 23 1
+12 30 1
+12 30 1
+13 30 1
+13 14 1
+14 42 1
+14 45 1
+14 15 1
+15 16 1
+16 17 1
+16 17 1
+17 18 1
+18 19 1
+19 24 1
+19 30 1
+20 26 1
+20 21 1
+21 28 1
+22 37 1
+22 30 1
+23 30 1
+24 27 1
+25 27 1
+25 37 1
+26 27 1
+26 27 1
+26 29 1
+28 29 1
+30 36 1
+30 38 1
+30 31 1
+32 39 1
+32 38 1
+32 33 1
+33 34 1
+34 35 1
+37 38 1
+37 38 1
+38 39 1
+40 41 1
+40 49 1
+42 44 1
+42 46 1
+43 44 1
+43 46 1
+45 47 1
+46 47 1
+47 48 1
+48 49 1

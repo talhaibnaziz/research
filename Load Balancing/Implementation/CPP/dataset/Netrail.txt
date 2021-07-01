@@ -1,0 +1,18 @@
+0  "Netrail"
+1  "Palo Alto"
+2  "Chicago"
+3  "New York"
+4  "Baltimore"
+5  "Washington, DC"
+6  "Miami"
+7  "Atlanta"
+0 4
+0 6
+1 2
+1 6
+2 3
+2 4
+3 4
+4 5
+4 6
+5 6

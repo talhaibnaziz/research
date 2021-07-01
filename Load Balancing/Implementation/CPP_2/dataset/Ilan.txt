@@ -1,0 +1,30 @@
+0  "Tel Aviv GigaPoP"
+1  "Int'l backup "
+2  "IIX"
+3  "Petach Tikva GigaPoP"
+4  "External Users"
+5  "GEANT 2 Germany"
+6  "Open University"
+7  "Haifa University"
+8  "Technion"
+9  "Bar Ilan University"
+10  "Hebrew University"
+11  "Ben Gurion University"
+12  "Weizmann Institute"
+13  "Tel Aviv University"
+-1
+0 1 0.6
+0 7 1
+0 8 1
+0 9 1
+0 10 1
+0 11 1
+0 12 1
+0 13 1
+2 3 1
+3 4 1
+3 5 2.5
+3 6 1
+3 7 1
+3 9 1
+3 13 

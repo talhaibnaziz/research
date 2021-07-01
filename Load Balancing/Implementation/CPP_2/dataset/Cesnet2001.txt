@@ -1,0 +1,47 @@
+0  "Olomouc"
+1  "Brno"
+2  "Pardubice"
+3  "Hradec Kralove"
+4  "Breclav,Lednice"
+5  "Ostrava"
+6  "Vyskov"
+7  "Zlin"
+8  "Karvina"
+9  "Opava"
+10  "Kostelec n C.L"
+11  "Tabor"
+12  "TEN-155"
+13  "USA"
+14  "Jindrichuv Hradec"
+15  "Cheb"
+16  "Plzen"
+17  "Decin"
+18  "Usti nad Labem"
+19  "Praha"
+20  "Liberec"
+21  "Ceske Budejovice"
+22  "NIX"
+-1
+0 1 2.5
+0 5 1
+1 19 0.155
+1 4 0.0002
+1 6 0.002
+1 7 0.034
+2 19 2.5
+3 19 2.5
+5 8 0.002
+5 19 2.5
+5 9 0.002
+10 19 0.0001
+11 21 0.0002
+12 19 0.045
+13 19 0.068
+14 21 0.002
+15 16 0.0005
+16 19 2.5
+17 18 0.0002
+18 19 0.034
+19 20 2.5
+19 21 2.5
+19 22 0.1

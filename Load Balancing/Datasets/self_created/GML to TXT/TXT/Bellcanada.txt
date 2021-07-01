@@ -1,0 +1,113 @@
+0  "Cold Lake"
+1  "Grande Prairie"
+2  "Edmonton"
+3  "Fort McMurray"
+4  "Kamloops"
+5  "Vernon"
+6  "Dawson Creek"
+7  "Prince George"
+8  "Kelowna"
+9  "Penticton?"
+10  "Sept -Iles"
+11  "Charlottetown"
+12  "New York"
+13  "Ottawa"
+14  "Montreal"
+15  "Sherbrooke"
+16  "Quebec City"
+17  "Chicoutimi"
+18  "Rimouski"
+19  "Baie-Comeau"
+20  "Saint John"
+21  "Moncton"
+22  "Halifax"
+23  "Fredericton"
+24  "St John's"
+25  "Onslow"
+26  "Lethbridge"
+27  "Calgary"
+28  "Buffalo"
+29  "Toronto"
+30  "Victoria"
+31  "Seattle"
+32  "Courtenay"
+33  "Vancouver"
+34  "Chicago"
+35  "Los Angeles"
+36  "Palo Alto"
+37  "San Francisco"
+38  "Medicine Hat"
+39  "Red Deer"
+40  "Washington"
+41  "Atlanta"
+42  "Dallas"
+43  "Sudbury"
+44  "Thunder Bay"
+45  "Winnipeg"
+46  "Saskatoon"
+47  "Regina"
+0 2
+1 2
+1 6
+2 3
+2 4
+2 39
+2 46
+4 33
+4 5
+4 7
+5 8
+6 7
+8 9
+8 27
+8 33
+10 19
+11 25
+11 21
+12 40
+12 28
+12 14
+13 29
+13 14
+14 16
+14 15
+15 16
+15 16
+16 17
+16 21
+16 23
+17 18
+18 19
+20 21
+20 22
+20 23
+21 25
+22 24
+22 25
+24 25
+26 27
+27 33
+27 38
+27 39
+28 29
+29 34
+29 43
+30 32
+30 33
+30 31
+31 33
+31 35
+31 36
+31 37
+34 42
+34 45
+35 40
+35 36
+36 37
+38 47
+40 41
+41 42
+43 44
+44 45
+45 46
+45 47

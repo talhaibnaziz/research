@@ -1,0 +1,137 @@
+/**
+* Metrics rule declarations for destination pages.
+* 
+* $Version:1.0 2013/04/24 $ 
+*
+*/
+
+
+// PDF and Print
+cdc.util.addMetricsRule('#tg-dl-print a[href]',{
+               "lpos":"dest_pg_rnav_dl_print",
+                "lid":"dest_pg_rnav_dl_print",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Share
+cdc.util.addMetricsRule('#tg-share .media-icons.addthis_toolbox.addthis_default_style a',{
+               "lpos":"dest_pg_rnav_share",
+                "lid":"dest_pg_rnav_share",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Feedback
+cdc.util.addMetricsRule('#tg-share .feedback-link a',{
+               "lpos":"dest_pg_rnav_feedback",
+                "lid":"dest_pg_rnav_feedback",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Related Docs
+cdc.util.addMetricsRule('#tg-related-docs a[href]',{
+               "lpos":"dest_pg_rnav_reldocs",
+                "lid":"dest_pg_rnav_reldocs",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Related Docs - More
+cdc.util.addMetricsRule('#right-rail .noPrint .noPrint',{
+               "lpos":"dest_pg_rnav_reldocs",
+                "lid":"dest_pg_rnav_reldocs_More",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+
+
+
+// Related Products
+cdc.util.addMetricsRule('#tg-related-prod a[href]',{
+               "lpos":"dest_pg_rnav_relprod",
+				"lid":"dest_pg_rnav_relprod",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Demand Gen
+cdc.util.addMetricsRule('#tg-dgen a[href]',{
+               "lpos":"dest_pg_rnav_dgen",
+				"lid":"dest_pg_rnav_dgen",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Body
+cdc.util.addMetricsRule('#tg-body a[href]',{
+               "lpos":"dest_pg_body",
+				"lid":"dest_pg_body",
+	ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Rating
+cdc.util.addMetricsRule('#tg-rating a',{
+               "lpos":"dest_pg_rating",
+				"lid":"dest_pg_rating",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Case Open
+cdc.util.addMetricsRule('#tg-open-case a[href]',{
+               "lpos":"dest_pg_caseopen",
+				"lid":"dest_pg_caseopen",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+
+// Community - Home page
+cdc.util.addMetricsRule('#tg-community a[href]',{
+               "lpos":"dest_pg_community",
+				"lid":"dest_pg_community_home",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Community - Thread link
+cdc.util.addMetricsRule('div.results_header a[href]',{
+               "lpos":"dest_pg_community",
+				"lid":"dest_pg_community_thread",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Community - Sub Community link
+cdc.util.addMetricsRule('.communitylisting #communityURL',{
+               "lpos":"dest_pg_community",
+				"lid":"dest_pg_community_SubComm",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});
+
+// Left Nav - HiNav
+cdc.util.addMetricsRule('div.hinav a[href]',{
+               "lpos":"dest_pg_hinav",
+				"lid":"dest_pg_hinav",
+    ntpagetag:{
+                                //"infoSource":"linkclick"
+    }
+});

@@ -1,0 +1,143 @@
+0  "New York"
+1  "?"
+2  "Montreal"
+3  "Boston"
+4  "London"
+5  "Amsterdam"
+6  "Dublin"
+7  "Manchester"
+8  "Dusseldorf"
+9  "Antwerp"
+10  "None"
+11  "None"
+12  "None"
+13  "Athens"
+14  "Bucharest"
+15  "Vienna"
+16  "Bratislava"
+17  "Prague"
+18  "Warsaw"
+19  "Cagliari"
+20  "Rome"
+21  "???"
+22  "Catania"
+23  "Madrid"
+24  "Singapore"
+25  "Hamburg"
+26  "Sofia"
+27  "Oslo"
+28  "Copenhagen"
+29  "Palo Alto"
+30  "Stockholm"
+31  "Hong Kong"
+32  "None"
+33  "Munich"
+34  "Frankfurt"
+35  "Marseille"
+36  "Barcelona"
+37  "Paris"
+38  "Brussels"
+39  "Basel"
+40  "Zurich"
+41  "Milan"
+42  "Turin"
+43  "Miami"
+44  "Toronto"
+45  "Seattle"
+46  "San Jose"
+47  "Los Angeles"
+48  "Denver"
+49  "Chicago"
+50  "Dallas"
+51  "Atlanta"
+52  "Washington DC"
+-1
+0 1 1
+0 6 1
+1 49 1
+1 10 1
+1 44 1
+1 52 1
+2 3 1
+2 6 1
+4 5 1
+4 6 1
+4 7 1
+4 8 1
+4 38 1
+4 37 1
+5 34 1
+5 7 1
+5 8 1
+5 9 1
+5 27 1
+5 28 1
+6 7 1
+8 34 1
+8 18 1
+8 25 1
+8 30 1
+9 38 1
+10 11 1
+10 12 1
+11 48 1
+11 46 1
+12 48 1
+12 49 1
+13 22 1
+14 34 1
+14 15 1
+15 16 1
+15 33 1
+15 34 1
+15 32 1
+16 17 1
+17 18 1
+17 34 1
+18 34 1
+19 42 1
+19 20 1
+20 21 1
+20 22 1
+21 42 1
+22 41 1
+23 36 1
+23 37 1
+24 35 1
+24 46 1
+24 31 1
+25 28 1
+26 32 1
+27 28 1
+27 30 1
+28 30 1
+29 49 1
+31 46 1
+31 47 1
+32 34 1
+33 34 1
+33 39 1
+34 39 1
+34 41 1
+34 37 1
+35 41 1
+35 42 1
+35 36 1
+35 37 1
+37 38 1
+37 39 1
+37 42 1
+39 40 1
+40 41 1
+41 42 1
+43 51 1
+43 52 1
+44 45 1
+44 49 1
+45 46 1
+46 47 1
+47 50 1
+49 50 1
+49 52 1
+50 51 1
+51 52 1

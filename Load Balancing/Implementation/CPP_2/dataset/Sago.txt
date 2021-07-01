@@ -1,0 +1,36 @@
+0  "Ft. Pierce"
+1  "Melbourne"
+2  "Lake Alfred"
+3  "Orlando"
+4  "West Palm Beach"
+5  "Tampa"
+6  "Miami"
+7  "Ft. Lauderdale"
+8  "Flovilla"
+9  "Atlanta"
+10  "Tarrytown"
+11  "Gordon"
+12  "Newell"
+13  "Surrency"
+14  "St. Augustine"
+15  "Jacksonville"
+16  "Titusville"
+17  "Daytona Beach"
+-1
+0 1 1
+0 4 1
+1 16 1
+2 3 1
+2 5 1
+3 17 1
+4 7 1
+6 7 1
+8 9 1
+8 11 1
+10 11 1
+10 13 1
+12 13 1
+12 15 1
+14 17 1
+14 15 1
+16 17 1

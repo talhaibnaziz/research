@@ -1,0 +1,12 @@
+**********************************************
+BAR DIAGRAM PLOT
+**********************************************
+cd 'D:\Research Work\Controller Placement\Load Balancing\Implementation\CPP_2\Output\Plots'
+set xlabel "Controller ID"
+set ylabel "Controller Load (flows/s)"
+set boxwidth 1
+set style fill solid 1 border lt -1
+set xtics ("1" 1.5, "2" 3.5, "3" 5.5, "4" 7.5, "5" 9.5, "6" 11.5, "7" 13.5, "8" 15.5, "9" 17.5, "10" 19.5)
+set yrange [100000:450000]
+plot "minmax_loads.txt" every 2 using 1:2 title "BLBA" with boxes ls 0, "minmax_loads.txt" every 2::1 using 1:2 title "MSDA" with boxes ls 5, 220445.8 title "Target Load" lt 0
+

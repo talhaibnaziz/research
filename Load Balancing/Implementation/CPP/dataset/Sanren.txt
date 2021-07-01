@@ -1,0 +1,15 @@
+0  "Sanren"
+1  "Johannesburg"
+2  "Pretoria"
+3  "Durban"
+4  "Bloemfontein"
+5  "East London"
+6  "Port Elizabeth"
+7  "Cape Town"
+0 1
+0 3
+1 2
+2 4
+3 6
+4 5
+5 6

@@ -1,0 +1,297 @@
+0  "Tampa"
+1  "Sarasota"
+2  "Dothan"
+3  "Tallahassee"
+4  "Lake City"
+5  "Valdosta"
+6  "Jacksonville"
+7  "Gainesville"
+8  "Ocala"
+9  "Winter Haven"
+10  "Winston-Salem"
+11  "Lexington"
+12  "Durham"
+13  "Greensboro"
+14  "Newnah?"
+15  "Gainesville"
+16  "Hickory"
+17  "Lagrange?"
+18  "Rocky Mount"
+19  "Raleigh"
+20  "Shreveport"
+21  "Monroe"
+22  "Alexandria"
+23  "Longview"
+24  "New Orleans"
+25  "Jackson"
+26  "Vicksburg"
+27  "Baton Rouge"
+28  "Pine Bluff"
+29  "Little Rock"
+30  "Myrtle Beach"
+31  "Florence"
+32  "Washington"
+33  "Philadelphia"
+34  "Richmond"
+35  "Norfolk"
+36  "Wilmington"
+37  "Fayatteville"
+38  "Newark"
+39  "New York"
+40  "Alexander City"
+41  "Auburn"
+42  "Opelika"
+43  "Lagrange"
+44  "West Point"
+45  "Albany"
+46  "Macon"
+47  "Atlanta"
+48  "Gadsden"
+49  "Anniston"
+50  "Nashville"
+51  "Chattanooga"
+52  "Knoxville"
+53  "Sylva"
+54  "Birmingham"
+55  "Montgomery"
+56  "Arab"
+57  "Huntsville"
+58  "Houston"
+59  "Ashville"
+60  "Greenville"
+61  "Beaumont"
+62  "Daytona Beach"
+63  "Orlando"
+64  "Miami"
+65  "Ft Myers"
+66  "Fort Lauderdale"
+67  "Hollywood"
+68  "Vero Beach"
+69  "West Palm Beach"
+70  "Cocoa Beach"
+71  "Melbourne"
+72  "Augusta"
+73  "Athens"
+74  "Sumter"
+75  "Columbia"
+76  "Orangeburg"
+77  "Charleston"
+78  "Hilton Head"
+79  "Beaufort"
+80  "Saunt Augustine"
+81  "Savannah"
+82  "Lake Charles"
+83  "Lafayette"
+84  "None"
+85  "None"
+86  "None"
+87  "Panama City"
+88  "Crestview"
+89  "Meridian"
+90  "Tuscaloosa"
+91  "Jackson"
+92  "Memphis"
+93  "Pensacola"
+94  "Mobile"
+95  "Gulfport"
+96  "Hattiesburg"
+97  "None"
+98  "None"
+99  "None"
+100  "None"
+101  "None"
+102  "None"
+103  "None"
+104  "Charlotte"
+105  "Dallas"
+106  "Waco"
+107  "Bryan"
+108  "Austin"
+109  "San Marcos"
+110  "San Antonia"
+111  "None"
+112  "None"
+-1
+0 64 1
+0 64 1
+0 1 1
+0 9 1
+0 8 1
+0 63 1
+0 63 1
+1 65 1
+2 55 1
+2 87 1
+3 88 1
+3 4 1
+3 4 1
+3 45 1
+3 86 1
+3 47 1
+4 86 1
+4 5 1
+4 6 1
+4 6 1
+4 7 1
+5 46 1
+6 80 1
+6 81 1
+6 62 1
+7 8 1
+8 86 1
+8 63 1
+8 63 1
+9 63 1
+10 16 1
+10 104 1
+10 11 1
+10 13 1
+11 16 1
+11 104 1
+11 13 1
+12 19 1
+12 13 1
+14 17 1
+14 84 1
+15 97 1
+15 47 1
+16 104 1
+17 43 1
+18 19 1
+18 35 1
+19 104 1
+19 36 1
+19 37 1
+19 37 1
+20 21 1
+20 22 1
+20 23 1
+21 26 1
+22 83 1
+23 105 1
+24 25 1
+24 27 1
+24 95 1
+25 89 1
+25 26 1
+25 28 1
+25 92 1
+27 83 1
+28 29 1
+29 92 1
+30 103 1
+30 36 1
+30 36 1
+30 77 1
+30 31 1
+31 112 1
+31 36 1
+31 37 1
+32 33 1
+32 34 1
+33 38 1
+34 35 1
+36 37 1
+36 37 1
+38 39 1
+40 41 1
+40 49 1
+41 42 1
+42 43 1
+43 45 1
+44 47 1
+46 47 1
+47 73 1
+47 51 1
+47 84 1
+47 111 1
+47 60 1
+47 60 1
+48 57 1
+48 49 1
+49 84 1
+49 54 1
+50 57 1
+50 91 1
+50 52 1
+50 51 1
+52 53 1
+53 59 1
+53 60 1
+54 56 1
+54 90 1
+54 111 1
+54 55 1
+55 94 1
+55 111 1
+56 57 1
+58 105 1
+58 61 1
+58 110 1
+59 60 1
+60 104 1
+60 104 1
+60 104 1
+60 97 1
+61 82 1
+62 80 1
+62 70 1
+62 85 1
+63 85 1
+63 70 1
+64 65 1
+64 66 1
+64 66 1
+64 67 1
+66 67 1
+66 69 1
+66 85 1
+68 69 1
+68 71 1
+70 71 1
+72 73 1
+72 75 1
+72 75 1
+72 75 1
+72 81 1
+72 81 1
+72 81 1
+73 98 1
+74 112 1
+74 75 1
+74 103 1
+75 104 1
+75 104 1
+75 76 1
+76 100 1
+77 81 1
+77 81 1
+77 81 1
+77 81 1
+77 100 1
+77 103 1
+78 101 1
+79 102 1
+79 102 1
+81 101 1
+82 83 1
+87 88 1
+88 93 1
+89 96 1
+89 90 1
+91 92 1
+93 94 1
+94 95 1
+95 96 1
+97 98 1
+98 99 1
+99 104 1
+99 112 1
+100 102 1
+101 102 1
+105 106 1
+106 107 1
+107 108 1
+108 109 1
+108 109 1
+109 110 1

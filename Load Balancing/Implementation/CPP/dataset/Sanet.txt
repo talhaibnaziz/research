@@ -1,0 +1,89 @@
+0  "Zilina"
+1  "Prievidza"
+2  "Trencin"
+3  "Puchov"
+4  "Martin"
+5  "Ruzomberok"
+6  "Zvolen"
+7  "B. Bystrica"
+8  "L.Mikulas"
+9  "T.Lomnica"
+10  "ACOnet"
+11  "VIX"
+12  "Topolcany"
+13  "Levice"
+14  "Nove Zamky"
+15  "Sala"
+16  "None"
+17  "PIONIER"
+18  "NIX"
+19  "CESNET"
+20  "GEANT"
+21  "SIX"
+22  "GTS"
+23  "Lucenec"
+24  "R.Sobota"
+25  "Michalovca"
+26  "Humenne"
+27  "Presov"
+28  "Poprad"
+29  "Spisska Nova Ves"
+30  "Roznava"
+31  "Kosice"
+32  "Trebisov"
+33  "Piestany"
+34  "Nove Mesto n. Vahom"
+35  "Bielsko-Biala"
+36  "Brno"
+37  "Vieden"
+38  "Bratislava"
+39  "Trnava"
+40  "Komarno"
+41  "Hurbanovo"
+42  "Nitra"
+-1
+0 16 10
+0 3 10
+0 4 10
+1 12 10
+1 6 10
+2 34 10
+2 3 10
+4 5 10
+5 8 10
+5 7 10
+6 23 10
+6 13 10
+6 7 10
+8 28 10
+9 28 0.1
+10 37 10
+11 37 10
+12 42 10
+13 14 10
+14 15 10
+15 38 10
+16 17 10
+16 35 10
+18 36 10
+19 36 10
+20 38 1
+21 38 10
+22 38 10
+23 24 10
+24 30 10
+25 32 10
+25 26 10
+27 29 10
+27 31 10
+28 29 10
+30 31 10
+31 32 10
+33 34 10
+33 39 10
+36 38 10
+37 38 10
+38 39 10
+39 42 10
+40 41 10
+41 42 10

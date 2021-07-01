@@ -1,0 +1,104 @@
+0  "Tokyo DC1"
+1  "Tokyo DC2"
+2  "Sendai DC"
+3  "Saitama DC"
+4  "Nerima DC"
+5  "Yokohama DC1"
+6  "Shibuya DC"
+7  "Ikebukuro DC"
+8  "Yokohama DC2"
+9  "Nagoya DC"
+10  "JPNAP Tokyo 1"
+11  "China"
+12  "JPNAP Osaka"
+13  "JPNAP Tokyo 2"
+14  "NYIIX"
+15  "PAIX"
+16  "LAIIX"
+17  "dix-ie"
+18  "Equinix exchange"
+19  "Newyork DC"
+20  "Fukuoka DC"
+21  "Shinsaibashi DC"
+22  "Kyoto DC"
+23  "Ashburn DC"
+24  "LA DC"
+25  "San Jose DC"
+26  "PaloAlto DC"
+27  "Okinawa"
+28  "Sappora DC"
+29  "Chiba"
+30  "Tokyo"
+31  "Toyama"
+32  "Kanazawa"
+33  "Hamamatsu"
+34  "Osaka"
+35  "Okayama"
+36  "Hiroshima"
+-1
+0 6 2.5
+0 30 2.5
+1 6 2.5
+1 30 10
+2 6 10
+2 30 10
+3 6 0.622
+3 30 10
+4 6 10
+5 6 10
+5 30 10
+6 7 10
+6 8 2.5
+6 9 10
+6 34 10
+6 21 10
+6 24 10
+6 28 10
+6 29 0.622
+6 30 0.622
+6 30 10
+7 34 10
+7 30 10
+7 13 10
+8 30 2.5
+9 33 0.155
+9 34 10
+9 30 10
+10 30 30
+11 34 0.622
+12 34 40
+14 19 10
+15 19 10
+16 24 1
+17 30 11
+18 24 10
+18 25 10
+18 23 10
+19 24 2.5
+19 25 10
+19 23 2.5
+20 34 10
+20 27 0.622
+20 21 10
+21 32 2.5
+21 34 10
+21 35 0.622
+21 36 10
+21 22 0.622
+21 30 10
+22 34 0.622
+23 24 10
+23 25 10
+24 34 10
+24 25 10
+24 26 2.5
+25 26 2.5
+25 30 10
+28 30 10
+29 30 0.622
+30 34 10
+30 33 0.155
+30 31 2.5
+31 32 2.5
+34 35 0.622
+34 36 10

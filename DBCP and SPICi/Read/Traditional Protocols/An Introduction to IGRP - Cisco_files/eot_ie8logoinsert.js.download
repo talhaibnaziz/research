@@ -1,0 +1,13 @@
+/**
+ * eot_ie8logoinsert.js
+ * $Revision: 1.0 $
+ */
+ 
+ //to insert html for printing logo on an eot page using IE8
+ //to be removed when support for IE8 is dropped. remove references in clientLibBottom for eot page, and in print sass file
+
+if (jQuery('html').hasClass('lt-ie9') && jQuery('body').hasClass('cdc-eot')){
+    if (!jQuery('#fw-logo span img').hasClass('printlogoie8')){
+        jQuery('#fw-logo div').before('<span><img class="printlogoie8" src="/etc/designs/cdc/fw/i/responsive/satellite-sprite.png" /></span>');
+    } 
+}

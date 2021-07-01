@@ -1,0 +1,88 @@
+0  "Stara Gradnifska"
+1  "Kutina"
+2  "Slavonski"
+3  "Pozega"
+4  "Gorica"
+5  "Karlovac"
+6  "Sisak"
+7  "Petrinja"
+8  "Jastrebarsko"
+9  "GEANT"
+10  "Hvar"
+11  "Dubrovnik"
+12  "Rovinj"
+13  "Visnjan"
+14  "Opatija"
+15  "Porec"
+16  "Buje"
+17  "Zadar"
+18  "Zenumik D"
+19  "Knin"
+20  "Trogic"
+21  "Pucisca"
+22  "Solin"
+23  "Sibenik"
+24  "Pula"
+25  "M. Losinj"
+26  "Rijeka"
+27  "Split"
+28  "Cakovec"
+29  "GEANT"
+30  "Gospic"
+31  "Otocac"
+32  "Vinkovci"
+33  "BIHarnet"
+34  "Vukovar"
+35  "Dakovo"
+36  "Zagreb"
+37  "Zabresic"
+38  "Samobor"
+39  "Varazdin"
+40  "Krizevci"
+41  "Bjelovar"
+42  "Virovitica"
+43  "Osijek"
+-1
+0 36 0.1
+1 36 0.01
+2 43 0.1
+3 43 0.1
+4 36 1
+5 36 0.1
+6 36 0.1
+6 7 0.002
+8 36 0.002
+9 36 10
+10 27 0.002
+11 27 0.2
+12 24 0.1
+13 26 0.1
+14 26 0.1
+15 26 0.1
+16 26 0.1
+17 18 0.004
+17 27 0.2
+19 27 0.1
+20 27 0.004
+21 27 0.002
+22 27 0.002
+23 27 0.1
+24 26 1
+25 26 0.002
+26 36 1
+26 30 0.002
+26 31 0.002
+27 36 1
+28 39 0.004
+29 36 10
+32 34 0.002
+33 36 0.155
+34 43 0.006
+35 43 0.002
+36 42 0.002
+36 43 1
+36 40 0.004
+36 41 0.1
+36 39 1
+36 38 0.004
+36 37 0.004

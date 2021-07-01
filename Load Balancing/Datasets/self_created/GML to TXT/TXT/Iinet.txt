@@ -1,0 +1,67 @@
+0  "AKAMAI"
+1  "Velocix"
+2  "AARNET"
+3  "WADE"
+4  "Pipe"
+5  "AARNET"
+6  "Pipe"
+7  "Transact"
+8  "AKAMAI"
+9  "PIPE"
+10  "VOCUS"
+11  "TELSTRA"
+12  "REACH"
+13  "AKAMAI"
+14  "GOOGLE"
+15  "PIPE"
+16  "PIPE"
+17  "Equinix"
+18  "AARNET"
+19  "AKAMAI"
+20  "PIPE"
+21  "Hobart"
+22  "Google"
+23  "Darwin"
+24  "Adelaide"
+25  "Perth"
+26  "Brisbane"
+27  "Sydney1"
+28  "Sydney2"
+29  "Canberra"
+30  "Melbourne"
+-1
+0 25 1
+1 25 1
+2 25 1
+3 25 1
+4 29 1
+5 29 1
+6 24 1
+7 29 1
+8 30 1
+9 30 1
+10 28 1
+11 27 1
+11 28 1
+12 28 1
+13 28 1
+14 28 1
+15 28 1
+16 21 1
+17 27 1
+18 27 1
+19 26 1
+20 26 1
+21 28 1
+22 25 1
+23 24 1
+24 25 1
+24 27 1
+24 29 1
+25 27 1
+25 28 1
+26 27 1
+26 28 1
+27 30 1
+28 29 1
+28 30 

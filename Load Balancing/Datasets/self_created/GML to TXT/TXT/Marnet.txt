@@ -1,0 +1,48 @@
+0  "F. of Mining and Geology Stip"
+1  "ONnet NEOTEL SONET"
+2  "NOC and CampusSocial Sciences"
+3  "I. of Economy"
+4  "NationalBroadcastingcompany Comm. Tower"
+5  "I of Political and Juridical Res"
+6  "GEANT SEEREN"
+7  "Campus Natural Sciences and Mathematics"
+8  "F. of Pedagogy"
+9  "MOL"
+10  "National and Univ Library"
+11  "I. of Earthquake Engineering"
+12  "I. of National History"
+13  "I. of Macedonian Literature"
+14  "St Clement of Ohrid University in Bitola"
+15  "Several Ministries of the Government"
+16  "Campus Arch and Civil Eng"
+17  "CampusTechnical"
+18  "Campus Medicine"
+19  "CampusBiotech. Sciences"
+-1
+0 2 1
+1 4 1
+2 3 1
+2 4 0.155
+2 5 1
+2 6 0.068
+2 7 1
+2 9 1
+2 10 1
+2 11 1
+2 12 1
+2 13 1
+2 14 1
+2 15 1
+2 16 1
+2 17 1
+2 18 1
+2 19 1
+4 7 0.004
+4 10 0.004
+4 11 0.004
+4 16 0.004
+4 17 0.004
+4 18 0.004
+4 19 0.004
+5 17 1
+8 17 1

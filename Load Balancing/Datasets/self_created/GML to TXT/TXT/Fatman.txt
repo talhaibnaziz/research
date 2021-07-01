@@ -1,0 +1,39 @@
+0  "Carnegie College"
+1  "Adam Smith College"
+2  "Kirkcaldy"
+3  "UoD Fife Campus"
+4  "Janet and Internet"
+5  "None"
+6  "Janet and Internet"
+7  "Dundee College"
+8  "Angus College"
+9  "Glasgow"
+10  "Leeds"
+11  "RNEP1"
+12  "RNEP2"
+13  "University of Abertay Dundee"
+14  "University of Dundee"
+15  "University of St Andrews"
+16  "Elmwood College"
+-1
+0 2 1
+1 2 1
+2 3 1
+2 5 1
+4 9 1
+5 11 1
+5 12 1
+6 10 1
+7 11 1
+8 11 1
+9 10 1
+9 12 1
+10 11 1
+11 12 1
+11 13 1
+11 14 1
+11 15 1
+11 16 1
+12 13 1
+12 14 1
+12 15 

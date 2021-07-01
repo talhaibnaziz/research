@@ -1,0 +1,125 @@
+0  "Komotini"
+1  "Alexandroypoli"
+2  "Xanthi"
+3  "Kavala"
+4  "Interconnection Greece"
+5  "Chios"
+6  "Lesbos"
+7  "Athens"
+8  "Zakynthos"
+9  "Pyrgos"
+10  "Samos"
+11  "Rhodes"
+12  "Agrinio"
+13  "Mesologgi"
+14  "Prevezza"
+15  "Arta"
+16  "Lamia"
+17  "Inofita"
+18  "Rethymnon"
+19  "Moires"
+20  "Ag. Nikolaos"
+21  "Ierapetra"
+22  "Siteia"
+23  "Corinth"
+24  "Itea"
+25  "Livadia"
+26  "Kastoria"
+27  "Larissa"
+28  "Lefkada"
+29  "Grevena"
+30  "Igoumenitsa"
+31  "Argostoli"
+32  "Internet"
+33  "Patra"
+34  "Sklathos"
+35  "Chalkida"
+36  "Karditsa"
+37  "Volos"
+38  "Karpenisi"
+39  "Trikana"
+40  "Corfu"
+41  "Ioaninna"
+42  "Hersonlssos"
+43  "Heraklion"
+44  "Argos"
+45  "Syros"
+46  "Mykonos"
+47  "Santorini"
+48  "Chania"
+49  "Sparta"
+50  "Kalamata"
+51  "Tripoli"
+52  "Polygyros"
+53  "Drama"
+54  "Serres"
+55  "Thessaloniki"
+56  "Kilkis"
+57  "Edessa"
+58  "Florina"
+59  "Verola"
+60  "Kozani"
+61  "Katerina"
+-1
+0 55 1
+1 55 1
+2 3 1
+3 53 1
+3 55 1
+4 7 11
+5 7 1
+6 7 1
+7 32 28
+7 33 1
+7 35 1
+7 41 1
+7 10 1
+7 11 1
+7 45 1
+7 46 1
+7 47 1
+7 16 1
+7 17 1
+7 51 1
+7 43 1
+7 55 1
+7 24 1
+7 25 1
+7 27 1
+7 23 1
+8 33 1
+9 33 1
+12 33 1
+13 33 1
+14 41 1
+15 41 1
+18 43 1
+19 43 1
+20 42 1
+20 21 1
+20 22 1
+26 41 1
+27 36 1
+27 37 1
+27 38 1
+27 39 1
+28 33 1
+29 41 1
+30 41 1
+31 33 1
+32 55 15
+34 35 1
+40 41 1
+42 43 1
+43 48 1
+44 51 1
+49 51 1
+50 51 1
+52 55 1
+54 55 1
+55 56 1
+55 57 1
+55 58 1
+55 59 1
+55 60 1
+55 61 

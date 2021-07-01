@@ -1,0 +1,55 @@
+0  "UCCA-C"
+1  "Canterbury College"
+2  "Medway ACL"
+3  "Mid Kent College"
+4  "South Kent College - Ashford"
+5  "KIAD-O"
+6  "Thanet College"
+7  "Hilderstone College"
+8  "Kent ACL"
+9  "Hadlow College"
+10  "University College Folkestone"
+11  "Kent Community Network (Schools, etc)"
+12  "UoK-C"
+13  "West Kent College"
+14  "Hadlow College Mottingham"
+15  "IFS School of Finance"
+16  "NW Kent College - Dartford"
+17  "KIAD-R"
+18  "UoG-AH"
+19  "University of Greenwich"
+20  "CCCU-C"
+21  "IC-Wye"
+22  "EIS-Maidstone"
+23  "CCCU-S"
+24  "CCCU-T"
+25  "Dorton College"
+-1
+0 12 0.01
+1 12 0.01
+2 19 0.01
+3 19 0.01
+4 21 0.01
+5 22 0.01
+6 24 0.01
+7 24 0.01
+8 19 0.01
+9 23 0.01
+10 21 0.1
+11 12 2
+11 22 2
+12 15 0.01
+12 19 2
+12 20 0.1
+12 21 2
+12 24 1
+12 24 0.155
+13 23 0.01
+14 18 0.01
+16 18 0.01
+17 19 0.01
+18 19 2
+19 22 2
+19 25 0.002
+21 22 2
+22 23 0.1

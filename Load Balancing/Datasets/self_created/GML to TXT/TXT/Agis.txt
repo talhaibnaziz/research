@@ -1,0 +1,55 @@
+0  "Miami"
+1  "Houston"
+2  "Washington, DC"
+3  "Atlanta"
+4  "Mexico City"
+5  "Phoenix"
+6  "Dallas"
+7  "St Louis"
+8  "San Diego"
+9  "Los Angeles"
+10  "Santa Clara"
+11  "Stockton"
+12  "Sacramento"
+13  "Fresno"
+14  "San Francisco"
+15  "New York"
+16  "Boston"
+17  "Seattle"
+18  "Salt Lake City"
+19  "Chicago"
+20  "Minneapolis"
+21  "Detroit"
+22  "Pittsburg"
+23  "Philadelphia"
+24  "Pennsauken"
+0 3
+1 6
+2 3
+2 23
+3 6
+3 15
+4 6
+5 9
+5 6
+6 7
+7 19
+8 9
+9 10
+9 12
+9 19
+9 24
+10 11
+10 12
+10 13
+10 14
+14 17
+15 16
+15 23
+17 18
+17 19
+19 20
+19 21
+21 22
+22 23
+23 24

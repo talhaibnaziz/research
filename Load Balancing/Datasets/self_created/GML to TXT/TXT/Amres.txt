@@ -1,0 +1,49 @@
+0  "Bor"
+1  "Kosovska Mitrovica"
+2  "Novi Pazar"
+3  "Krustevac"
+4  "Vranje"
+5  "Nis"
+6  "Pirot"
+7  "Leskovac"
+8  "Kragujevac"
+9  "Novi Sad"
+10  "Bosnia and Herzegovina"
+11  "HUNGARNET"
+12  "Beograd"
+13  "Pancevo"
+14  "Telekom Serbia"
+15  "Kraljevo"
+16  "Raska"
+17  "Subotica"
+18  "Sombor"
+19  "Zrenjanin"
+20  "Sabac"
+21  "Valjevo"
+22  "Uzice"
+23  "Cacak"
+24  "Velika Plana"
+0 5
+1 12
+2 16
+3 5
+3 15
+4 7
+5 6
+5 7
+8 24
+8 15
+9 17
+9 18
+9 19
+9 12
+10 20
+11 17
+12 13
+12 14
+12 20
+12 21
+12 24
+15 16
+21 22
+22 23

@@ -1,0 +1,14 @@
+0  "Grodno"
+1  "Minsk"
+2  "Vitebsk"
+3  "Mogilev"
+4  "Gomel"
+5  "Brest"
+6  "Pionier GEANT 2"
+-1
+0 1 0.002
+1 2 0.002
+1 3 0.002
+1 4 0.002
+1 5 0.002
+1 6 0.155

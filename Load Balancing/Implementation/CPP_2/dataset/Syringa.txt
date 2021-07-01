@@ -1,0 +1,149 @@
+0  "Meridian"
+1  "Emmett"
+2  "Caldwell"
+3  "Nampa"
+4  "Tipanuk"
+5  "Mountain Home"
+6  "Hidden Springs"
+7  "Boise"
+8  "Rockland"
+9  "Arbon"
+10  "Fairfield"
+11  "Carey"
+12  "Albion"
+13  "Malta"
+14  "Rupert"
+15  "Burley"
+16  "Bone"
+17  "Iona"
+18  "Ashton"
+19  "Tetonia"
+20  "Driggs"
+21  "Victor"
+22  "Jackson"
+23  "Freedom"
+24  "Afton"
+25  "Henry"
+26  "Gooding"
+27  "Hailey"
+28  "Coeur D'Alene"
+29  "Pocatello"
+30  "Blackfoot"
+31  "Raft River"
+32  "None"
+33  "Twin Falls"
+34  "Soda Springs"
+35  "Paris"
+36  "Lava Hot Springs"
+37  "Downey"
+38  "Malad City"
+39  "McCammon"
+40  "Gooding"
+41  "Idaho Falls"
+42  "Cheyenne"
+43  "Glenn's Ferry"
+44  "Jack Pot"
+45  "Salt Lake City"
+46  "Oakley"
+47  "Hagerman"
+48  "American Falls"
+49  "St Anthony"
+50  "Dubois"
+51  "None"
+52  "Challis"
+53  "Stanley"
+54  "Galena"
+55  "Missoula"
+56  "Terreton"
+57  "Howe"
+58  "Arco"
+59  "Mackay"
+60  "Halfway"
+61  "Filer"
+62  "Spokane"
+63  "Preston"
+64  "Payette"
+65  "Fruitland"
+66  "Salmon"
+67  "Council"
+68  "McCall"
+69  "Cambridge"
+70  "Mesa"
+71  "Indian Valley"
+72  "Midvale"
+73  "Weiser"
+-1
+0 3 1
+0 7 1
+1 6 1
+1 71 1
+2 65 1
+2 3 1
+4 10 1
+4 7 1
+5 43 1
+5 7 1
+7 42 1
+7 45 1
+7 55 1
+7 28 1
+7 62 1
+8 48 1
+8 9 1
+9 29 1
+9 38 1
+10 51 1
+11 51 1
+12 13 1
+12 14 1
+13 31 1
+14 15 1
+15 33 1
+15 46 1
+16 17 1
+16 25 1
+17 41 1
+17 21 1
+18 49 1
+19 20 1
+20 21 1
+22 23 1
+23 24 1
+23 25 1
+25 34 1
+26 33 1
+27 51 1
+27 54 1
+29 30 1
+29 39 1
+31 48 1
+32 36 1
+32 37 1
+32 63 1
+33 40 1
+33 61 1
+34 35 1
+34 36 1
+36 39 1
+41 49 1
+43 47 1
+44 61 1
+47 61 1
+49 50 1
+50 56 1
+52 66 1
+52 59 1
+52 53 1
+53 54 1
+56 57 1
+57 58 1
+58 59 1
+60 69 1
+64 65 1
+64 73 1
+67 68 1
+67 70 1
+69 72 1
+69 70 1
+70 71 1
+72 73 1

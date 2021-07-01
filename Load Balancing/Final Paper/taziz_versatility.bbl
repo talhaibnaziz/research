@@ -1,0 +1,349 @@
+\begin{thebibliography}{40}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Ashrafi et~al.(2020)Ashrafi, Faroq and
+  Correia}]{ashrafi2020reliability}
+\bibinfo{author}{Ashrafi, M.}, \bibinfo{author}{Faroq, A.T.},
+  \bibinfo{author}{Correia, N.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Placement of controllers in software defined
+  networking under multiple controller mapping}.
+\newblock \bibinfo{journal}{KnE Engineering} , \bibinfo{pages}{394--404}.
+%Type = Inproceedings
+\bibitem[{Aziz et~al.(2019)Aziz, Protik, Hossen, Choudhury and
+  Alam}]{aziz2019degree}
+\bibinfo{author}{Aziz, T.I.}, \bibinfo{author}{Protik, S.},
+  \bibinfo{author}{Hossen, M.S.}, \bibinfo{author}{Choudhury, S.},
+  \bibinfo{author}{Alam, M.M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Degree-based balanced clustering for large-scale
+  software defined networks}, in: \bibinfo{booktitle}{2019 IEEE Wireless
+  Communications and Networking Conference (WCNC)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1--6}.
+%Type = Inproceedings
+\bibitem[{Benson et~al.(2010)Benson, Akella and Maltz}]{benson2010traffic}
+\bibinfo{author}{Benson, T.}, \bibinfo{author}{Akella, A.},
+  \bibinfo{author}{Maltz, D.A.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Network traffic characteristics of data centers in
+  the wild}, in: \bibinfo{booktitle}{Proceedings of the 10th ACM SIGCOMM
+  conference on Internet measurement}, pp. \bibinfo{pages}{267--280}.
+%Type = Article
+\bibitem[{Chaudhary and Kumar(2020)}]{chaudhary2020cost}
+\bibinfo{author}{Chaudhary, R.}, \bibinfo{author}{Kumar, N.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Parc: Placement availability resilient controller
+  scheme for software-defined datacenters}.
+\newblock \bibinfo{journal}{IEEE Transactions on Vehicular Technology} .
+%Type = Article
+\bibitem[{Chen et~al.(2018)Chen, Wang, Chen, Huang and Chung}]{chen2018load}
+\bibinfo{author}{Chen, Y.J.}, \bibinfo{author}{Wang, L.C.},
+  \bibinfo{author}{Chen, M.C.}, \bibinfo{author}{Huang, P.M.},
+  \bibinfo{author}{Chung, P.J.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Sdn-enabled traffic-aware load balancing for m2m
+  networks}.
+\newblock \bibinfo{journal}{IEEE Internet of Things Journal}
+  \bibinfo{volume}{5}, \bibinfo{pages}{1797--1806}.
+%Type = Article
+\bibitem[{Choumas et~al.(2020)Choumas, Giatsios, Flegkas and
+  Korakis}]{choumas2020oittraffic}
+\bibinfo{author}{Choumas, K.}, \bibinfo{author}{Giatsios, D.},
+  \bibinfo{author}{Flegkas, P.}, \bibinfo{author}{Korakis, T.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Sdn controller placement and switch assignment for
+  low power iot}.
+\newblock \bibinfo{journal}{Electronics} \bibinfo{volume}{9},
+  \bibinfo{pages}{325}.
+%Type = Inproceedings
+\bibitem[{Coronado et~al.(2017)Coronado, Villal{\'o}n and
+  Garrido}]{coronado2017wiload}
+\bibinfo{author}{Coronado, E.}, \bibinfo{author}{Villal{\'o}n, J.},
+  \bibinfo{author}{Garrido, A.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Wi--balance: Sdn--based load--balancing in enterprise
+  wlans}, in: \bibinfo{booktitle}{2017 IEEE Conference on Network
+  Softwarization (NetSoft)}, \bibinfo{organization}{ieee}. pp.
+  \bibinfo{pages}{1--2}.
+%Type = Article
+\bibitem[{Cox et~al.(2017)Cox, Chung, Donovan, Ivey, Clark, Riley and
+  Owen}]{cox2017survey}
+\bibinfo{author}{Cox, J.H.}, \bibinfo{author}{Chung, J.},
+  \bibinfo{author}{Donovan, S.}, \bibinfo{author}{Ivey, J.},
+  \bibinfo{author}{Clark, R.J.}, \bibinfo{author}{Riley, G.},
+  \bibinfo{author}{Owen, H.L.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Advancing software-defined networks: A survey}.
+\newblock \bibinfo{journal}{IEEE Access} \bibinfo{volume}{5},
+  \bibinfo{pages}{25487--25526}.
+%Type = Article
+\bibitem[{Das and Gurusamy(2020)}]{das2020latency}
+\bibinfo{author}{Das, T.}, \bibinfo{author}{Gurusamy, M.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Controller placement for resilient network state
+  synchronization in multi-controller sdn}.
+\newblock \bibinfo{journal}{IEEE Communications Letters} .
+%Type = Article
+\bibitem[{Dijkstra et~al.(1959)}]{dijkstra1959note}
+\bibinfo{author}{Dijkstra, E.W.}, et~al., \bibinfo{year}{1959}.
+\newblock \bibinfo{title}{A note on two problems in connexion with graphs}.
+\newblock \bibinfo{journal}{Numerische mathematik} \bibinfo{volume}{1},
+  \bibinfo{pages}{269--271}.
+%Type = Inproceedings
+\bibitem[{Dixit et~al.(2013)Dixit, Hao, Mukherjee, Lakshman and
+  Kompella}]{scalability2013dixit}
+\bibinfo{author}{Dixit, A.}, \bibinfo{author}{Hao, F.},
+  \bibinfo{author}{Mukherjee, S.}, \bibinfo{author}{Lakshman, T.},
+  \bibinfo{author}{Kompella, R.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Towards an elastic distributed sdn controller}, in:
+  \bibinfo{booktitle}{ACM SIGCOMM Computer Communication Review},
+  \bibinfo{organization}{ACM}. pp. \bibinfo{pages}{7--12}.
+%Type = Article
+\bibitem[{Dvir et~al.(2019)Dvir, Haddad and Zilberman}]{dvir2019wireless}
+\bibinfo{author}{Dvir, A.}, \bibinfo{author}{Haddad, Y.},
+  \bibinfo{author}{Zilberman, A.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{The controller placement problem for wireless sdn}.
+\newblock \bibinfo{journal}{Wireless Networks} \bibinfo{volume}{25},
+  \bibinfo{pages}{4963--4978}.
+%Type = Incollection
+\bibitem[{Fan et~al.(2020)Fan, Ouyang and Yuan}]{fan2020reliability}
+\bibinfo{author}{Fan, Y.}, \bibinfo{author}{Ouyang, T.}, \bibinfo{author}{Yuan,
+  X.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Controller placements for improving flow set-up
+  reliability of software-defined networks}, in: \bibinfo{booktitle}{Urban
+  Intelligence and Applications}. \bibinfo{publisher}{Springer}, pp.
+  \bibinfo{pages}{3--13}.
+%Type = Inproceedings
+\bibitem[{Filali et~al.(2018)Filali, Kobbane, Elmachkour and
+  Cherkaoui}]{filali2018sdn}
+\bibinfo{author}{Filali, A.}, \bibinfo{author}{Kobbane, A.},
+  \bibinfo{author}{Elmachkour, M.}, \bibinfo{author}{Cherkaoui, S.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Sdn controller assignment and load balancing with
+  minimum quota of processing capacity}, in: \bibinfo{booktitle}{2018 IEEE
+  International Conference on Communications (ICC)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1--6}.
+%Type = Book
+\bibitem[{Forouzan(2017)}]{forouzan2006data}
+\bibinfo{author}{Forouzan, A.B.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Data communications and networking (sie)}.
+\newblock \bibinfo{edition}{4} ed., \bibinfo{publisher}{Tata McGraw-Hill
+  Education}.
+%Type = Article
+\bibitem[{Fragiadakis et~al.(2016)Fragiadakis, Iwasaki, Troyan, Ueda and
+  Yokoo}]{fragiadakis2016matching}
+\bibinfo{author}{Fragiadakis, D.}, \bibinfo{author}{Iwasaki, A.},
+  \bibinfo{author}{Troyan, P.}, \bibinfo{author}{Ueda, S.},
+  \bibinfo{author}{Yokoo, M.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Strategyproof matching with minimum quotas}.
+\newblock \bibinfo{journal}{ACM Transactions on Economics and Computation
+  (TEAC)} \bibinfo{volume}{4}, \bibinfo{pages}{1--40}.
+%Type = Article
+\bibitem[{Greene(2009)}]{greene2009tr10}
+\bibinfo{author}{Greene, K.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Tr10: Software-defined networking}.
+\newblock \bibinfo{journal}{Technology Review (MIT)} .
+%Type = Inproceedings
+\bibitem[{Heller et~al.(2012)Heller, Sherwood and McKeown}]{heller2012latency}
+\bibinfo{author}{Heller, B.}, \bibinfo{author}{Sherwood, R.},
+  \bibinfo{author}{McKeown, N.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{The controller placement problem}, in:
+  \bibinfo{booktitle}{Proceedings of the first workshop on Hot topics in
+  software defined networks}, \bibinfo{organization}{ACM}. pp.
+  \bibinfo{pages}{7--12}.
+%Type = Article
+\bibitem[{Hu et~al.(2014)Hu, Hao and Bao}]{hu2014survey}
+\bibinfo{author}{Hu, F.}, \bibinfo{author}{Hao, Q.}, \bibinfo{author}{Bao, K.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{A survey on software-defined network and openflow:
+  From concept to implementation}.
+\newblock \bibinfo{journal}{IEEE Communications Surveys \& Tutorials}
+  \bibinfo{volume}{16}, \bibinfo{pages}{2181--2206}.
+%Type = Inproceedings
+\bibitem[{Hu et~al.(2013)Hu, Wendong, Gong, Que and
+  Shiduan}]{hu2013reliability}
+\bibinfo{author}{Hu, Y.}, \bibinfo{author}{Wendong, W.}, \bibinfo{author}{Gong,
+  X.}, \bibinfo{author}{Que, X.}, \bibinfo{author}{Shiduan, C.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Reliability-aware controller placement for
+  software-defined networks}, in: \bibinfo{booktitle}{Integrated Network
+  Management (IM 2013), 2013 IFIP/IEEE International Symposium on},
+  \bibinfo{organization}{IEEE}, \bibinfo{address}{Ghent, Belgium}. pp.
+  \bibinfo{pages}{672--675}.
+%Type = Article
+\bibitem[{Kariv and Hakimi(1979)}]{kariv1979algorithmic}
+\bibinfo{author}{Kariv, O.}, \bibinfo{author}{Hakimi, S.L.},
+  \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{An algorithmic approach to network location problems.
+  i: The p-centers}.
+\newblock \bibinfo{journal}{SIAM Journal on Applied Mathematics}
+  \bibinfo{volume}{37}, \bibinfo{pages}{513--538}.
+%Type = Article
+\bibitem[{Knight et~al.(2011)Knight, Nguyen, Falkner, Bowden and
+  Roughan}]{knight2011internet}
+\bibinfo{author}{Knight, S.}, \bibinfo{author}{Nguyen, H.X.},
+  \bibinfo{author}{Falkner, N.}, \bibinfo{author}{Bowden, R.},
+  \bibinfo{author}{Roughan, M.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The internet topology zoo}.
+\newblock \bibinfo{journal}{IEEE Journal on Selected Areas in Communications}
+  \bibinfo{volume}{29}, \bibinfo{pages}{1765--1775}.
+%Type = Article
+\bibitem[{Lange et~al.(2015)Lange, Gebert, Zinner, Tran-Gia, Hock, Jarschel and
+  Hoffmann}]{lange2015multi}
+\bibinfo{author}{Lange, S.}, \bibinfo{author}{Gebert, S.},
+  \bibinfo{author}{Zinner, T.}, \bibinfo{author}{Tran-Gia, P.},
+  \bibinfo{author}{Hock, D.}, \bibinfo{author}{Jarschel, M.},
+  \bibinfo{author}{Hoffmann, M.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Heuristic approaches to the controller placement
+  problem in large scale sdn networks}.
+\newblock \bibinfo{journal}{IEEE Transactions on Network and Service
+  Management} \bibinfo{volume}{12}, \bibinfo{pages}{4--17}.
+%Type = Inproceedings
+\bibitem[{Li et~al.(2020)Li, Sun and Guan}]{li2020latency}
+\bibinfo{author}{Li, Y.}, \bibinfo{author}{Sun, W.}, \bibinfo{author}{Guan,
+  S.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{A multi-controller deployment method based on pso
+  algorithm in sdn environment}, in: \bibinfo{booktitle}{2020 IEEE 4th
+  Information Technology, Networking, Electronic and Automation Control
+  Conference (ITNEC)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{351--355}.
+%Type = Article
+\bibitem[{Liao et~al.(2017)Liao, Sun, Wang, Qi, Li and Li}]{dbcp2017}
+\bibinfo{author}{Liao, J.}, \bibinfo{author}{Sun, H.}, \bibinfo{author}{Wang,
+  J.}, \bibinfo{author}{Qi, Q.}, \bibinfo{author}{Li, K.}, \bibinfo{author}{Li,
+  T.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Density cluster based approach for controller
+  placement problem in large-scale software defined networkings}.
+\newblock \bibinfo{journal}{Computer Networks} \bibinfo{volume}{112},
+  \bibinfo{pages}{24--35}.
+\newblock \DOIprefix\doi{10.1016/j.comnet.2016.10.014}.
+%Type = Article
+\bibitem[{Papa et~al.(2020)Papa, de~Cola, Vizarreta, He, Mas-Machuca and
+  Kellerer}]{papa2020satellite}
+\bibinfo{author}{Papa, A.}, \bibinfo{author}{de~Cola, T.},
+  \bibinfo{author}{Vizarreta, P.}, \bibinfo{author}{He, M.},
+  \bibinfo{author}{Mas-Machuca, C.}, \bibinfo{author}{Kellerer, W.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Design and evaluation of reconfigurable sdn leo
+  constellations}.
+\newblock \bibinfo{journal}{IEEE Transactions on Network and Service
+  Management} .
+%Type = Inproceedings
+\bibitem[{Qilin and Weikang(2015)}]{qilin2015load}
+\bibinfo{author}{Qilin, M.}, \bibinfo{author}{Weikang, S.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{A load balancing method based on sdn}, in:
+  \bibinfo{booktitle}{2015 Seventh International Conference on Measuring
+  Technology and Mechatronics Automation}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{18--21}.
+%Type = Article
+\bibitem[{Sallahi and St-Hilaire(2015)}]{sallahi2015optimal}
+\bibinfo{author}{Sallahi, A.}, \bibinfo{author}{St-Hilaire, M.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Optimal model for the controller placement problem in
+  software defined networks}.
+\newblock \bibinfo{journal}{IEEE communications letters} \bibinfo{volume}{19},
+  \bibinfo{pages}{30--33}.
+%Type = Article
+\bibitem[{Sch{\"u}tz and Martins(2020)}]{schutz2020load}
+\bibinfo{author}{Sch{\"u}tz, G.}, \bibinfo{author}{Martins, J.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{A comprehensive approach for optimizing controller
+  placement in software-defined networks}.
+\newblock \bibinfo{journal}{Computer Communications} .
+%Type = Article
+\bibitem[{Singh and Srivastava(2018)}]{singh2018survey}
+\bibinfo{author}{Singh, A.K.}, \bibinfo{author}{Srivastava, S.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{A survey and classification of controller placement
+  problem in sdn}.
+\newblock \bibinfo{journal}{International Journal of Network Management}
+  \bibinfo{volume}{28}, \bibinfo{pages}{e2018}.
+%Type = Article
+\bibitem[{Toufga et~al.(2020)Toufga, Abdellatif, Assouane, Owezarski and
+  Villemur}]{toufga2020vehicle}
+\bibinfo{author}{Toufga, S.}, \bibinfo{author}{Abdellatif, S.},
+  \bibinfo{author}{Assouane, H.T.}, \bibinfo{author}{Owezarski, P.},
+  \bibinfo{author}{Villemur, T.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Towards dynamic controller placement in software
+  defined vehicular networks}.
+\newblock \bibinfo{journal}{Sensors} \bibinfo{volume}{20},
+  \bibinfo{pages}{1701}.
+%Type = Article
+\bibitem[{Wang et~al.(2011)Wang, Butnariu, Rexford et~al.}]{wang2011load}
+\bibinfo{author}{Wang, R.}, \bibinfo{author}{Butnariu, D.},
+  \bibinfo{author}{Rexford, J.}, et~al., \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Openflow-based server load balancing gone wild.}
+\newblock \bibinfo{journal}{Hot-ICE} \bibinfo{volume}{11},
+  \bibinfo{pages}{12--12}.
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2016)Wang, Liu, Guo and Xu}]{wang2016load}
+\bibinfo{author}{Wang, T.}, \bibinfo{author}{Liu, F.}, \bibinfo{author}{Guo,
+  J.}, \bibinfo{author}{Xu, H.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Dynamic sdn controller assignment in data center
+  networks: Stable matching with transfers}, in: \bibinfo{booktitle}{IEEE
+  INFOCOM 2016-The 35th Annual IEEE International Conference on Computer
+  Communications}, \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1--9}.
+%Type = Book
+\bibitem[{Wilson(1979)}]{wilson1979introduction}
+\bibinfo{author}{Wilson, R.J.}, \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{Introduction to graph theory}.
+\newblock \bibinfo{publisher}{Pearson Education India}.
+%Type = Article
+\bibitem[{Yang et~al.(2020)Yang, Cui, Chen and Xiao}]{yang2020security}
+\bibinfo{author}{Yang, S.}, \bibinfo{author}{Cui, L.}, \bibinfo{author}{Chen,
+  Z.}, \bibinfo{author}{Xiao, W.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{An efficient approach to robust sdn controller
+  placement for security}.
+\newblock \bibinfo{journal}{IEEE Transactions on Network and Service
+  Management} .
+%Type = Article
+\bibitem[{Yao et~al.(2014)Yao, Bi, Li and Guo}]{yao2014capacitated}
+\bibinfo{author}{Yao, G.}, \bibinfo{author}{Bi, J.}, \bibinfo{author}{Li, Y.},
+  \bibinfo{author}{Guo, L.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{On the capacitated controller placement problem in
+  software defined networks}.
+\newblock \bibinfo{journal}{IEEE Communications Letters} \bibinfo{volume}{18},
+  \bibinfo{pages}{1339--1342}.
+%Type = Inproceedings
+\bibitem[{Yao et~al.(2015)Yao, Hong, Zhang, Li and Ni}]{yao2015controller}
+\bibinfo{author}{Yao, L.}, \bibinfo{author}{Hong, P.}, \bibinfo{author}{Zhang,
+  W.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Ni, D.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Controller placement and flow based dynamic
+  management problem towards sdn}, in: \bibinfo{booktitle}{Communication
+  Workshop (ICCW), 2015 IEEE International Conference on},
+  \bibinfo{organization}{IEEE}, \bibinfo{address}{London, UK}. pp.
+  \bibinfo{pages}{363--368}.
+%Type = Article
+\bibitem[{Yeganeh et~al.(2013)Yeganeh, Tootoonchian and
+  Ganjali}]{scalability2013yeganeh}
+\bibinfo{author}{Yeganeh, S.H.}, \bibinfo{author}{Tootoonchian, A.},
+  \bibinfo{author}{Ganjali, Y.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{On scalability of software-defined networking}.
+\newblock \bibinfo{journal}{IEEE Communications Magazine} \bibinfo{volume}{51},
+  \bibinfo{pages}{136--141}.
+%Type = Inproceedings
+\bibitem[{Zhang et~al.(2011)Zhang, Beheshti and
+  Tatipamula}]{zhang2011resilience}
+\bibinfo{author}{Zhang, Y.}, \bibinfo{author}{Beheshti, N.},
+  \bibinfo{author}{Tatipamula, M.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{On resilience of split-architecture networks}, in:
+  \bibinfo{booktitle}{Global Telecommunications Conference (GLOBECOM 2011),
+  2011 IEEE}, \bibinfo{organization}{IEEE}, \bibinfo{address}{Kathmandu,
+  Nepal}. pp. \bibinfo{pages}{1--6}.
+%Type = Article
+\bibitem[{Zhang et~al.(2017)Zhang, Cui, Wang and Zhang}]{zhang2017survey}
+\bibinfo{author}{Zhang, Y.}, \bibinfo{author}{Cui, L.}, \bibinfo{author}{Wang,
+  W.}, \bibinfo{author}{Zhang, Y.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{A survey on software defined networking with multiple
+  controllers}.
+\newblock \bibinfo{journal}{Journal of Network and Computer Applications}
+  \bibinfo{volume}{103}, \bibinfo{pages}{101--118}.
+
+\end{thebibliography}

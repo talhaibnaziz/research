@@ -1,0 +1,48 @@
+0  "Leicester"
+1  "Northampton"
+2  "Sheffield"
+3  "Nottingham"
+4  "Croydon"
+5  "Slough"
+6  "Milton Keynes"
+7  "London"
+8  "Reading"
+9  "Banbury"
+10  "Brighton"
+11  "Bristol"
+12  "Birmingham"
+13  "Preston"
+14  "Manchester"
+15  "Glasgow"
+16  "Edinburgh"
+17  "Newcastle"
+18  "Middlesborough"
+19  "Harrogate"
+20  "York"
+21  "Leeds"
+22  "Carlisle"
+-1
+0 1 1
+0 3 1
+1 6 1
+2 3 1
+2 21 1
+4 7 1
+5 8 1
+5 7 1
+6 7 1
+8 9 1
+8 10 1
+8 11 1
+9 12 1
+12 14 1
+13 14 1
+13 22 1
+15 16 1
+15 22 1
+16 17 1
+17 18 1
+18 20 1
+19 20 1
+19 21 1
+20 21 1

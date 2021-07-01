@@ -1,0 +1,101 @@
+0  "Dolj"
+1  "Olt"
+2  "Gorj"
+3  "Valcea"
+4  "Bucaresti"
+5  "Ialomita"
+6  "Teleorman"
+7  "Giurgiu"
+8  "Calarasi"
+9  "Constanta"
+10  "Harghita"
+11  "Covasna"
+12  "Alba"
+13  "Brasov"
+14  "Arges"
+15  "Dambovita"
+16  "Prahova"
+17  "Buzau"
+18  "Vrancea"
+19  "Bacau"
+20  "Chisinau RENAM"
+21  "Sibiu"
+22  "None"
+23  "None"
+24  "None"
+25  "None"
+26  "GEANT"
+27  "None"
+28  "Mures"
+29  "Bistrita-Nasaud"
+30  "Vaslui"
+31  "Galati"
+32  "Tulcea"
+33  "Braila"
+34  "Neamt"
+35  "Suceava"
+36  "Botosani"
+37  "Iasi"
+38  "Caras-Severin"
+39  "Mehedinti"
+40  "Satu Mare"
+41  "Maramures"
+42  "Cluj"
+43  "Salaj"
+44  "Bihor"
+45  "Arad"
+46  "Timis"
+47  "Hunedora"
+-1
+0 1 1
+0 2 1
+0 3 1
+0 4 1
+0 39 1
+2 47 1
+4 6 1
+4 7 1
+4 16 1
+4 26 1
+4 27 1
+5 27 1
+8 27 1
+9 27 1
+10 11 1
+11 13 1
+12 25 1
+12 47 1
+13 24 1
+13 16 1
+14 21 1
+14 15 1
+15 16 1
+16 17 1
+17 18 1
+18 19 1
+19 23 1
+20 37 1
+21 25 1
+22 41 1
+22 42 1
+22 35 1
+23 35 1
+23 36 1
+24 25 1
+25 42 1
+27 33 1
+28 42 1
+29 42 1
+30 37 1
+30 31 1
+31 32 1
+31 33 1
+34 37 1
+38 46 1
+40 41 1
+40 44 1
+42 43 1
+42 44 1
+44 45 1
+45 46 1
+45 47 1

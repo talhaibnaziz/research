@@ -1,0 +1,95 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_415294_ea056527-0035-418d-a2ca-2389ce91b988 {\n  cursor:pointer; \n}\na#cta_button_415294_ea056527-0035-418d-a2ca-2389ce91b988:hover {\n}\na#cta_button_415294_ea056527-0035-418d-a2ca-2389ce91b988:active, #cta_button_415294_ea056527-0035-418d-a2ca-2389ce91b988:active:hover {\n}\n\na#cta_button_415294_ea056527-0035-418d-a2ca-2389ce91b988 {\n  cursor:pointer;\n  text-decoration: none;\n  color: white;\n}\n","image_html":"<a id=\"cta_button_415294_ea056527-0035-418d-a2ca-2389ce91b988\" class=\"cta_button\" href=\"https://cta-service-cms2.hubspot.com/ctas/v2/public/cs/c/?cta_guid=ea056527-0035-418d-a2ca-2389ce91b988&placement_guid=e99a8ea6-6d82-4c9c-a0be-34914b6b135e&portal_id=415294&redirect_url=APefjpEuQAtaep1lkWDUcanC7D3vZzWsoN7KKZqq5rGLHdEBUB5PH4TdfZD4MlXeP0qJyzV4EkshSt1GPfi4BqLCC7_BesxIM7wIszUOWs5pKOPkq0BdpSLFcKpcP46nXwBY0ZoqmSco&hsutk=c7a000001b7114d01ce801601bd03e18&canon=https%3A%2F%2Fwww.metaswitch.com%2Fresources%2Fwhat-is-intermediate-system-to-intermediate-system-isis&click=603dc895-5bad-4150-8fd7-0d91920a244f&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=2343440440\"  cta_dest_link=\"https://www.metaswitch.com/contact-us\"><img id=\"hs-cta-img-e99a8ea6-6d82-4c9c-a0be-34914b6b135e\" class=\"hs-cta-img header-contact-button\" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"Contact\" src=\"https://cdn2.hubspot.net/hubshot/17/05/24/e9b3e3a0-ecb2-461e-aaaf-1fea8ad9751a.png\" /></a>","is_image":false,"placement_element_class":"hs-cta-e99a8ea6-6d82-4c9c-a0be-34914b6b135e","raw_html":"<a id=\"cta_button_415294_ea056527-0035-418d-a2ca-2389ce91b988\" class=\"cta_button header-contact-button\" href=\"https://cta-service-cms2.hubspot.com/ctas/v2/public/cs/c/?cta_guid=ea056527-0035-418d-a2ca-2389ce91b988&placement_guid=e99a8ea6-6d82-4c9c-a0be-34914b6b135e&portal_id=415294&redirect_url=APefjpEuQAtaep1lkWDUcanC7D3vZzWsoN7KKZqq5rGLHdEBUB5PH4TdfZD4MlXeP0qJyzV4EkshSt1GPfi4BqLCC7_BesxIM7wIszUOWs5pKOPkq0BdpSLFcKpcP46nXwBY0ZoqmSco&hsutk=c7a000001b7114d01ce801601bd03e18&canon=https%3A%2F%2Fwww.metaswitch.com%2Fresources%2Fwhat-is-intermediate-system-to-intermediate-system-isis&click=603dc895-5bad-4150-8fd7-0d91920a244f&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=2343440440\"  style=\"/*hs-extra-styles*/\" cta_dest_link=\"https://www.metaswitch.com/contact-us\" title=\"Contact\"><span>Contact</span></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+
+            html = __hs_cta_json.raw_html;
+        }
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('e99a8ea6-6d82-4c9c-a0be-34914b6b135e');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+
+}());

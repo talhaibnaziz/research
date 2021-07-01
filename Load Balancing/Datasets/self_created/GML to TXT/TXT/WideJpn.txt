@@ -1,0 +1,64 @@
+0  "KDDI Otemachi"
+1  "Nezu"
+2  "Yagami"
+3  "ShinKawasaki"
+4  "Hachioji"
+5  "Bangkok"
+6  "NTT Otemachi"
+7  "Tsukuba"
+8  "NSPIXP-3"
+9  "JGN2Plus"
+10  "Dojima"
+11  "PAIX"
+12  "TITECH"
+13  "T-Lex"
+14  "JGN2Plus"
+15  "AI3"
+16  "LAIIX"
+17  "DIX-IE"
+18  "KDDI"
+19  "APAN"
+20  "Los Angeles"
+21  "Fujisawa"
+22  "Nara"
+23  "Fukuoka"
+24  "Hiroshima"
+25  "Kurashiki"
+26  "Sakyo"
+27  "Komatsu"
+28  "Sendai"
+29  "San Francisco"
+-1
+0 1 10
+0 4 1
+0 6 10
+0 12 10
+0 17 10
+0 18 1
+0 19 1
+0 20 1
+1 2 10
+1 28 1
+2 3 10
+2 21 10
+5 6 1
+6 7 1
+6 10 10
+6 13 10
+6 14 10
+6 27 10
+8 10 1
+9 10 10
+10 22 10
+10 23 10
+10 24 1
+10 25 10
+10 26 1
+11 29 1
+15 21 1
+16 20 1
+20 29 1
+21 22 1
+22 26 1
+23 24 1
+23 25 10

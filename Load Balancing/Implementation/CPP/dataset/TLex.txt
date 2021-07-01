@@ -1,0 +1,29 @@
+0  "Pacific NW Gigapop (Seattle, WA)"
+1  "Future IEEAF Asian Extension"
+2  "Cat 6500 AS23814"
+3  "ONS-15454"
+4  "DR Data Reservoir"
+5  "U-Tokyo akihabara"
+6  "JGN2"
+7  "APAN-JP AS7660"
+8  "WIDE AS2500"
+9  "ASCC/TW AS9264"
+10  "BigIron 15000 AS23814"
+11  "NetIron N140G AS23814"
+-1
+0 3 0.622
+0 3 10
+1 3 10
+2 11 10
+2 3 1
+2 3 2.5
+3 11 1
+3 10 8
+3 10 1
+4 11 1
+5 11 1
+6 11 1
+7 11 1
+8 11 1
+9 10 1
+10 11 1

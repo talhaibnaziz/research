@@ -1,0 +1,49 @@
+0  "Kherson"
+1  "Mykolaiv"
+2  "Sevastopol"
+3  "Simferopol"
+4  "Vinnitsa"
+5  "Khmelnitsky"
+6  "Odessa"
+7  "Kamianets-Podilsky"
+8  "Frankfurt (Internet)"
+9  "Poznan (GEANT & Internet)"
+10  "Cherkassy"
+11  "Odessa-IX"
+12  "Kharkiv-IX"
+13  "UA-IX"
+14  "Zaporizhia"
+15  "Dnipropetrovsk"
+16  "Lviv"
+17  "Lutsk"
+18  "Zhitomir"
+19  "Kiev"
+20  "Pereyaslav"
+21  "Poltava"
+22  "Kharkiv"
+23  "Donetsk"
+-1
+0 1 1
+0 3 0.1
+1 10 1
+1 6 1
+2 3 0.1
+4 19 0.1
+4 5 0.1
+5 16 0.1
+6 11 1
+7 19 0.1
+8 19 10
+9 16 10
+10 19 1
+12 22 1
+13 19 10
+14 15 0.1
+15 21 1
+15 23 0.1
+16 19 1
+17 18 0.1
+18 19 0.1
+19 20 0.1
+19 21 1
+21 22 1

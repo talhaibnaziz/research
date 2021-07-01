@@ -1,0 +1,85 @@
+0  "Karditsa"
+1  "Volos"
+2  "Larissa"
+3  "Trikala"
+4  "Mytilini"
+5  "Chios"
+6  "Igoumenitsa"
+7  "Kerkira"
+8  "Ermoupoli"
+9  "Mykonos"
+10  "Mesologgi"
+11  "AMSIX"
+12  "GRIX"
+13  "GEANT"
+14  "Chania"
+15  "Heraklio"
+16  "Rethymno"
+17  "Pylos"
+18  "Kalamata"
+19  "Halkida"
+20  "Athens"
+21  "Rhodos"
+22  "Karlovassi"
+23  "Tripoli"
+24  "Patra"
+25  "Kalavrita"
+26  "Korinthos"
+27  "Limnos"
+28  "Ioannina"
+29  "Serres"
+30  "Thessaloniki"
+31  "Edessa"
+32  "Kastoria"
+33  "Kavala"
+34  "Xanthi"
+35  "Komotini"
+36  "Alexandroupoli"
+-1
+0 2 1
+1 2 1
+2 3 1
+2 20 2.5
+2 30 2.5
+4 27 1
+4 5 1
+5 8 1
+6 28 1
+6 7 1
+8 9 1
+8 34 1
+8 20 2.5
+8 15 2.5
+8 15 1
+9 22 0.1
+9 22 1
+10 24 1
+11 20 1
+12 20 2.5
+13 20 2.5
+14 20 10
+14 15 1
+15 16 1
+15 20 1
+15 20 10
+15 21 1
+17 18 1
+18 24 1
+19 20 1
+20 24 2.5
+20 24 10
+20 26 1
+20 30 10
+21 22 1
+23 26 1
+24 25 1
+24 25 1
+24 28 2.5
+28 30 2.5
+29 30 1
+30 34 2.5
+30 31 1
+31 32 1
+33 34 1
+34 35 1
+35 36 1

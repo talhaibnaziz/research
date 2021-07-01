@@ -1,0 +1,26 @@
+0  "TEN-155"
+1  "Zlin"
+2  "Ostrava"
+3  "Olomouc"
+4  "Brno"
+5  "Plzen"
+6  "Usti nad Labem"
+7  "Praha"
+8  "Liberec"
+9  "Ceske Budejovice"
+10  "NIX"
+11  "Pardubice"
+12  "Hradec Kralove"
+-1
+0 7 0.034
+1 4 0.002
+2 4 0.034
+3 4 0.034
+4 7 0.155
+5 7 0.034
+6 7 0.002
+7 8 0.034
+7 9 0.034
+7 10 0.008
+7 11 0.034
+7 12 0.034

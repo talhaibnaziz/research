@@ -1,0 +1,329 @@
+#eot-doc-wrapper h2 + blockquote {
+    border-top:4px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding:10px 0 10px 0;    
+}
+#eot-doc-wrapper h2 {
+    margin-bottom: 10px;
+}
+#eot-doc-wrapper h1 {
+    display:none;
+}
+
+#eot-doc-wrapper img[ismap=""],#eot-doc-wrapper img[alt="Strip_TechNotes"], #eot-doc-wrapper form[name="feedback"], #eot-doc-wrapper concept, #eot-doc-wrapper a[name="NetPro"], #eot-doc-wrapper hr, #framework-footer div {
+    display:none;
+}
+#eot-doc-wrapper div.feedback-community, #docinfo, #right-rail div {
+    display:none;
+}
+
+a:link {
+	color:#2970A6;
+	text-decoration:none;
+}
+a:visited {
+	color:#2970A6;
+}
+a:hover {
+	text-decoration:underline;
+}
+/* Right Rail Styles */
+#right-rail {
+	float:right;
+	margin-left:20px;
+	margin-right:0;
+	font-size:12px;
+}
+#right-rail .noPrint {
+	background-color:#f5f5f5;
+	padding:12px 14px 20px 14px;
+	text-align:left;
+	width:195px;
+	margin-bottom:30px;
+}
+#right-rail li {
+	list-style-type:none;
+	width:195px;
+	margin-left:-40px;
+	margin-bottom:7px;
+}
+#right-rail hr {
+	width:100%;
+	border:1px solid #ccc;
+}
+#right-rail .feedback-link {
+	margin-left:2px;
+	margin-bottom:12px;
+}
+#right-rail .tac-image {
+	margin-bottom:2px;
+}
+#right-rail .docinfo {
+	line-height:6px;
+}
+#right-rail h3.main-header {
+	margin-top:10px;
+	margin-bottom:-8px;
+}
+#right-rail .contributedby {
+	margin-top:0px;
+	margin-bottom:8px;
+}
+div.pdf-print {
+	padding-top:2px;
+}
+#right-rail div.pdf {
+	float:left;
+	margin-bottom:11px;
+}
+#right-rail div.print {
+	float:right;
+	vertical-align:bottom;
+	margin-right: 30px;
+}
+#right-rail a {
+	color:#2970A6;
+}
+#right-rail div.social-media {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	width:100%;
+}
+#right-rail a.noPrint {
+	margin-left:-14px;
+}
+#tg-related-prod {
+	margin-top:16px;
+	margin-bottom:-14px;
+}
+#tg-related-docs  {
+/* Removed to fix More... spacing issue */
+/*	margin-bottom:-3px; */
+}
+/* TOC Styles */
+#support-toc h2 {
+	border-bottom:4px solid #ccc;
+	width:450px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+#support-toc {
+	border-bottom:2px solid #ccc;
+	width:450px;
+	align:left;
+	valign:top;
+	margin-top:-10px;
+	padding-bottom:10px;
+	line-height:13px;
+}
+#support-toc .toc-h2 {
+	font-weight:bold;
+	margin-left: 2px;
+	margin-bottom:4px;
+}
+#support-toc .toc-h3 {
+	margin-left:20px;
+	margin-bottom:4px;
+}
+#support-toc .toc-h4 {
+	margin-left:35px;
+	margin-bottom:4px;
+}
+/* Community & Feedback Styles */
+.btn-gray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #CCCCCC;
+	color: #444444;
+	width:42px;
+	cursor:pointer;
+}
+.poly {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-left:17px;
+}
+.helpful-btns a.btn-gray {
+	/* CSS3 rounded corners */
+	background-color: #666666;
+	border: 0 none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 5px 0 5px 0;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom:8px;
+	text-align: center;
+	text-decoration:none;
+	display:inline-block;
+	/* CSS3 gradient */
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#949494) to(#676767)); /*old webkit*/
+	background: -webkit-linear-gradient(#949494, #676767); /*new webkit*/
+	background: -moz-linear-gradient(#949494, #676767); /*gecko*/
+	background: -ms-linear-gradient(#949494, #676767); /*IE10*/
+	background: -o-linear-gradient(#949494, #676767); /*opera 11.10+*/
+	background: linear-gradient(#949494, #676767); /*future CSS3 browsers*/
+}
+/* CSS3 hover gradient */
+	.helpful-btns a.btn-gray:hover {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#868686) to(#4e4d4d)); /*old webkit*/
+	background: -webkit-linear-gradient(#868686, #4e4d4d); /*new webkit*/
+	background: -moz-linear-gradient(#868686, #4e4d4d); /*gecko*/
+	background: -ms-linear-gradient(#868686, #4e4d4d); /*IE10*/
+	background: -o-linear-gradient(#868686, #4e4d4d); /*opera 11.10+*/
+	background: linear-gradient(#868686, #4e4d4d); /*future CSS3 browsers*/
+}
+.feedback-community {
+	margin-top:28px;
+	margin-bottom:25px;
+	overflow:hidden;
+}
+#helpful div {
+	width:100%;
+	height:50px;
+	background-color:#f5f6f5;
+	margin-top:10px;
+}
+#helpful p {
+	color:#444444;
+	font-weight:bold;
+	padding:16px 0 14px 14px;
+	font-size:13px;
+}
+#helpful img {
+	margin-left: 5px;
+	margin-right: 15px;
+}
+#helpful span {
+	font-weight:normal;
+	font-size:12px;
+}
+.hide {
+	display:none;
+}
+.show {
+	display:block;
+}
+#thankyou p {
+	padding-top:19px;
+}
+#community iframe {
+	width:100%;
+	height:440px;
+	overflow:auto;
+	border:none;
+	scrolling:no;
+	margin-bottom:10px;
+}
+#community h2 {
+	margin-top:40px;
+	margin-bottom:-15px;
+}
+/* Body, Note, and Table Styles */
+pre {
+	font-size:11px;
+	overflow:auto;
+	max-width:650px;
+	/* min-width:400px; */
+	height:auto;
+}
+pre.wrap {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	white-space: normal;
+}
+#framework-column-main img {
+	max-width:650px;max-height:822px;
+}
+p.brief {
+	background-repeat:no-repeat;
+	background-position:2px 4px;
+	height:auto;
+	width:auto;
+	padding:10px 5px 10px 35px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	overflow-x:hidden;
+}
+div.brief {
+	background-repeat:no-repeat;
+	background-position:2px 4px;
+	height:auto;
+	width:auto;
+	padding:0px 5px 0px 35px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	overflow-x:hidden;
+}
+
+div.note,p.note {
+	background-image:url('http://www.cisco.com/en/US/i/templates/note.gif');
+}
+div.tip,p.tip {
+	background-image:url('http://www.cisco.com/en/US/i/templates/tip.gif');
+}
+div.warning,p.warning {
+	background-image:url('http://www.cisco.com/en/US/i/templates/warn.gif');
+}
+div.caution,p.caution {
+	background-image:url('http://www.cisco.com/en/US/i/templates/caut.gif');
+}
+a.exit {
+	background-image:url('http://www.cisco.com/web/tsweb/images/exit.png');
+	background-position:100% 0;
+	background-repeat:no-repeat;
+	padding-right:15px;
+	target: _blank;
+	margin-right: 2px;
+}
+.sptable {
+	border:1px solid #999;
+	cellspacing:none;
+	border-collapse:collapse;
+}
+.sptable td {
+	padding:5px 5px 5px 5px;
+	border:1px solid #999;
+	cellspacing:none;
+}
+.sptable td > pre {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	white-space: normal;
+}
+.sptable th {
+	padding:5px 5px 5px 5px;
+	border:1px solid #999;
+	cellspacing:none;
+	background-color:#f5f5f5;
+	vertical-align:bottom;
+	border-bottom:2px solid #999;
+}
+
+/* Doc Info Styles (at bottom of page) */
+#docinfo {
+	width:100%;
+	border-top:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+	height:24px;
+	padding:7px 4px 0 4px;
+}
+#docinfo div.dateupdated {
+	float:left;
+}
+#docinfo div.docid {
+	float:right;
+}

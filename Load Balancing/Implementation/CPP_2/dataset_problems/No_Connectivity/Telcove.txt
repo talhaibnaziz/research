@@ -1,0 +1,144 @@
+0  "Sarasota"
+1  "Fort Myers"
+2  "Tampa"
+3  "Clearwater"
+4  "West Palm Beach"
+5  "Melbourne"
+6  "Fort Lauderdale"
+7  "Miami"
+8  "Norfolk"
+9  "Lynchburg"
+10  "Titusville"
+11  "Orlando"
+12  "Harrisonburg"
+13  "Charlottesville"
+14  "Winchester"
+15  "Fredericksburg"
+16  "Newark"
+17  "Central New Jersey"
+18  "Detroit"
+19  "Erie"
+20  "Buffalo"
+21  "Syracuse"
+22  "Rome-Utica"
+23  "Burlington"
+24  "Albany"
+25  "New York City"
+26  "Washington, DC"
+27  "Daytona Beach"
+28  "Coudersport"
+29  "Roanoke"
+30  "Danville"
+31  "Staunton"
+32  "Charleston"
+33  "Baltimore"
+34  "Fayetteville"
+35  "Charlotte"
+36  "Tri-Cities"
+37  "Hickory"
+38  "Winston-Salem"
+39  "Greensboro"
+40  "Philadelphia"
+41  "Allentown"
+42  "Harrisburg"
+43  "Lancaster"
+44  "Scranton"
+45  "State College"
+46  "Frederick"
+47  "Columbia"
+48  "Richmond"
+49  "Pittsburgh"
+50  "Columbus"
+51  "Greenville"
+52  "Augusta"
+53  "Savannah"
+54  "Jacksonville"
+55  "Spartanburg"
+56  "Lexington"
+57  "Louisville"
+58  "Nashville"
+59  "Atlanta"
+60  "York"
+61  "Raleigh"
+62  "Wilmington"
+63  "Pensacola"
+64  "Tallahassee"
+65  "Wichita"
+66  "Kansas City"
+67  "Little Rock"
+68  "Houston"
+69  "New Orleans"
+70  "Baton Rouge"
+71  "Jackson"
+72  "Mobile"
+-1
+0 2 1
+1 59 1
+2 59 1
+3 59 1
+3 6 1
+4 6 1
+5 6 1
+6 7 1
+8 14 1
+9 13 1
+10 11 1
+11 59 1
+12 13 1
+13 14 1
+13 29 1
+13 30 1
+13 31 1
+14 49 1
+15 49 1
+16 17 1
+17 49 1
+18 49 1
+19 49 1
+20 49 1
+21 24 1
+21 49 1
+21 22 1
+23 49 1
+25 49 1
+26 49 1
+27 54 1
+28 49 1
+32 35 1
+33 49 1
+33 46 1
+34 35 1
+35 38 1
+35 39 1
+35 51 1
+35 52 1
+35 53 1
+35 55 1
+35 59 1
+36 59 1
+40 41 1
+40 49 1
+42 49 1
+42 43 1
+42 60 1
+44 49 1
+45 49 1
+47 59 1
+48 49 1
+49 50 1
+49 56 1
+49 57 1
+49 59 1
+49 61 1
+54 59 1
+58 59 1
+59 64 1
+59 70 1
+59 65 1
+59 72 1
+59 67 1
+59 68 1
+59 71 1
+63 72 1
+65 66 1
+68 69 1

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://www.informit.com/articles/article.aspx?p=101591&seqNum=2 -->
+<html class=" js no-touch hashchange borderradius boxshadow fontface no-generatedcontent video no-flash localstorage" xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:scr="urn:scr.this" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="verify-v1" content="jKqgZt8qtZUt+IrazV2fydKUZG2KKR8QEUoYjH9tth4="><script src="https://js-agent.newrelic.com/nr-1071.min.js"></script><script src="http://dnn506yrbagrg.cloudfront.net/pages/scripts/0018/4148.js?420684" async="" type="text/javascript"></script><script async="" src="http://www.google-analytics.com/analytics.js"></script><script async="" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/fbds.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d527718953","applicationID":"90967276","transactionName":"bwBbMhBWVkYFV0RbClZKdDAhGHlHEF1TXgBLJlYIFkVXWQhRQh0hXRFYDw5E","queueTime":0,"applicationTime":199,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><title>Ad-Hoc vs. Infrastructure | Your Home Network: Should You Go Wireless? | InformIT</title><link href="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/style-blessed1.css" rel="stylesheet" type="text/css" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><link href="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/style.css" rel="stylesheet" type="text/css" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><link href="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/print.css" rel="stylesheet" media="print" type="text/css" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.informit.com/display/InformIT/images/objects/touch_icons/apple-touch-icon-144x144-precomposed.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.informit.com/display/InformIT/images/objects/touch_icons/apple-touch-icon-114x114-precomposed.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.informit.com/display/InformIT/images/objects/touch_icons/apple-touch-icon-72x72-precomposed.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><link rel="apple-touch-icon-precomposed" href="http://www.informit.com/display/InformIT/images/objects/touch_icons/apple-touch-icon-precomposed.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><script language="JavaScript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/AdobeAnalyticsScript.js.download" type="text/JavaScript" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><style></style><script src="http://assets.adobedtm.com/cb849396793dda3fc498b86555fddd5a2d245f6c/satelliteLib-34fea3c356e1d487f7d10ec820ed37ed3d41be4f.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script type="text/javascript" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      var arr = window.location.pathname.split('/');
+      var host = window.location.host;
+      var siteId = '';
+      
+      if(host.indexOf('informit') != -1) {
+        siteId = 'InformIT';
+      }
+      else if(host.indexOf('peachpit') != -1) {
+        siteId = 'Peachpit';
+      }
+      else if(host.indexOf('que') != -1) {
+        siteId = 'Que';
+      }
+      else if(host.indexOf('certification') != -1) {
+        siteId = 'PITC';
+      }
+      
+      var digitalData = {
+                          version: "1.0",
+                          site: {
+                                  siteId: siteId,
+                                  siteLabel: "InformIT",
+                                  domain: location.host,
+                                  siteSection: arr[1]
+                                },
+                        page:{
+                              pageInfo:{
+                                        pageName: ':' + arr[1],
+                                        pageTitle:document.title,
+                                        pageURL:window.location.pathname + window.location.search + window.location.hash
+                                      }
+                             }
+                        };
+      
+      if(arr[1].indexOf('.asp') != -1 || arr[1].indexOf('.aspx') != -1) {
+      var splitPageData = arr[1].split('.');
+      digitalData["site"]["siteSection"]='';
+      digitalData["page"]["pageInfo"]["pageName"]=':' + splitPageData[0];
+      }
+                        
+      if(CheckFormPage() == true) {
+        digitalData["page"] = {
+                            pageInfo:{
+                                      formName:" ",
+                                      pageURL:window.location.pathname + window.location.search + window.location.hash,
+                                      
+                                      siteSection: arr[1] 
+                                    }
+                            };
+      }
+    </script><script language="JavaScript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/modernizr.custom.js.download" type="text/javascript" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script language="JavaScript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/jquery.js.download" type="text/JavaScript" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script language="JavaScript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/global.js.download" type="text/JavaScript" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><!--[if lte IE 8]><script language="JavaScript" src="/display/common/javascript/respond.min.js" type="text/JavaScript"></script><![endif]--><script language="JavaScript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/swfobject.js.download" type="text/JavaScript" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script language="JavaScript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/jquery-ui-1.10.2.custom.min.js.download" type="text/JavaScript" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script language="JavaScript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/fastclick.min.js.download" type="text/JavaScript" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><link rel="canonical" href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2">
+            <link rel="prev" href="http://www.informit.com/articles/article.aspx?p=101591">
+            <link rel="next" href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=3">
+        
+                <meta name="pageType" content="Articles and Sample Chapters">
+            <meta name="publishedDate" content="Oct 17, 2003">
+                <meta name="description" content="Wireless networking offers some obvious convenience over its wired counterparts, such as Ethernet networks and those that
+      work over the telephone or via electrical wiring in your house. However, wireless networking also has some drawbacks. It&#39;s
+      a good idea to know a little about the pros and cons before you start your network.">
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            
+        <link rel="shortcut icon" href="http://www.informit.com/display/InformIT/images/objects/favicon.ico?v=20171130"><script xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+          (function(d){
+            var e=d.createElement('script');
+            e.src='https://td.yieldify.com/yieldify/code.js?w_uuid=319c38ba-d8c1-4c13-ad45-545e025f89d3&k=1&loca='+window.location.href;
+            e.async=true;
+            d.getElementsByTagName('head')[0].appendChild(e);
+          }(document));
+      </script><script src="https://td.yieldify.com/yieldify/code.js?w_uuid=319c38ba-d8c1-4c13-ad45-545e025f89d3&amp;k=1&amp;loca=http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2" async=""></script><script xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      (function() {
+          var _fbq = window._fbq || (window._fbq = []);
+          if (!_fbq.loaded) {
+              var fbds = document.createElement('script');
+              fbds.async = true;
+              fbds.src = '//connect.facebook.net/en_US/fbds.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(fbds, s);
+              _fbq.loaded = true;
+          }
+          _fbq.push(['addPixelId', '730048657068506']);
+      })();
+      
+      window._fbq = window._fbq || [];
+      window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script><noscript xmlns:msxsl="urn:schemas-microsoft-com:xslt">&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=730048657068506&amp;amp;ev=PixelInitialized" /&gt;</noscript><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head><body class="r"><div class="wrapper">
+
+<div id="rContent" class="articleProduct content clearfix">
+<p class="crumb">
+            <a href="http://www.informit.com/">Home</a>
+            &gt;
+            <a href="http://www.informit.com/articles/index.aspx">Articles</a>
+            &gt;
+            <a href="http://www.informit.com/articles/index.aspx?st=60218">Networking</a>
+            &gt;
+            <a href="http://www.informit.com/articles/index.aspx?st=60225">Wireless/High Speed/Optical</a>
+</p>
+    <div id="columnOne" class="ten columns alpha rFull">
+        <div id="articleContent" class="clearfix">
+            <div id="articleHeader" class="clearfix">
+                    <h1><a href="http://www.informit.com/articles/article.aspx?p=101591">Your Home Network: Should You Go Wireless?</a></h1>
+                                <ul class="list-article-author">
+                        <li class="authorName"> By <a rel="author" href="http://www.informit.com/authors/bio/d82b330c-cf0a-4e92-ac02-aa0838baf9b8">Paul Heltzel</a></li>
+                    <li>Oct 17, 2003</li>
+                </ul>
+            </div>
+            <div class="articleTools clearfix box">
+                    <div id="articleTOC">
+                        <p>
+                            <a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#" class="TOC"><span class="ss-icon">📄</span> <span class="linkText">Contents</span></a>
+                        </p>
+                        <div id="articleTOCList" class="TOCcontent">
+                            <a class="tocClose ss-icon" href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#">␡</a>                        
+                            <ol>
+                                            <li>
+                                                <a href="http://www.informit.com/articles/article.aspx?p=101591">Your Wireless Equipment's Range</a>
+                                            </li>
+                                            <li class="currentPageInfo">
+                                                Ad-Hoc vs. Infrastructure
+                                            </li>
+                                            <li>
+                                                <a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=3">How Walls, Concrete, and Steel Affect Your Signal</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=4">Maximum Speeds vs. Real World Speeds</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=5">Getting the Most Out of Your Wireless Signal</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=6">11a, 802.11b, or 802.11g?</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=7">Summary</a>
+                                            </li>
+                            </ol>                            
+                        </div>
+                    </div>
+                <div class="articleInteraction">
+                    <ul>
+                        <li>
+                            <a href="http://www.informit.com/articles/printerfriendly/101591" title="Print"><span class="ss-icon">⎙</span> <span class="linkText">Print</span></a>
+                        </li>
+                        <li>
+
+<script type="text/javascript">
+    addthis_pub = 'informit';
+    addthis_logo = 'http://www.informit.com/display/InformIT/images/header/informit.png';
+    addthis_logo_background = '596770';
+    addthis_logo_color = '596770';
+    addthis_brand = 'informIT';
+    addthis_options = 'email, delicious, digg, facebook, google, newsvine, reddit, slashdot, stumbleupon, technorati, twitter, more';
+</script>
+<a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, &#39;&#39;, &#39;[URL]&#39;, &#39;[TITLE]&#39;)" onmouseout="addthis_close()" onclick="return addthis_sendto()"><span class="ss-icon">+</span> <span class="linkText">Share This</span></a>
+<script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+                        </li>
+                    </ul>
+                </div>
+                    <div class="pagination">
+            <a class="paginationPrevious" href="http://www.informit.com/articles/article.aspx?p=101591">&lt;<span class="pagination-nodisplay"> Back</span></a>
+        <span class="paginationLocation"><span class="pagination-bold">Page 2</span><span class="pagination-nodisplay"> of 7</span></span>
+            <a class="paginationNext" href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=3"><span class="pagination-nodisplay">Next </span>&gt;</a>
+    </div>
+                
+            </div> <!-- end articletools -->
+            <div id="articleText">
+
+                    <a class="relatedBookLink" href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#" style="display: inline;">This chapter is from the book <span class="ss-icon"></span></a>
+                    <div class="relatedBook relatedBookWide">
+                        <div class="header">
+                            <h3>This chapter is from the book</h3>
+                        </div>
+                        <div class="productArea clearfix">
+                            <a href="http://www.informit.com/store/complete-wireless-home-networking-9780131461536?w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591"><img src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/ShowCover.aspx" alt="Complete Wireless Home Networking" class="product"></a><a href="http://www.informit.com/store/complete-wireless-home-networking-9780131461536?w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591" class="title">Complete Wireless Home Networking</a>
+                            <br>
+                            <br>
+                            <a href="http://www.informit.com/store/complete-wireless-home-networking-9780131461536?w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591" class="button">Learn More</a>
+                                <a href="http://www.informit.com/buy.aspx?isbn=9780131461536&amp;w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591" class="buy button"><span class="ss-icon"></span>Buy</a>
+                        </div>
+                    </div>
+                    <div class="relatedBook slide" style="display: block;">
+                        <div class="header graydient">
+                            <h3 class="relatedHide">This chapter is from the book</h3>
+                            <h3 class="relatedShow"><a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#" class="mobileClose">This chapter is from the book <span class="ss-icon"></span></a></h3>
+                        </div>
+                        <div class="productArea graydient clearfix">
+                            <a href="http://www.informit.com/store/complete-wireless-home-networking-9780131461536?w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591"><img src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/ShowCover.aspx" alt="Complete Wireless Home Networking" class="product"></a><a href="http://www.informit.com/store/complete-wireless-home-networking-9780131461536?w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591" class="title">Complete Wireless Home Networking</a>
+                            <br>
+                            <br>
+                            <a href="http://www.informit.com/store/complete-wireless-home-networking-9780131461536?w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591" class="button">Learn More</a>
+                                <a href="http://www.informit.com/buy.aspx?isbn=9780131461536&amp;w_ptgrevartcl=Your+Home+Network%3a+Should+You+Go+Wireless%3f_101591" class="buy button"><span class="ss-icon"></span>Buy</a>
+                        </div>
+                    </div>
+
+                <h2> Ad-Hoc vs. Infrastructure</h2>
+
+<p>Wireless networks typically work in one of two configurations (sometimes called <i>topologies</i>): <b>ad-hoc</b> or <b>infrastructure</b>. The topology or <i>mode</i> you choose depends on whether you want your PCs to communicate directly or with an access point.
+</p>
+
+<p>In ad-hoc mode (<a href="javascript:popUp(&#39;/content/images/chap3_0131461532/elementLinks/03fig03.gif&#39;)">Figure 3.3</a>) data in the network is transferred to and from wireless network adapters connected to PCs. An ad-hoc network is also called
+   a peer-to-peer network. Here are some of the benefits of an ad-hoc network:
+</p>
+
+<ul>
+   <li>
+      <p>Ad-hoc networks are simple to set up. Plug in your wireless network adapters, configure the software, and you're off and running.</p>
+   </li>
+   <li>
+      <p>Ad-hoc networks are inexpensive. You save the cost of purchasing an access point.</p>
+   </li>
+   <li>
+      <p>Ad-hoc networks are fast. Throughput rates between two wireless network adapters are twice as fast as when you use an access
+         point.
+      </p>
+   </li>
+</ul>
+
+<p><b><a href="javascript:popUp(&#39;/content/images/chap3_0131461532/elementLinks/03fig03.gif&#39;)"><img width="100" height="75" border="0" hspace="5" align="left" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/th03fig03.gif" alt="03fig03.gif">Figure 3.3.</a> An ad-hoc network with two computers communicating directly.</b></p> 
+
+<p>Now that we've considered the benefits of ad-hoc networks, let's consider the road most people will follow when creating a
+   wireless network. You can increase the range of your wireless network by adding an access point. Wireless networks that use
+   an access point are in <i>infrastructure</i> mode (<a href="javascript:popUp(&#39;/content/images/chap3_0131461532/elementLinks/03fig04.gif&#39;)">Figure 3.4</a>).
+</p>
+
+<p><b><a href="javascript:popUp(&#39;/content/images/chap3_0131461532/elementLinks/03fig04.gif&#39;)"><img width="100" height="75" border="0" hspace="5" align="left" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/th03fig04.gif" alt="03fig04.gif">Figure 3.4.</a> More common than an ad-hoc network, an infrastructure network includes an access point.</b></p> 
+
+<p>An infrastructure network enables you to:</p>
+
+<ul>
+   <li>
+      <p>
+         <i>Connect to a wired network</i>. 
+         An access point (<a href="javascript:popUp(&#39;/content/images/chap3_0131461532/elementLinks/03fig05.jpg&#39;)">Figure 3.5</a>) lets you easily expand a wired network with wireless capability. Your wired and wirelessly networked computers can communicate
+         with each other. This is the most obvious strength of an infrastructure setup.
+      </p>
+      <p><b><a href="javascript:popUp(&#39;/content/images/chap3_0131461532/elementLinks/03fig05.jpg&#39;)"><img width="100" height="75" border="0" hspace="5" align="left" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/th03fig05.jpg" alt="03fig05.jpg">Figure 3.5.</a> This access point from D-Link can be used to connect a cable or DSL modem to provide Internet access to the wirelessly connected
+            computers on your network.</b></p> </li>
+   <li>
+      <p>
+         <i>Extend your wireless network's range</i>. 
+         Placing an access point in between two wireless network adapters doubles their range.
+      </p>
+   </li>
+   <li>
+      <p>
+         <i>Utilize roaming ability</i>. 
+         If you add multiple access points to your network, as you might in an office or large home, users can <i>roam</i> between interlocking access point cells, without ever losing a connection to the network.
+      </p>
+   </li>
+   <li>
+      <p>
+         <i>Share the Internet</i>. 
+         Probably the most useful device in a simple wireless <i>LAN</i> is an access point with a built-in router and firewall. The router allows you to share Internet access between all your computers,
+         and the firewall hides your network, helping to keep network-savvy hoodlums at bay. Some of these multifunction access points
+         include a (wired) hub as well, for plugging in several computers connected to your network by Ethernet. You can purchase a
+         device like this for less than $200, a real steal for all the use you get out of it.
+      </p>
+   </li>
+</ul>
+
+<p>What about drawbacks? An infrastructure network takes a bit more work than setting up an ad-hoc network. Infrastructure networks
+   cut the data transfer rate about in half, because of the time it takes to send the signal to and from the access point rather
+   than directly to its destination, as in an ad-hoc network. The other drawback is expense: Infrastructure networks are more
+   expensive than ad-hoc networks because you have to purchase an access point. As we already mentioned, however, that expense
+   is well worth it for all the benefits an access point provides.
+</p>
+
+            </div>
+            <div class="articleTools clearfix box">
+                    <div class="pagination">
+            <a class="paginationPrevious" href="http://www.informit.com/articles/article.aspx?p=101591">&lt;<span class="pagination-nodisplay"> Back</span></a>
+        <span class="paginationLocation"><span class="pagination-bold">Page 2</span><span class="pagination-nodisplay"> of 7</span></span>
+            <a class="paginationNext" href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=3"><span class="pagination-nodisplay">Next </span>&gt;</a>
+    </div>
+
+                <div class="articleInteraction">
+                    <ul>
+                        <li>
+
+<script type="text/javascript">
+    addthis_pub = 'informit';
+    addthis_logo = 'http://www.informit.com/display/InformIT/images/header/informit.png';
+    addthis_logo_background = '596770';
+    addthis_logo_color = '596770';
+    addthis_brand = 'informIT';
+    addthis_options = 'email, delicious, digg, facebook, google, newsvine, reddit, slashdot, stumbleupon, technorati, twitter, more';
+</script>
+<a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, &#39;&#39;, &#39;[URL]&#39;, &#39;[TITLE]&#39;)" onmouseout="addthis_close()" onclick="return addthis_sendto()"><span class="ss-icon">+</span> <span class="linkText">Share This</span></a>
+<script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+                        </li>
+                        <li class="last">
+                            <a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#addToWishList" class="jsLoadFrame dialogOpener"><span class="ss-icon">🔖</span> <span class="linkText">Save To Your Account</span></a>               
+                        </li>
+                    </ul>
+                      
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div id="columnTwo" class="six columns omega rFull">
+<div id="promotions" class="tabwidget prop">
+	<h3>Related Resources</h3>
+	<ul class="tabs clearfix">
+		<li class="selected"><a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#" onclick="tabWidget(1,&#39;promotions&#39;); return false;">Store</a></li>
+		<li><a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#" onclick="tabWidget(2,&#39;promotions&#39;); loadWidget(&#39;promotions&#39;, 1, &#39;/Related/Articles/101591?stateIntId=60225&#39;); return false;">Articles</a></li>
+		<li><a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#" onclick="tabWidget(3,&#39;promotions&#39;); loadWidget(&#39;promotions&#39;, 2, &#39;/Related/Blogs/165796?stateIntId=60225&#39;); return false;">Blogs</a></li>
+	</ul>
+	<div class="container on">
+
+    <div class="buckets-image-51 cf">
+        <div class="productCover">
+            <a href="http://www.informit.com/store/introduction-to-wireless-digital-communication-a-signal-9780134431796?w_ptgrevartcl=Introduction+to+Wireless+Digital+Communication%3a+A+Signal+Processing+Perspective_2432569">
+                <img src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/ShowCover(1).aspx" alt="Introduction to Wireless Digital Communication: A Signal Processing Perspective" class="product">
+            </a>
+        </div>
+
+        <ul class="buckets-list left">
+            <li class="buckets-list-title">
+                <a href="http://www.informit.com/store/introduction-to-wireless-digital-communication-a-signal-9780134431796" class="title">
+                    Introduction to Wireless Digital Communication: A Signal Processing Perspective
+                </a>
+            </li>
+            <li class="buckets-image-51-author">By <a href="http://www.informit.com/authors/bio/f5851257-2190-4bf7-87e2-c64cb3e1c008">Robert W. Heath</a></li>
+            <li class="buckets-image-51-price">Book $76.50</li>
+        </ul>
+    </div><!--buckets-image-51 -->
+    <div class="buckets-image-51 cf">
+        <div class="productCover">
+            <a href="http://www.informit.com/store/android-development-patterns-best-practices-for-professional-9780133923681?w_ptgrevartcl=Android+Development+Patterns%3a+Best+Practices+for+Professional+Developers_2190204">
+                <img src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/ShowCover(2).aspx" alt="Android Development Patterns: Best Practices for Professional Developers" class="product">
+            </a>
+        </div>
+
+        <ul class="buckets-list left">
+            <li class="buckets-list-title">
+                <a href="http://www.informit.com/store/android-development-patterns-best-practices-for-professional-9780133923681" class="title">
+                    Android Development Patterns: Best Practices for Professional Developers
+                </a>
+            </li>
+            <li class="buckets-image-51-author">By <a href="http://www.informit.com/authors/bio/68966141-9e4c-4fdd-8c3c-24acf816d578">Phil Dutson</a></li>
+            <li class="buckets-image-51-price">Book $31.99</li>
+        </ul>
+    </div><!--buckets-image-51 -->
+    <div class="buckets-image-51 cf">
+        <div class="productCover">
+            <a href="http://www.informit.com/store/android-development-patterns-best-practices-for-professional-9780133924015?w_ptgrevartcl=Android+Development+Patterns%3a+Best+Practices+for+Professional+Developers_2190641">
+                <img src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/ShowCover(3).aspx" alt="Android Development Patterns: Best Practices for Professional Developers" class="product">
+            </a>
+        </div>
+
+        <ul class="buckets-list left">
+            <li class="buckets-list-title">
+                <a href="http://www.informit.com/store/android-development-patterns-best-practices-for-professional-9780133924015" class="title">
+                    Android Development Patterns: Best Practices for Professional Developers
+                </a>
+            </li>
+            <li class="buckets-image-51-author">By <a href="http://www.informit.com/authors/bio/68966141-9e4c-4fdd-8c3c-24acf816d578">Phil Dutson</a></li>
+            <li class="buckets-image-51-price">eBook (Watermarked) $25.59</li>
+        </ul>
+    </div><!--buckets-image-51 -->
+    <p class="buckets-see-all">
+        <a href="http://www.informit.com/store/index.aspx?st=60225">See All Related Store Items</a>
+    </p>
+
+	</div>
+	<div class="container"></div>
+	<div class="container"></div>
+	<div class="container"></div>
+</div>
+        
+        
+    </div>
+
+    <script type="text/javascript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/waypoints.min.js.download"></script>
+    <script type="text/javascript" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/jquery.fitvids.min.js.download"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function() {    
+            $('#articleText').fitVids();
+            if (document.documentElement.clientWidth > 960) {
+                $('#rContent').waypoint(function() {
+                    $('.relatedBook.slide').slideToggle();
+                    $('.relatedBookLink').slideToggle();
+                }, { offset: -300 }); 
+            } else {
+                console.log('narrow');
+                $('#rContent').waypoint(function() {
+                    $('.relatedBook.slide').slideToggle();
+                    $('.relatedBookLink').slideToggle();
+                }, { offset: -10 }); 
+
+                $('#articleContent').waypoint(function() {
+                    $('.relatedBook.slide').slideToggle();
+                    $('.relatedBookLink').slideToggle();
+                }, { offset: 'bottom-in-view' }); 
+            }
+                          
+            $('.relatedBookLink').on('click touchstart', function() {
+                $('.relatedBookLink').toggleClass('active');
+                $('.relatedBook.slide').toggleClass('active');
+                return false;              
+            });
+            $('.mobileClose').on('click touchstart', function() {
+                $('.relatedBookLink').toggleClass('active');
+                $('.relatedBook.slide').toggleClass('active');
+                return false;              
+            }); 
+            if (!$('.sidebar').children().is('.title, .theholder')) {
+                $('.sidebar').css('padding', '2em 1em 1em 1em');
+            }              
+        });
+    </script>
+</div><div id="header"><div class="cranium"><div class="branding"><div id="hLogo"><a href="http://www.informit.com/" accesskey="0" title="Home" class="logo"><!--[if lte IE 8]><img src="/display/informIT/images/header/informit.png" alt="InformIT" /><![endif]--></a></div></div><div class="tagline">the trusted technology learning source</div><a href="http://www.informit.com/articles/article.aspx?p=101591&amp;seqNum=2#menu" class="menu-link ss-icon"></a><div id="headerLinks" class="clearfix">
+                   
+    <div id="cartLink" class="headerLink c">
+        <span class="bighead ss-icon"></span>
+        <a href="https://memberservices.informit.com/cart/buy.aspx?partner=53">
+            <span class="bighead">View </span>Your Cart
+        </a>
+    </div>
+
+    <div class="hi">
+            <a href="https://memberservices.informit.com/my_account/register.aspx?partner=53">Join</a><span>|</span><a href="https://memberservices.informit.com/my_account/login.aspx?partner=53">Sign In</a>
+    </div>
+
+              <form name="headersearchform" id="headersearchform" class="s" method="GET" action="http://www.informit.com/search/index.aspx" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><label for="headersearchform">Search</label><input onfocus="checkClear(this,&#39;Search&#39;);" type="text" name="query" id="query" value="Search"><input type="submit" id="searchbutton" class="ss-icon" value="🔎"></form></div></div></div><div id="siteNav"><div class="cranium clearfix"><ul id="nav"><li class="mobile search"><form name="headersearchform" id="headersearchform" class="s" method="GET" action="http://www.informit.com/search/index.aspx" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><label for="headersearchform">Search</label><input onfocus="checkClear(this,&#39;Search&#39;);" type="text" name="query" id="query" value="Search"><input type="submit" id="searchbutton" class="ss-icon" value="🔎"></form></li>
+                
+    <li class="mobile">
+        <a href="https://memberservices.informit.com/cart/buy.aspx?partner=53">
+            <span class="ss-icon cart"> </span> View Your Cart
+        </a>
+    </li>
+
+    <li class="mobile">
+        <a href="https://memberservices.informit.com/my_account/login.aspx?partner=53">
+            <span class="ss-icon">👤</span> Sign In
+        </a>
+    </li>
+    <li class="mobile">
+        <a href="https://memberservices.informit.com/my_account/register.aspx?partner=53">Join</a>
+    </li>
+
+              <li><a class="arrow" href="http://www.informit.com/store/">Store</a><ul class="column1 sib" style="min-height: 288px;"><li><a href="http://www.informit.com/store/index.aspx?st=66374">
+                        Business &amp; Management
+                      </a></li><li><a href="http://www.informit.com/store/index.aspx?st=60403">Certification</a></li><li><a href="http://www.informit.com/store/index.aspx?st=98435">
+                        Cloud Computing &amp; Virtualization
+                      </a></li><li><a href="http://www.informit.com/store/index.aspx?st=60406">Data</a></li><li><a href="http://www.informit.com/store/index.aspx?st=99185">Digital Photography</a></li><li><a href="http://www.informit.com/store/index.aspx?st=60390">Engineering</a></li><li><a href="http://www.informit.com/store/index.aspx?st=60380">
+                        Graphics &amp; Web Design
+                      </a></li><li><a href="http://www.informit.com/store/index.aspx?st=60356">
+                        Home &amp; Office Computing
+                      </a></li><li><a href="http://www.informit.com/store/index.aspx?st=60367">Information Technology</a></li></ul><ul class="column2 sib" style="min-height: 288px;"><li><a href="http://www.informit.com/store/index.aspx?st=98412">
+                        Mobile Application Development &amp; Programming
+                      </a></li><li><a href="http://www.informit.com/store/index.aspx?st=60382">Networking</a></li><li><a href="http://www.informit.com/store/index.aspx?st=67290">Open Source</a></li><li><a href="http://www.informit.com/store/index.aspx?st=60428">Operating Systems, Server</a></li><li><a href="http://www.informit.com/store/index.aspx?st=60370">Programming</a></li><li><a href="http://www.informit.com/store/index.aspx?st=60408">Security</a></li><li><a href="http://www.informit.com/store/index.aspx?st=66379">
+                        Software Development &amp; Management
+                      </a></li><li><a href="http://www.informit.com/store/index.aspx?st=66380">Web Development</a></li><li><a href="http://www.informit.com/store/index.aspx?st=60379">Web Services</a></li></ul></li><li><a class="arrow" href="http://www.informit.com/formats/">Formats</a><ul><li><a href="http://www.informit.com/store/browse/books">Books</a></li><li><a href="http://www.informit.com/store/browse/ebooks">eBooks</a></li><li><a href="http://www.informit.com/store/browse/practice-tests">Practice Tests</a></li><li><a href="http://www.informit.com/store/browse/software">Software</a></li><li><a href="http://www.informit.com/store/browse/video">Video</a></li><li><a href="http://www.informit.com/store/browse/web-editions">Web Editions</a></li></ul></li><li><a href="http://www.informit.com/promotions/">Deals &amp; Promotions</a></li><li><a href="http://www.informit.com/promotions/video-training-for-it-pros-developers-sys-admins-devops-140499">Video Training</a></li><li><a href="https://www.safaribooksonline.com/?utm_source=informit&amp;utm_medium=referral&amp;utm_campaign=publisher&amp;utm_content=global+top+nav">Safari</a></li><li><a class="arrow" href="http://www.informit.com/imprint/">Imprints</a><ul class="imprints"><li><a href="http://www.informit.com/imprint/index.aspx?st=61085">Addison-Wesley Professional</a></li><li><a href="http://www.adobepress.com/">Adobe Press</a></li><li><a href="http://www.ciscopress.com/">Cisco Press</a></li><li><a href="http://www.informit.com/promotions/pearson-ft-press-141135">FT Press</a></li><li><a href="http://www.informit.com/promotions/ibm-press-141142">IBM Press</a></li><li><a href="https://www.microsoftpressstore.com/">Microsoft Press Store</a></li><li><a href="http://www.peachpit.com/">Peachpit</a></li><li><a href="http://www.pearsonitcertification.com/">Pearson IT Certification</a></li><li><a href="http://www.informit.com/imprint/index.aspx?st=61089">Prentice Hall Professional</a></li><li><a href="http://www.quepublishing.com/">Que Publishing</a></li><li><a href="http://www.informit.com/imprint/index.aspx?st=61091">Sams Publishing</a></li><li><a href="http://www.pearsonitcertification.com/promotions/vmware-press-138356">VMware Press</a></li></ul></li><li><a class="arrow" href="http://www.informit.com/explore/">Explore</a><ul class="last"><li><a href="http://www.informit.com/about/">About</a></li><li><a href="http://www.informit.com/affiliates/">Affiliate Program</a></li><li><a href="http://www.informit.com/authors/">Authors</a></li><li><a href="http://www.informit.com/articles/">Chapters &amp; Articles</a></li><li><a href="http://www.informit.com/about/contact_us/">Contact Us</a></li><li><a href="http://www.informit.com/promotions/">Deals &amp; Promotions</a></li><li><a href="http://www.informit.com/promotions/resource-center-directory-140876">Popular Topics</a></li><li><a href="http://www.informit.com/store/register.aspx">Product Registration</a></li><li><a href="http://www.informit.com/newsletters/">Special Offers &amp; Newsletter</a></li><li><a href="http://www.informit.com/promotions/video-training-for-it-pros-developers-sys-admins-devops-140499">Video Training</a></li></ul></li><li><a class="arrow" href="http://www.informit.com/promotions/informits-community-resource-center-139745">Community</a><ul class="last"><li><a href="http://www.informit.com/press/">Press and Media Relations</a></li><li><a href="http://www.informit.com/promotions/share-your-knowledge-and-become-a-community-reviewer-140471">Product Review Team</a></li><li><a href="http://www.informit.com/user_groups/">User Groups</a></li></ul></li></ul></div></div><div id="footer"><ul class="links"><li><a href="http://www.informit.com/about/">About</a></li><li><a href="http://www.informit.com/affiliates/">Affiliates</a></li><li><a href="http://www.informit.com/about/contact_us/">Contact Us</a></li><li><a href="http://www.informit.com/about/jobs.aspx">Jobs</a></li><li><a href="http://www.informit.com/about/legal.aspx">Legal Notice</a></li><li><a href="http://www.informit.com/about/privacy.aspx">Privacy Policy</a></li><li><a href="http://www.informit.com/press/">Press</a></li><li><a href="http://www.informit.com/promotions/">Promotions</a></li><li><a href="http://www.informit.com/site_map/">Site Map</a></li><li><a href="http://www.informit.com/about/write_for_us.aspx">Write for Us</a></li></ul><div itemscope="itemscope" itemtype="http://schema.org/Corporation">
+          ©  2017 Pearson Education, <span itemprop="name">Informit</span>. All rights reserved.<br><div itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">800 East 96th Street</span>, <span itemprop="addressLocality">Indianapolis</span>, <span itemprop="addressRegion">Indiana </span><span itemprop="postalCode">46240</span></div></div></div><div id="strap"><div class="cranium"><div id="pearsonTopLogoLink"></div><div id="pearsonAlwaysLearningImage"></div></div></div><!--Google analytics--><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+        { (i[r].q=i[r].q||[]).push(arguments)}
+        ,i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-433761-6', 'auto', {'allowLinker': true});
+        ga('require', 'linker');
+        
+        ga('linker:autoLink', ['www.informit.com', 'memberservices.informit.com']);
+        ga('send', 'pageview');
+      </script><script type="text/JavaScript" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+            setTimeout(function(){var a=document.createElement("script");
+            var b=document.getElementsByTagName("script")[0];
+            a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0018/4148.js?"+Math.floor(new Date().getTime()/3600000);
+            a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        </script></div><script type="text/javascript" xmlns:msxsl="urn:schemas-microsoft-com:xslt">_satellite.pageBottom();</script>
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable" tabindex="-1" role="dialog" aria-describedby="addToWishList" aria-labelledby="ui-id-1" style="display: none;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">Save To My Account</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">close</span></button></div><div id="addToWishList" class="dialogBox ui-dialog-content ui-widget-content">
+                         <iframe id="wishListSrc" src="./Ad-Hoc vs. Infrastructure _ Your Home Network_ Should You Go Wireless_ _ InformIT_files/addTo.html"></iframe>
+                    </div></div></body></html>

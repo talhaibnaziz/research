@@ -1,0 +1,83 @@
+0  "Shumen"
+1  "Silistra"
+2  "Razgrad"
+3  "Turgovishte"
+4  "Yambol"
+5  "Sliven"
+6  "Dobrich"
+7  "Burgas"
+8  "St Zagora"
+9  "Gabrovo"
+10  "Kurjiali"
+11  "Varna"
+12  "Plovdiv"
+13  "Frankfurt"
+14  "Sofia"
+15  "Istanbul"
+16  "Kap Andreevo"
+17  "Haskovo"
+18  "Karlovo"
+19  "Kiustendil"
+20  "Pennik"
+21  "Sevlievo"
+22  "V Turnovo"
+23  "Pazardjik"
+24  "Smolian"
+25  "Petrich"
+26  "Blagoevgrad"
+27  "Bucharest"
+28  "Ruse"
+29  "Amsterdam"
+30  "Vidin"
+31  "Kozloduj"
+32  "Montana"
+33  "Vraca"
+34  "Pleven"
+35  "Lovech"
+36  "Skopie"
+-1
+0 3 1
+0 6 1
+1 6 1
+2 3 1
+2 28 1
+4 5 1
+4 7 1
+5 8 1
+6 11 1
+7 11 1
+7 14 1
+8 17 1
+8 12 1
+8 14 1
+8 9 1
+10 17 1
+11 27 1
+11 14 1
+12 14 1
+12 16 1
+12 17 1
+12 23 1
+12 24 1
+13 27 1
+13 29 1
+13 14 1
+14 33 1
+14 36 1
+14 18 1
+14 19 1
+14 20 1
+14 21 1
+14 23 1
+14 26 1
+14 27 1
+14 29 1
+15 16 1
+22 35 1
+22 28 1
+25 26 1
+30 32 1
+31 32 1
+32 33 1
+32 34 1
+34 35 1

@@ -1,0 +1,41 @@
+0  "Walferdange"
+1  "CCRN"
+2  "Ettelbruck"
+3  "Diekirch"
+4  "GEANT Paris (FR)"
+5  "Internet via Bruxelles (BE)"
+6  "ADSL (via EPT)"
+7  "France"
+8  "GEANT Frankfurt (DE)"
+9  "RESTENA"
+10  "BCE"
+11  "ADSL (via Tango)"
+12  "UNI.iu"
+13  "Rollingergrund"
+14  "Campus Geesseknaeppchen"
+15  "Esch-sur-Alzette"
+16  "Bettembourg"
+17  "Luxembourg"
+18  "Limpertsberg"
+-1
+0 9 1
+1 9 1
+2 10 1
+2 3 1
+3 9 1
+4 10 1
+5 10 1
+6 9 1
+7 15 1
+8 10 1
+9 10 1
+9 16 1
+9 17 1
+10 11 1
+10 18 1
+12 18 1
+12 14 1
+13 14 1
+14 17 1
+14 15 1
+15 16 1

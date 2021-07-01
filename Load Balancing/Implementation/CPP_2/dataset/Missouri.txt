@@ -1,0 +1,151 @@
+0  "Rich Hill"
+1  "Kearney"
+2  "Burlington Junction"
+3  "To Omaha"
+4  "Warrensburg"
+5  "Higginsville"
+6  "Louisburg"
+7  "Peculiar"
+8  "Branson"
+9  "Saint Louis"
+10  "Lees Summit"
+11  "Sedalia"
+12  "Sullivan"
+13  "Steelville"
+14  "Tipton"
+15  "Cuba"
+16  "Huntsville"
+17  "Moberly"
+18  "Green City"
+19  "Kirksville"
+20  "Hurdland"
+21  "Hannibal"
+22  "Palmyra"
+23  "New London"
+24  "Atlanta"
+25  "Bevier"
+26  "East Saint Louis"
+27  "To Chicago"
+28  "Rolla"
+29  "Pilot Grove"
+30  "Jefferson City"
+31  "None"
+32  "None"
+33  "None"
+34  "Cleveland"
+35  "Tulsa"
+36  "Joplin"
+37  "Shelbina"
+38  "Paris"
+39  "Farber"
+40  "Vandalia"
+41  "Columbia"
+42  "Mexico"
+43  "Mokane"
+44  "Auxvasse"
+45  "Springfield"
+46  "Linneus"
+47  "Unionville"
+48  "Alma"
+49  "Carrollton"
+50  "Tina"
+51  "Chillicothe"
+52  "To Des Moines"
+53  "Princeton"
+54  "Trenton"
+55  "Marshall"
+56  "Savannah"
+57  "Maryville"
+58  "Maitland"
+59  "Rock Port"
+60  "Oregon"
+61  "Saint Joseph"
+62  "Kansas City"
+63  "Lathrop"
+64  "Cameron"
+65  "Albany"
+66  "Bethany"
+-1
+0 7 1
+1 62 1
+1 63 1
+2 57 1
+2 58 1
+2 3 1
+2 52 1
+2 59 1
+4 10 1
+4 11 1
+4 5 1
+4 45 1
+4 7 1
+5 48 1
+6 34 1
+7 34 1
+8 45 1
+9 32 1
+9 26 1
+9 12 1
+10 62 1
+11 14 1
+11 55 1
+12 15 1
+13 15 1
+14 29 1
+14 30 1
+15 28 1
+16 17 1
+16 25 1
+16 49 1
+17 41 1
+17 42 1
+17 38 1
+18 19 1
+18 47 1
+19 20 1
+20 24 1
+21 33 1
+21 23 1
+22 33 1
+23 40 1
+24 25 1
+26 27 1
+28 30 1
+29 55 1
+30 41 1
+30 43 1
+31 35 1
+31 36 1
+31 62 1
+32 42 1
+32 44 1
+32 41 1
+33 37 1
+34 35 1
+34 62 1
+35 36 1
+36 45 1
+37 38 1
+39 40 1
+39 42 1
+41 44 1
+43 44 1
+46 51 1
+46 54 1
+47 53 1
+48 55 1
+49 50 1
+49 63 1
+50 51 1
+53 66 1
+53 54 1
+56 58 1
+56 61 1
+57 65 1
+58 65 1
+59 60 1
+60 61 1
+61 62 1
+63 64 1
+64 66 1
+65 66 1

@@ -1,0 +1,65 @@
+0  "Houston"
+1  "Pompano Beach"
+2  "Austell"
+3  "Dallas"
+4  "Charlton"
+5  "New York"
+6  "Los Angeles"
+7  "Rialto"
+8  "West Orange"
+9  "Washington, DC"
+10  "Greensboro"
+11  "Seattle"
+12  "San Francisco"
+13  "Sacramento"
+14  "Denver"
+15  "Independence"
+16  "Willow Springs"
+17  "Downers Grove"
+18  "North Royalton"
+-1
+0 1 1
+0 3 1
+0 3 1
+1 2 1
+1 2 1
+2 7 0.155
+2 10 1
+2 3 0.155
+2 9 0.622
+3 16 0.155
+3 7 0.155
+3 15 1
+4 8 1
+4 8 1
+4 9 1
+4 5 1
+4 16 1
+5 8 1
+5 8 1
+6 12 1
+6 7 1
+6 7 1
+7 12 0.155
+7 12 0.155
+8 9 0.155
+8 9 0.155
+8 14 0.155
+8 16 0.155
+8 18 1
+8 18 1
+9 16 0.155
+9 10 1
+11 12 0.155
+11 12 0.155
+11 14 1
+12 13 1
+12 13 1
+12 14 0.155
+12 14 0.155
+14 16 0.155
+14 15 1
+15 16 1
+16 17 1
+16 17 1
+17 18 0.155

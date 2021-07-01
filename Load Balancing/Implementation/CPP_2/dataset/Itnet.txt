@@ -1,0 +1,22 @@
+0  "Limerick"
+1  "Cork"
+2  "Tralee"
+3  "Galway"
+4  "Sligo"
+5  "Letterkenny"
+6  "Athlone"
+7  "Dundalk"
+8  "Blanchardstown, Dun Laoghaire, Tallaght"
+9  "Carlow"
+10  "Waterford"
+-1
+0 8 1
+1 8 1
+2 8 1
+3 8 1
+4 8 1
+5 8 1
+6 8 1
+7 8 1
+8 9 1
+8 10 1

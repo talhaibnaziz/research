@@ -1,0 +1,22 @@
+0  "NICT QGPOP APAN-JP Japan"
+1  "AARNET"
+2  "Academia Sinica Taiwan"
+3  "NTU"
+4  "Biopolis"
+5  "Fusionopolis"
+6  "NUS"
+7  "Schools"
+8  "SingAREN members"
+9  "SingAREN-GIX"
+10  "TEIN3"
+-1
+0 9 1
+1 9 1
+2 9 1
+3 9 1
+4 9 1
+5 9 1
+6 9 1
+7 9 1
+8 9 1
+9 10 1

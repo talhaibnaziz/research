@@ -1,0 +1,101 @@
+0  "Montevideo"
+1  "Rosario"
+2  "Curitba"
+3  "Port Alegre"
+4  "?"
+5  "La Paz"
+6  "Santiago"
+7  "Santa Cruz"
+8  "Lima"
+9  "Cuenca"
+10  "?"
+11  "Durango"
+12  "Guadajajara"
+13  "Costa Rica"
+14  "Nicaragua"
+15  "El Salvador"
+16  "Guatemala"
+17  "Mexico City"
+18  "?"
+19  "?"
+20  "?"
+21  "Guayaquil"
+22  "Mendoza"
+23  "Miami"
+24  "Monterey"
+25  "?"
+26  "?"
+27  "?"
+28  "?"
+29  "Sao Paulo"
+30  "Caracas"
+31  "Honduras"
+32  "Jamaica"
+33  "?"
+34  "Cali"
+35  "Bogota"
+36  "Quito"
+37  "Puerto Rico"
+38  "Trinidad and Tobago"
+39  "?"
+40  "?"
+41  "Rio De Janeiro"
+42  "Londrina"
+43  "Sucre"
+44  "Tarija"
+45  "Cordoba"
+46  "Buenos Aires"
+47  "New York"
+48  "Fort Lauderdale"
+49  "Brasilia"
+50  "Belo Horizonte"
+0 46
+1 22
+1 46
+1 7
+2 42
+2 3
+2 29
+4 5
+4 7
+6 8
+6 22
+6 47
+7 43
+8 48
+9 21
+10 37
+10 23
+11 20
+12 19
+13 37
+13 31
+17 18
+18 19
+19 24
+19 20
+21 36
+22 45
+23 37
+23 40
+23 24
+23 29
+23 31
+25 26
+25 28
+27 28
+27 30
+29 41
+29 50
+29 46
+30 37
+33 40
+33 34
+33 35
+34 35
+35 36
+41 50
+41 47
+43 44
+46 48
+49 50

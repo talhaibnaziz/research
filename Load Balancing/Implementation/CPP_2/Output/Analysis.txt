@@ -1,0 +1,268 @@
+./dataset/Ans.txt
+6 18 25
+LBC: 84.6042  DBC: 88.2353  DBCP: 84.5316
+
+./dataset/Arnes.txt
+2 34 47
+LBC: 3.13343  DBC: 3.10996  DBCP: 3.18018
+
+./dataset/Arpanet19706.txt
+4 9 10
+LBC: 2.90278  DBC: 2.65278  DBCP: 2.56944
+
+./dataset/Arpanet19719.txt
+6 18 22
+LBC: 4.49673  DBC: 4.20915  DBCP: 4.69935
+
+./dataset/Arpanet19723.txt
+5 25 28
+LBC: 6.1  DBC: 5.94667  DBCP: 6.84833
+
+./dataset/AsnetAm.txt
+1 65 79
+LBC: 5.09231  DBC: 5.09231  DBCP: 4.97644
+
+./dataset/Atmnet.txt
+8 21 22
+LBC: 34.3472  DBC: 33.6098  DBCP: 35.6528
+
+./dataset/Belnet2003.txt
+19 23 43
+LBC: 3.21049  DBC: 2.98421  DBCP: 2.94429
+
+./dataset/Belnet2004.txt
+19 23 43
+LBC: 3.21049  DBC: 2.98421  DBCP: 2.94429
+
+./dataset/Belnet2005.txt
+19 23 44
+LBC: 1.70173  DBC: 1.44283  DBCP: 1.59217
+
+./dataset/Belnet2006.txt
+19 23 44
+LBC: 1.70173  DBC: 1.44283  DBCP: 1.59217
+
+./dataset/Bren.txt
+2 37 38
+LBC: 210.953  DBC: 211.174  DBCP: 205.093
+
+./dataset/BtAsiaPac.txt
+2 20 31
+LBC: 3.02632  DBC: 3.81053  DBCP: 3
+
+./dataset/BtNorthAmerica.txt
+2 36 76
+LBC: 4.47222  DBC: 4.45  DBCP: 4.4881
+
+./dataset/Canerie.txt
+2 32 41
+LBC: 4.95464  DBC: 4.91835  DBCP: 5.49798
+
+./dataset/Cesnet1999.txt
+11 13 12
+LBC: 277.692  DBC: 245.205  DBCP: 247.976
+
+./dataset/Cesnet200304.txt
+3 29 33
+LBC: 84.6354  DBC: 84.7193  DBCP: 84.6094
+
+./dataset/Columbus.txt
+10 70 85
+LBC: 9.0089  DBC: 8.9764  DBCP: 9.93354
+
+./dataset/CrlNetworkServices.txt
+7 33 38
+LBC: 6.13163  DBC: 5.96591  DBCP: 6.55208
+
+./dataset/Dataxchange.txt
+5 6 11
+LBC: 1.5  DBC: 1.3  DBCP: 1.5
+
+./dataset/Dfn.txt
+3 58 87
+LBC: 4.27828  DBC: 4.59437  DBCP: 4.27768
+
+./dataset/EliBackbone.txt
+3 20 30
+LBC: 4.02632  DBC: 3.89474  DBCP: 3.90263
+
+./dataset/Fccn.txt
+2 23 27
+LBC: 2.85375  DBC: 3.01877  DBCP: 2.77964
+
+./dataset/Funet.txt
+6 26 31
+LBC: 5.94923  DBC: 6.01692  DBCP: 5.77385
+
+./dataset/Garr199904.txt
+19 23 25
+LBC: 3.33361  DBC: 3.14994  DBCP: 3.78828
+
+./dataset/Garr199905.txt
+19 23 25
+LBC: 3.38302  DBC: 3.19737  DBCP: 3.91476
+
+./dataset/Garr200109.txt
+18 22 24
+LBC: 3.3776  DBC: 3.18824  DBCP: 4.43932
+
+./dataset/Garr200404.txt
+18 22 24
+LBC: 3.37111  DBC: 3.17958  DBCP: 3.83326
+
+./dataset/Goodnet.txt
+3 17 31
+LBC: 2.80147  DBC: 2.78676  DBCP: 3.12132
+
+./dataset/Grena.txt
+3 16 15
+LBC: 5.07083  DBC: 5.29167  DBCP: 4.87917
+
+./dataset/GtsCzechRepublic.txt
+8 32 33
+LBC: 5.53125  DBC: 4.96573  DBCP: 5.35484
+
+./dataset/HiberniaCanada.txt
+4 13 14
+LBC: 4.17949  DBC: 4.14744  DBCP: 4.14744
+
+./dataset/HiberniaIreland.txt
+2 8 8
+LBC: 3.08929  DBC: 2.75  DBCP: 2.75
+
+./dataset/Ibm.txt
+6 18 24
+LBC: 3.69935  DBC: 3.61765  DBCP: 3.65686
+
+./dataset/Ilan.txt
+2 14 14
+LBC: 2.90769  DBC: 3.51319  DBCP: 2.85311
+
+./dataset/Integra.txt
+7 27 36
+LBC: 4.38034  DBC: 3.99715  DBCP: 4.14245
+
+./dataset/Internetmci.txt
+3 19 45
+LBC: 28.9267  DBC: 27.7465  DBCP: 28.9509
+
+./dataset/Internode.txt
+2 66 78
+LBC: 3.60189  DBC: 3.61062  DBCP: 3.56004
+
+./dataset/Ion.txt
+7 125 150
+LBC: 14.6103  DBC: 14.3459  DBCP: 15.1218
+
+./dataset/IowaStatewideFiberMap.txt
+4 33 41
+LBC: 5.71402  DBC: 5.6108  DBCP: 5.79356
+
+./dataset/Iris.txt
+5 51 64
+LBC: 6.15922  DBC: 6.06078  DBCP: 6.47961
+
+./dataset/Kdl.txt
+17 754 899
+LBC: 28.9029  DBC: 28.4443  DBCP: 32.6213
+
+./dataset/KentmanJul2005.txt
+3 16 17
+LBC: 51.7394  DBC: 51.1417  DBCP: 51.7394
+
+./dataset/Latnet.txt
+3 69 74
+LBC: 54.9874  DBC: 116.522  DBCP: 52.5407
+
+./dataset/Layer42.txt
+3 6 7
+LBC: 2  DBC: 1.83333  DBCP: 2.9
+
+./dataset/Marnet.txt
+17 20 27
+LBC: 5.72897  DBC: 4.47984  DBCP: 8.24105
+
+./dataset/NetworkUsa.txt
+12 35 39
+LBC: 6.1958  DBC: 6.56639  DBCP: 5.98235
+
+./dataset/Noel.txt
+4 19 25
+LBC: 3.6345  DBC: 3.36257  DBCP: 3.7807
+
+./dataset/Nordu1989.txt
+5 7 6
+LBC: 66964.3  DBC: 55803.6  DBCP: 79613.1
+
+./dataset/Nordu2005.txt
+6 9 10
+LBC: 2.82045  DBC: 2.74545  DBCP: 2.84267
+
+./dataset/Nsfnet.txt
+3 13 15
+LBC: 3.25641  DBC: 3.13462  DBCP: 3.24359
+
+./dataset/Oxford.txt
+4 20 26
+LBC: 4.36842  DBC: 4.28158  DBCP: 4.43947
+
+./dataset/Packetexchange.txt
+4 21 27
+LBC: 4.68095  DBC: 5.50238  DBCP: 4.58571
+
+./dataset/Palmetto.txt
+1 45 70
+LBC: 7.47525  DBC: 7.47525  DBCP: 7.40051
+
+./dataset/Peer1.txt
+3 16 20
+LBC: 4.03333  DBC: 3.65833  DBCP: 3.67917
+
+./dataset/Pern.txt
+2 127 129
+LBC: 6.42863  DBC: 7.56743  DBCP: 5.92663
+
+./dataset/Quest.txt
+3 20 31
+LBC: 3.65526  DBC: 3.64474  DBCP: 3.96316
+
+./dataset/Renater2006.txt
+6 33 43
+LBC: 1.82898  DBC: 1.8142  DBCP: 2.09299
+
+./dataset/Renater2008.txt
+6 33 43
+LBC: 1.82898  DBC: 1.8142  DBCP: 2.09299
+
+./dataset/Restena.txt
+3 19 21
+LBC: 0.889474  DBC: 0.82807  DBCP: 0.82807
+
+./dataset/SwitchL3.txt
+4 42 63
+LBC: 1.96121  DBC: 2.01864  DBCP: 1.90871
+
+./dataset/TataNld.txt
+6 145 194
+LBC: 12.5845  DBC: 12.3747  DBCP: 13.5442
+
+./dataset/Tinet.txt
+4 53 89
+LBC: 6.29173  DBC: 6.19303  DBCP: 5.98803
+
+./dataset/TLex.txt
+9 12 16
+LBC: 1.36817  DBC: 1.33428  DBCP: 1.53587
+
+./dataset/UniC.txt
+3 25 29
+LBC: 5.5375  DBC: 5.00667  DBCP: 5.34
+
+./dataset/VtlWavenet2011.txt
+27 92 96
+LBC: 14.9484  DBC: 14.7207  DBCP: 17.7271
+
+./dataset/Xspedius.txt
+5 34 49
+LBC: 4.46346  DBC: 4.08556  DBCP: 4.48485
+

@@ -1,0 +1,52 @@
+0  "Auckland 2"
+1  "Fiji"
+2  "Sydney 1"
+3  "Auckland 1"
+4  "Sacramento"
+5  "Los Angeles"
+6  "Hawaii 1"
+7  "Hawaii 2"
+8  "Taiwan"
+9  "Philippines 2"
+10  "Melbourne"
+11  "Sydney 2"
+12  "Korea"
+13  "Japan"
+14  "Guam"
+15  "Philippines 1"
+16  "Hong Kong"
+17  "Singapore/Malaysia"
+18  "Thailand"
+19  "Perth"
+-1
+0 11 1
+0 3 1
+1 2 1
+1 6 1
+2 10 1
+2 11 1
+2 14 1
+3 7 1
+4 13 1
+4 6 1
+4 5 1
+5 7 1
+6 13 1
+6 14 1
+6 7 1
+8 16 1
+8 12 1
+8 15 1
+9 16 1
+9 14 1
+9 15 1
+10 19 1
+12 13 1
+13 16 1
+13 14 1
+14 15 1
+14 17 1
+15 16 1
+16 17 1
+17 18 1
+17 19 1

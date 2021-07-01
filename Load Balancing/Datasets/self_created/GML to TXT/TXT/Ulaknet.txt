@@ -1,0 +1,165 @@
+0  "Denizli"
+1  "Usak"
+2  "Aydin"
+3  "Mugla"
+4  "Burdur"
+5  "Antalya"
+6  "Afyonkarahisar"
+7  "Isparta"
+8  "Batman"
+9  "Siirt"
+10  "Gazimagusa"
+11  "Yalova"
+12  "Amasya"
+13  "Tokat"
+14  "Nigde"
+15  "Hatay"
+16  "Adiyaman"
+17  "K. Maras"
+18  "Erzurum"
+19  "Bartin"
+20  "Karabuk"
+21  "Mersin"
+22  "Karaman"
+23  "Aksaray"
+24  "Konya"
+25  "Sinop"
+26  "Samsun"
+27  "Adana"
+28  "Bilecik"
+29  "Giresun"
+30  "Hakkari"
+31  "Elazig"
+32  "Ardahan"
+33  "Artvin"
+34  "Corum"
+35  "Bingol"
+36  "Van"
+37  "Osmaniye"
+38  "Agri"
+39  "Ordu"
+40  "Mardin"
+41  "Malatya"
+42  "Sirnak"
+43  "Diyarbakir"
+44  "Yozgat"
+45  "Kayseri"
+46  "Kars"
+47  "Nevsehir"
+48  "Gaziantep"
+49  "Kirikkale"
+50  "Kilis"
+51  "GEANT"
+52  "Kirsehir"
+53  "Cankiri"
+54  "Kastamonu"
+55  "Mus"
+56  "Eskisehir"
+57  "Kocaeli"
+58  "Sakarya"
+59  "Bitlis"
+60  "Bursa"
+61  "Bolu"
+62  "Duzce"
+63  "Zonguldak"
+64  "Rize"
+65  "S. Urfa"
+66  "Internet"
+67  "Internet"
+68  "Trabzon"
+69  "Igdir"
+70  "Manisa"
+71  "Kutahya"
+72  "Erzincan"
+73  "Sivas"
+74  "Istanbul"
+75  "iZMiR"
+76  "Ankara"
+77  "Kirklareli"
+78  "Tekirdag"
+79  "Edirne"
+80  "Canakkale"
+81  "Balikesin"
+-1
+0 75 0.154
+1 75 0.069
+2 75 0.154
+3 75 0.154
+4 76 0.069
+5 76 0.154
+6 75 0.154
+7 76 0.154
+8 76 0.033
+9 76 0.033
+10 76 0.069
+11 74 0.033
+12 76 0.033
+13 76 0.069
+14 76 0.069
+15 76 0.033
+16 76 0.033
+17 76 0.069
+18 76 0.154
+19 76 0.033
+20 76 0.033
+21 76 0.154
+22 76 0.033
+23 76 0.033
+24 76 0.154
+25 76 0.033
+26 76 0.069
+27 76 0.154
+28 74 0.033
+29 76 0.033
+30 76 0.033
+31 76 0.154
+32 76 0.033
+33 76 0.033
+34 76 0.033
+34 39 0.033
+35 76 0.033
+36 76 0.069
+37 49 0.033
+38 72 0.033
+40 44 0.033
+41 76 0.069
+42 76 0.033
+43 76 0.069
+44 76 0.033
+45 76 0.154
+46 76 0.033
+47 76 0.033
+48 76 0.154
+49 76 0.069
+50 76 0.033
+51 74 5
+52 76 0.033
+53 76 0.033
+54 76 0.033
+55 76 0.033
+56 76 0.154
+57 74 0.154
+58 74 0.154
+59 76 0.033
+60 74 0.599
+61 76 0.069
+62 76 0.069
+63 76 0.069
+64 76 0.033
+65 76 0.069
+66 76 5
+67 74 5
+68 76 0.154
+69 76 0.033
+70 75 0.069
+71 75 0.033
+72 76 0.033
+73 76 0.154
+74 76 10
+74 77 0.033
+74 78 0.033
+74 79 0.154
+74 80 0.154
+74 75 4.999
+75 76 0.599
+75 81 0.154

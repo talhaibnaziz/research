@@ -1,0 +1,44 @@
+0  "Salt Lake City"
+1  "Minneapolis"
+2  "Kansas City"
+3  "Denver"
+4  "Pittsburgh"
+5  "Philadelphia"
+6  "Chicago"
+7  "Detroit"
+8  "New York"
+9  "Washington, DC"
+10  "Los Angeles"
+11  "Houston"
+12  "St Louis"
+13  "Seattle"
+14  "Oakland"
+15  "Santa Clara"
+16  "Atlanta"
+17  "San Diego"
+18  "Phoenix"
+19  "Tucson"
+20  "Dallas"
+-1
+0 3 0.155
+0 14 0.155
+1 6 0.155
+2 3 0.155
+2 12 0.155
+4 5 0.155
+4 7 0.155
+5 8 0.155
+6 12 0.155
+6 7 0.155
+8 9 0.155
+9 16 0.155
+10 17 0.155
+10 15 0.155
+11 16 0.155
+11 12 0.155
+11 20 0.155
+13 14 0.155
+14 15 0.155
+17 18 0.155
+18 19 0.155
+19 20 0.155

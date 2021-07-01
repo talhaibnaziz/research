@@ -1,0 +1,53 @@
+0  "Los Angeles"
+1  "Chennai"
+2  "NYIX"
+3  "LAIX"
+4  "NiXI"
+5  "LINX"
+6  "EQUINOX IX"
+7  "New York"
+8  "London"
+9  "Mumbai"
+10  "Palermo"
+11  "Marseille"
+12  "HKIX"
+13  "Hong Kong"
+14  "Singapore"
+15  "STIX"
+0 1
+0 1
+0 3
+0 13
+0 14
+0 14
+0 7
+0 7
+0 7
+1 7
+1 7
+1 7
+1 8
+1 9
+1 10
+1 11
+1 13
+1 14
+1 14
+2 7
+4 9
+5 8
+6 14
+7 8
+7 8
+7 8
+7 9
+7 9
+7 11
+7 14
+8 9
+8 9
+8 11
+8 14
+12 13
+13 14
+14 15

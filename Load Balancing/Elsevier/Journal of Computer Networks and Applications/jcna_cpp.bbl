@@ -1,0 +1,115 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{scalability2013dixit}
+A.~Dixit, F.~Hao, S.~Mukherjee, T.~Lakshman, R.~Kompella, Towards an elastic
+  distributed sdn controller, in: ACM SIGCOMM Computer Communication Review,
+  Vol.~43, ACM, 2013, pp. 7--12.
+
+\bibitem{scalability2013yeganeh}
+S.~H. Yeganeh, A.~Tootoonchian, Y.~Ganjali, On scalability of software-defined
+  networking, IEEE Communications Magazine 51~(2) (2013) 136--141.
+
+\bibitem{greene2009tr10}
+K.~Greene, Tr10: Software-defined networking, Technology Review (MIT) (2009).
+
+\bibitem{cppsurvey2017}
+Y.~Zhang, L.~Cui, W.~Wang, Y.~Zhang, A survey on software defined networking
+  with multiple controllers, Journal of Network and Computer Applications 103
+  (2017) 101--118.
+
+\bibitem{cppsurvey2018}
+A.~K. Singh, S.~Srivastava, A survey and classification of controller placement
+  problem in sdn, International Journal of Network Management 28 (2018) e2018.
+
+\bibitem{sdnsurvey2017}
+J.~H. Cox, J.~Chung, S.~Donovan, J.~Ivey, R.~J. Clark, G.~Riley, H.~L. Owen,
+  Advancing software-defined networks: A survey, IEEE Access 5 (2017)
+  25487--25526.
+
+\bibitem{cpp2012heller}
+B.~Heller, R.~Sherwood, N.~McKeown, The controller placement problem, in:
+  Proceedings of the first workshop on Hot topics in software defined networks,
+  ACM, 2012, pp. 7--12.
+
+\bibitem{hu2013reliability}
+Y.~Hu, W.~Wendong, X.~Gong, X.~Que, C.~Shiduan, Reliability-aware controller
+  placement for software-defined networks, in: Integrated Network Management
+  (IM 2013), 2013 IFIP/IEEE International Symposium on, IEEE, Ghent, Belgium,
+  2013, pp. 672--675.
+
+\bibitem{zhang2011resilience}
+Y.~Zhang, N.~Beheshti, M.~Tatipamula, On resilience of split-architecture
+  networks, in: Global Telecommunications Conference (GLOBECOM 2011), 2011
+  IEEE, IEEE, Kathmandu, Nepal, 2011, pp. 1--6.
+
+\bibitem{yao2014capacitated}
+G.~Yao, J.~Bi, Y.~Li, L.~Guo, On the capacitated controller placement problem
+  in software defined networks, IEEE Communications Letters 18~(8) (2014)
+  1339--1342.
+
+\bibitem{yao2015controller}
+L.~Yao, P.~Hong, W.~Zhang, J.~Li, D.~Ni, Controller placement and flow based
+  dynamic management problem towards sdn, in: Communication Workshop (ICCW),
+  2015 IEEE International Conference on, IEEE, London, UK, 2015, pp. 363--368.
+
+\bibitem{sallahi2015optimal}
+A.~Sallahi, M.~St-Hilaire, Optimal model for the controller placement problem
+  in software defined networks, IEEE communications letters 19~(1) (2015)
+  30--33.
+
+\bibitem{wang2016dynamic}
+T.~Wang, F.~Liu, J.~Guo, H.~Xu, Dynamic sdn controller assignment in data
+  center networks: Stable matching with transfers, in: IEEE INFOCOM 2016-The
+  35th Annual IEEE International Conference on Computer Communications, IEEE,
+  2016, pp. 1--9.
+
+\bibitem{dbcp2017}
+J.~Liao, H.~Sun, J.~Wang, Q.~Qi, K.~Li, T.~Li, Density cluster based approach
+  for controller placement problem in large-scale software defined networkings,
+  Computer Networks 112 (2017) 24--35.
+\newblock \href {https://doi.org/10.1016/j.comnet.2016.10.014}
+  {\path{doi:10.1016/j.comnet.2016.10.014}}.
+
+\bibitem{filali2018sdn}
+A.~Filali, A.~Kobbane, M.~Elmachkour, S.~Cherkaoui, Sdn controller assignment
+  and load balancing with minimum quota of processing capacity, in: 2018 IEEE
+  International Conference on Communications (ICC), IEEE, 2018, pp. 1--6.
+
+\bibitem{forouzan2006data}
+A.~B. Forouzan, Data communications and networking (sie), Tata McGraw-Hill
+  Education, 2006.
+
+\bibitem{aziz2019degree}
+T.~I. Aziz, S.~Protik, M.~S. Hossen, S.~Choudhury, M.~M. Alam, Degree-based
+  balanced clustering for large-scale software defined networks, in: 2019 IEEE
+  Wireless Communications and Networking Conference (WCNC), IEEE, 2019, pp.
+  1--6.
+
+\bibitem{wilson1979introduction}
+R.~J. Wilson, Introduction to graph theory, Pearson Education India, 1979.
+
+\bibitem{kariv1979algorithmic}
+O.~Kariv, S.~L. Hakimi, An algorithmic approach to network location problems.
+  i: The p-centers, SIAM Journal on Applied Mathematics 37~(3) (1979) 513--538.
+
+\bibitem{knight2011internet}
+S.~Knight, H.~X. Nguyen, N.~Falkner, R.~Bowden, M.~Roughan, The internet
+  topology zoo, IEEE Journal on Selected Areas in Communications 29~(9) (2011)
+  1765--1775.
+
+\bibitem{benson2010network}
+T.~Benson, A.~Akella, D.~A. Maltz, Network traffic characteristics of data
+  centers in the wild, in: Proceedings of the 10th ACM SIGCOMM conference on
+  Internet measurement, 2010, pp. 267--280.
+
+\bibitem{fragiadakis2016strategyproof}
+D.~Fragiadakis, A.~Iwasaki, P.~Troyan, S.~Ueda, M.~Yokoo, Strategyproof
+  matching with minimum quotas, ACM Transactions on Economics and Computation
+  (TEAC) 4~(1) (2016) 1--40.
+
+\end{thebibliography}

@@ -1,0 +1,144 @@
+0  "Iecava"
+1  "Vircava"
+2  "Kraslava"
+3  "Baldone"
+4  "Auce"
+5  "Broceni"
+6  "Platone"
+7  "Dobele"
+8  "Krimulda"
+9  "Vijkene"
+10  "Saldus"
+11  "Kapsede"
+12  "Viesite"
+13  "Aizkroukle"
+14  "Vilani"
+15  "Gulbene"
+16  "Rujiena"
+17  "Salagriva"
+18  "Aloja"
+19  "Mazsalaca"
+20  "Strenci"
+21  "Pociems"
+22  "Limbazi"
+23  "Liepupe"
+24  "Skriveri"
+25  "Valmiera"
+26  "Rezekne"
+27  "Carnikava"
+28  "Jumprava"
+29  "Kegums"
+30  "Riga"
+31  "Daugapils"
+32  "Ventspits"
+33  "Grobina"
+34  "Liepaja"
+35  "Ulbroka"
+36  "Olaine"
+37  "Lielvarde"
+38  "Ikskile"
+39  "Salaspils"
+40  "Bauska"
+41  "Jekabpils"
+42  "Jelgava"
+43  "Kalnciems"
+44  "Kekava"
+45  "GEANT2"
+46  "Livberze"
+47  "Ledurga"
+48  "Sigulda"
+49  "Jurmala"
+50  "Tukums"
+51  "Talsi"
+52  "Aizpute"
+53  "Ragona"
+54  "Vangazi"
+55  "Adazi"
+56  "Ozolnieki"
+57  "Eleja"
+58  "Ogre"
+59  "Preili"
+60  "Livani"
+61  "Balvi"
+62  "Karsava"
+63  "Malnava"
+64  "Pusmucova"
+65  "Zvigzdene"
+66  "Ludza"
+67  "Cibla"
+68  "Zilupe"
+-1
+0 30 0.1
+1 6 0.1
+2 30 0.1
+3 30 0.1
+4 7 0.1
+5 10 0.1
+6 42 0.1
+6 57 0.1
+7 42 0.1
+8 48 0.1
+9 22 0.1
+10 30 0.1
+11 34 0.1
+12 41 0.1
+12 13 0.1
+13 28 0.1
+14 30 0.1
+15 30 0.1
+16 19 0.1
+16 30 0.1
+17 23 0.1
+18 19 0.1
+18 21 0.1
+18 22 0.1
+20 25 0.1
+22 30 0.1
+22 23 0.1
+23 48 0.1
+24 30 0.1
+25 30 0.1
+26 66 0.1
+26 30 0.1
+26 31 0.1
+27 30 0.1
+27 55 0.1
+28 37 0.1
+29 37 0.1
+29 38 0.1
+30 31 0.1
+30 34 0.1
+30 35 0.1
+30 36 0.1
+30 39 0.1
+30 40 0.1
+30 42 0.1
+30 44 0.1
+30 45 0.0063
+30 48 0.1
+30 49 0.1
+30 50 0.1
+30 51 0.1
+30 52 0.1
+30 55 0.1
+30 59 0.1
+30 61 0.1
+30 62 0.1
+31 59 0.1
+32 50 0.1
+33 34 0.1
+36 56 0.1
+38 58 0.1
+38 39 0.1
+41 60 0.1
+42 43 0.1
+42 46 0.1
+42 56 0.1
+47 48 0.1
+48 53 0.1
+48 54 0.1
+62 63 0.1
+63 64 0.1
+65 66 0.1
+66 67 0.1
+66 68 0.1

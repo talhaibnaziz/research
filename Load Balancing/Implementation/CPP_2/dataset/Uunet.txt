@@ -1,0 +1,134 @@
+0  "Montreal"
+1  "Halifax"
+2  "London"
+3  "Ottawa"
+4  "New York"
+5  "Philadelphia"
+6  "Boston"
+7  "Hartford"
+8  "Baltimore"
+9  "Washington, DC"
+10  "Stockholm"
+11  "London"
+12  "Austin"
+13  "Dallas"
+14  "Houston"
+15  "New Orleans"
+16  "Jacksonville"
+17  "Orlando"
+18  "Miami"
+19  "Monaco"
+20  "Buffalo"
+21  "Cleveland"
+22  "Cologne"
+23  "Pittsburgh"
+24  "Detroit"
+25  "Chicago"
+26  "Indianapolis"
+27  "Kansas City"
+28  "St Louis"
+29  "Edmonton"
+30  "Tokyo"
+31  "Los Angeles"
+32  "Las Vegas"
+33  "Atlanta"
+34  "Raleigh"
+35  "Hawaii"
+36  "Hawaii"
+37  "Phoenix"
+38  "San Diego"
+39  "Toronto"
+40  "Kitchener"
+41  "Calgary"
+42  "Vancouver"
+43  "Seattle"
+44  "Portland"
+45  "San Francisco"
+46  "Salt Lake City"
+47  "Denver"
+48  "Minneapolis"
+-1
+0 1 1
+0 3 1
+0 4 1
+2 39 1
+3 39 1
+4 5 1
+4 6 1
+4 45 1
+4 13 1
+4 21 1
+4 22 1
+4 25 1
+5 8 1
+6 9 1
+6 7 1
+7 20 1
+8 9 1
+9 33 1
+9 34 1
+9 10 1
+9 11 1
+9 13 1
+9 14 1
+9 45 1
+9 23 1
+9 25 1
+9 27 1
+9 31 1
+12 13 1
+12 14 1
+13 33 1
+13 43 1
+13 45 1
+13 14 1
+13 25 1
+13 27 1
+13 31 1
+14 37 1
+14 15 1
+14 18 1
+15 17 1
+15 18 1
+16 33 1
+16 17 1
+17 18 1
+18 19 1
+18 33 1
+20 21 1
+20 39 1
+21 24 1
+21 23 1
+21 48 1
+24 25 1
+25 33 1
+25 43 1
+25 45 1
+25 48 1
+25 26 1
+25 27 1
+26 28 1
+27 43 1
+27 45 1
+27 47 1
+27 28 1
+29 41 1
+30 43 1
+31 32 1
+31 36 1
+31 38 1
+31 45 1
+32 37 1
+32 47 1
+33 34 1
+35 45 1
+37 38 1
+39 40 1
+39 41 1
+41 42 1
+42 43 1
+43 44 1
+43 45 1
+44 45 1
+45 46 1
+46 47 1

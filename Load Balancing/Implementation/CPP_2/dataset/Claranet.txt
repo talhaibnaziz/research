@@ -1,0 +1,34 @@
+0  "Faro"
+1  "Madrid"
+2  "Porto"
+3  "Lisbon"
+4  "Barcelona"
+5  "Manchester"
+6  "New York"
+7  "Amsterdam"
+8  "Eindhoven"
+9  "Berlin"
+10  "Frankfurt"
+11  "Munich"
+12  "Paris"
+13  "Rennes"
+14  "London"
+-1
+0 3 1
+1 3 1
+1 4 1
+2 3 1
+3 14 1
+4 12 1
+5 14 1
+6 14 1
+7 8 1
+7 10 1
+7 14 1
+9 10 1
+9 11 1
+10 11 1
+10 12 1
+10 14 1
+12 13 1
+12 14 1

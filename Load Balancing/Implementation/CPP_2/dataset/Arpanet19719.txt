@@ -1,0 +1,41 @@
+0  "CASE"
+1  "ILLINOIS"
+2  "HARVARD"
+3  "CARNEGIE"
+4  "MITRE"
+5  "AMES"
+6  "BURROUGHS"
+7  "BBN"
+8  "MIT"
+9  "BBN"
+10  "SRI"
+11  "UCSB"
+12  "UCLA"
+13  "Stanford"
+14  "RAND"
+15  "SDC"
+16  "UTAH"
+17  "Lincoln"
+-1
+0 17 1
+0 3 1
+1 8 1
+1 16 1
+2 9 1
+2 6 1
+3 4 1
+4 6 1
+5 10 1
+5 13 1
+7 8 1
+7 9 1
+8 17 1
+9 14 1
+10 16 1
+10 11 1
+10 12 1
+11 12 1
+12 13 1
+12 14 1
+14 15 1
+15 16 1

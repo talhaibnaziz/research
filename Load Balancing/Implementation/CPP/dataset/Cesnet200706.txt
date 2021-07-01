@@ -1,0 +1,96 @@
+0  "Hradec Kralove"
+1  "Ceska Trebova"
+2  "Jindrichuv Hradec"
+3  "Pardubice"
+4  "Vyskov"
+5  "Zlin"
+6  "Olomouc"
+7  "Brno"
+8  "Breclav,Lednice"
+9  "Ostrava"
+10  "PIONIER"
+11  "ACONET"
+12  "Beroun"
+13  "Marlanske Lazne"
+14  "Most"
+15  "Dvur Kralove"
+16  "Krnov"
+17  "Kyjov"
+18  "Jihlava"
+19  "SANET"
+20  "Jablonec n N"
+21  "Litomysl"
+22  "Uherske Hradiste"
+23  "Prostejov"
+24  "Telc"
+25  "Kostelec n C.L"
+26  "Trebon"
+27  "GEANT"
+28  "Opava"
+29  "Karvina"
+30  "Kutna Hora"
+31  "Rez"
+32  "Tabor"
+33  "Pisek"
+34  "NIX"
+35  "Internet"
+36  "Cheb"
+37  "Plzen"
+38  "Decin"
+39  "Usti nad Labem"
+40  "Praha"
+41  "Liberec"
+42  "Podebrady"
+43  "Ceske Budejovice"
+-1
+0 40 2.5
+0 41 2.5
+0 3 2.5
+0 6 2.5
+0 15 0.034
+1 40 0.034
+2 43 0.1
+3 40 2.5
+3 18 2.5
+3 21 0.034
+3 30 0.034
+4 7 0.034
+5 22 0.034
+5 6 2.5
+5 7 2.5
+6 9 2.5
+6 7 2.5
+7 11 10
+7 8 0.1
+7 9 2.5
+7 43 2.5
+7 17 2.5
+7 19 10
+7 40 2.5
+7 24 0.034
+7 23 0.034
+9 10 10
+9 28 0.1
+9 29 2.5
+12 40 0.034
+13 40 0.034
+14 39 2.5
+16 28 0.034
+20 41 0.1
+25 40 0.034
+26 43 0.034
+27 40 10
+31 40 0.034
+32 40 0.034
+33 40 0.034
+34 40 10
+35 40 2.5
+36 37 0.1
+37 40 2.5
+37 43 2.5
+38 39 0.1
+39 40 2.5
+39 41 2.5
+40 41 2.5
+40 42 0.034
+40 43 2.5

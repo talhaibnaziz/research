@@ -1,0 +1,81 @@
+0  "Trbovlje"
+1  "Krsko"
+2  "Celje"
+3  "Lasko"
+4  "Kranj"
+5  "Bled"
+6  "Novo Mesto"
+7  "Ljubljana"
+8  "Tolmin"
+9  "Nova Gorica"
+10  "Portoroz"
+11  "Gornja Radgona"
+12  "Radenci"
+13  "Rogasja Slatina"
+14  "Senozece"
+15  "Jesenice"
+16  "Sezana"
+17  "Divaca"
+18  "Postojna"
+19  "Ajdovscina"
+20  "Kovevje"
+21  "Kamnik"
+22  "Izola"
+23  "Koper"
+24  "Slovenj Gradec"
+25  "Velenje"
+26  "Murska Sobota"
+27  "Ljutomer"
+28  "Ormoz"
+29  "Ptuj"
+30  "Maribor"
+31  "Slovenska Bistrica"
+32  "Dravograd"
+33  "Ravne na Koroskem"
+0 3
+0 7
+1 13
+1 6
+2 25
+2 3
+2 21
+2 31
+3 30
+3 7
+4 7
+4 7
+4 23
+4 5
+4 15
+5 8
+6 20
+7 9
+7 18
+7 20
+7 21
+7 23
+7 30
+8 9
+9 19
+10 17
+10 22
+11 12
+11 30
+12 26
+13 29
+14 16
+14 17
+14 18
+17 19
+17 23
+22 23
+24 32
+24 25
+25 32
+26 27
+27 28
+28 29
+29 30
+30 32
+30 31
+32 33

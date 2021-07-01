@@ -1,0 +1,29 @@
+0  "SEQSUINET, Rice University, Houston"
+1  "Jon Von Neumann Center, Princeton, NJ"
+2  "SURANET, Georgia Tech, Atlanta"
+3  "Pittsburgh Supercomputer Center"
+4  "Cornell Theory Center, Ithaca NY"
+5  "NorthWestNet, Seattle"
+6  "BARRnet, Palo Alto"
+7  "San Diego Supercomputer Center"
+8  "Westnet, Salt Lake City"
+9  "NCAR, Boulder"
+10  "MIDnet, Lincoln, NE"
+11  "NCSA, University of Illinois, Champaign"
+12  "Merit Univ of Michigan, Ann Arbor"
+-1
+0 2 1
+0 11 1
+0 7 1
+1 2 1
+1 4 1
+3 12 1
+4 12 1
+5 9 1
+5 6 1
+6 12 0.0015
+6 7 1
+8 9 1
+9 11 1
+10 11 1
+11 12 1

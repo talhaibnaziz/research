@@ -1,0 +1,952 @@
+./dataset/Aarnet.txt
+19 24
+2 3.74635
+
+./dataset/Abilene.txt
+11 14
+6 0.285455
+
+./dataset/Abvt.txt
+23 31
+4 4.80632
+
+./dataset/Aconet.txt
+23 31
+2 0.443775
+
+./dataset/Agis.txt
+25 30
+3 44.0179
+
+./dataset/Ai3.txt
+10 9
+1 2.47778
+
+./dataset/Airtel.txt
+16 37
+1 1.15665
+
+./dataset/Amres.txt
+25 24
+2 69.1814
+
+./dataset/Ans.txt
+18 25
+6 89.9782
+
+./dataset/Arn.txt
+30 29
+1 3.35402
+
+./dataset/Arnes.txt
+34 47
+2 3.13343
+
+./dataset/Arpanet196912.txt
+4 4
+3 1.41667
+
+./dataset/Arpanet19706.txt
+9 10
+4 2.59722
+
+./dataset/Arpanet19719.txt
+18 22
+6 4.85621
+
+./dataset/Arpanet19723.txt
+25 28
+5 6.705
+
+./dataset/Arpanet19728.txt
+29 32
+7 7.05542
+
+./dataset/AsnetAm.txt
+65 79
+1 5.09231
+
+./dataset/Atmnet.txt
+21 22
+8 35.4378
+
+./dataset/AttMpls.txt
+25 57
+2 3.47917
+
+./dataset/Azrena.txt
+22 25
+2 1403.83
+
+./dataset/Basnet.txt
+7 6
+6 739.785
+
+./dataset/Bbnplanet.txt
+27 28
+1 114.277
+
+./dataset/Bellcanada.txt
+48 65
+3 0.764849
+
+./dataset/Bellsouth.txt
+51 66
+1 4.20471
+
+./dataset/Belnet2003.txt
+23 43
+19 3.21227
+
+./dataset/Belnet2004.txt
+23 43
+19 3.21227
+
+./dataset/Belnet2005.txt
+23 44
+19 1.70588
+
+./dataset/Belnet2006.txt
+23 44
+19 1.70588
+
+./dataset/Belnet2007.txt
+21 31
+7 4.07083
+
+./dataset/Belnet2008.txt
+21 31
+7 4.07083
+
+./dataset/Belnet2009.txt
+21 31
+7 3.87143
+
+./dataset/Belnet2010.txt
+22 32
+7 3.92262
+
+./dataset/BeyondTheNetwork.txt
+53 65
+4 4.78157
+
+./dataset/Bics.txt
+33 48
+2 23.4454
+
+./dataset/Biznet.txt
+29 33
+5 7.44581
+
+./dataset/Bren.txt
+37 38
+2 210.953
+
+./dataset/BsonetEurope.txt
+18 24
+2 3.43954
+
+./dataset/BtAsiaPac.txt
+20 31
+2 2.94211
+
+./dataset/BtEurope.txt
+24 37
+1 3.29167
+
+./dataset/BtNorthAmerica.txt
+36 76
+2 4.2746
+
+./dataset/Canerie.txt
+32 41
+2 4.86794
+
+./dataset/Carnet.txt
+44 43
+1 459.817
+
+./dataset/Cernet.txt
+41 59
+2 9.42679
+
+./dataset/Cesnet1993.txt
+10 9
+8 89629.6
+
+./dataset/Cesnet1997.txt
+13 12
+2 107.843
+
+./dataset/Cesnet1999.txt
+13 12
+11 277.692
+
+./dataset/Cesnet2001.txt
+23 23
+1 3595.33
+
+./dataset/Cesnet200304.txt
+29 33
+3 84.7236
+
+./dataset/Cesnet200511.txt
+39 44
+1 38.1123
+
+./dataset/Cesnet200603.txt
+39 44
+1 38.1123
+
+./dataset/Cesnet200706.txt
+44 51
+1 34.2305
+
+./dataset/Cesnet201006.txt
+52 63
+1 10.3721
+
+./dataset/Chinanet.txt
+42 66
+1 3.23229
+
+./dataset/Claranet.txt
+15 18
+1 3.26667
+
+./dataset/Cogentco.txt
+197 245
+2 14.3578
+
+./dataset/Colt.txt
+153 191
+4 10.7161
+
+./dataset/Columbus.txt
+70 85
+10 9.63851
+
+./dataset/Compuserve.txt
+14 17
+1 3.04945
+
+./dataset/CrlNetworkServices.txt
+33 38
+7 6.10795
+
+./dataset/Cudi.txt
+51 52
+1 596.951
+
+./dataset/Cwix.txt
+36 41
+3 4.80159
+
+./dataset/Cynet.txt
+30 29
+1 318.005
+
+./dataset/Darkstrand.txt
+28 31
+7 6.96825
+
+./dataset/Dataxchange.txt
+6 11
+5 1.56667
+
+./dataset/Deltacom.txt
+113 183
+1 9.34677
+
+./dataset/Dfn.txt
+58 87
+3 3.70175
+
+./dataset/Digex.txt
+31 38
+9 6.12419
+
+./dataset/Easynet.txt
+19 29
+2 3.70468
+
+./dataset/Eenet.txt
+13 16
+2 56.6645
+
+./dataset/EliBackbone.txt
+20 30
+3 4.19737
+
+./dataset/Epoch.txt
+6 7
+4 2.3
+
+./dataset/Ernet.txt
+30 32
+2 3.57126
+
+./dataset/Esnet.txt
+68 92
+5 4.44313
+
+./dataset/Evolink.txt
+37 45
+5 4.57057
+
+./dataset/Fatman.txt
+17 21
+2 3.29779
+
+./dataset/Fccn.txt
+23 27
+2 2.77964
+
+./dataset/Forthnet.txt
+62 62
+1 0.38275
+
+./dataset/Funet.txt
+26 31
+6 5.77846
+
+./dataset/Gambia.txt
+28 28
+1 12650.6
+
+./dataset/Garr199901.txt
+16 18
+12 2.30833
+
+./dataset/Garr199904.txt
+23 25
+19 3.33361
+
+./dataset/Garr199905.txt
+23 25
+19 3.38302
+
+./dataset/Garr200109.txt
+22 24
+18 3.3776
+
+./dataset/Garr200112.txt
+24 26
+20 2.74638
+
+./dataset/Garr200212.txt
+27 29
+1 7.18238
+
+./dataset/Garr200404.txt
+22 24
+18 3.37111
+
+./dataset/Garr200902.txt
+54 71
+1 9.07468
+
+./dataset/Garr200908.txt
+54 68
+1 9.09676
+
+./dataset/Garr200909.txt
+55 69
+1 8.99628
+
+./dataset/Garr200912.txt
+54 68
+1 9.13425
+
+./dataset/Garr201001.txt
+54 68
+1 9.12352
+
+./dataset/Garr201003.txt
+54 71
+1 8.92463
+
+./dataset/Garr201004.txt
+54 71
+1 8.89629
+
+./dataset/Garr201005.txt
+55 72
+1 10.2377
+
+./dataset/Garr201007.txt
+55 74
+1 9.82969
+
+./dataset/Garr201008.txt
+55 74
+1 9.82969
+
+./dataset/Garr201010.txt
+56 75
+2 9.67323
+
+./dataset/Garr201012.txt
+56 75
+2 9.67221
+
+./dataset/Garr201101.txt
+56 76
+2 9.67134
+
+./dataset/Garr201102.txt
+57 77
+2 9.639
+
+./dataset/Garr201103.txt
+58 81
+1 9.26682
+
+./dataset/Garr201104.txt
+59 83
+2 8.8798
+
+./dataset/Garr201105.txt
+59 84
+1 7.47271
+
+./dataset/Garr201107.txt
+59 85
+1 6.93724
+
+./dataset/Garr201108.txt
+59 85
+1 6.56737
+
+./dataset/Garr201109.txt
+59 86
+1 6.15476
+
+./dataset/Garr201110.txt
+59 87
+1 5.84455
+
+./dataset/Garr201111.txt
+60 87
+1 5.75907
+
+./dataset/Garr201112.txt
+61 89
+2 5.65394
+
+./dataset/Garr201201.txt
+61 89
+2 5.81793
+
+./dataset/Gblnet.txt
+8 7
+2 2.44643
+
+./dataset/Geant2001.txt
+27 38
+2 22.6948
+
+./dataset/Geant2009.txt
+34 52
+1 3.29658
+
+./dataset/Geant2010.txt
+37 58
+2 2.00302
+
+./dataset/Geant2012.txt
+40 61
+2 2.46671
+
+./dataset/Getnet.txt
+7 8
+4 2.02381
+
+./dataset/Globenet.txt
+67 113
+1 5.71336
+
+./dataset/Goodnet.txt
+17 31
+3 2.94485
+
+./dataset/Grena.txt
+16 15
+3 4.82083
+
+./dataset/Grnet.txt
+37 47
+1 2.80658
+
+./dataset/GtsCe.txt
+149 193
+5 10.86
+
+./dataset/GtsCzechRepublic.txt
+32 33
+8 5.14718
+
+./dataset/GtsHungary.txt
+30 31
+3 3.82414
+
+./dataset/GtsPoland.txt
+33 37
+4 6.32576
+
+./dataset/GtsRomania.txt
+21 24
+2 3.09286
+
+./dataset/GtsSlovakia.txt
+35 37
+2 3.12101
+
+./dataset/Harnet.txt
+21 25
+2 5.57779
+
+./dataset/Heanet.txt
+7 13
+6 1.41667
+
+./dataset/HiberniaCanada.txt
+13 14
+4 4.23718
+
+./dataset/HiberniaGlobal.txt
+55 81
+2 7.68855
+
+./dataset/HiberniaIreland.txt
+8 8
+2 2.83929
+
+./dataset/HiberniaNireland.txt
+18 22
+7 4.51961
+
+./dataset/HiberniaUk.txt
+15 15
+7 4.59048
+
+./dataset/HiberniaUs.txt
+22 29
+3 5.59524
+
+./dataset/Highwinds.txt
+18 53
+1 2.29412
+
+./dataset/HostwayInternational.txt
+16 21
+6 4.6625
+
+./dataset/HurricaneElectric.txt
+24 37
+2 4.10326
+
+./dataset/Ibm.txt
+18 24
+6 3.96732
+
+./dataset/Iij.txt
+37 66
+1 1.58965
+
+./dataset/Iinet.txt
+31 35
+1 3.8129
+
+./dataset/Ilan.txt
+14 14
+2 2.90769
+
+./dataset/Integra.txt
+27 36
+7 4.05271
+
+./dataset/Intellifiber.txt
+73 97
+4 7.70481
+
+./dataset/Internetmci.txt
+19 45
+3 27.3056
+
+./dataset/Internode.txt
+66 78
+2 3.60189
+
+./dataset/Interoute.txt
+110 158
+4 10.241
+
+./dataset/Intranetwork.txt
+39 53
+7 7.16802
+
+./dataset/Ion.txt
+125 150
+7 13.2224
+
+./dataset/IowaStatewideFiberMap.txt
+33 41
+4 5.51136
+
+./dataset/Iris.txt
+51 64
+5 6.26784
+
+./dataset/Istar.txt
+23 23
+1 2251.12
+
+./dataset/Itnet.txt
+11 10
+10 1.82727
+
+./dataset/Janetbackbone.txt
+29 45
+3 3.5234
+
+./dataset/Janetlense.txt
+20 40
+2 1.99947
+
+./dataset/Jgn2Plus.txt
+18 17
+2 3.82353
+
+./dataset/Karen.txt
+25 30
+1 1.3655
+
+./dataset/Kdl.txt
+754 899
+17 28.0909
+
+./dataset/KentmanFeb2008.txt
+26 28
+2 199.344
+
+./dataset/KentmanJan2011.txt
+38 39
+2 46.7807
+
+./dataset/KentmanJul2005.txt
+16 17
+3 50.9503
+
+./dataset/Kreonet.txt
+13 12
+1 0.426923
+
+./dataset/LambdaNet.txt
+42 46
+7 8.22648
+
+./dataset/Latnet.txt
+69 74
+3 50.9763
+
+./dataset/Layer42.txt
+6 7
+3 2.03333
+
+./dataset/Litnet.txt
+43 43
+2 122.303
+
+./dataset/Marnet.txt
+20 27
+17 13.9898
+
+./dataset/Marwan.txt
+16 18
+4 295.914
+
+./dataset/Missouri.txt
+67 83
+8 7.82044
+
+./dataset/Mren.txt
+6 5
+5 1.7
+
+./dataset/Myren.txt
+37 40
+1 186.409
+
+./dataset/Napnet.txt
+6 7
+5 1.56667
+
+./dataset/Navigata.txt
+13 17
+2 3.12179
+
+./dataset/NetworkUsa.txt
+35 39
+12 6.76387
+
+./dataset/Nextgen.txt
+17 20
+4 4.99816
+
+./dataset/Niif.txt
+36 41
+1 5.43107
+
+./dataset/Noel.txt
+19 25
+4 3.54678
+
+./dataset/Nordu1989.txt
+7 6
+5 66964.3
+
+./dataset/Nordu1997.txt
+14 13
+12 2.16484
+
+./dataset/Nordu2005.txt
+9 10
+6 2.82045
+
+./dataset/Nsfnet.txt
+13 15
+3 3.08974
+
+./dataset/Oxford.txt
+20 26
+4 4.7
+
+./dataset/Pacificwave.txt
+18 27
+15 0.242593
+
+./dataset/Packetexchange.txt
+21 27
+4 4.77381
+
+./dataset/Palmetto.txt
+45 70
+1 7.47525
+
+./dataset/Peer1.txt
+16 20
+3 3.94583
+
+./dataset/Pern.txt
+127 129
+2 5.85121
+
+./dataset/PionierL1.txt
+36 41
+8 6.11984
+
+./dataset/PionierL3.txt
+38 52
+7 0.264358
+
+./dataset/Psinet.txt
+24 25
+6 6.17029
+
+./dataset/Quest.txt
+20 31
+3 3.62368
+
+./dataset/RedBestel.txt
+84 101
+7 12.5993
+
+./dataset/Rediris.txt
+19 32
+1 3.00422
+
+./dataset/Renam.txt
+5 4
+4 3248.44
+
+./dataset/Renater1999.txt
+24 23
+1 54.8709
+
+./dataset/Renater2001.txt
+24 27
+1 43.1552
+
+./dataset/Renater2004.txt
+30 36
+1 2.52737
+
+./dataset/Renater2006.txt
+33 43
+6 1.82254
+
+./dataset/Renater2008.txt
+33 43
+6 1.82254
+
+./dataset/Renater2010.txt
+43 56
+5 31.9759
+
+./dataset/Restena.txt
+19 21
+3 0.840351
+
+./dataset/Reuna.txt
+37 36
+1 22.1367
+
+./dataset/Rhnet.txt
+16 18
+3 4.60833
+
+./dataset/Rnp.txt
+31 34
+2 11.0591
+
+./dataset/Roedunet.txt
+42 50
+1 189.207
+
+./dataset/RoedunetFibre.txt
+48 52
+3 7.34264
+
+./dataset/Sago.txt
+18 17
+3 6.83987
+
+./dataset/Sanet.txt
+43 45
+5 1.49817
+
+./dataset/Savvis.txt
+19 20
+8 109.357
+
+./dataset/Shentel.txt
+28 35
+1 7.45503
+
+./dataset/Sinet.txt
+74 76
+1 0.258775
+
+./dataset/Singaren.txt
+11 10
+10 1.82727
+
+./dataset/Spiralight.txt
+15 16
+7 4.52857
+
+./dataset/Sprint.txt
+11 18
+1 2.94545
+
+./dataset/Sunet.txt
+26 49
+6 4.32462
+
+./dataset/Surfnet.txt
+50 73
+2 5.60408
+
+./dataset/Switch.txt
+74 92
+4 8.43095
+
+./dataset/SwitchL3.txt
+42 63
+4 1.97677
+
+./dataset/Syringa.txt
+74 74
+9 15.0455
+
+./dataset/TataNld.txt
+145 194
+6 12.8058
+
+./dataset/Tinet.txt
+53 89
+4 6.09144
+
+./dataset/TLex.txt
+12 16
+9 1.36817
+
+./dataset/Twaren.txt
+20 20
+2 3.09474
+
+./dataset/Ulaknet.txt
+82 82
+1 47.3143
+
+./dataset/UniC.txt
+25 29
+3 5.12667
+
+./dataset/Uninet.txt
+13 25
+2 2.14744
+
+./dataset/Uninett2010.txt
+74 101
+1 3.61262
+
+./dataset/Uninett2011.txt
+69 98
+1 6.01662
+
+./dataset/Uran.txt
+24 24
+1 16.3781
+
+./dataset/UsCarrier.txt
+158 189
+3 15.6149
+
+./dataset/Uunet.txt
+49 84
+1 4.71429
+
+./dataset/Vinaren.txt
+25 26
+2 52.6684
+
+./dataset/VisionNet.txt
+24 23
+4 7.12319
+
+./dataset/VtlWavenet2008.txt
+88 92
+22 16.0916
+
+./dataset/VtlWavenet2011.txt
+92 96
+27 15.3192
+
+./dataset/WideJpn.txt
+30 33
+1 1.86621
+
+./dataset/Xeex.txt
+24 34
+4 3.73188
+
+./dataset/Xspedius.txt
+34 49
+5 4.25579
+
+./dataset/York.txt
+23 24
+8 6.39526
+

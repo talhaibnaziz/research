@@ -1,0 +1,119 @@
+0  "Boston"
+1  "Detroit"
+2  "Philadelphia"
+3  "New York"
+4  "Sacramento"
+5  "San Jose"
+6  "Seattle"
+7  "Portland"
+8  "Sunnyvale"
+9  "Los Angeles"
+10  "Seattle"
+11  "Los Angeles"
+12  "San Jose"
+13  "BtN London POP"
+14  "SIX"
+15  "MAE East"
+16  "MAE Central"
+17  "PAIX"
+18  "PAIX"
+19  "PAIX"
+20  "MAE West"
+21  "BtN Frankfurt POP"
+22  "BtN London POP"
+23  "AShburn"
+24  "Miami"
+25  "Pittsburgh"
+26  "PAIX"
+27  "BtN Hong Kong POP"
+28  "BtN Hong Kong POP"
+29  "Atlanta"
+30  "Chicago"
+31  "New York"
+32  "Dallas"
+33  "NY-IIX"
+34  "Ameritech AADS"
+35  "Dallas"
+36  "San Antonio"
+37  "Phoenix"
+38  "San Diego"
+39  "Tampa"
+40  "Miami"
+41  "New Orleans"
+42  "Houston"
+43  "Washington"
+44  "Baltimore"
+45  "Denver"
+46  "Minneapolis"
+47  "Chicago"
+48  "Kansas City"
+49  "Atlanta"
+50  "Raleigh"
+51  "Ashburn"
+52  "Vienna"
+-1
+0 1 1
+0 3 1
+1 47 1
+2 25 1
+2 3 1
+2 44 1
+2 51 1
+3 33 1
+3 13 1
+3 47 1
+3 21 1
+3 22 1
+3 31 1
+4 5 1
+4 7 1
+5 8 1
+5 12 1
+5 45 1
+5 19 1
+5 20 1
+6 26 1
+6 47 1
+6 10 1
+6 14 1
+6 7 1
+8 9 1
+9 35 1
+9 37 1
+9 38 1
+9 11 1
+9 27 1
+9 28 1
+15 52 1
+16 35 1
+17 49 1
+18 40 1
+23 51 1
+24 40 1
+25 43 1
+25 47 1
+29 49 1
+30 47 1
+32 35 1
+34 47 1
+35 36 1
+35 42 1
+35 48 1
+35 49 1
+35 41 1
+36 42 1
+36 37 1
+37 38 1
+39 40 1
+39 41 1
+40 49 1
+41 42 1
+43 50 1
+43 44 1
+43 52 1
+45 47 1
+46 47 1
+47 48 1
+49 50 1
+49 51 1
+51 52 1

@@ -1,0 +1,40 @@
+0  "New York"
+1  "Philadelphia"
+2  "Detroit"
+3  "Pittsburgh"
+4  "Houston"
+5  "Austin"
+6  "Washington, DC"
+7  "Atlanta"
+8  "Dallas"
+9  "Champaign"
+10  "Chicago"
+11  "San Francisco"
+12  "Los Angeles"
+13  "San Diego"
+14  "Phoenix"
+15  "Salt Lake City"
+16  "Denver"
+17  "Kansas City"
+18  "St Louis"
+-1
+0 1 0.045
+0 3 0.045
+1 6 0.045
+2 10 0.045
+2 3 0.045
+4 5 0.045
+4 7 0.045
+5 8 0.045
+6 7 0.045
+8 18 0.045
+8 14 0.045
+9 18 0.045
+10 18 0.045
+11 12 0.045
+11 15 0.045
+12 13 0.045
+12 14 0.045
+15 16 0.045
+16 17 0.045
+17 18 0.045

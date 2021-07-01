@@ -1,0 +1,106 @@
+0  "Fribourg"
+1  "Basel"
+2  "Delemont"
+3  "Bern"
+4  "Kreuzlingen"
+5  "St. Gallen"
+6  "Villigen PSI"
+7  "Zurich (ETH)"
+8  "Buchs SG"
+9  "Chur"
+10  "GBLX"
+11  "Swisscom"
+12  "Swisscom"
+13  "TELIA"
+14  "SwissIX"
+15  "TIX"
+16  "BelWue"
+17  "CERN"
+18  "CIXP"
+19  "AMS-IX"
+20  "SwissIX"
+21  "GEANT2"
+22  "Neuchatel"
+23  "IXEurope Zurich"
+24  "Brig"
+25  "Martigny"
+26  "Grenchen"
+27  "Davos"
+28  "Liechtenstein"
+29  "Rapperswil"
+30  "Manno"
+31  "Zurich (University)"
+32  "Horw"
+33  "Brugg"
+34  "CERN"
+35  "Lausanne (University)"
+36  "Geneva"
+37  "Lausanne (EPFL)"
+38  "Yverdon"
+39  "Birmensdorf"
+40  "Rueschlikon"
+41  "Winterthur"
+-1
+0 35 1
+0 3 1
+1 33 1
+1 2 1
+1 3 10
+1 6 1
+1 7 10
+1 20 1
+2 22 1
+3 35 10
+3 30 10
+4 16 10
+4 5 1
+4 31 10
+5 8 1
+5 28 1
+5 41 1
+6 7 1
+7 32 1
+7 35 10
+7 39 1
+7 41 1
+7 23 10
+7 29 1
+7 30 10
+8 9 1
+8 27 1
+8 28 1
+9 27 1
+9 29 1
+10 34 1
+11 34 1
+12 23 10
+13 23 10
+14 23 10
+15 23 10
+17 34 20
+18 34 1
+19 34 1
+21 34 20
+22 37 1
+22 26 1
+22 38 1
+22 31 1
+23 40 1
+24 25 1
+24 30 1
+25 37 1
+26 31 1
+28 29 1
+29 30 1
+30 32 1
+30 37 10
+31 33 1
+31 34 10
+31 37 1
+34 35 10
+34 36 10
+34 37 10
+35 37 10
+36 37 10
+37 38 1
+39 40 1

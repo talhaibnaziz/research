@@ -1,0 +1,67 @@
+0  "Geel"
+1  "Antwerpen"
+2  "Leuven"
+3  "Hasselt"
+4  "Brussel II B"
+5  "SFINX"
+6  "Brussel I B"
+7  "Brussel II A"
+8  "AMS-IX"
+9  "LINX"
+10  "The Worldwide Internet"
+11  "BNIX"
+12  "Geant2"
+13  "Liege"
+14  "Brussel I A"
+15  "Brugge"
+16  "Gent"
+17  "Korthijk"
+18  "Mons"
+19  "Charleroi"
+20  "Louvain-la-Neuve"
+21  "Namur"
+22  "Arlon"
+0 4
+0 6
+1 4
+1 6
+2 4
+2 6
+3 4
+3 6
+4 6
+4 7
+4 13
+4 14
+4 15
+4 16
+4 17
+4 18
+4 19
+4 20
+4 21
+4 22
+5 14
+6 7
+6 13
+6 14
+6 15
+6 16
+6 17
+6 18
+6 19
+6 20
+6 21
+6 22
+7 10
+7 10
+7 11
+7 12
+7 14
+8 14
+9 14
+10 14
+10 14
+10 14
+11 14
+12 14

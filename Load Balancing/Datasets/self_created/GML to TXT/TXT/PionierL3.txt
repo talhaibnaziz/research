@@ -1,0 +1,91 @@
+0  "Warszawa"
+1  "Radom"
+2  "Belarus"
+3  "Bialystok"
+4  "Lublin"
+5  "Ukraine"
+6  "Lodz"
+7  "Pulawy"
+8  "Rzeszow"
+9  "Kielce"
+10  "Elblag"
+11  "Suwalki"
+12  "Sochaczew"
+13  "Gorzow Wlkp"
+14  "SURFnet/NORDUnet"
+15  "DFN"
+16  "GEANT3"
+17  "Internet"
+18  "Bielsko-Biala"
+19  "Zamosc"
+20  "Czechtochowa"
+21  "CESNET"
+22  "SANET"
+23  "Krakow"
+24  "Geant2/Internet"
+25  "Wroclaw"
+26  "Opole"
+27  "Gliwice"
+28  "Olsztyn"
+29  "Lithuania"
+30  "Gdansk"
+31  "Koszalin"
+32  "Szczecin"
+33  "Zielona gora"
+34  "Poznan"
+35  "Bydgoszcz"
+36  "Torun"
+37  "Russia"
+-1
+0 1 1
+0 1 1
+0 1 1
+0 34 1
+0 3 1
+0 3 1
+0 6 1
+1 9 1
+1 9 1
+1 7 1
+1 7 1
+2 3 10
+3 11 1
+4 19 1
+4 7 1
+4 7 1
+5 19 10
+6 12 1
+6 34 1
+6 20 1
+8 19 1
+8 23 1
+9 23 1
+9 23 1
+10 28 1
+10 37 10
+10 30 1
+11 28 1
+11 29 10
+12 34 1
+13 32 1
+13 34 1
+13 15 10
+14 34 1
+15 32 10
+15 33 10
+16 34 1
+17 34 10
+18 27 1
+18 21 1
+18 22 1
+18 23 1
+20 27 1
+24 34 10
+25 33 1
+25 26 1
+26 27 1
+30 36 1
+30 31 1
+31 32 1
+34 35 1
+35 36 1

@@ -1,0 +1,37 @@
+0  "Herndon/Ashburn"
+1  "Miami"
+2  "Montreal"
+3  "New York"
+4  "London"
+5  "Amsterdam"
+6  "Chicago"
+7  "Toronto"
+8  "Vancouver"
+9  "Seattle"
+10  "Fremont"
+11  "San Jose"
+12  "Los Angeles"
+13  "Dallas"
+14  "San Antonio"
+15  "Atlanta"
+-1
+0 3 1
+0 15 1
+1 15 1
+2 3 1
+2 7 1
+3 4 1
+3 6 1
+3 7 1
+4 5 1
+6 9 1
+6 13 1
+6 7 1
+7 8 1
+8 9 1
+9 10 1
+10 11 1
+11 12 1
+12 13 1
+13 14 1
+13 15 1

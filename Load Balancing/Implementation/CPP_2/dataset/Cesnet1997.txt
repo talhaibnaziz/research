@@ -1,0 +1,26 @@
+0  "None"
+1  "None"
+2  "None"
+3  "Ostrava"
+4  "TEN-34"
+5  "Plzen"
+6  "Praha"
+7  "Liberec"
+8  "Ceske Budejovice"
+9  "Pardubice"
+10  "Hradec Kralove"
+11  "Olomouc"
+12  "Brno"
+-1
+0 1 0.034
+0 11 0.034
+0 12 0.034
+1 8 0.034
+1 6 0.034
+2 9 0.034
+2 10 0.034
+2 6 0.034
+3 11 0.034
+4 6 0.034
+5 6 0.034
+6 7 0.034

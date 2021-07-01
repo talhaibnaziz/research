@@ -1,0 +1,76 @@
+0  "Technical Uni"
+1  "None"
+2  "Todos Kableshkov Uni"
+3  "IPP-BAS"
+4  "Telecom. and Post"
+5  "South-West Uni"
+6  "Civil Engineering"
+7  "Higher Attestation Commission"
+8  "Academy of Sciences"
+9  "NMU"
+10  "Vasil Levski Uni"
+11  "Uni of Economics"
+12  "Varna Tech Uni"
+13  "Naval Academy"
+14  "None"
+15  "None"
+16  "Shumen University"
+17  "Ruse Uni."
+18  "Academy of Economics"
+19  "Technical Uni."
+20  "Agriculture"
+21  "Plovdiv Uni"
+22  "Pleven University"
+23  "None"
+24  "Veliko Uni"
+25  "Military Uni"
+26  "Gabrovo Uni"
+27  "Sofia University"
+28  "Economy Uni."
+29  "GEANT"
+30  "BG Internet"
+31  "Medical Uni. Pharmacy"
+32  "Medical Uni Public Health"
+33  "Min. Education"
+34  "Sofia Uni."
+35  "Medical Uni Sofia"
+36  "Medical college of Sofia"
+-1
+0 3 0.01
+0 28 0.01
+1 3 1
+1 4 0.1
+1 6 1
+1 7 0.1
+2 34 0.01
+2 3 0.01
+3 8 1
+3 14 0.1
+3 21 1
+3 22 1
+3 29 0.01
+3 30 0.01
+5 14 0.1
+9 15 0.1
+10 16 1
+10 17 1
+10 11 1
+11 12 1
+11 13 1
+11 21 1
+15 22 0.1
+17 25 1
+18 23 0.1
+19 21 1
+20 21 1
+22 25 1
+23 25 0.1
+24 25 1
+25 26 1
+27 35 0.01
+27 28 0.01
+31 34 0.01
+32 34 0.01
+33 34 0.01
+34 35 0.01
+35 36 0.01

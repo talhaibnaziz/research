@@ -1,0 +1,26 @@
+0  "Jeonju"
+1  "Jeju"
+2  "Kwangju"
+3  "Busan"
+4  "Changwon"
+5  "Seoul"
+6  "Incheon"
+7  "Suwon"
+8  "Cheonan"
+9  "Ochang"
+10  "Daejeon"
+11  "Pohang"
+12  "Daegu"
+-1
+0 10 5
+1 2 2.5
+2 10 10
+3 10 10
+4 10 5
+5 10 20
+5 6 5
+5 7 5
+8 10 5
+9 10 5
+10 11 5
+10 12 10

@@ -1,0 +1,51 @@
+0  "Portalegre"
+1  "Evora"
+2  "Guarda"
+3  "Castelo Branco"
+4  "Tomar"
+5  "Leiria"
+6  "Lisboa"
+7  "Samtarem"
+8  "Setubal"
+9  "Ponta Delgada"
+10  "Beja"
+11  "Faro"
+12  "Funchal"
+13  "Viseu"
+14  "Covilha"
+15  "Viana de Castelo"
+16  "Barcelos"
+17  "Braga"
+18  "Villa Real"
+19  "Bragancia"
+20  "Porto"
+21  "Aveiro"
+22  "Coimbra"
+-1
+0 6 1
+0 6 1
+1 6 1
+2 20 1
+3 6 1
+4 6 1
+5 22 1
+5 6 1
+6 7 1
+6 8 1
+6 9 1
+6 12 1
+6 13 1
+6 22 1
+6 22 1
+7 22 1
+8 10 1
+8 11 1
+14 20 1
+15 20 1
+16 20 1
+17 20 1
+18 20 1
+19 20 1
+20 21 1
+20 22 1
+21 22 1

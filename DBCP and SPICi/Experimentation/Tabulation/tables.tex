@@ -1,0 +1,66 @@
+\documentclass{article}
+
+
+
+\begin{document}
+	\begin{table}
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|c|c|}
+				\hline
+				\textbf{Algorithm} & \textbf{$k$} & $\pi^{avgd}$ & \textbf{$\pi^{md}$} & \textbf{$\pi^{ic}$} & \textbf{$\pi^{latency}$} & \textbf{$\max(|S|)$} \\
+				\hline
+				DBCP-CPP & 5 & 1.44828 & 3 & 4.2 & 8.64828 & 9 \\
+				DBCP-weighted($d_c=2.0$) & 7 & 1.37037 & 3 & 4.14286 &  8.51323 & 8 \\
+				DBCP-weighted($d_c=3.0$) & 5 & 1.44828 & 3 & 4.2 & 8.64828 & 9 \\
+				SPICi & 14 & 1.1 & 2 & 4.12088 & 7.22088 & 3 \\
+				Greedy-SPICi & 7 & 1.44444 & 3 & 4.33333 & 8.77778 & 7  \\
+				SPICi-V2($T_c=.45$) & 3 & 2.70968 & 6 & 3.66667 & 12.37635 & 20 \\
+				SPICi-V3($T_c=.45$) & 3 & 2.45161 & 6 & 5 & 13.45161 & 20 \\
+				SPICi-V4($T_c=.45$) & 3 & 3.51613 & 7 & 3 & 13.51613 & 20 \\
+				SPICi-V2($T_c=.5$) & 9 & 1.44 & 3 & 4.47222 & 8.91222 & 7 \\
+				SPICi-V3($T_c=.$5) & 6 & 1.6 & 2 & 4.73333 & 8.33333 & 7 \\
+				SPICi-V4($T_c=.5$) & 6 & 2.68 & 4 & 5.13333 & 11.81333 & 7 \\
+				Inverse-SPICi($T_c=1.08$) & 4 & 3.28571 & 6 & 5.33333 & 14.61904 & 9 \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	\begin{table}
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|c|c|}
+				\hline
+				\textbf{Algorithm} & \textbf{$k$} & $\pi^{avgd}$ & \textbf{$\pi^{md}$} & \textbf{$\pi^{ic}$} & \textbf{$\pi^{latency}$} & \textbf{$\max(|S|)$} \\
+				\hline
+				DBCP-CPP & 1 & 1.444 & 2 & N/A & 3.1444 & 10 \\
+				DBCP-weighted($d_c=2.0$) & 2 & 0.987 & 2 & 0.6 & 3.5875 & 6 \\
+				DBCP-weighted($d_c=3.0$) & 5 & 0.9 & 1 & 1.1 & 3 & 4 \\
+				SPICi & 6 & 1 & 1 & 1.62 & 3.62 & 3 \\
+				Greedy-SPICi & 6 & 1 & 1 & 1.62 & 3.62 & 3 \\
+				SPICi-V2($T_c=.5$) & 4 & 0.916667 & 1 & 1.5 & 3.416667 & 4 \\
+				SPICi-V3($T_c=.5$) & 2 & 1.31667 & 2 & 0.6 & 3.91667 & 10 \\
+				SPICi-V4($T_c=.5$) & 1 & 1.48333 & 2 & 0 & 3.48333 & 10 \\
+				Inverse-SPICi($T_c=1.01$) & 3 & 1.28333 & 2 & 2 & 5.28333 & 5 \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	\begin{table}
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|c|c|}
+				\hline
+				\textbf{Algorithm} & \textbf{$k$} & $\pi^{avgd}$ & \textbf{$\pi^{md}$} & \textbf{$\pi^{ic}$} & \textbf{$\pi^{latency}$} & \textbf{$\max(|S|)$} \\
+				\hline
+				DBCP-CPP & 2 & 11.8846 & 20.5 & 15 & 47.3846 & 14 \\
+				DBCP-weighted($d_c=5.0$) & 6 & 2.83333 & 7 & 13.6667 & 23.5 & 5 \\
+				DBCP-weighted($d_c=6.0$) & 7 & 4.5 & 7 & 13.7619 & 25.2619 & 5 \\
+				SPICi & & & & & & \\
+				Greedy-SPICi & 9 & 7.83333 & 17 & 15.8611 & 40.6944 & 3 \\
+				SPICi-V2($T_c=.45,.5$) & 4 & 9.59091 & 20.5 & 15 & 45.09091 & 6 \\
+				SPICi-V3($T_c=.45,.5$) & 3 & 8.59091 & 34 & 17.3333 & 59.92421 & 6 \\
+				SPICi-V4($T_c=.45,.5$) & 3 & 10.3182 & 27 & 9.33333 & 46.65153 & 6 \\
+				Inverse-SPICi & 5 & 5.78571 & 15 & 16.8 & 37.58571 & 4 \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+\end{document}

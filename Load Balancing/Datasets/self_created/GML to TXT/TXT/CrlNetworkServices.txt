@@ -1,0 +1,72 @@
+0  "Phoenix"
+1  "Albuquerque"
+2  "Anaheim"
+3  "San Diego"
+4  "San Antonio"
+5  "Houston"
+6  "Dallas"
+7  "Austin"
+8  "Atlanta"
+9  "Raleigh"
+10  "Kansas City"
+11  "Denver"
+12  "Tampa"
+13  "St Louis"
+14  "Pittsburgh"
+15  "New York"
+16  "Philadelphia"
+17  "Baltimore"
+18  "Washington, DC"
+19  "Chicago"
+20  "Detroit"
+21  "Cleveland"
+22  "Boston"
+23  "San Jose"
+24  "Los Angeles"
+25  "Seattle"
+26  "Portland"
+27  "Santa Rosa"
+28  "Sacramento"
+29  "Stockton"
+30  "Concord"
+31  "San Rafael"
+32  "San Francisco"
+-1
+0 1 1
+0 3 1
+1 6 1
+2 24 1
+2 3 1
+4 5 1
+4 7 1
+5 6 1
+6 8 1
+6 13 1
+6 7 1
+8 9 1
+8 12 1
+9 18 1
+10 11 1
+10 13 1
+11 32 1
+13 19 1
+14 18 1
+14 21 1
+15 16 1
+15 22 1
+16 17 1
+17 18 1
+19 25 1
+19 20 1
+20 21 1
+21 22 1
+23 24 1
+23 32 1
+25 26 1
+26 27 1
+27 28 1
+27 31 1
+28 29 1
+29 30 1
+30 32 1
+31 32 

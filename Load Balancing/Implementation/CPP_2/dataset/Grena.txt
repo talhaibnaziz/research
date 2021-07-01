@@ -1,0 +1,32 @@
+0  "Cisco 3640 Samtredia"
+1  "Cisco 2621 Batumi"
+2  "Cisco 2511 Kutaisi"
+3  "Cisco 3640 Kutaisi C04"
+4  "Cisco 3640 Poti"
+5  "Cisco 3640 Zugididi"
+6  "Cisco 3640 Khashuri"
+7  "Corecess DX6524"
+8  "Tbilisi GRENA Network"
+9  "Corecess DX6524"
+10  "Rustavi CO14"
+11  "Cisco 3640 Telavi"
+12  "Corecess DX6524"
+13  "Rustavi CO15"
+14  "Cisco 3640 Gori"
+15  "Cisco 3640 Kutaisi C07"
+-1
+0 4 1
+0 15 1
+1 4 1
+2 3 1
+3 7 1
+3 15 1
+4 5 1
+6 14 1
+6 15 1
+8 11 1
+8 13 1
+8 14 1
+9 10 1
+10 13 1
+12 13 1

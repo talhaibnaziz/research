@@ -1,0 +1,51 @@
+0  "Jakarta"
+1  "Perth"
+2  "Singapore"
+3  "Kuala Lumpur"
+4  "San Jose"
+5  "Los Angeles"
+6  "Sydney"
+7  "Auckland"
+8  "London"
+9  "Palo Alto"
+10  "New Delhi"
+11  "Mumbai"
+12  "Seoul"
+13  "Tokyo"
+14  "Taipei"
+15  "Hong Kong"
+16  "Manila"
+17  "Bangkok"
+18  "Chenai"
+19  "Mumbai"
+0 15
+1 2
+1 6
+1 15
+2 3
+2 6
+2 8
+2 17
+2 18
+2 19
+4 13
+4 6
+4 15
+5 15
+5 13
+5 6
+5 7
+6 7
+8 11
+8 15
+9 15
+10 11
+11 15
+12 13
+12 15
+13 14
+13 15
+13 16
+14 15
+15 16
+15 17

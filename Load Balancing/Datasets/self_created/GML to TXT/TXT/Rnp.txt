@@ -1,0 +1,66 @@
+0  "Revife"
+1  "Maceio"
+2  "Campina Grande"
+3  "Jobo Passoa"
+4  "Brasilia"
+5  "Belo Horizonte"
+6  "Aracaju"
+7  "Salvador"
+8  "Vitoria"
+9  "Rio de Janeiro"
+10  "Manaus"
+11  "Goiania"
+12  "Cuiaba"
+13  "Curitiba"
+14  "Porto Alegro"
+15  "Florianopolis"
+16  "Sao Paulo"
+17  "Porto Velho"
+18  "Rio Branco"
+19  "Palmas"
+20  "Campo Grande"
+21  "Teresina"
+22  "Natal"
+23  "RedCLARA"
+24  "Inetnet Comercial"
+25  "Americas Light"
+26  "Boa Vista"
+27  "Macapa"
+28  "Belem"
+29  "Sao Luis"
+30  "Fortaleza"
+-1
+0 2 10
+0 21 3
+1 6 10
+2 3 10
+3 22 10
+4 9 10
+4 26 0.02
+4 27 0.02
+4 10 0.2
+4 5 10
+5 16 10
+5 30 10
+5 7 10
+6 7 10
+7 8 10
+8 9 10
+9 16 10
+11 19 3
+11 12 3
+12 17 3
+12 20 3
+13 16 10
+13 20 3
+13 14 10
+14 15 10
+15 16 10
+16 23 1.45
+16 24 3.5
+16 25 20
+17 18 3
+21 28 3
+22 30 10
+28 29 3
+29 30 3

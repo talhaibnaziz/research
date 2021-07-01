@@ -1,0 +1,43 @@
+0  "Salt Lake City"
+1  "Minneapolis"
+2  "Kansas City"
+3  "Denver"
+4  "Pittsburgh"
+5  "Philadelphia"
+6  "Chicago"
+7  "Detroit"
+8  "New York"
+9  "Washington, DC"
+10  "Los Angeles"
+11  "Houston"
+12  "St Louis"
+13  "Seattle"
+14  "Oakland"
+15  "Santa Clara"
+16  "Atlanta"
+17  "San Diego"
+18  "Phoenix"
+19  "Tucson"
+20  "Dallas"
+0 3
+0 14
+1 6
+2 3
+2 12
+4 5
+4 7
+5 8
+6 12
+6 7
+8 9
+9 16
+10 17
+10 15
+11 16
+11 12
+11 20
+13 14
+14 15
+17 18
+18 19
+19 20

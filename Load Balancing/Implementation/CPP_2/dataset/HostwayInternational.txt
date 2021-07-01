@@ -1,0 +1,38 @@
+0  "Seattle"
+1  "Tampa"
+2  "Chicago"
+3  "Vancouver"
+4  "Miami"
+5  "Austin"
+6  "New York"
+7  "Atlanta"
+8  "Bucharest"
+9  "Seoul"
+10  "Sydney"
+11  "Hannover"
+12  "Amsterdam"
+13  "Antwerp"
+14  "Frankfurt"
+15  "London"
+-1
+0 2 1
+0 3 1
+0 5 1
+1 4 1
+1 7 1
+2 5 1
+2 7 1
+4 10 1
+4 6 1
+4 7 1
+6 10 1
+6 7 1
+6 15 1
+8 9 1
+8 14 1
+9 10 1
+11 12 1
+11 14 1
+12 13 1
+12 15 1
+13 14 1

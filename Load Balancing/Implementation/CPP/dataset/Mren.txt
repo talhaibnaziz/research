@@ -1,0 +1,12 @@
+0  "Bijelo Polje"
+1  "Niksic"
+2  "Podgorica"
+3  "Njegusi"
+4  "Kotor"
+5  "Herceg Novi"
+-1
+0 2 1
+1 2 1
+2 3 1
+2 4 1
+2 5 1

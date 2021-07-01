@@ -1,0 +1,57 @@
+0  "Gamnet"
+1  "Qnet AS"
+2  "Kerewan"
+3  "Banjul"
+4  "MDI"
+5  "GTMI"
+6  "Quantum Net"
+7  "MRC"
+8  "Univ Gambia"
+9  "GTMI"
+10  "Mansk Gambia"
+11  "Gamtel House"
+12  "Action Ltd"
+13  "UNDP"
+14  "Teleglobe Canada"
+15  "Intelsat"
+16  "Earth Station"
+17  "Gantd Center"
+18  "Basse"
+19  "Bansang"
+20  "Abuko"
+21  "Serekunda"
+22  "Kotu"
+23  "Bakau"
+24  "Brikama"
+25  "Yundum"
+26  "Soma"
+27  "Farafenni"
+-1
+0 20 0.01
+1 20 0.01
+2 3 0.002
+2 27 0.002
+3 11 0.01
+3 10 6.4e-005
+3 6 0.000128
+3 21 0.002
+4 21 6.4e-005
+5 21 0.000128
+7 23 0.000128
+8 21 6.4e-005
+9 21 6.4e-005
+12 21 6.4e-005
+13 23 6.4e-005
+14 15 1
+15 16 1
+16 20 0.01
+17 24 0.01
+18 26 0.002
+18 19 0.002
+20 21 0.002
+21 22 0.002
+21 23 0.002
+21 24 0.002
+21 25 0.002
+25 26 0.002
+26 27 0.002

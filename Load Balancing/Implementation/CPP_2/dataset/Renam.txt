@@ -1,0 +1,10 @@
+0  "Chisinau"
+1  "Balti"
+2  "       Cahul"
+3  "StarNet ISP"
+4  "RoEduNet"
+-1
+0 1 0.008
+0 2 0.000128
+0 3 0.008
+0 4 0.032

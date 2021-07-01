@@ -1,0 +1,73 @@
+0  "Thunder Bay"
+1  "Chicago"
+2  "Regina"
+3  "Winnipeg"
+4  "Ottawa"
+5  "Montreal"
+6  "Windsor/Detroit"
+7  "Toronto"
+8  "Fredericton"
+9  "Charlottetown"
+10  "Asie-Pacifique"
+11  "Boston"
+12  "Asia-Pacific"
+13  "Amerique du Nord et Amerique du Sud"
+14  "Europe"
+15  "New York"
+16  "St John's"
+17  "Halifax"
+18  "North and South America"
+19  "Europe and other countries"
+20  "Europe et autres pays"
+21  "Europe and other countries"
+22  "Calgary"
+23  "Saskatoon"
+24  "Whitehorse"
+25  "Yellowknife"
+26  "Edmonton"
+27  "Kamloops"
+28  "Kelowna"
+29  "Vancouver"
+30  "Victoria"
+31  "Seattle"
+0 3
+0 7
+1 3
+1 6
+1 13
+1 18
+1 19
+1 22
+1 31
+2 3
+2 22
+3 7
+3 22
+3 23
+4 5
+4 7
+5 8
+5 17
+5 11
+6 7
+7 15
+8 9
+9 17
+10 31
+11 15
+12 31
+14 16
+15 17
+15 20
+15 21
+16 17
+22 27
+22 26
+23 26
+24 26
+25 26
+27 28
+27 29
+29 30
+29 31
+30 31

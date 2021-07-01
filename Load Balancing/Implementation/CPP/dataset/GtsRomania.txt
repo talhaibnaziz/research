@@ -1,0 +1,46 @@
+0  "Craiova"
+1  "Plaiesti"
+2  "Brasov"
+3  "Targoviste"
+4  "Constanta"
+5  "Bucarest"
+6  "Galati"
+7  "Focsani"
+8  "Budapest"
+9  "Budapest"
+10  "Targu Mures"
+11  "Timisoara"
+12  "Sibiu"
+13  "Iasi"
+14  "Piatra Neamt"
+15  "Bacau"
+16  "Deva"
+17  "Cluj"
+18  "Oradea"
+19  "Bors"
+20  "Arad"
+-1
+0 11 1
+0 5 1
+1 5 1
+2 17 1
+2 5 1
+3 5 1
+4 5 1
+5 6 1
+5 7 1
+5 10 1
+5 13 1
+5 15 1
+5 18 1
+7 14 1
+8 19 1
+9 20 1
+11 16 1
+11 20 1
+12 18 1
+13 18 1
+15 18 1
+17 18 1
+18 19 1
+18 20 1

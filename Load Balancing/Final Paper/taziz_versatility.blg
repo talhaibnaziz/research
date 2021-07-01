@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: taziz_versatility.aux
+The style file: cas-model2-names.bst
+Database file #1: mybib.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 40 entries,
+            2990 wiz_defined-function locations,
+            968 strings with 13975 characters,
+and the built_in function-call counts, 29021 in all, are:
+= -- 2210
+> -- 1224
+< -- 24
++ -- 493
+- -- 429
+* -- 3207
+:= -- 4158
+add.period$ -- 108
+call.type$ -- 40
+change.case$ -- 340
+chr.to.int$ -- 40
+cite$ -- 40
+duplicate$ -- 2158
+empty$ -- 2087
+format.name$ -- 558
+if$ -- 5459
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 412
+newline$ -- 203
+num.names$ -- 160
+pop$ -- 791
+preamble$ -- 1
+purify$ -- 301
+quote$ -- 0
+skip$ -- 666
+stack$ -- 0
+substring$ -- 1195
+swap$ -- 1587
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 354
+warning$ -- 0
+while$ -- 194
+width$ -- 0
+write$ -- 567

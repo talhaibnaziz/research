@@ -1,0 +1,144 @@
+0  "?"
+1  "Drug Agency"
+2  "Inst. Radio Meas."
+3  "Isnt. Chemical Physics"
+4  "Inst. Biochem"
+5  "Inst. Geophysics"
+6  "Inst. of Health"
+7  "Inst. Informatics"
+8  "TV station"
+9  "Inst. Phylosophy"
+10  "?"
+11  "Organic chem"
+12  "Library"
+13  "Lib Net"
+14  "ICT"
+15  "Geological"
+16  "Inst. Math."
+17  "Inst. Mechanics"
+18  "ASHMS"
+19  "Inst. Physiology"
+20  "Yeveran Physics Inst."
+21  "ArmESFo"
+22  "National Academy"
+23  "NSSPA"
+24  "Min. of Education"
+25  "National Stats. science"
+26  "EEMC MNP"
+27  "?"
+28  "Museum"
+29  "ISTC"
+30  "Geophys. Obser."
+31  "?"
+32  "Encycloped."
+33  "Literature"
+34  "Economy"
+35  "Linguistic Inst"
+36  "None"
+37  "American Uni."
+38  "Oriental"
+39  "Hist"
+40  "Art"
+41  "Hydroecol"
+42  "Engineer academy"
+43  "education"
+44  "SCS"
+45  "Organic Chem"
+46  "Astrophysical Obs."
+47  "Inst. Microbiology"
+48  "Molecular Structure"
+49  "General Chem"
+50  "research"
+51  "engineering center"
+52  "?"
+53  "Inst. Radiophysics"
+54  "ARENA"
+55  "Institute of Applied Physics"
+56  "Inst. of Molecular Biology"
+57  "Agricultural Academy"
+58  "Ecological Center"
+59  "Intitute of Botany"
+60  "Institute of Zoology"
+61  "Gallery"
+62  "Yerevan University"
+63  "State Engineering University"
+64  "Yerevan Medical University"
+0 1
+0 2
+0 6
+2 7
+2 55
+3 56
+3 4
+3 7
+4 7
+5 7
+7 8
+7 10
+7 46
+7 46
+7 47
+7 48
+7 53
+7 22
+7 56
+8 9
+8 25
+8 26
+8 27
+8 28
+8 61
+10 49
+10 11
+12 13
+12 22
+14 36
+15 22
+15 22
+16 22
+17 22
+18 22
+19 44
+19 20
+19 22
+20 21
+20 22
+22 36
+22 37
+22 44
+22 54
+22 23
+22 25
+22 28
+22 61
+22 62
+22 63
+24 25
+27 31
+29 36
+30 36
+31 32
+31 34
+31 35
+31 33
+36 38
+36 39
+36 40
+36 41
+36 42
+36 43
+45 48
+46 53
+46 47
+50 52
+51 52
+52 53
+54 64
+54 57
+54 62
+54 63
+55 60
+56 60
+57 58
+58 59
+59 60

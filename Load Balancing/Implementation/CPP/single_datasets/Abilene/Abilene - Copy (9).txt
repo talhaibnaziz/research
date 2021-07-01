@@ -1,0 +1,26 @@
+0  "New York"
+1  "Chicago"
+2  "Washington DC"
+3  "Seattle"
+4  "Sunnyvale"
+5  "Los Angeles"
+6  "Denver"
+7  "Kansas City"
+8  "Houston"
+9  "Atlanta"
+10  "Indianapolis"
+-1
+0 1 10
+0 2 10
+1 10 10
+2 9 10
+3 4 10
+3 6 10
+4 5 10
+4 6 10
+5 8 10
+6 7 10
+7 8 10
+7 10 10
+8 9 10
+9 10 10

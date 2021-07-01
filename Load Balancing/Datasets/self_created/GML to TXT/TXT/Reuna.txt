@@ -1,0 +1,74 @@
+0  "UCT"
+1  "ULAGOS"
+2  "UACH"
+3  "UFRO"
+4  "UCN"
+5  "UNAP Sede Santiago"
+6  "UNAP"
+7  "UTA"
+8  "ULAGO Puerto Montt"
+9  "Arica"
+10  "PITs Nacionales"
+11  "RC-12"
+12  "RC-Nacional"
+13  "None"
+14  "None"
+15  "None"
+16  "None"
+17  "RedCLARA"
+18  "Osorno"
+19  "La Serena"
+20  "Copiapo"
+21  "Antofagasta"
+22  "Iquique"
+23  "Valdivia"
+24  "Temuco"
+25  "Concepcion"
+26  "Santiago"
+27  "UDEC"
+28  "UBB"
+29  "UDA"
+30  "ULS"
+31  "AURA"
+32  "UCHILE"
+33  "UTEM"
+34  "UMCE"
+35  "USACH"
+36  "REUNA"
+-1
+0 13 1
+1 8 1
+1 18 1
+2 23 1
+3 13 1
+4 21 1
+5 36 1
+6 22 1
+7 9 1
+9 22 0.155
+10 12 0.155
+11 17 1
+11 26 1
+12 26 1
+13 24 1
+14 25 1
+14 27 1
+14 28 1
+15 19 1
+15 30 1
+15 31 1
+16 32 1
+16 33 1
+16 34 1
+16 35 1
+16 36 1
+16 26 1
+18 23 0.155
+19 26 0.301
+19 20 0.205
+20 29 1
+20 21 0.205
+21 22 0.155
+23 24 0.155
+24 25 0.205
+25 26 0.301

@@ -1,0 +1,73 @@
+0  "Ruzombernk"
+1  "None"
+2  "Svit"
+3  "Liptovdky Mikulas"
+4  "Detva"
+5  "Zvolen"
+6  "Zilina"
+7  "Namestovo"
+8  "Rimavska Sobota"
+9  "Lucenec"
+10  "Komarno"
+11  "Brno Warsaw"
+12  "Prague Frankfurt"
+13  "Vienna"
+14  "Gyor Budapest"
+15  "Nove Zamky"
+16  "Nitra"
+17  "Trencin"
+18  "Topolcany"
+19  "Novaky"
+20  "Prievidza"
+21  "None"
+22  "None"
+23  "Piestany"
+24  "Nove Mest nad Vahom"
+25  "Spisska"
+26  "Poprad"
+27  "Banska Bystrica"
+28  "Bratislava"
+29  "Kosice"
+30  "Presov"
+31  "Bardejov"
+32  "Svidnik"
+33  "Humenne"
+34  "Michalovce"
+-1
+0 27 1
+1 27 1
+2 29 1
+3 27 1
+4 8 1
+4 27 1
+5 27 1
+6 17 1
+6 26 1
+6 27 1
+7 27 1
+9 27 1
+10 28 1
+11 28 1
+12 28 1
+13 28 1
+14 28 1
+15 28 1
+16 28 1
+17 28 1
+18 28 1
+19 27 1
+20 27 1
+21 28 1
+22 28 1
+23 28 1
+24 28 1
+25 26 1
+25 29 1
+26 30 1
+27 28 1
+28 29 1
+29 32 1
+29 33 1
+29 34 1
+29 30 1
+30 31 1

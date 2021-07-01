@@ -1,0 +1,345 @@
+0  "Havifov"
+1  "Ostrava"
+2  "Chlebovice"
+3  "Frydek Mistek"
+4  "Janovice"
+5  "Tranovice"
+6  "Cesky Tusin"
+7  "Warsaw"
+8  "Karvina"
+9  "Trinec"
+10  "Ceska Lipa"
+11  "Usti nad Labem"
+12  "Rumburk"
+13  "Decin"
+14  "Mnichovo Hradiste"
+15  "Teplice"
+16  "Melnik"
+17  "Mlada Boleslav"
+18  "Litvinov"
+19  "Hora Sv. Kateriny"
+20  "Kasejovice"
+21  "Susice"
+22  "Pribram"
+23  "Haje"
+24  "Klatovy"
+25  "Melnice"
+26  "Strazovice"
+27  "Hraz"
+28  "Chrastovice"
+29  "Beroun"
+30  "Frydlant"
+31  "Liberec"
+32  "Dvur Kralove nad Labem"
+33  "Jicin"
+34  "Jablonec nad Nisou"
+35  "Trutnov"
+36  "Bratislava"
+37  "Hodonin"
+38  "Robousy"
+39  "Rajka"
+40  "Vyskov"
+41  "Proslejov"
+42  "Brno3"
+43  "Blansko"
+44  "Bezmerov"
+45  "Kyselovice"
+46  "Olomouc"
+47  "Lobodice"
+48  "Prerov"
+49  "Osek"
+50  "Veself nad Luznici"
+51  "Ceske Budejovice"
+52  "Prachatice"
+53  "Horami"
+54  "Strakonice"
+55  "Pisek"
+56  "Tritim"
+57  "Termelin"
+58  "Budicovice"
+59  "Zverkovice"
+60  "Jazlovice"
+61  "Zajecice"
+62  "Hospozin"
+63  "Zlosyn"
+64  "Nove Ouholice"
+65  "Kralupy n. Vit."
+66  "Krupa"
+67  "Praha"
+68  "Kladno"
+69  "Hajek"
+70  "Radonice"
+71  "Tuklaty"
+72  "Limuzy"
+73  "KS Kourim"
+74  "Nymburk"
+75  "Podebrady"
+76  "Kolin"
+77  "Caslav"
+78  "Frankfurt"
+79  "Brazdim"
+80  "Pozden"
+81  "Zatec"
+82  "Bylany"
+83  "Chomutov"
+84  "Jirkov"
+85  "Brandov"
+86  "Louny"
+87  "Cerncice"
+88  "Pocedelice"
+89  "Most"
+90  "Stribro"
+91  "Svinomazy"
+92  "Plasy"
+93  "Plzen"
+94  "Rozvadov"
+95  "Bor"
+96  "Tachov"
+97  "Otrocin"
+98  "Trstenice"
+99  "Rokycany"
+100  "Hlohova"
+101  "Hate"
+102  "Rakovnik"
+103  "Sosen"
+104  "Karlovy Vary"
+105  "Ostrov"
+106  "Marianske Lazne"
+107  "As"
+108  "Cheb"
+109  "Sokolov"
+110  "Mladotice"
+111  "Kromeriz"
+112  "Ust nad Orlicl"
+113  "Litomysl"
+114  "Hlucin"
+115  "Opava"
+116  "Krnov"
+117  "Bruntal"
+118  "Unicov"
+119  "Jesenik"
+120  "Svitavy"
+121  "Sumperk"
+122  "Jemniste"
+123  "Benesov"
+124  "Hostisov"
+125  "Zvestov"
+126  "Doubravice"
+127  "Votice"
+128  "Kamyk"
+129  "Brzina"
+130  "Tabor"
+131  "Velka"
+132  "Jindice"
+133  "Kutna Hora"
+134  "Vrbice"
+135  "Vilemovice"
+136  "Chrudim"
+137  "Olesna"
+138  "Hradec Kralove"
+139  "Pardubice"
+140  "Rychnov nad Kneznou"
+141  "Nachod"
+142  "Znojmo"
+143  "KS Hostim"
+144  "None"
+145  "None"
+146  "None"
+147  "V. Pavlovice"
+148  "Hustopece"
+149  "Breclav"
+150  "Lanzhot"
+151  "Ivancice"
+152  "Malesovice"
+153  "Uhercice - V.Nemcice"
+154  "Dolni Dunajovice"
+155  "Tvrdonice"
+156  "Mutenico"
+157  "Kopfivnice"
+158  "None"
+159  "Bukovany"
+160  "Stare Mesto"
+161  "Zlin"
+162  "Hranice"
+163  "Novy Jicin"
+164  "Libhost"
+165  "Valasske Mezihcl"
+166  "Vsetin"
+167  "None"
+168  "None"
+169  "None"
+170  "None"
+171  "None"
+172  "None"
+173  "None"
+174  "Cesky Krumlov"
+175  "Domazice"
+176  "Trebic"
+177  "Brno1"
+178  "Brno2"
+179  "Kninice"
+180  "Dacice"
+181  "Hefmanec"
+182  "Jindnchuv Hradec"
+183  "Dolni Radoun"
+184  "Thebon"
+185  "Pelhrimov"
+186  "Jihlava"
+187  "Sachotin"
+188  "Haclickuv Brod"
+189  "zdar nad Sazavou"
+190  "Cerna"
+191  "Brezejc"
+192  "Kralice"
+-1
+1 115 1
+1 171 1
+2 4 1
+2 171 1
+2 164 1
+4 5 1
+6 171 1
+6 7 1
+10 11 1
+10 31 1
+11 89 1
+19 84 1
+19 85 1
+20 26 1
+20 23 1
+22 29 1
+23 131 1
+25 100 1
+25 94 1
+26 27 1
+26 28 1
+27 100 1
+28 58 1
+29 67 1
+29 68 1
+30 31 1
+31 34 1
+31 38 1
+33 38 1
+36 150 1
+36 39 1
+37 160 1
+37 149 1
+38 138 1
+40 41 1
+40 42 1
+41 46 1
+42 178 1
+42 146 1
+44 159 1
+44 45 1
+44 47 1
+45 49 1
+46 172 1
+49 172 1
+50 56 1
+50 51 1
+50 183 1
+53 169 1
+53 58 1
+55 58 1
+56 59 1
+57 169 1
+59 169 1
+60 168 1
+61 168 1
+61 122 1
+62 80 1
+62 64 1
+62 88 1
+62 145 1
+63 64 1
+63 79 1
+65 145 1
+66 80 1
+66 103 1
+67 68 1
+67 69 1
+67 70 1
+67 79 1
+67 145 1
+69 168 1
+70 144 1
+71 72 1
+71 144 1
+72 73 1
+73 132 1
+78 94 1
+79 144 1
+82 88 1
+82 89 1
+82 83 1
+82 84 1
+83 104 1
+83 84 1
+87 88 1
+90 95 1
+90 93 1
+90 167 1
+91 170 1
+91 167 1
+93 170 1
+94 95 1
+97 167 1
+98 152 1
+98 143 1
+101 151 1
+103 110 1
+104 109 1
+106 108 1
+106 167 1
+108 109 1
+110 170 1
+112 121 1
+112 138 1
+114 115 1
+115 117 1
+117 121 1
+122 125 1
+124 125 1
+124 126 1
+124 127 1
+126 129 1
+128 129 1
+128 131 1
+132 135 1
+134 137 1
+134 135 1
+137 187 1
+138 139 1
+139 187 1
+143 179 1
+143 186 1
+146 152 1
+146 177 1
+146 151 1
+147 148 1
+147 149 1
+148 153 1
+149 173 1
+150 173 1
+151 152 1
+151 192 1
+152 153 1
+153 154 1
+155 156 1
+155 173 1
+156 159 1
+158 164 1
+160 161 1
+161 165 1
+163 164 1
+164 172 1
+177 178 1
+179 180 1
+180 181 1
+181 183 1
+186 187 1
+187 190 1
+190 191 1
+191 192 

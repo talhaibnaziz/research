@@ -1,0 +1,47 @@
+0  "Portsmouth"
+1  "Dover"
+2  "Biddeford"
+3  "Sanford"
+4  "Boston"
+5  "Framingham"
+6  "Manchester"
+7  "Keene"
+8  "Worcester"
+9  "Springfield"
+10  "Bangor"
+11  "Portland"
+12  "Turner"
+13  "Bethel"
+14  "Norway"
+15  "Standish"
+16  "Buckfield"
+17  "Augusta"
+18  "Lewiston"
+19  "Augusta"
+-1
+0 11 1
+0 3 1
+0 6 1
+1 11 1
+1 7 1
+2 11 1
+2 3 1
+4 5 1
+4 6 1
+5 8 1
+7 9 1
+8 9 1
+10 18 1
+10 19 1
+11 18 1
+11 15 1
+12 17 1
+12 13 1
+13 14 1
+14 16 1
+14 15 1
+15 16 1
+16 17 1
+17 18 1
+17 19 1
+18 19 1

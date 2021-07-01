@@ -1,0 +1,78 @@
+0  "Hilderstone College"
+1  "K College- Ashford"
+2  "Canterbury College"
+3  "Thanet College"
+4  "West Kent College"
+5  "UoK-C"
+6  "UCA - Rochester"
+7  "Hadlow College"
+8  "University College Folkestone"
+9  "IFS School of Finance"
+10  "WEA"
+11  "Medway Council"
+12  "KPSN"
+13  "janet"
+14  "janet"
+15  "orbitalnet"
+16  "UCA-Epsom"
+17  "Pilgrims-Margate"
+18  "Chatham"
+19  "UCA - Chatham"
+20  "Pilgrim - Ashford"
+21  "Pilgrim-Canterbury"
+22  "University of Kent"
+23  "Hadlow College Mottingham"
+24  "UCA - Maidstone"
+25  "UoK - Tonbridge"
+26  "UCA - Canterbury"
+27  "SOAS - Wye"
+28  "Mid Kent College"
+29  "UCCA-C"
+30  "UoG-AH"
+31  "Universities at Medway"
+32  "Hadlow College Canterbury"
+33  "EIS-Maidstone"
+34  "CCCU-S"
+35  "CCCU-T"
+36  "Dorton College"
+37  "NW Kent College - Dartford"
+-1
+0 35 0.01
+1 5 0.1
+2 5 0.1
+3 35 0.1
+4 34 0.1
+5 32 0.01
+5 35 1
+5 33 10
+5 9 0.1
+5 12 2
+5 13 10
+5 21 0.1
+5 22 2
+5 26 0.1
+5 27 0.1
+5 29 1
+6 18 0.1
+7 34 0.1
+8 12 0.1
+10 18 0.01
+11 18 1
+12 33 2
+12 20 0.1
+14 18 10
+15 33 0.1
+16 30 1
+17 35 0.1
+18 33 10
+18 19 0.1
+18 28 0.1
+18 30 1
+18 31 1
+23 30 0.01
+24 33 0.1
+25 34 0.01
+25 34 0.01
+30 37 0.1
+33 34 1
+34 36 0.1

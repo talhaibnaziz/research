@@ -1,0 +1,71 @@
+0  "N/Western Province"
+1  "Northern Province"
+2  "Eastern Province"
+3  "Luapula Province"
+4  "NRDC"
+5  "UNZA Research"
+6  "Solwezi"
+7  "Livingstone"
+8  "NIPA"
+9  "ZICAS"
+10  "Gateway Router"
+11  "Gateway Router"
+12  "Gateway Router"
+13  "None"
+14  "None"
+15  "None"
+16  "ZESCO TS"
+17  "ZAMTEL TS"
+18  "Chainama"
+19  "NISR"
+20  "Mt Makulu"
+21  "Evelyn Hone College"
+22  "KTC"
+23  "COSETCO"
+24  "KABWE TRADES"
+25  "NKRUMAH"
+26  "Gateway Router"
+27  "Southern Province"
+28  "University of Zambia"
+29  "Mulungushi University"
+30  "Copperbelt University"
+31  "Kitwe"
+32  "Kabwe"
+33  "Lusaka"
+34  "Gateway Router"
+35  "Gateway Router"
+-1
+0 15 1
+1 31 1
+2 13 1
+3 15 1
+4 28 1
+6 31 1
+7 14 1
+8 28 1
+9 28 1
+10 30 1
+11 30 1
+12 30 1
+13 32 1
+13 33 1
+14 33 1
+14 27 1
+15 32 1
+15 31 1
+16 30 1
+17 30 1
+18 28 1
+19 28 1
+20 28 1
+21 28 1
+22 30 1
+23 30 1
+24 29 1
+25 29 1
+26 32 0.1
+26 29 1
+28 35 1
+30 34 1
+31 34 0.1
+33 35 0.1

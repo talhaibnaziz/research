@@ -1,0 +1,13 @@
+0  "Telecomserbia"
+1  "Novi Sad"
+2  "Belgrade"
+3  "Kragujevac"
+4  "Nis"
+5  "Krusevac"
+6  "Podgorica"
+0 1
+0 5
+1 2
+2 3
+3 4
+4 5

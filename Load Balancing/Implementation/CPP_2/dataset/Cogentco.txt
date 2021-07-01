@@ -1,0 +1,443 @@
+0  "Timisoara"
+1  "Bucharest"
+2  "Mainz-Wiesbaden"
+3  "Mannheim"
+4  "Stuttgart"
+5  "Nuremberg"
+6  "Munich"
+7  "Vienna"
+8  "Bratislava"
+9  "Budapest"
+10  "Milwaukee"
+11  "Minneapolis"
+12  "South Bend"
+13  "Chicago"
+14  "Kansas City"
+15  "St Louis"
+16  "Des Moines"
+17  "Omaha"
+18  "Louisville"
+19  "Nashville"
+20  "Gijon"
+21  "Santander"
+22  "Vigo"
+23  "Leon"
+24  "Zaragoza"
+25  "Barcelona"
+26  "Bilbao"
+27  "Logrono"
+28  "Avila"
+29  "San Sebastian"
+30  "Indianapolis"
+31  "Cincinnati"
+32  "Toledo"
+33  "Detroit"
+34  "Dayton"
+35  "Columbus"
+36  "Hamilton"
+37  "Cleveland"
+38  "Buffalo"
+39  "Toronto"
+40  "Oslo"
+41  "Stockholm"
+42  "Copenhagen"
+43  "Malmo"
+44  "Newcastle"
+45  "Leeds"
+46  "Glasgow"
+47  "Edinburgh"
+48  "Liverpool Southport"
+49  "Manchester"
+50  "Lisbon"
+51  "Coimbra"
+52  "Alicante"
+53  "Murcia"
+54  "Madrid"
+55  "Valencia"
+56  "Sevilla"
+57  "Badajoz"
+58  "Granada"
+59  "Malaga"
+60  "Austin"
+61  "San Antonio"
+62  "New Orleans"
+63  "Jackson"
+64  "Tulsa"
+65  "Oklahoma City"
+66  "Fort Worth"
+67  "Dallas"
+68  "Memphis"
+69  "Houston"
+70  "Tours"
+71  "Nantes"
+72  "Rennes"
+73  "Caen"
+74  "Rouen"
+75  "Reims"
+76  "Luxembourg"
+77  "Frankfurt"
+78  "Bordeaux"
+79  "Poiters"
+80  "Miami"
+81  "Boca Raton"
+82  "Atlanta"
+83  "Charlotte"
+84  "Greensboro"
+85  "Raleigh"
+86  "Tampa"
+87  "Orlando"
+88  "Jacksonville"
+89  "Birmingham"
+90  "Nice"
+91  "Grenoble"
+92  "Lyon"
+93  "Dijon"
+94  "Toulouse"
+95  "Montpellier"
+96  "Marseille"
+97  "Sophia"
+98  "Prague"
+99  "Geneva"
+100  "Bern"
+101  "Los Angeles"
+102  "Orange County"
+103  "San Francisco"
+104  "Santa Clara"
+105  "Sacramento"
+106  "Oakland"
+107  "Salt Lake City"
+108  "Boise"
+109  "San Diego"
+110  "Phoenix"
+111  "Arezzo"
+112  "Rome"
+113  "Odessa"
+114  "Galati"
+115  "Balchik"
+116  "Constanta"
+117  "Burgas"
+118  "Varna"
+119  "Sofia"
+120  "Kapitan Andreevo"
+121  "McAllen"
+122  "Laredo"
+123  "Queretaro"
+124  "Monterrey"
+125  "Mexico City"
+126  "Guadalajara"
+127  "Albuquerque"
+128  "El Paso"
+129  "Denver"
+130  "Colorado Springs"
+131  "Dresden"
+132  "Basel"
+133  "Strasbourg"
+134  "Milan"
+135  "Zurich"
+136  "Zagreb"
+137  "Genoa"
+138  "Padua-Venice"
+139  "Ljubljana"
+140  "Florence"
+141  "Bologna"
+142  "Berlin"
+143  "Hamburg"
+144  "None"
+145  "White Plains"
+146  "Baltimore"
+147  "None"
+148  "None"
+149  "None"
+150  "None"
+151  "Newark"
+152  "Philadelphia"
+153  "Harrisburg"
+154  "Washington"
+155  "Boston"
+156  "Providence"
+157  "Stamford"
+158  "New York"
+159  "Herndon"
+160  "Pittsburgh"
+161  "Cologne"
+162  "Dusseldorf"
+163  "Amsterdam"
+164  "Cambridge"
+165  "London"
+166  "Slough"
+167  "Essen"
+168  "Dortmund"
+169  "Munster"
+170  "Rotterdam"
+171  "None"
+172  "None"
+173  "None"
+174  "None"
+175  "None"
+176  "None"
+177  "Dublin"
+178  "Seattle"
+179  "Portland"
+180  "Las Vegas"
+181  "Montreal"
+182  "Tallinn"
+183  "Paris"
+184  "Lille"
+185  "Bremen"
+186  "Brussels"
+187  "Antwerp"
+188  "Porto"
+189  "Helsinki"
+190  "Kharkiv"
+191  "Kiev"
+192  "Warsaw"
+193  "Krakow"
+194  "Brno"
+195  "Worcester"
+196  "Albany"
+-1
+0 176 1
+0 9 1
+1 8 1
+1 176 1
+1 114 1
+1 116 1
+1 175 1
+2 76 1
+2 77 1
+3 4 1
+3 77 1
+4 6 1
+4 135 1
+5 131 1
+5 6 1
+6 7 1
+7 8 1
+7 174 1
+8 194 1
+8 9 1
+8 191 1
+10 11 1
+10 13 1
+11 16 1
+12 32 1
+12 13 1
+12 30 1
+13 16 1
+13 15 1
+14 64 1
+14 129 1
+14 15 1
+16 17 1
+18 19 1
+18 30 1
+19 89 1
+19 68 1
+19 82 1
+20 21 1
+20 23 1
+21 26 1
+22 188 1
+22 23 1
+24 27 1
+25 171 1
+25 55 1
+26 27 1
+26 28 1
+26 29 1
+28 51 1
+28 54 1
+29 78 1
+30 35 1
+31 37 1
+32 33 1
+32 37 1
+34 37 1
+35 37 1
+36 38 1
+36 39 1
+37 160 1
+37 38 1
+38 196 1
+39 181 1
+40 41 1
+40 42 1
+41 43 1
+41 189 1
+42 43 1
+42 143 1
+42 143 1
+44 45 1
+44 47 1
+45 48 1
+45 164 1
+46 49 1
+46 47 1
+48 155 1
+48 181 1
+49 177 1
+49 147 1
+49 165 1
+50 57 1
+50 51 1
+51 188 1
+52 53 1
+52 55 1
+53 58 1
+54 55 1
+56 57 1
+56 59 1
+58 59 1
+60 61 1
+60 69 1
+61 128 1
+61 122 1
+62 144 1
+62 86 1
+62 63 1
+63 68 1
+63 149 1
+64 65 1
+64 67 1
+64 68 1
+65 66 1
+66 67 1
+67 69 1
+69 144 1
+70 79 1
+70 183 1
+71 72 1
+71 79 1
+72 73 1
+73 74 1
+74 183 1
+75 173 1
+75 183 1
+76 173 1
+77 152 1
+77 162 1
+77 133 1
+78 94 1
+78 79 1
+80 81 1
+80 81 1
+80 86 1
+80 87 1
+82 88 1
+82 83 1
+82 150 1
+83 148 1
+84 148 1
+84 85 1
+86 87 1
+87 88 1
+89 150 1
+90 172 1
+91 99 1
+91 92 1
+92 96 1
+92 93 1
+92 183 1
+94 171 1
+95 96 1
+95 171 1
+96 97 1
+97 172 1
+98 194 1
+98 131 1
+99 100 1
+100 132 1
+101 104 1
+101 180 1
+101 102 1
+102 109 1
+103 104 1
+103 106 1
+105 106 1
+105 107 1
+105 179 1
+107 108 1
+107 129 1
+108 179 1
+109 110 1
+110 128 1
+111 112 1
+111 140 1
+112 137 1
+113 114 1
+113 191 1
+115 116 1
+115 118 1
+117 120 1
+117 118 1
+119 176 1
+119 175 1
+120 175 1
+121 122 1
+121 124 1
+123 124 1
+123 125 1
+123 126 1
+127 128 1
+127 130 1
+129 130 1
+131 142 1
+132 135 1
+133 173 1
+134 137 1
+134 138 1
+134 135 1
+136 139 1
+137 172 1
+138 174 1
+138 141 1
+139 174 1
+140 141 1
+142 143 1
+143 185 1
+144 149 1
+145 157 1
+146 152 1
+146 154 1
+147 166 1
+147 177 1
+148 154 1
+149 150 1
+151 152 1
+152 153 1
+153 160 1
+153 154 1
+154 159 1
+154 183 1
+155 195 1
+155 156 1
+155 165 1
+156 157 1
+157 158 1
+158 183 1
+158 196 1
+158 165 1
+161 162 1
+162 163 1
+162 167 1
+163 187 1
+163 164 1
+165 177 1
+165 181 1
+165 184 1
+165 186 1
+166 170 1
+166 183 1
+167 168 1
+168 169 1
+169 185 1
+178 179 1
+181 196 1
+182 189 1
+183 184 1
+183 186 1
+186 187 1
+190 191 1
+192 193 1
+193 194 1
+195 196 1

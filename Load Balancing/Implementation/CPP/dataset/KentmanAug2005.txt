@@ -1,0 +1,58 @@
+0  "KentmanAug2005"
+1  "KIAD-C"
+2  "Canterbury College"
+3  "Medway ACL"
+4  "Mid Kent College"
+5  "South Kent College - Ashford"
+6  "KIAD-O"
+7  "Thanet College"
+8  "Hilderstone College"
+9  "Kent ACL"
+10  "Hadlow College"
+11  "NTL-Wye"
+12  "Cranbrook"
+13  "Tonbridge"
+14  "West Kent College"
+15  "UoK-C"
+16  "Blue Bell Hill"
+17  "Beacon Hill"
+18  "Dunkirk"
+19  "NW Kent College - Dartford"
+20  "KIAD-R"
+21  "UoG-AH"
+22  "University of Greenwich"
+23  "CCCU-C"
+24  "IC-Wye"
+25  "EIS-Maidstone"
+26  "CCCU-S"
+27  "CCCU-T"
+28  "Dorton College"
+0 14
+1 14
+3 21
+4 23
+5 15
+6 26
+7 14
+8 21
+9 12
+10 11
+10 23
+11 15
+12 25
+13 25
+14 17
+14 21
+14 26
+15 16
+15 25
+15 21
+16 17
+16 19
+16 21
+18 20
+20 21
+21 24
+21 25
+21 27
+22 23

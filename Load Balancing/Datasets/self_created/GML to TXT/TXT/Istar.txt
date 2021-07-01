@@ -1,0 +1,47 @@
+0  "Montreal"
+1  "Quebec"
+2  "London"
+3  "internetMCI T3"
+4  "Moncton"
+5  "Halifax"
+6  "Sherbrooke"
+7  "Saint John"
+8  "Sydney"
+9  "Yarmouth"
+10  "ANS CO+RE T1"
+11  "internetMCI T3"
+12  "Victoria"
+13  "Toronto"
+14  "Hamilton"
+15  "Vancouver"
+16  "ANS CO+RE T1"
+17  "Calgary"
+18  "Edmonton"
+19  "Lethbridge"
+20  "Winnipeg"
+21  "Ottawa"
+22  "Kitchener"
+-1
+0 1 0.0015
+0 4 0.0015
+0 13 0.045
+0 6 0.0015
+0 21 0.045
+2 13 0.0015
+3 13 0.045
+4 5 0.0015
+4 7 0.0015
+5 8 0.0015
+5 9 0.0015
+10 13 0.0015
+11 15 0.045
+12 15 0.0015
+13 14 0.0015
+13 21 0.045
+13 22 0.0015
+15 16 0.0015
+15 17 0.0015
+15 21 0.0015
+17 18 0.0015
+17 19 0.0015
+20 21 0.0015

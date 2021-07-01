@@ -1,0 +1,186 @@
+0  "Culiacan"
+1  "Mazatlan"
+2  "Hermosillo"
+3  "Guaymas"
+4  "Aguascalientes"
+5  "San Luis Potosi"
+6  "Durango"
+7  "Tepic"
+8  "Tepatitlan"
+9  "San Miguel El Alto"
+10  "Leon"
+11  "Celaya"
+12  "Jilotepec"
+13  "Yurecuaro"
+14  "Irolo"
+15  "Rio Fro"
+16  "Gral Bravo"
+17  "San Miguel"
+18  "Monterrey"
+19  "Mexico"
+20  "Talia"
+21  "Candela"
+22  "La Sauceda"
+23  "El Salado"
+24  "San Rafael"
+25  "Laguna Seca"
+26  "Matehlala"
+27  "El Huizache"
+28  "Jesus M Aguirre"
+29  "SN Jose De Gracia"
+30  "Ruiz"
+31  "Saltillo"
+32  "Cuernavaca"
+33  "Nopala"
+34  "Tijuana"
+35  "Navojoa"
+36  "Ixtlan"
+37  "S Juan Del Rio"
+38  "Jilotepec"
+39  "Los Mochis"
+40  "San Blas"
+41  "Leon Fonseca"
+42  "Guasave"
+43  "Guamuchil"
+44  "La Cruz De Elota"
+45  "Escuinapa"
+46  "Artesia Wells"
+47  "Moore"
+48  "Torreon"
+49  "Tilden"
+50  "San Isidro"
+51  "Hebbronville"
+52  "San Diego Del Union"
+53  "CD Obregon"
+54  "Yerbanis"
+55  "Irapuato"
+56  "Benjamin Hill"
+57  "Jalapa"
+58  "Puebla"
+59  "Toluca"
+60  "Queretaro"
+61  "Nuevo Laredo"
+62  "Hidalgo"
+63  "Reynosa"
+64  "Veracruz"
+65  "Saljnas"
+66  "Salvatierra"
+67  "MA"
+68  "None"
+69  "Laredo"
+70  "Mirando City"
+71  "Las Adjuntas"
+72  "Alice"
+73  "CD Juarez"
+74  "El Paso"
+75  "Guadalajara"
+76  "Dallas"
+77  "San Antonio Taylor"
+78  "San Antonio Rotary"
+79  "San Diego"
+80  "Zamora"
+81  "Ensenada"
+82  "Mexicali"
+83  "Nogales"
+-1
+0 43 1
+0 44 1
+1 44 1
+1 45 1
+1 71 1
+2 56 1
+2 3 1
+3 53 1
+4 65 1
+4 10 1
+5 65 1
+5 27 1
+5 52 1
+5 25 1
+6 54 1
+6 71 1
+7 29 1
+7 30 1
+8 9 1
+8 75 1
+9 10 1
+10 55 1
+10 55 1
+11 60 1
+11 60 1
+11 55 1
+11 55 1
+12 66 1
+12 59 1
+13 75 1
+13 36 1
+13 55 1
+14 58 1
+14 19 1
+15 58 1
+15 58 1
+15 19 1
+15 19 1
+16 18 1
+16 63 1
+17 49 1
+17 78 1
+18 21 1
+18 22 1
+18 31 1
+18 31 1
+19 32 1
+19 32 1
+19 33 1
+19 38 1
+19 59 1
+19 59 1
+20 48 1
+20 22 1
+21 61 1
+23 25 1
+23 31 1
+24 28 1
+24 31 1
+26 27 1
+26 28 1
+29 75 1
+30 45 1
+33 60 1
+34 81 1
+34 82 1
+34 79 1
+35 40 1
+35 53 1
+36 80 1
+37 60 1
+37 38 1
+38 59 1
+39 40 1
+40 41 1
+41 42 1
+41 43 1
+46 69 1
+46 47 1
+47 78 1
+48 54 1
+49 72 1
+50 70 1
+50 62 1
+51 72 1
+51 67 1
+52 60 1
+55 66 1
+56 83 1
+57 64 1
+57 58 1
+61 69 1
+62 63 1
+67 68 1
+68 69 1
+68 70 1
+73 74 1
+74 78 1
+76 77 1
+77 78 1
+77 79 1

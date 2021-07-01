@@ -1,0 +1,348 @@
+0  "Orangeburg"
+1  "Walterboro"
+2  "Darien"
+3  "Nahunta"
+4  "Waycross"
+5  "Jacksonville"
+6  "Lake City"
+7  "Columbia"
+8  "Aiken"
+9  "Augusta"
+10  "Raleigh"
+11  "Rocky Mount"
+12  "Burlington"
+13  "Durham"
+14  "New Bern"
+15  "Jacksonville"
+16  "Greenville"
+17  "Kinston"
+18  "Fayetteville"
+19  "Wilmington"
+20  "Athens"
+21  "Hartwell"
+22  "Bristol"
+23  "Kingsport"
+24  "Abbeville"
+25  "Anderson"
+26  "Hickory Tavern"
+27  "Greenwood"
+28  "Abingdon"
+29  "Johnson City"
+30  "Greensboro"
+31  "Kernersville"
+32  "Salisbury"
+33  "Lexington"
+34  "High Point"
+35  "Concord"
+36  "Boone"
+37  "Baldwin"
+38  "Level Cross"
+39  "Courtney"
+40  "Fort Myers"
+41  "Tifton"
+42  "Winter Park"
+43  "Avon Park"
+44  "Adel"
+45  "Vadosta"
+46  "Omega"
+47  "Willacoochee"
+48  "Douglas"
+49  "Albany"
+50  "Roanoke"
+51  "Charleston"
+52  "Marion"
+53  "Wytheville"
+54  "Bland"
+55  "Bluefield"
+56  "Blacksburg"
+57  "Troutville"
+58  "Radford"
+59  "Christiansburg"
+60  "Crestview"
+61  "Dothan"
+62  "Edinburg"
+63  "Front Royal"
+64  "Warrenton"
+65  "Ashburn"
+66  "Asheville"
+67  "Tar Heel"
+68  "Canton"
+69  "Maretta"
+70  "Cartersville"
+71  "Calhoun"
+72  "Dalton"
+73  "Ringgold"
+74  "Chattanooga"
+75  "Copperhill"
+76  "Ellijay"
+77  "Atlanta"
+78  "None"
+79  "None"
+80  "Hilton Head"
+81  "Beaufort"
+82  "None"
+83  "Sparta"
+84  "None"
+85  "None"
+86  "None"
+87  "Maitland"
+88  "Hiawassee"
+89  "Franklin"
+90  "Easley"
+91  "Greenville"
+92  "Blueridge"
+93  "Blairsville"
+94  "Young Harris"
+95  "Hayesville"
+96  "Leesburg"
+97  "Clemson"
+98  "Toccoa"
+99  "Stephens City"
+100  "Lancaster"
+101  "Kershaw"
+102  "Charleston"
+103  "Yemassee"
+104  "Georgetown"
+105  "Monks Corner"
+106  "Florence"
+107  "Myrtle Beach"
+108  "Bethune"
+109  "Sumter"
+110  "Andrews"
+111  "Murphy"
+112  "Cherokee"
+113  "Bryson City"
+114  "Hickory"
+115  "Sylva"
+116  "Charlotte"
+117  "Spartanburg"
+118  "Rock Hill"
+119  "Chester"
+120  "Winchester"
+121  "Martinsburg"
+122  "Charlottesville"
+123  "Lexington"
+124  "Lynchburg"
+125  "Rocky Mount"
+126  "Herndon"
+127  "Harrisonburg"
+128  "Staunton"
+129  "Waynesboro"
+130  "Martinsville"
+131  "Danville"
+132  "Hinesville"
+133  "Savannah"
+134  "Hawkinsville"
+135  "Macon"
+136  "Leslie"
+137  "Warwick"
+138  "Blitchton"
+139  "Pembroke"
+140  "Metter"
+141  "Rentz"
+142  "Ocala"
+143  "Leesburg"
+144  "Hagerstown"
+145  "Chamersburg"
+146  "Gettysburg"
+147  "Carlisle"
+148  "Ashland"
+149  "Huntington"
+150  "Montgomery"
+151  "Birmingham"
+152  "Columbus"
+153  "Pensacola"
+154  "Mobile"
+155  "Panama City"
+156  "Blountstown"
+157  "Tallahassee"
+-1
+0 85 1
+1 85 1
+1 103 1
+2 3 1
+2 132 1
+3 4 1
+3 5 1
+4 48 1
+5 6 1
+6 157 1
+7 8 1
+7 9 1
+7 119 1
+7 109 1
+7 85 1
+8 9 1
+9 21 1
+9 86 1
+10 18 1
+10 11 1
+10 13 1
+11 16 1
+11 18 1
+12 13 1
+12 30 1
+14 17 1
+14 15 1
+15 18 1
+16 17 1
+18 67 1
+18 19 1
+19 107 1
+20 21 1
+20 77 1
+22 28 1
+22 29 1
+22 23 1
+23 29 1
+24 26 1
+24 27 1
+24 119 1
+25 97 1
+26 97 1
+28 52 1
+30 131 1
+30 84 1
+31 34 1
+31 84 1
+32 33 1
+32 35 1
+33 34 1
+33 36 1
+33 39 1
+34 84 1
+35 116 1
+36 37 1
+37 83 1
+38 83 1
+38 39 1
+40 43 1
+41 44 1
+41 46 1
+42 43 1
+42 87 1
+44 45 1
+45 46 1
+46 137 1
+46 47 1
+47 48 1
+49 157 1
+49 135 1
+50 57 1
+50 51 1
+50 124 1
+50 125 1
+51 149 1
+52 53 1
+53 58 1
+53 83 1
+53 54 1
+54 55 1
+56 57 1
+56 59 1
+57 128 1
+57 123 1
+58 59 1
+60 153 1
+60 155 1
+61 155 1
+61 150 1
+62 78 1
+62 79 1
+63 64 1
+63 79 1
+64 65 1
+65 126 1
+66 114 1
+66 91 1
+67 106 1
+68 76 1
+68 77 1
+69 77 1
+69 70 1
+70 71 1
+72 73 1
+72 74 1
+72 76 1
+73 74 1
+75 92 1
+75 111 1
+76 92 1
+77 135 1
+77 151 1
+77 152 1
+78 120 1
+78 127 1
+79 99 1
+80 81 1
+80 86 1
+81 103 1
+82 104 1
+82 105 1
+82 109 1
+86 133 1
+87 143 1
+88 89 1
+88 94 1
+89 115 1
+90 98 1
+90 91 1
+91 97 1
+91 117 1
+92 93 1
+93 94 1
+94 95 1
+95 110 1
+96 120 1
+96 126 1
+97 98 1
+99 121 1
+100 101 1
+100 118 1
+101 108 1
+102 105 1
+102 103 1
+103 133 1
+104 107 1
+106 107 1
+106 108 1
+106 109 1
+110 113 1
+110 111 1
+112 113 1
+112 115 1
+114 117 1
+116 117 1
+116 118 1
+118 119 1
+121 144 1
+122 129 1
+122 124 1
+123 129 1
+124 131 1
+125 130 1
+127 128 1
+127 129 1
+128 129 1
+130 131 1
+132 133 1
+133 138 1
+134 136 1
+134 137 1
+134 141 1
+135 136 1
+138 139 1
+139 140 1
+140 141 1
+142 157 1
+142 143 1
+144 145 1
+145 146 1
+146 147 1
+148 149 1
+150 152 1
+150 154 1
+150 151 1
+153 154 1
+155 156 1
+156 157 1

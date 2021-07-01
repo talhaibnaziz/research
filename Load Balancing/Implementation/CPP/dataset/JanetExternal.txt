@@ -1,0 +1,23 @@
+0  "JanetExternal"
+1  "HEAnet"
+2  "Europe (GEANT2)"
+3  "People's Republic of China"
+4  "Japan (NII)"
+5  "Belfast"
+6  "JANET"
+7  "US Research Networks ESnet"
+8  "US Research Networks Abilene"
+9  "LINX"
+10  "UK ISPs"
+11  "Private Peering with ISPs"
+12  "Global Transit to the World"
+0 4
+1 2
+1 3
+1 5
+1 6
+1 7
+5 8
+5 10
+5 11
+8 9

@@ -1,0 +1,55 @@
+0  "Jackson"
+1  "Atlanta"
+2  "Austin"
+3  "Houston"
+4  "Detroit"
+5  "Columbus"
+6  "Cincinnati"
+7  "Cleveland"
+8  "Chicago"
+9  "Minneapolis"
+10  "Philadelphia"
+11  "New York"
+12  "Cambridge"
+13  "Boston"
+14  "Richmond"
+15  "Washington, DC"
+16  "Baltimore"
+17  "Denver"
+18  "Dallas"
+19  "Sacramento"
+20  "Oakland"
+21  "San Francisco"
+22  "Palo Alto"
+23  "San Jose"
+24  "Los Angeles"
+25  "San Diego"
+26  "Orange"
+0 1
+1 18
+1 15
+2 18
+3 18
+4 7
+5 7
+6 7
+7 8
+7 11
+8 17
+8 13
+8 9
+10 11
+11 12
+11 15
+14 15
+15 16
+15 23
+17 20
+18 24
+19 20
+20 21
+20 23
+22 23
+23 24
+24 25
+24 26

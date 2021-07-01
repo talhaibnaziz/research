@@ -1,0 +1,58 @@
+0  "KIAD-C"
+1  "Canterbury College"
+2  "Medway ACL"
+3  "Mid Kent College"
+4  "South Kent College - Ashford"
+5  "KIAD-O"
+6  "Thanet College"
+7  "Hilderstone College"
+8  "Kent ACL"
+9  "Hadlow College"
+10  "NTL-Wye"
+11  "Cranbrook"
+12  "Tonbridge"
+13  "West Kent College"
+14  "UoK-C"
+15  "Blue Bell Hill"
+16  "Beacon Hill"
+17  "Dunkirk"
+18  "NW Kent College - Dartford"
+19  "KIAD-R"
+20  "UoG-AH"
+21  "University of Greenwich"
+22  "CCCU-C"
+23  "IC-Wye"
+24  "EIS-Maidstone"
+25  "CCCU-S"
+26  "CCCU-T"
+27  "Dorton College"
+-1
+0 14 0.034
+1 14 0.01
+3 21 0.01
+4 23 0.01
+5 15 0.01
+6 26 0.01
+7 14 0.002
+8 21 0.01
+9 12 0.002
+10 11 0.155
+10 23 0.155
+11 15 0.155
+12 25 0.002
+13 25 0.01
+14 17 0.155
+14 21 1
+14 26 0.155
+15 16 0.155
+15 25 0.034
+15 21 0.155
+16 17 0.155
+16 19 0.034
+16 21 0.155
+18 20 0.01
+20 21 1
+21 24 1
+21 25 0.002
+21 27 0.002
+22 23 0.155

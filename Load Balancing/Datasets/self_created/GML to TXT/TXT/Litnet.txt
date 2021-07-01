@@ -1,0 +1,87 @@
+0  "Zarasai"
+1  "Panevezys"
+2  "Rokiskis"
+3  "Kupiskis"
+4  "Kelme"
+5  "Siale"
+6  "Radviliskis"
+7  "Plunge"
+8  "Taurage"
+9  "Zemaiciu Naumiestis"
+10  "Prienai"
+11  "Trakar"
+12  "Ignalina"
+13  "Ukmerge"
+14  "Sirvintos"
+15  "Jurbarkas"
+16  "Sakiai"
+17  "Vilkaviskis"
+18  "Marijampole"
+19  "Alytus"
+20  "Druskininkai"
+21  "Salcininkai"
+22  "GEANT"
+23  "Moletai"
+24  "Visaginas"
+25  "Pasvalys"
+26  "Kaunas"
+27  "Kedainiai"
+28  "Raseiniai"
+29  "Utena"
+30  "Anyksciai"
+31  "Jonava"
+32  "Vilnius"
+33  "Klaipeda"
+34  "Telsiai"
+35  "Mazeikiai"
+36  "N.Akmene"
+37  "Joniskis"
+38  "Birzai"
+39  "Siauliai"
+40  "Skoudas"
+41  "Palanga"
+42  "Kretinga"
+-1
+0 1 0.02
+1 32 1
+1 38 1
+1 39 1
+1 24 0.02
+1 30 0.02
+2 39 0.02
+3 39 0.01
+4 39 0.02
+5 33 0.02
+6 39 0.02
+7 39 0.02
+8 33 0.04
+9 33 0.04
+10 26 0.02
+11 32 0.02
+12 32 0.02
+13 32 0.02
+14 32 0.02
+15 26 0.02
+16 26 0.02
+17 26 0.02
+18 26 0.04
+19 26 0.06
+20 32 0.008
+21 26 0.008
+22 26 5
+23 32 0.008
+25 32 0.02
+26 32 1
+26 33 1
+26 27 0.04
+26 28 0.008
+26 31 0.02
+29 32 0.06
+32 40 0.008
+33 34 0.02
+33 39 1
+33 42 0.04
+33 41 0.01
+35 39 0.02
+36 39 0.008
+37 39 0.02

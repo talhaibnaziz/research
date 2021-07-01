@@ -1,0 +1,70 @@
+0  "Chicago"
+1  "Omaha"
+2  "Columbus"
+3  "Detroit"
+4  "Atlanta"
+5  "Jacksonville"
+6  "Kansas City"
+7  "St Louis"
+8  "Orlando"
+9  "Tampa"
+10  "Baltimore"
+11  "Philadelphia"
+12  "Trenton"
+13  "Pittsburgh"
+14  "Richmond"
+15  "Charlotte"
+16  "Miami"
+17  "Newark"
+18  "New York"
+19  "Washington, DC"
+20  "Boston"
+21  "Louisville"
+22  "Cincinnati"
+23  "Hayward"
+24  "Los Angeles"
+25  "Dallas"
+26  "Fort Worth"
+27  "Austin"
+28  "San Francisco"
+29  "Houston"
+30  "Nashville"
+-1
+0 1 1
+0 3 1
+0 7 1
+1 23 1
+2 3 1
+2 13 1
+2 22 1
+4 29 1
+4 5 1
+4 15 1
+5 16 1
+6 25 1
+6 7 1
+8 9 1
+8 30 1
+9 16 1
+10 19 1
+10 19 1
+10 11 1
+10 11 1
+11 12 1
+12 17 1
+13 19 1
+13 20 1
+14 19 1
+14 15 1
+17 18 1
+17 18 1
+18 20 1
+21 30 1
+21 22 1
+23 24 1
+24 25 1
+25 26 1
+25 29 1
+26 27 1
+27 28 1
+28 29 

@@ -1,0 +1,14 @@
+fileID = fopen('wdbcp_pi_7.txt','r');
+x1 = fscanf(fileID,'%f');
+fileID = fopen('wdbcp_pia_7.txt','r');
+x2 = fscanf(fileID,'%f');
+fileID = fopen('wdbcp_pim_7.txt','r');
+x3 = fscanf(fileID,'%f');
+fileID = fopen('wdbcp_pii_7.txt','r');
+x4 = fscanf(fileID,'%f');
+y = 2:size(x1);
+plot(y,x1(2:size(x1)),y,x2(2:size(x1)),y,x3(2:size(x1)),y,x4(2:size(x1)));
+xlabel('Number of Controllers(k)');
+ylabel('\pi Values');
+legend('\pi^{latency}','\pi^{avglatency}','\pi^{maxlatency}','\pi^{intercontroller}');
+print('wdbcp_7','-dpng');

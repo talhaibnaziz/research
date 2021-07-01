@@ -1,0 +1,71 @@
+0  "Warsaw"
+1  "Bialystok"
+2  "Wlocawek"
+3  "Plock"
+4  "Opole"
+5  "Wroclaw"
+6  "Lublin"
+7  "Rzeszow"
+8  "Kalisz"
+9  "Lodz"
+10  "None"
+11  "Krakow"
+12  "Zielona Gora"
+13  "Gdansk"
+14  "Olszlyn"
+15  "Tarnow"
+16  "Kalowice"
+17  "Kielce"
+18  "Radom"
+19  "Prague"
+20  "Bratislava"
+21  "Frankfurt"
+22  "Berlin"
+23  "Bydgoszcz"
+24  "Torun"
+25  "Gdyia"
+26  "Slupsk"
+27  "Koszalin"
+28  "Kolobrzeg"
+29  "Szczecin"
+30  "Gorzow Wilkp"
+31  "Poznan"
+32  "Pila"
+-1
+0 1 1
+0 3 1
+0 6 1
+0 9 1
+0 18 1
+0 21 1
+0 22 1
+1 14 1
+2 24 1
+2 3 1
+4 16 1
+4 5 1
+5 8 1
+6 7 1
+7 11 1
+8 9 1
+8 31 1
+10 16 1
+10 11 1
+10 19 1
+10 20 1
+11 17 1
+11 15 1
+12 31 1
+13 25 1
+13 14 1
+13 23 1
+17 18 1
+23 24 1
+23 32 1
+25 26 1
+26 27 1
+27 28 1
+28 29 1
+29 32 1
+30 31 1
+31 32 1

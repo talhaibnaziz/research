@@ -1,0 +1,55 @@
+0  "Eisenstadt"
+1  "St. Polten"
+2  "Graz2"
+3  "Leoben"
+4  "Vienna2"
+5  "GEANT"
+6  "Krems"
+7  "Vienna1"
+8  "Level3"
+9  "VIX"
+10  "None"
+11  "SANET"
+12  "CESNET"
+13  "Klagenfurt2"
+14  "Graz1"
+15  "Linz1"
+16  "Linz2"
+17  "Salzburg1"
+18  "Salzburg2"
+19  "Innsbruck1"
+20  "Innsbruck2"
+21  "Dornbirn"
+22  "Klagenfurt1"
+-1
+0 4 20
+0 7 20
+1 6 1
+1 7 1
+2 3 20
+2 14 20
+2 7 20
+3 14 20
+4 6 1
+4 10 20
+4 13 20
+4 14 20
+4 15 20
+4 18 20
+4 19 20
+5 10 10
+7 10 10
+7 16 20
+7 17 20
+7 20 20
+7 22 20
+8 10 10
+9 10 10
+10 11 10
+10 12 10
+13 22 20
+15 16 20
+17 18 20
+19 20 20
+19 21 20
+20 21 20
